@@ -5,6 +5,9 @@ import { useAuth } from "../lib/auth.tsx";
 import { KIND_LABEL, nextEvent, OUTCOME_LABEL, useTracker, type AppKind, type Application, type Outcome } from "../lib/tracker.tsx";
 import { Icon } from "./Icon.tsx";
 import { ApplicationCard } from "./ApplicationCard.tsx";
+import { SearchSuggest } from "./SearchSuggest.tsx";
+import { CompanyLogo } from "./CompanyLogo.tsx";
+import { findCompany } from "../lib/search.ts";
 
 type Tab = "active" | "done" | "all";
 
@@ -83,7 +86,8 @@ export function TrackerView({ companies }: { companies: Map<string, CompanyResul
       )}
       <div className="apps">
         {shown.map((a) => (
-          <ApplicationCard key={a.id} a={a} company={companies.get(a.companyId)} />
+          // 名前だけで記録した物も、一覧の会社と名前が合えばロゴ・リンクを付ける
+          <ApplicationCard key={a.id} a={a} company={companies.get(a.companyId) ?? findCompany(a.companyName, companies.values())} />
         ))}
       </div>
     </section>
@@ -99,45 +103,60 @@ function Stat({ value, label, tone }: { value: number; label: string; tone?: "ok
   );
 }
 
-/** 会社名を打って選び、応募の記録を作る */
+/** 会社名を打って選び、応募の記録を作る。終わった物（参加済みのインターンなど）もあとから足せる */
 function AddApplication({ companies }: { companies: Map<string, CompanyResult> }) {
   const { add } = useTracker();
   const [name, setName] = useState("");
+  const [title, setTitle] = useState("");
   const [kind, setKind] = useState<AppKind>("newgrad");
+  const [outcome, setOutcome] = useState<Outcome>("active");
   const [busy, setBusy] = useState(false);
-  const list = useMemo(() => [...companies.values()].sort((a, b) => a.name.localeCompare(b.name, "ja")), [companies]);
+  const list = useMemo(() => [...companies.values()], [companies]);
+  const match = useMemo(() => (name.trim() ? findCompany(name, list) : undefined), [name, list]);
 
   const submit = async (e: React.FormEvent) => {
     e.preventDefault();
     const n = name.trim();
     if (!n) return;
-    const c = list.find((x) => x.name === n);
     setBusy(true);
-    // 一覧に無い会社も、名前だけで記録できる
-    const id = await add({ companyId: c?.id ?? `custom:${n}`, companyName: c?.name ?? n, kind });
+    // 一覧の会社と名前が合えばその会社として記録する（ロゴ・リンクが付く）。合わなければ名前だけで記録する
+    const id = await add({ companyId: match?.id ?? `custom:${n}`, companyName: match?.name ?? n, kind, title: title.trim(), outcome });
     setBusy(false);
-    if (id) setName("");
+    if (id) {
+      setName("");
+      setTitle("");
+      setOutcome("active");
+    }
   };
 
   return (
     <form className="add-app" onSubmit={submit}>
-      <label className="search">
-        <Icon name="search" size={15} />
-        <input list="company-names" placeholder="応募した会社の名前" value={name} onChange={(e) => setName(e.target.value)} />
-      </label>
-      <datalist id="company-names">
-        {list.map((c) => (
-          <option key={c.id} value={c.name} />
-        ))}
-      </datalist>
+      <SearchSuggest value={name} onChange={setName} onPick={(c) => setName(c.name)} companies={list} placeholder="応募した会社の名前" max={6} />
+      <input className="add-app__title" placeholder="題名（任意。例: 夏の5daysインターン）" value={title} onChange={(e) => setTitle(e.target.value)} />
       <select value={kind} onChange={(e) => setKind(e.target.value as AppKind)} aria-label="種類">
         {(Object.keys(KIND_LABEL) as AppKind[]).map((k) => (
           <option key={k} value={k}>{KIND_LABEL[k]}</option>
         ))}
       </select>
+      <select value={outcome} onChange={(e) => setOutcome(e.target.value as Outcome)} aria-label="状態">
+        {(Object.keys(OUTCOME_LABEL) as Outcome[]).map((o) => (
+          <option key={o} value={o}>{OUTCOME_LABEL[o]}</option>
+        ))}
+      </select>
       <button className="btn btn--primary" disabled={busy || !name.trim()}>
         <Icon name="plus" size={15} /> 記録する
       </button>
+      {name.trim() && (
+        <p className="add-app__match hint">
+          {match ? (
+            <>
+              <CompanyLogo company={match} size={18} /> 「{match.name}」として記録します（ロゴ・採用ページのボタンが付きます）
+            </>
+          ) : (
+            "一覧に無い会社として、名前だけで記録します"
+          )}
+        </p>
+      )}
     </form>
   );
 }

@@ -25,9 +25,9 @@ export function ApplicationCard({ a, company }: { a: Application; company?: Comp
   const moveTo = (i: number) => setSteps(a.steps.map((s, j) => ({ ...s, done: j < i })));
   const advance = () => {
     const steps = a.steps.map((s, j) => (j === cur ? { ...s, done: true } : s));
-    // 最後の段階（内定・参加）まで済んだら結果も内定にする
     const finished = steps.every((s) => s.done);
-    update(a.id, finished && a.kind === "newgrad" ? { steps, outcome: "offer" } : { steps });
+    // 新卒は最後まで済んだら内定、インターン・説明会は参加済みにする
+    update(a.id, finished ? { steps, outcome: a.kind === "newgrad" ? "offer" : "done" } : { steps });
   };
 
   return (
@@ -51,6 +51,9 @@ export function ApplicationCard({ a, company }: { a: Application; company?: Comp
             <option key={o} value={o}>{OUTCOME_LABEL[o]}</option>
           ))}
         </select>
+        <button className="icon-btn" onClick={() => confirm(`${a.companyName}${a.title ? `（${a.title}）` : ""} の記録を消しますか？`) && remove(a.id)} aria-label="この記録を消す" title="この記録を消す">
+          <Icon name="trash" size={15} />
+        </button>
       </header>
 
       {/* 選考の流れ。押すとその段階まで進んだことになる */}
@@ -106,6 +109,17 @@ export function ApplicationCard({ a, company }: { a: Application; company?: Comp
 
       {open && (
         <div className="app__detail" key={a.updatedAt}>
+          <section>
+            <h4>題名</h4>
+            <input
+              className="row__grow"
+              style={{ width: "100%" }}
+              placeholder="例: 夏の5daysインターン・本選考"
+              defaultValue={a.title}
+              onBlur={(e) => e.target.value !== a.title && update(a.id, { title: e.target.value.trim() })}
+            />
+          </section>
+
           <section>
             <h4>選考の流れ</h4>
             <p className="hint">会社ごとに段階の名前や数を変えられます。日付を入れると「次の予定」に出ます。</p>
