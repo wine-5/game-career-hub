@@ -3,6 +3,7 @@ import type { CompanyResult, JobsData, Opening, Role } from "./types.ts";
 import { ROLES } from "./types.ts";
 import { daysUntil, openingInPref, sortPrefs, statusOf, todayJst } from "./lib/util.ts";
 import { useAuth } from "./lib/auth.tsx";
+import { companyTargets, fold, score } from "./lib/search.ts";
 import { Header, type View } from "./components/Header.tsx";
 import { Hero } from "./components/Hero.tsx";
 import { RolePicker } from "./components/RolePicker.tsx";
@@ -83,17 +84,20 @@ export function App() {
 
   // 職種以外の条件で絞った物（職種カードの件数に使う）
   const base = useMemo(() => {
-    const q = filters.query.trim().toLowerCase();
+    const q = filters.query.trim();
+    const fq = fold(q);
+    // 会社は表記ゆれ・打ち間違いも許す。募集の題名・要約は表記ゆれだけ許す
+    const companyHit = new Map((data?.companies ?? []).map((c) => [c.id, !q || score(q, companyTargets(c)) >= 2]));
     return all.filter((o) => {
       const c = companies.get(o.companyId);
       if (!filters.showClosed && statusOf(o) === "closed") return false;
       if (filters.type !== "all" && o.type !== filters.type) return false;
       if (filters.tag !== "all" && !c?.tags.includes(filters.tag)) return false;
       if (filters.pref !== "all" && !openingInPref(o, c?.locations, filters.pref)) return false;
-      if (q && !`${c?.name} ${o.title} ${o.summary} ${o.location}`.toLowerCase().includes(q)) return false;
+      if (q && !companyHit.get(o.companyId) && !fold(`${o.title} ${o.summary} ${o.location}`).includes(fq)) return false;
       return true;
     });
-  }, [all, companies, filters]);
+  }, [all, companies, filters, data]);
 
   const counts = useMemo(() => {
     const r = { all: base.length } as Record<Role | "all", number>;

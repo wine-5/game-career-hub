@@ -3,14 +3,7 @@ import type { CompanyResult } from "../types.ts";
 import { statusOf } from "../lib/util.ts";
 import { Icon } from "./Icon.tsx";
 import { CompanyLogo } from "./CompanyLogo.tsx";
-
-/** カタカナ→ひらがな・全角→半角・小文字にそろえて、表記ゆれでも当たるようにする */
-const fold = (s: string) =>
-  s
-    .normalize("NFKC")
-    .toLowerCase()
-    .replace(/[ァ-ヶ]/g, (ch) => String.fromCharCode(ch.charCodeAt(0) - 0x60))
-    .replace(/[\s・\-ー]/g, "");
+import { companyTargets, score } from "../lib/search.ts";
 
 /**
  * 検索欄。打っている途中で、名前の合う会社を下に候補として出す。
@@ -30,14 +23,9 @@ export function SearchSuggest({ value, onChange, onPick, companies, placeholder,
   const blurTimer = useRef<number | undefined>(undefined);
 
   const items = useMemo(() => {
-    const q = fold(value.trim());
-    if (!q) return [];
+    if (!value.trim()) return [];
     return companies
-      .map((c) => {
-        const name = fold(c.name);
-        const hit = name.startsWith(q) ? 3 : name.includes(q) ? 2 : c.tags.some((t) => fold(t).includes(q)) || c.locations?.some((p) => fold(p).includes(q)) ? 1 : 0;
-        return { c, hit, open: c.openings.filter((o) => statusOf(o) !== "closed").length };
-      })
+      .map((c) => ({ c, hit: score(value, companyTargets(c)), open: c.openings.filter((o) => statusOf(o) !== "closed").length }))
       .filter((x) => x.hit > 0)
       .sort((a, b) => b.hit - a.hit || b.open - a.open || a.c.name.localeCompare(b.c.name, "ja"))
       .slice(0, max);

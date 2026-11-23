@@ -8,6 +8,7 @@ import { GameStrip } from "./GameStrip.tsx";
 import { TrackButton } from "./TrackButton.tsx";
 import { SearchSuggest } from "./SearchSuggest.tsx";
 import { SourceLink } from "./SourceLink.tsx";
+import { companyTargets, score } from "../lib/search.ts";
 
 export function CompanyGrid({ companies }: { companies: CompanyResult[] }) {
   const [q, setQ] = useState("");
@@ -38,7 +39,8 @@ export function CompanyGrid({ companies }: { companies: CompanyResult[] }) {
   const list = useMemo(() => {
     const openCount = (c: CompanyResult) => c.openings.filter((o) => statusOf(o) !== "closed").length;
     return companies
-      .filter((c) => !q || c.name.toLowerCase().includes(q.toLowerCase()) || c.tags.some((t) => t.includes(q)))
+      // 表記ゆれ・少しの打ち間違いも許して当てる
+      .filter((c) => !q.trim() || score(q, companyTargets(c)) > 0)
       .filter((c) => pref === "all" || c.locations?.includes(pref))
       .filter((c) => !onlyOpen || openCount(c) > 0)
       .map((c) => ({ c, open: openCount(c) }))
