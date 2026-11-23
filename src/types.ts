@@ -187,3 +187,18 @@ export interface GamesData {
   updatedAt: string | null;
   companies: Record<string, CompanyGames>;
 }
+
+/** 採用ページに書かれている言語・エンジン（public/data/tech.json） */
+export type TechKind = "engine" | "lang" | "gfx";
+
+export interface TechItem {
+  name: string;
+  kind: TechKind;
+  /** その名前が書かれていたページ */
+  sourceUrl: string;
+}
+
+export interface TechData {
+  updatedAt: string;
+  companies: Record<string, TechItem[]>;
+}

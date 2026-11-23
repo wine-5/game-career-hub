@@ -13,6 +13,7 @@ import {
   writeJson, OUT_FILE, WAIT_MS, WORK_DIR,
 } from "./shared.ts";
 import type { JobsData } from "../src/types.ts";
+import { updateTech } from "./tech.ts";
 
 export interface TodoItem {
   id: string;
@@ -88,6 +89,8 @@ await writeJson(path.join(WORK_DIR, "todo.json"), { today, todo, failed });
 // 確認した日時と失敗だけを先に反映しておく（募集の中身は apply で変わる）
 const out: JobsData = { ...prev, targetGraduationYear, companies: results };
 await writeJson(OUT_FILE, out);
+// 取ったページに書かれている言語・エンジンも拾っておく（public/data/tech.json）
+await updateTech();
 
 console.log("");
 console.log(`変化あり: ${todo.length} 社 / 変化なし: ${unchanged} 社 / 失敗: ${failed.length} 社`);

@@ -1,0 +1,2047 @@
+{
+  "updatedAt": "2026-11-23T12:10:40.625Z",
+  "companies": {
+    "8ing": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://recruit.8ing.co.jp/recruit/staff/s010/"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://recruit.8ing.co.jp/recruit/staff/s010/"
+      }
+    ],
+    "abc-optailor": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://www.abc-optailor.com/recruit.php"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.abc-optailor.com/recruit.php"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.abc-optailor.com/recruit.php"
+      },
+      {
+        "name": "Python",
+        "kind": "lang",
+        "sourceUrl": "https://www.abc-optailor.com/recruit.php"
+      }
+    ],
+    "aiming": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://recruit.aiming-inc.com/graduate/internship/"
+      }
+    ],
+    "alvion": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://www.alvion.co.jp/recruit/"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.alvion.co.jp/recruit/"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.alvion.co.jp/recruit/"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://www.alvion.co.jp/recruit/"
+      }
+    ],
+    "amzy": [
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.amzy.co.jp/recruit.html"
+      }
+    ],
+    "angoo": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://www.angoo.co.jp/category/jobs/"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.angoo.co.jp/category/jobs/"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.angoo.co.jp/category/jobs/"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://www.angoo.co.jp/category/jobs/"
+      }
+    ],
+    "aniplex": [
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://internship26sme.saiyo.sme.co.jp/"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://internship26sme.saiyo.sme.co.jp/"
+      },
+      {
+        "name": "Python",
+        "kind": "lang",
+        "sourceUrl": "https://internship26sme.saiyo.sme.co.jp/"
+      },
+      {
+        "name": "TypeScript",
+        "kind": "lang",
+        "sourceUrl": "https://internship26sme.saiyo.sme.co.jp/"
+      },
+      {
+        "name": "Java",
+        "kind": "lang",
+        "sourceUrl": "https://internship26sme.saiyo.sme.co.jp/"
+      }
+    ],
+    "appirits": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://recruit.appirits.com/new_graduate"
+      },
+      {
+        "name": "Java",
+        "kind": "lang",
+        "sourceUrl": "https://recruit.appirits.com/new_graduate"
+      },
+      {
+        "name": "Swift",
+        "kind": "lang",
+        "sourceUrl": "https://recruit.appirits.com/new_graduate"
+      }
+    ],
+    "ashibi": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://ashibi.jp/new_graduate/engineer/"
+      },
+      {
+        "name": "DirectX",
+        "kind": "gfx",
+        "sourceUrl": "https://ashibi.jp/new_graduate/engineer/"
+      },
+      {
+        "name": "Vulkan",
+        "kind": "gfx",
+        "sourceUrl": "https://ashibi.jp/new_graduate/engineer/"
+      }
+    ],
+    "bee-tribe": [
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://bee-tribe.jp/careers/jobs/programmer-freshman-tokyo-2/"
+      }
+    ],
+    "beyondjapan": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "http://www.beyondjapan.co.jp/recruit.html"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "http://www.beyondjapan.co.jp/recruit.html"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "http://www.beyondjapan.co.jp/recruit.html"
+      },
+      {
+        "name": "Python",
+        "kind": "lang",
+        "sourceUrl": "http://www.beyondjapan.co.jp/recruit.html"
+      },
+      {
+        "name": "JavaScript",
+        "kind": "lang",
+        "sourceUrl": "http://www.beyondjapan.co.jp/recruit.html"
+      },
+      {
+        "name": "Java",
+        "kind": "lang",
+        "sourceUrl": "http://www.beyondjapan.co.jp/recruit.html"
+      },
+      {
+        "name": "HLSL",
+        "kind": "gfx",
+        "sourceUrl": "http://www.beyondjapan.co.jp/recruit.html"
+      }
+    ],
+    "bitgroove": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://recruit.bitgroove.net/%e6%8e%a1%e7%94%a8%e6%83%85%e5%a0%b1/"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://recruit.bitgroove.net/%e6%8e%a1%e7%94%a8%e6%83%85%e5%a0%b1/"
+      },
+      {
+        "name": "Godot",
+        "kind": "engine",
+        "sourceUrl": "https://recruit.bitgroove.net/%e6%8e%a1%e7%94%a8%e6%83%85%e5%a0%b1/"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://recruit.bitgroove.net/%e6%8e%a1%e7%94%a8%e6%83%85%e5%a0%b1/"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://recruit.bitgroove.net/%e6%8e%a1%e7%94%a8%e6%83%85%e5%a0%b1/"
+      },
+      {
+        "name": "Python",
+        "kind": "lang",
+        "sourceUrl": "https://recruit.bitgroove.net/%e6%8e%a1%e7%94%a8%e6%83%85%e5%a0%b1/"
+      },
+      {
+        "name": "JavaScript",
+        "kind": "lang",
+        "sourceUrl": "https://recruit.bitgroove.net/%e6%8e%a1%e7%94%a8%e6%83%85%e5%a0%b1/"
+      },
+      {
+        "name": "Java",
+        "kind": "lang",
+        "sourceUrl": "https://recruit.bitgroove.net/%e6%8e%a1%e7%94%a8%e6%83%85%e5%a0%b1/"
+      }
+    ],
+    "boi": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://boi.jp/recruit/newgraduates/"
+      }
+    ],
+    "brs-up": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://brs-up.com/recruit/"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://brs-up.com/recruit/"
+      }
+    ],
+    "bullets": [
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.bullets.co.jp/jobdescription.html"
+      }
+    ],
+    "byking": [
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://byking.jp/recruit/"
+      }
+    ],
+    "c4on": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://c4on.jp/recruit/newgraduates/"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://c4on.jp/recruit/newgraduates/"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://c4on.jp/recruit/newgraduates/"
+      },
+      {
+        "name": "TypeScript",
+        "kind": "lang",
+        "sourceUrl": "https://c4on.jp/recruit/newgraduates/"
+      },
+      {
+        "name": "JavaScript",
+        "kind": "lang",
+        "sourceUrl": "https://c4on.jp/recruit/newgraduates/"
+      },
+      {
+        "name": "Java",
+        "kind": "lang",
+        "sourceUrl": "https://c4on.jp/recruit/newgraduates/"
+      }
+    ],
+    "cc2": [
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "http://www.gff.jp/internship/"
+      }
+    ],
+    "claytechworks": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://claytechworks.co.jp/recruit/"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://claytechworks.co.jp/recruit/"
+      }
+    ],
+    "clovers2023": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://clovers2023.com/careers"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://clovers2023.com/careers"
+      },
+      {
+        "name": "自社エンジン",
+        "kind": "engine",
+        "sourceUrl": "https://clovers2023.com/careers"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://clovers2023.com/careers"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://clovers2023.com/careers"
+      },
+      {
+        "name": "Python",
+        "kind": "lang",
+        "sourceUrl": "https://clovers2023.com/careers"
+      },
+      {
+        "name": "DirectX",
+        "kind": "gfx",
+        "sourceUrl": "https://clovers2023.com/careers"
+      },
+      {
+        "name": "Vulkan",
+        "kind": "gfx",
+        "sourceUrl": "https://clovers2023.com/careers"
+      }
+    ],
+    "concept-lab": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://concept-lab.co.jp/recruit/"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://concept-lab.co.jp/recruit/"
+      },
+      {
+        "name": "TypeScript",
+        "kind": "lang",
+        "sourceUrl": "https://concept-lab.co.jp/recruit/"
+      }
+    ],
+    "crafts-meister": [
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.crafts-meister.co.jp/recruit/"
+      }
+    ],
+    "creatures": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://recruit.creatures.co.jp/new-graduate/job_and_entry/"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://recruit.creatures.co.jp/new-graduate/job_and_entry/"
+      }
+    ],
+    "cross-games": [
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.cross-games.jp/recruit/newgraduates.html"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://www.cross-games.jp/recruit/newgraduates.html"
+      },
+      {
+        "name": "JavaScript",
+        "kind": "lang",
+        "sourceUrl": "https://www.cross-games.jp/recruit/newgraduates.html"
+      }
+    ],
+    "crossfd": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://crossfd.co.jp/recruit/job/designer.html"
+      }
+    ],
+    "cyberagent": [
+      {
+        "name": "Go",
+        "kind": "lang",
+        "sourceUrl": "https://www.cyberagent.co.jp/careers/students/tech/internship/"
+      }
+    ],
+    "dico4u": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://www.dico4u.com/careers-engineertraining"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.dico4u.com/careers-engineertraining"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://www.dico4u.com/careers-engineertraining"
+      }
+    ],
+    "digisite-g": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.digisite-g.com/recruit.html"
+      }
+    ],
+    "dml": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://www.dml.co.jp/recruit/newgraduate/"
+      },
+      {
+        "name": "Python",
+        "kind": "lang",
+        "sourceUrl": "https://www.dml.co.jp/recruit/newgraduate/"
+      }
+    ],
+    "donuts": [
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://recruit.jobcan.jp/donuts/list?category_id=58731"
+      },
+      {
+        "name": "Python",
+        "kind": "lang",
+        "sourceUrl": "https://recruit.jobcan.jp/donuts/list?category_id=58731"
+      },
+      {
+        "name": "TypeScript",
+        "kind": "lang",
+        "sourceUrl": "https://recruit.jobcan.jp/donuts/list?category_id=58731"
+      },
+      {
+        "name": "Swift",
+        "kind": "lang",
+        "sourceUrl": "https://recruit.jobcan.jp/donuts/list?category_id=58731"
+      },
+      {
+        "name": "Go",
+        "kind": "lang",
+        "sourceUrl": "https://recruit.jobcan.jp/donuts/list?category_id=58731"
+      }
+    ],
+    "epics-gogo": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://www.epics.jp/%E6%8E%A1%E7%94%A8%E6%83%85%E5%A0%B1/"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.epics.jp/%E6%8E%A1%E7%94%A8%E6%83%85%E5%A0%B1/"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.epics.jp/%E6%8E%A1%E7%94%A8%E6%83%85%E5%A0%B1/"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://www.epics.jp/%E6%8E%A1%E7%94%A8%E6%83%85%E5%A0%B1/"
+      },
+      {
+        "name": "Java",
+        "kind": "lang",
+        "sourceUrl": "https://www.epics.jp/%E6%8E%A1%E7%94%A8%E6%83%85%E5%A0%B1/"
+      }
+    ],
+    "esquadra": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://esquadra.co.jp/recruitment"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://esquadra.co.jp/recruitment"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://esquadra.co.jp/recruitment"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://esquadra.co.jp/recruitment"
+      },
+      {
+        "name": "Python",
+        "kind": "lang",
+        "sourceUrl": "https://esquadra.co.jp/recruitment"
+      },
+      {
+        "name": "Java",
+        "kind": "lang",
+        "sourceUrl": "https://esquadra.co.jp/recruitment"
+      }
+    ],
+    "exdesign": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.exdesign.co.jp/recruit-ilcg"
+      }
+    ],
+    "fnl": [
+      {
+        "name": "Python",
+        "kind": "lang",
+        "sourceUrl": "https://www.fnl.co.jp/recruit/person/9033.html"
+      },
+      {
+        "name": "TypeScript",
+        "kind": "lang",
+        "sourceUrl": "https://www.fnl.co.jp/recruit/person/9097.html"
+      },
+      {
+        "name": "Java",
+        "kind": "lang",
+        "sourceUrl": "https://www.fnl.co.jp/recruit/person/9097.html"
+      },
+      {
+        "name": "Swift",
+        "kind": "lang",
+        "sourceUrl": "https://www.fnl.co.jp/recruit/person/9100.html"
+      }
+    ],
+    "fromsoftware": [
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://careers.fromsoftware.jp/jp/job_desc.html"
+      }
+    ],
+    "g-rounding": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://recruit.g-rounding.com/entry-new-graduate/"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://recruit.g-rounding.com/entry-new-graduate/"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://recruit.g-rounding.com/entry-new-graduate/"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://recruit.g-rounding.com/entry-new-graduate/"
+      }
+    ],
+    "ganbarion": [
+      {
+        "name": "自社エンジン",
+        "kind": "engine",
+        "sourceUrl": "https://www.ganbarion.co.jp/recruit/job/"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.ganbarion.co.jp/recruit/job/"
+      }
+    ],
+    "geeq": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.geeq.co.jp/recruit/interview/sh-suzuki/"
+      }
+    ],
+    "gemdrops": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "http://www.gemdrops.co.jp/recruit.html"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "http://www.gemdrops.co.jp/recruit.html"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "http://www.gemdrops.co.jp/recruit.html"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "http://www.gemdrops.co.jp/recruit.html"
+      },
+      {
+        "name": "Python",
+        "kind": "lang",
+        "sourceUrl": "http://www.gemdrops.co.jp/recruit.html"
+      },
+      {
+        "name": "Java",
+        "kind": "lang",
+        "sourceUrl": "http://www.gemdrops.co.jp/recruit.html"
+      },
+      {
+        "name": "Rust",
+        "kind": "lang",
+        "sourceUrl": "http://www.gemdrops.co.jp/recruit.html"
+      },
+      {
+        "name": "DirectX",
+        "kind": "gfx",
+        "sourceUrl": "http://www.gemdrops.co.jp/recruit.html"
+      },
+      {
+        "name": "Vulkan",
+        "kind": "gfx",
+        "sourceUrl": "http://www.gemdrops.co.jp/recruit.html"
+      }
+    ],
+    "gendesign": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://gendesign.co.jp/recruit/recruit.html"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://gendesign.co.jp/recruit/recruit.html"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://gendesign.co.jp/recruit/recruit.html"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://gendesign.co.jp/recruit/recruit.html"
+      },
+      {
+        "name": "Python",
+        "kind": "lang",
+        "sourceUrl": "https://gendesign.co.jp/recruit/recruit.html"
+      }
+    ],
+    "grenge": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.grenge.co.jp/recruit/"
+      },
+      {
+        "name": "Cocos2d-x",
+        "kind": "engine",
+        "sourceUrl": "https://www.grenge.co.jp/recruit/"
+      }
+    ],
+    "gs2": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://gs2.io/recruit.html"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://gs2.io/recruit.html"
+      }
+    ],
+    "hallab": [
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.i-note.jp/hallab/fresh/top.html"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://www.i-note.jp/hallab/fresh/top.html"
+      }
+    ],
+    "headlock": [
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://headlock.jp/services/"
+      }
+    ],
+    "historia": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://historia.co.jp/recruit/"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://01intern.com/corporation/824"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://01intern.com/corporation/824"
+      },
+      {
+        "name": "Java",
+        "kind": "lang",
+        "sourceUrl": "https://01intern.com/corporation/824"
+      }
+    ],
+    "hit-point": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.hit-point.co.jp/recruit_internship.html"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.hit-point.co.jp/recruit_internship.html"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://www.hit-point.co.jp/recruit_internship.html"
+      },
+      {
+        "name": "Java",
+        "kind": "lang",
+        "sourceUrl": "https://www.hit-point.co.jp/recruit_internship.html"
+      }
+    ],
+    "hyde": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://www.hyde.co.jp/recruit/new/"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.hyde.co.jp/recruit/new/"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://www.hyde.co.jp/recruit/new/"
+      },
+      {
+        "name": "Python",
+        "kind": "lang",
+        "sourceUrl": "https://www.hyde.co.jp/recruit/new/"
+      },
+      {
+        "name": "TypeScript",
+        "kind": "lang",
+        "sourceUrl": "https://www.hyde.co.jp/recruit/new/"
+      },
+      {
+        "name": "JavaScript",
+        "kind": "lang",
+        "sourceUrl": "https://www.hyde.co.jp/recruit/new/"
+      },
+      {
+        "name": "Java",
+        "kind": "lang",
+        "sourceUrl": "https://www.hyde.co.jp/recruit/new/"
+      }
+    ],
+    "i-lab-design": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://i-lab.design/recruit/"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://i-lab.design/recruit/"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://i-lab.design/recruit/"
+      }
+    ],
+    "indie-us-games": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://recruit.indie-us-games.co.jp/"
+      }
+    ],
+    "indieszero": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://indieszero.co.jp/freshrecruit-form"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://indieszero.co.jp/recruit/fresh.html"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://indieszero.co.jp/recruit/fresh.html"
+      }
+    ],
+    "infiniteloop": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://infiniteloop.co.jp/recruitment/picture-book/"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://infiniteloop.co.jp/recruitment/newgraduates/"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://infiniteloop.co.jp/recruitment/job/"
+      }
+    ],
+    "jetstudio": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://jetstudio.jp/recruit/"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://jetstudio.jp/recruit/"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://jetstudio.jp/recruit/"
+      },
+      {
+        "name": "HLSL",
+        "kind": "gfx",
+        "sourceUrl": "https://jetstudio.jp/recruit/"
+      }
+    ],
+    "jpgamesinc": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://www.jpgamesinc.com/recruit/"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.jpgamesinc.com/recruit/"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://www.jpgamesinc.com/recruit/"
+      },
+      {
+        "name": "Python",
+        "kind": "lang",
+        "sourceUrl": "https://www.jpgamesinc.com/recruit/"
+      },
+      {
+        "name": "Go",
+        "kind": "lang",
+        "sourceUrl": "https://www.jpgamesinc.com/recruit/"
+      }
+    ],
+    "k2-games": [
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://k2-games.com/recruit/new-grad.html"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://k2-games.com/recruit/new-grad.html"
+      }
+    ],
+    "kairosoft": [
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://kairosoft.net/careers/"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://kairosoft.net/careers/"
+      }
+    ],
+    "kaminarigames": [
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://kaminarigames.com/recruit/fresh/programmer/"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://kaminarigames.com/recruit/fresh/programmer/"
+      }
+    ],
+    "karakuri-ism": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.karakuri-ism.com/recruit/"
+      },
+      {
+        "name": "Cocos2d-x",
+        "kind": "engine",
+        "sourceUrl": "https://www.karakuri-ism.com/recruit/programmer/"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.karakuri-ism.com/recruit/programmer/"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://www.karakuri-ism.com/recruit/programmer/"
+      }
+    ],
+    "kayac": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.kayac.com/recruit/fresh"
+      }
+    ],
+    "kingpawn": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://kingpawn.jp/recruits"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://kingpawn.jp/recruits"
+      }
+    ],
+    "kogado": [
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.kogado.com/recruit/index.html"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://www.kogado.com/recruit/index.html"
+      },
+      {
+        "name": "JavaScript",
+        "kind": "lang",
+        "sourceUrl": "https://www.kogado.com/recruit/index.html"
+      }
+    ],
+    "logicalbeat": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://logicalbeat.co.jp/recruit/"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://logicalbeat.co.jp/recruit/"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://logicalbeat.co.jp/recruit/"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://logicalbeat.co.jp/recruit/"
+      },
+      {
+        "name": "Python",
+        "kind": "lang",
+        "sourceUrl": "https://logicalbeat.co.jp/recruit/"
+      }
+    ],
+    "lucent-global": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://www.lucent-global.co.jp/recruit.html"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.lucent-global.co.jp/recruit.html"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.lucent-global.co.jp/recruit.html"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://www.lucent-global.co.jp/recruit.html"
+      },
+      {
+        "name": "Python",
+        "kind": "lang",
+        "sourceUrl": "https://www.lucent-global.co.jp/recruit.html"
+      },
+      {
+        "name": "TypeScript",
+        "kind": "lang",
+        "sourceUrl": "https://www.lucent-global.co.jp/recruit.html"
+      },
+      {
+        "name": "JavaScript",
+        "kind": "lang",
+        "sourceUrl": "https://www.lucent-global.co.jp/recruit.html"
+      },
+      {
+        "name": "Java",
+        "kind": "lang",
+        "sourceUrl": "https://www.lucent-global.co.jp/recruit.html"
+      },
+      {
+        "name": "Kotlin",
+        "kind": "lang",
+        "sourceUrl": "https://www.lucent-global.co.jp/recruit.html"
+      },
+      {
+        "name": "Swift",
+        "kind": "lang",
+        "sourceUrl": "https://www.lucent-global.co.jp/recruit.html"
+      }
+    ],
+    "marza": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.marza.com/careers/"
+      }
+    ],
+    "masterpiece": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.masterpiece.co.jp/recruit/"
+      }
+    ],
+    "matrixsoft": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.matrixsoft.co.jp/recruit/"
+      }
+    ],
+    "metro-japan": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://www.metro-japan.com/recruit/%e6%9d%b1%e4%ba%ac-%e3%83%97%e3%83%a9%e3%83%b3%e3%83%8a%e3%83%bc-2/"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.metro-japan.com/recruit/%e6%9d%b1%e4%ba%ac-%e3%83%97%e3%83%a9%e3%83%b3%e3%83%8a%e3%83%bc-2/"
+      }
+    ],
+    "micronetclub": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "http://www.micronetclub.co.jp/info/employ1.htm"
+      }
+    ],
+    "million-edge": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://million-edge.co.jp/recruit/"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://million-edge.co.jp/recruit/"
+      }
+    ],
+    "mix-design": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://mix-design.jp/recruit/"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://mix-design.jp/recruit/"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://mix-design.jp/recruit/"
+      }
+    ],
+    "moka3": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://moka3.co.jp/?page_id=229"
+      }
+    ],
+    "mutan": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://mutan.co.jp/recruit/entry.php"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://mutan.co.jp/recruit/entry.php"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://mutan.co.jp/recruit/entry.php"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://mutan.co.jp/recruit/entry.php"
+      },
+      {
+        "name": "Python",
+        "kind": "lang",
+        "sourceUrl": "https://mutan.co.jp/recruit/entry.php"
+      }
+    ],
+    "nanodes": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://nanodes.jp/recruit/"
+      }
+    ],
+    "neuron-age": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://neuron-age.co.jp/recruit/new-graduate/new-entry/"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://neuron-age.co.jp/recruit/new-graduate/new-entry/"
+      }
+    ],
+    "nippon1": [
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://nippon1.co.jp/recruit/job.html"
+      },
+      {
+        "name": "JavaScript",
+        "kind": "lang",
+        "sourceUrl": "https://nippon1.co.jp/recruit/job.html"
+      }
+    ],
+    "one-or-eight": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://one-or-eight.co.jp/recruit/entry_newgraduatelist.html"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://one-or-eight.co.jp/recruit/entry_newgraduatelist.html"
+      }
+    ],
+    "orca-inc": [
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.orca-inc.co.jp/wp/recruit/entry/"
+      }
+    ],
+    "pascal": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://pascal.jp/jp/company/recruit.html"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://pascal.jp/jp/company/recruit.html"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://pascal.jp/jp/company/recruit.html"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://pascal.jp/jp/company/recruit.html"
+      },
+      {
+        "name": "JavaScript",
+        "kind": "lang",
+        "sourceUrl": "https://pascal.jp/jp/company/recruit.html"
+      },
+      {
+        "name": "Java",
+        "kind": "lang",
+        "sourceUrl": "https://pascal.jp/jp/company/recruit.html"
+      },
+      {
+        "name": "Swift",
+        "kind": "lang",
+        "sourceUrl": "https://pascal.jp/jp/company/recruit.html"
+      }
+    ],
+    "phoenixgp": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://www.phoenixgp.co.jp/recruit-overview/"
+      }
+    ],
+    "picola": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.picola.co.jp/recruit"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.picola.co.jp/recruit"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://www.picola.co.jp/recruit"
+      }
+    ],
+    "pictronics": [
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.pictronics.jp/recruit"
+      }
+    ],
+    "plantago-games": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.plantago-games.com/jobs/"
+      },
+      {
+        "name": "Cocos2d-x",
+        "kind": "engine",
+        "sourceUrl": "https://www.plantago-games.com/jobs/"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://www.plantago-games.com/jobs/"
+      },
+      {
+        "name": "JavaScript",
+        "kind": "lang",
+        "sourceUrl": "https://www.plantago-games.com/jobs/"
+      }
+    ],
+    "polyphony": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://www.polyphony.co.jp/recruit/jobs/2084/"
+      }
+    ],
+    "prodigy-inc": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://prodigy-inc.co.jp/recruit/"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://prodigy-inc.co.jp/recruit/"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://prodigy-inc.co.jp/recruit/"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://prodigy-inc.co.jp/recruit/"
+      },
+      {
+        "name": "Python",
+        "kind": "lang",
+        "sourceUrl": "https://prodigy-inc.co.jp/recruit/"
+      },
+      {
+        "name": "Java",
+        "kind": "lang",
+        "sourceUrl": "https://prodigy-inc.co.jp/recruit/"
+      }
+    ],
+    "profire": [
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.profire.co.jp/recruit/rookie.html"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://www.profire.co.jp/recruit/rookie.html"
+      },
+      {
+        "name": "Python",
+        "kind": "lang",
+        "sourceUrl": "https://www.profire.co.jp/recruit/rookie.html"
+      },
+      {
+        "name": "JavaScript",
+        "kind": "lang",
+        "sourceUrl": "https://www.profire.co.jp/recruit/rookie.html"
+      },
+      {
+        "name": "Java",
+        "kind": "lang",
+        "sourceUrl": "https://www.profire.co.jp/recruit/rookie.html"
+      }
+    ],
+    "prosoft": [
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.prosoft.co.jp/recruit.html"
+      },
+      {
+        "name": "JavaScript",
+        "kind": "lang",
+        "sourceUrl": "https://www.prosoft.co.jp/recruit.html"
+      },
+      {
+        "name": "Java",
+        "kind": "lang",
+        "sourceUrl": "https://www.prosoft.co.jp/recruit.html"
+      },
+      {
+        "name": "DirectX",
+        "kind": "gfx",
+        "sourceUrl": "https://www.prosoft.co.jp/recruit.html"
+      }
+    ],
+    "psoft": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.psoft.co.jp/jp/corporate/recruit/"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.psoft.co.jp/jp/corporate/recruit/"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://www.psoft.co.jp/jp/corporate/recruit/"
+      }
+    ],
+    "qualiarts": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://qualiarts.jp/recruit"
+      }
+    ],
+    "raylinestudio": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "http://www.raylinestudio.co.jp/graduates2025/"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "http://www.raylinestudio.co.jp/graduates2025/"
+      }
+    ],
+    "rengame": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://rengame.co.jp/recruit/"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://rengame.co.jp/recruit/"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://rengame.co.jp/recruit/"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://rengame.co.jp/recruit/"
+      },
+      {
+        "name": "HLSL",
+        "kind": "gfx",
+        "sourceUrl": "https://rengame.co.jp/recruit/"
+      },
+      {
+        "name": "DirectX",
+        "kind": "gfx",
+        "sourceUrl": "https://rengame.co.jp/recruit/"
+      }
+    ],
+    "sas-sakata": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.sas-sakata.co.jp/?page_id=104"
+      },
+      {
+        "name": "Cocos2d-x",
+        "kind": "engine",
+        "sourceUrl": "https://www.sas-sakata.co.jp/?page_id=104"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.sas-sakata.co.jp/?page_id=104"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://www.sas-sakata.co.jp/?page_id=104"
+      },
+      {
+        "name": "Java",
+        "kind": "lang",
+        "sourceUrl": "https://www.sas-sakata.co.jp/?page_id=104"
+      },
+      {
+        "name": "DirectX",
+        "kind": "gfx",
+        "sourceUrl": "https://www.sas-sakata.co.jp/?page_id=104"
+      }
+    ],
+    "sas-tokyo": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://www.sas-tokyo.co.jp/recruit/"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.sas-tokyo.co.jp/recruit/"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.sas-tokyo.co.jp/recruit/"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://www.sas-tokyo.co.jp/recruit/"
+      },
+      {
+        "name": "JavaScript",
+        "kind": "lang",
+        "sourceUrl": "https://www.sas-tokyo.co.jp/recruit/"
+      },
+      {
+        "name": "Java",
+        "kind": "lang",
+        "sourceUrl": "https://www.sas-tokyo.co.jp/recruit/"
+      }
+    ],
+    "sat-box": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://sat-box.jp/company/requirements/"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://sat-box.jp/company/requirements/"
+      },
+      {
+        "name": "Swift",
+        "kind": "lang",
+        "sourceUrl": "https://sat-box.jp/company/requirements/"
+      }
+    ],
+    "sega-sapporo-studio": [
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.sega.co.jp/recruit/jobs/"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://www.sega.co.jp/recruit/jobs/"
+      },
+      {
+        "name": "Python",
+        "kind": "lang",
+        "sourceUrl": "https://www.sega.co.jp/recruit/jobs/"
+      },
+      {
+        "name": "Java",
+        "kind": "lang",
+        "sourceUrl": "https://www.sega.co.jp/recruit/jobs/"
+      }
+    ],
+    "sega": [
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.sega.co.jp/recruit/jobs/"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://www.sega.co.jp/recruit/jobs/"
+      },
+      {
+        "name": "Python",
+        "kind": "lang",
+        "sourceUrl": "https://www.sega.co.jp/recruit/jobs/"
+      },
+      {
+        "name": "Java",
+        "kind": "lang",
+        "sourceUrl": "https://www.sega.co.jp/recruit/jobs/"
+      }
+    ],
+    "skymill": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://www.skymill.co.jp/recruit/detail/"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.skymill.co.jp/recruit/detail/"
+      }
+    ],
+    "soft-gear": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://www.soft-gear.co.jp/recruit/"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.soft-gear.co.jp/recruit/"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.soft-gear.co.jp/recruit/"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://www.soft-gear.co.jp/recruit/"
+      }
+    ],
+    "sowhat-inc": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.sowhat-inc.com/recruit.php"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.sowhat-inc.com/recruit.php"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://www.sowhat-inc.com/recruit.php"
+      },
+      {
+        "name": "Java",
+        "kind": "lang",
+        "sourceUrl": "https://www.sowhat-inc.com/recruit.php"
+      }
+    ],
+    "spark-group": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://spark-group.jp/recruit/"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://spark-group.jp/recruit/"
+      },
+      {
+        "name": "Cocos2d-x",
+        "kind": "engine",
+        "sourceUrl": "https://spark-group.jp/recruit/"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://spark-group.jp/recruit/287/"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://spark-group.jp/recruit/287/"
+      },
+      {
+        "name": "Python",
+        "kind": "lang",
+        "sourceUrl": "https://spark-group.jp/recruit/290/"
+      }
+    ],
+    "spice-group": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://spice-group.jp/recruit/index.html"
+      }
+    ],
+    "spike-chunsoft": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://www.spike-chunsoft.co.jp/recruit/interview/interview03/"
+      }
+    ],
+    "ss-beta": [
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.ss-beta.co.jp/recruit/new_graduate.html"
+      },
+      {
+        "name": "DirectX",
+        "kind": "gfx",
+        "sourceUrl": "https://www.ss-beta.co.jp/recruit/new_graduate.html"
+      }
+    ],
+    "ssl-media-vision": [
+      {
+        "name": "Python",
+        "kind": "lang",
+        "sourceUrl": "https://ssl.media-vision.co.jp/recruit/jobtype"
+      }
+    ],
+    "studio51": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://studio51.co.jp/recruit-positions/?tab=graduate"
+      }
+    ],
+    "studioanima": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://www.studioanima.co.jp/new-graduate/"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.studioanima.co.jp/new-graduate/"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.studioanima.co.jp/forms/newgraduate/form.cgi"
+      },
+      {
+        "name": "Python",
+        "kind": "lang",
+        "sourceUrl": "https://www.studioanima.co.jp/forms/newgraduate/form.cgi"
+      },
+      {
+        "name": "JavaScript",
+        "kind": "lang",
+        "sourceUrl": "https://www.studioanima.co.jp/forms/newgraduate/form.cgi"
+      }
+    ],
+    "sugarcut": [
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.sugarcut.co.jp/recruit.html"
+      }
+    ],
+    "summer-time-studio": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.summer-time-studio.com/recruit.php"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.summer-time-studio.com/recruit.php"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://www.summer-time-studio.com/recruit.php"
+      },
+      {
+        "name": "Java",
+        "kind": "lang",
+        "sourceUrl": "https://www.summer-time-studio.com/recruit.php"
+      }
+    ],
+    "supertrickgames": [
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://supertrickgames.com/recruit/newgraduate.html"
+      }
+    ],
+    "syn-game": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://syn-game.com/job"
+      }
+    ],
+    "techcross": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://hrmos.co/pages/techcross/jobs?category=1719966226250080257"
+      }
+    ],
+    "thinklogic": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.thinklogic.co.jp/recruit/career/"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.thinklogic.co.jp/recruit/career/"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://www.thinklogic.co.jp/recruit/guideline/"
+      },
+      {
+        "name": "Python",
+        "kind": "lang",
+        "sourceUrl": "https://www.thinklogic.co.jp/recruit/guideline/"
+      },
+      {
+        "name": "Java",
+        "kind": "lang",
+        "sourceUrl": "https://www.thinklogic.co.jp/recruit/career/"
+      }
+    ],
+    "tomcreate": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://www.tomcreate.co.jp/recruit.html"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.tomcreate.co.jp/recruit.html"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.tomcreate.co.jp/recruit.html"
+      },
+      {
+        "name": "Java",
+        "kind": "lang",
+        "sourceUrl": "https://www.tomcreate.co.jp/recruit.html"
+      }
+    ],
+    "torisan-net": [
+      {
+        "name": "自社エンジン",
+        "kind": "engine",
+        "sourceUrl": "https://torisan-net.com/recruit/?ref=return"
+      }
+    ],
+    "tose": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://www.tose.co.jp/recruit/fresh/_planner.html"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.tose.co.jp/recruit/fresh/_planner.html"
+      }
+    ],
+    "trisys": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://www.trisys.co.jp/recruit.html"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.trisys.co.jp/recruit.html"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.trisys.co.jp/recruit.html"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://www.trisys.co.jp/recruit.html"
+      },
+      {
+        "name": "Java",
+        "kind": "lang",
+        "sourceUrl": "https://www.trisys.co.jp/recruit.html"
+      }
+    ],
+    "va-sa-ra": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.va-sa-ra.co.jp/recruit/"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.va-sa-ra.co.jp/recruit/"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://www.va-sa-ra.co.jp/recruit/"
+      },
+      {
+        "name": "Python",
+        "kind": "lang",
+        "sourceUrl": "https://www.va-sa-ra.co.jp/recruit/"
+      },
+      {
+        "name": "JavaScript",
+        "kind": "lang",
+        "sourceUrl": "https://www.va-sa-ra.co.jp/recruit/"
+      },
+      {
+        "name": "Java",
+        "kind": "lang",
+        "sourceUrl": "https://www.va-sa-ra.co.jp/recruit/"
+      },
+      {
+        "name": "Kotlin",
+        "kind": "lang",
+        "sourceUrl": "https://www.va-sa-ra.co.jp/recruit/"
+      },
+      {
+        "name": "Swift",
+        "kind": "lang",
+        "sourceUrl": "https://www.va-sa-ra.co.jp/recruit/"
+      }
+    ],
+    "wafuanime": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://www.wafuanime.com/recruit"
+      }
+    ],
+    "wilddog": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://wilddog.jp/recruit"
+      },
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://wilddog.jp/recruit"
+      },
+      {
+        "name": "自社エンジン",
+        "kind": "engine",
+        "sourceUrl": "https://wilddog.jp/recruit"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://wilddog.jp/recruit"
+      }
+    ],
+    "winning-ent": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://winning-ent.co.jp/recruit/"
+      },
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://winning-ent.co.jp/recruit/"
+      },
+      {
+        "name": "C#",
+        "kind": "lang",
+        "sourceUrl": "https://winning-ent.co.jp/recruit/"
+      }
+    ],
+    "wonderium": [
+      {
+        "name": "Unreal Engine",
+        "kind": "engine",
+        "sourceUrl": "https://wonderium.com/recruit/new-graduates/"
+      }
+    ],
+    "z-flag": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://z-flag.com/recruit/"
+      }
+    ],
+    "zuiki": [
+      {
+        "name": "C++",
+        "kind": "lang",
+        "sourceUrl": "https://www.zuiki-recruit.com/new-graduate/"
+      }
+    ]
+  }
+}
