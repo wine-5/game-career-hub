@@ -55,6 +55,7 @@ export interface ExtractedFlowStep {
 export interface Extracted {
   digest: string;
   previous?: { text: string; sourceUrl: string } | null;
+  conditions?: { salary?: number | null; salaryLabel?: string; holidays?: number | null; overtime?: number | null; sourceUrl: string } | null;
   openings: ExtractedOpening[];
 }
 
@@ -165,6 +166,14 @@ export function validateExtracted(x: unknown): string[] {
   const e = x as Extracted;
   if (!e || typeof e !== "object") return ["JSON のオブジェクトではない"];
   if (typeof e.digest !== "string") errs.push("digest が文字列ではない");
+  if (e.conditions != null) {
+    const k = e.conditions;
+    if (typeof k.sourceUrl !== "string") errs.push("conditions.sourceUrl が文字列ではない");
+    for (const [f, lo, hi] of [["salary", 100000, 2000000], ["holidays", 50, 200], ["overtime", 0, 200]] as const) {
+      const v = k[f];
+      if (v != null && (typeof v !== "number" || v < lo || v > hi)) errs.push(`conditions.${f} は ${lo}〜${hi} の数か null にする: ${v}`);
+    }
+  }
   if (e.previous != null && (typeof e.previous.text !== "string" || typeof e.previous.sourceUrl !== "string"))
     errs.push("previous は { text, sourceUrl } の形か null にする");
   if (!Array.isArray(e.openings)) return [...errs, "openings が配列ではない"];
@@ -235,6 +244,17 @@ export function mergeExtracted(
   const before = new Set(oldOpenings.keys());
   result.openings = openings;
   result.digest = ex.digest;
+  // 待遇の数字も、読んだページに書かれていた時だけ残す（出典の無い数字は載せない）
+  const k = ex.conditions;
+  result.conditions =
+    k && pageUrls.has(k.sourceUrl) && (k.salary != null || k.holidays != null || k.overtime != null)
+      ? {
+          ...(k.salary != null ? { salary: k.salary, salaryLabel: k.salaryLabel || undefined } : {}),
+          ...(k.holidays != null ? { holidays: k.holidays } : {}),
+          ...(k.overtime != null ? { overtime: k.overtime } : {}),
+          sourceUrl: k.sourceUrl,
+        }
+      : undefined;
   // 前の年の動きは、ページから読めた時だけ残す（出典はそのページの URL に限る）
   result.previous =
     ex.previous?.text && pageUrls.has(ex.previous.sourceUrl) ? { text: ex.previous.text.trim(), sourceUrl: ex.previous.sourceUrl } : undefined;

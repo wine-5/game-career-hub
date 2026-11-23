@@ -52,7 +52,7 @@ await Promise.all(
       const { c, result } = t;
       result.lastChecked = new Date().toISOString();
       try {
-        const pages = toPromptPages(await collectPages(c.url, [c.links?.newgrad, c.links?.internship].filter((u): u is string => Boolean(u))));
+        const pages = toPromptPages(await collectPages(c.url, [c.links?.newgrad, c.links?.internship, c.links?.salary?.split("#")[0]].filter((u): u is string => Boolean(u))));
         const hash = hashPages(pages);
         const changed = state[c.id]?.hash !== hash;
         console.log(`- ${c.name}: ${pages.length} ページ / ${changed ? "変化あり" : "変化なし"}`);

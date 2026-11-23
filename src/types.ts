@@ -129,7 +129,23 @@ export interface CompanyResult {
   digest: string;
   /** 前の年（例: 27卒）の募集がいつ始まったか。ページに書かれている時だけ */
   previous?: PreviousCycle;
+  /** 待遇（ページに数字で書かれている物だけ） */
+  conditions?: Conditions;
   openings: Opening[];
+}
+
+/** 新卒の待遇。書かれていない項目は入れない */
+export interface Conditions {
+  /** 初任給（月給・円）。学歴で違うときは学部卒（無ければいちばん低い額） */
+  salary?: number;
+  /** 初任給の表記（例:「学部卒 月給26万円（固定残業代含む）」） */
+  salaryLabel?: string;
+  /** 年間休日（日） */
+  holidays?: number;
+  /** 月の平均残業時間（時間） */
+  overtime?: number;
+  /** 数字が書かれていたページ */
+  sourceUrl: string;
 }
 
 export interface PreviousCycle {

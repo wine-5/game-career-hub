@@ -12,8 +12,25 @@ const SUPPORTS_FALLBACK = /^claude-(opus-5|sonnet-5-5|fable-5)/.test(MODEL);
 const SCHEMA = {
   type: "object",
   additionalProperties: false,
-  required: ["digest", "previous", "openings"],
+  required: ["digest", "previous", "conditions", "openings"],
   properties: {
+    conditions: {
+      anyOf: [
+        {
+          type: "object",
+          additionalProperties: false,
+          required: ["salary", "salaryLabel", "holidays", "overtime", "sourceUrl"],
+          properties: {
+            salary: { anyOf: [{ type: "integer" }, { type: "null" }], description: "新卒の初任給の月給（円）。書かれていなければ null" },
+            salaryLabel: { type: "string", description: "初任給の表記（固定残業代を含むなら必ず書く）" },
+            holidays: { anyOf: [{ type: "integer" }, { type: "null" }], description: "年間休日（日）" },
+            overtime: { anyOf: [{ type: "number" }, { type: "null" }], description: "月の平均残業時間（時間）" },
+            sourceUrl: { type: "string" },
+          },
+        },
+        { type: "null" },
+      ],
+    },
     previous: {
       anyOf: [
         {
