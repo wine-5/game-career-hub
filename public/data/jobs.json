@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T07:53:39.504Z",
+  "updatedAt": "2026-11-23T08:08:16.665Z",
   "model": "claude-code",
   "companies": [
     {
@@ -15505,7 +15505,7 @@
       "site": "https://bocste.com/"
     },
     {
-      "lastChecked": "2026-11-23T07:47:36.025Z",
+      "lastChecked": "2026-11-23T08:06:00.420Z",
       "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "新卒は2027年3月卒業予定者向けにグラフィックデザイナー・ソフトウェアエンジニアを募集。インターンも受け入れているが対象年の記載は無い。",
@@ -15587,10 +15587,10 @@
       "site": "https://www.nintendo-sales.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:00.475Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
-      "digest": "",
+      "digest": "ソニーミュージックグループの28卒向け秋インターン（ITエンジニアコース）は受付終了。27卒本選考も締切済みで、28卒向けの募集は現在掲載なし",
       "openings": [],
       "id": "aniplex",
       "name": "アニプレックス",
@@ -15612,8 +15612,8 @@
       "site": "https://www.aniplex.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:00.478Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -15635,11 +15635,32 @@
       "site": "https://cover-corp.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:00.480Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "28卒向けの総合職の新卒採用は2027年3月から募集開始予定",
+      "openings": [
+        {
+          "title": "2028卒新卒採用（総合職）",
+          "type": "newgrad",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "2027年3月より募集開始予定",
+          "format": "unknown",
+          "location": "",
+          "summary": "28卒向け総合職の募集を2027年3月から開始予定。書類選考・面接・SPI・代表面接を経て内々定",
+          "sourceUrl": "https://recruit.anycolor.co.jp/",
+          "id": "b4de4b4af294",
+          "companyId": "anycolor",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "anycolor",
       "name": "ANYCOLOR",
       "tags": [
@@ -15702,10 +15723,10 @@
       "site": "https://www.segafave.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:00.481Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
-      "digest": "",
+      "digest": "2027年度新卒採用の第二回募集を12月4日まで実施中。28卒向けは未掲載。インターンは原則受け入れなし",
       "openings": [],
       "id": "marza",
       "name": "マーザ・アニメーションプラネット",
@@ -15767,11 +15788,32 @@
       "site": "https://goodroid.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:00.483Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "2028年度新卒採用のエントリーを2026年10月2日からマイナビ2028で受付中。定期的なインターンは予定なし",
+      "openings": [
+        {
+          "title": "2028年度新卒採用",
+          "type": "newgrad",
+          "roles": [
+            "artist"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "2026-10-02",
+          "deadline": "",
+          "period": "ES・筆記・グループワーク・面接2回を経て内々定",
+          "format": "hybrid",
+          "location": "東京（初台）",
+          "summary": "28卒向け本選考。マイナビ経由でエントリー。デザイナー職はポートフォリオ必須、最終面接は原則対面",
+          "sourceUrl": "https://www.a-lim.co.jp/recruit/newgraduate",
+          "id": "80a4505c4d96",
+          "companyId": "a-lim",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "a-lim",
       "name": "エイリム",
       "tags": [
@@ -15811,8 +15853,8 @@
       "site": "https://www.unbound-games.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:04.022Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -15835,11 +15877,72 @@
       "site": "https://appirits.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:04.315Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "28卒向け新卒採用を実施中。エンジニアとサービスデザイナー（プランナー）の求人を公開、デザイナー職はプレエントリー受付で求人は準備中",
+      "openings": [
+        {
+          "title": "2028年新卒採用 エンジニア",
+          "type": "newgrad",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "東京・福岡",
+          "summary": "28卒向けエンジニア職の新卒採用。サーバサイドやクライアント等の開発を担う。特設サイトから応募",
+          "sourceUrl": "https://ensapia.com/joinus/new-grads/",
+          "id": "5f672394d3b9",
+          "companyId": "ensapia",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "2028年新卒採用 サービスデザイナー（プランナー）",
+          "type": "newgrad",
+          "roles": [
+            "planner"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "東京・福岡",
+          "summary": "28卒向け企画職の新卒採用。サービスの企画立案から仕様設計・改善提案までを担当",
+          "sourceUrl": "https://ensapia.com/joinus/new-grads/",
+          "id": "a9fde0fa79c8",
+          "companyId": "ensapia",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【28以降卒】デザイナー職プレエントリー",
+          "type": "newgrad",
+          "roles": [
+            "artist"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "東京・福岡",
+          "summary": "28卒以降向けデザイナー職のプレエントリー（2026年7月告知）。求人情報は準備中",
+          "sourceUrl": "https://ensapia.com/joinus/new-grads/",
+          "id": "dbcb96f8d043",
+          "companyId": "ensapia",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "ensapia",
       "name": "エンセイピア",
       "tags": [
@@ -15858,11 +15961,34 @@
       "site": "https://ensapia.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:04.376Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "新卒採用は通年募集で、選考の一環として約10営業日のインターン審査あり。11月30日に開発チームのオンライン採用説明会を開催（学生も参加可）",
+      "openings": [
+        {
+          "title": "開発チーム オンライン採用説明会",
+          "type": "event",
+          "roles": [
+            "programmer",
+            "planner",
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "2026-11-30",
+          "period": "2026-11-30 19:00〜20:30頃",
+          "format": "online",
+          "location": "",
+          "summary": "Cubism/SDK・nizima開発の職務内容と採用フローを紹介する説明会。学生も参加可、質疑応答あり。締切は当日17時",
+          "sourceUrl": "https://www.live2d.jp/news/dev_seminar_202611/",
+          "id": "d95d704478e3",
+          "companyId": "live2d",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "live2d",
       "name": "Live2D",
       "tags": [
@@ -15901,10 +16027,10 @@
       "site": "https://www.dfx.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:06.644Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
-      "digest": "",
+      "digest": "VFX・モデラー等を常時募集。学生のインターンは問い合わせで受付。卒業年の記載なし",
       "openings": [],
       "id": "transistorstudio",
       "name": "トランジスタ・スタジオ",
@@ -15924,10 +16050,10 @@
       "site": "https://www.transistorstudio.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:07.615Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒のVFX・エンジニア・モデラー等を募集中（内定後に約1ヶ月の短期インターン）。卒業年の記載なし",
       "openings": [],
       "id": "spark-group",
       "name": "スパーク",
@@ -15947,10 +16073,10 @@
       "site": "https://spark-group.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:07.879Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
-      "digest": "",
+      "digest": "27卒の新卒採用は募集を終了。28卒向けの募集は未掲載",
       "openings": [],
       "id": "lunch-inc",
       "name": "ランチタイム",
@@ -15970,8 +16096,8 @@
       "site": "https://lunch-inc.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:10.137Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -15993,11 +16119,32 @@
       "site": "https://dcg-e.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:12.415Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "27卒の新卒採用は終了。CG系学生向けの3DCGデザイナーインターンを随時受付中",
+      "openings": [
+        {
+          "title": "インターンシップ（3DCGデザイナー）",
+          "type": "internship",
+          "roles": [
+            "artist"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "毎年7〜12月頃、週2〜3日・各3〜4時間、計10日前後",
+          "format": "hybrid",
+          "location": "京都スタジオ（遠方はテレワーク可）",
+          "summary": "CG系専門学校・美大生向け。MayaやMaxでキャラクターモーション等の業務フローを学ぶレッスン形式。随時募集",
+          "sourceUrl": "https://www.digisite-g.com/recruit.html",
+          "id": "7d1b3ae85e50",
+          "companyId": "digisite-g",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "digisite-g",
       "name": "デジサイトグラフィックス",
       "tags": [
@@ -16017,8 +16164,8 @@
       "site": "https://www.digisite-g.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:12.587Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -16062,8 +16209,8 @@
       "site": "https://goofees.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:14.384Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -16084,10 +16231,10 @@
       "site": "https://hinata3.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:15.572Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒を含むCGクリエイターを随時募集。卒業年の記載なし",
       "openings": [],
       "id": "katachi",
       "name": "KATACHI",
@@ -16107,10 +16254,10 @@
       "site": "https://www.katachi.tokyo/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:15.649Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
-      "digest": "",
+      "digest": "東京で新卒のプランナー・デザイナー・プログラマーを随時募集。卒業年の記載なし",
       "openings": [],
       "id": "sowhat-inc",
       "name": "So What",
@@ -16130,8 +16277,8 @@
       "site": "https://www.sowhat-inc.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:16.221Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -16197,10 +16344,10 @@
       "site": "https://www.kanaban.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:17.874Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
-      "digest": "",
+      "digest": "2027年度の新卒採用（3DCG・映像デザイナー）を掲載。28卒向けの募集は未掲載",
       "openings": [],
       "id": "grg",
       "name": "Garage",
@@ -16241,10 +16388,10 @@
       "site": "https://flmt.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:18.659Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒・未経験者向けにモデラー・CGイラストレーター等を募集。卒業年の記載なし",
       "openings": [],
       "id": "pla-neta",
       "name": "プラネッタ",
@@ -16264,10 +16411,10 @@
       "site": "https://pla-neta.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:20.028Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒のCGデザイナー・ゲームプログラマを募集。卒業年の記載なし",
       "openings": [],
       "id": "supertrickgames",
       "name": "スーパートリック・ゲームズ",
@@ -16288,11 +16435,32 @@
       "site": "https://supertrickgames.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:20.707Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "28卒向けはマイナビ2028でオープンカンパニーを受付中。職種はCGデザイナーのみ",
+      "openings": [
+        {
+          "title": "2028年度新卒 オープンカンパニー",
+          "type": "event",
+          "roles": [
+            "artist"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "CGデザイナー職のみの会社による28卒向けオープンカンパニー。マイナビ2028で受付中、VIVIVITでも面談受付",
+          "sourceUrl": "https://2011.co.jp/recruit/index.html",
+          "id": "408e3c42a5a4",
+          "companyId": "2011",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "2011",
       "name": "トゥエンティイレブン",
       "tags": [
@@ -16332,8 +16500,8 @@
       "site": "https://upc-corp.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:21.880Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -16379,8 +16547,8 @@
       "site": "https://ch-pocket.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:22.066Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -16401,10 +16569,10 @@
       "site": "https://crossfd.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:22.437Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
-      "digest": "",
+      "digest": "27新卒（京都）のイラストレーター・UIデザイナーを募集中。28卒向けは未掲載",
       "openings": [],
       "id": "techcross",
       "name": "テクロス",
@@ -16491,10 +16659,10 @@
       "site": "https://crico.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:22.777Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
-      "digest": "",
+      "digest": "27卒向けの3DCGアニメーター採用を実施中。28卒向けの募集は現在掲載なし",
       "openings": [],
       "id": "for-the-cause",
       "name": "ジャストコーズプロダクション",
@@ -16515,8 +16683,8 @@
       "site": "https://www.for-the-cause.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:23.838Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -16559,10 +16727,10 @@
       "site": "https://www.glitzvisuals.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:24.663Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
-      "digest": "",
+      "digest": "2027年度新卒採用の二次募集を掲載。28卒向けの募集は未掲載",
       "openings": [],
       "id": "spice-group",
       "name": "スパイス",
@@ -16582,10 +16750,10 @@
       "site": "https://spice-group.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:25.342Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒の3DCGデザイナー・制作進行を募集。卒業年の記載なし",
       "openings": [],
       "id": "wonderium",
       "name": "ワンダリウム",
@@ -16604,8 +16772,8 @@
       "site": "https://wonderium.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:25.983Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -16625,10 +16793,10 @@
       "site": "https://www.avant.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:26.649Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
-      "digest": "",
+      "digest": "2027年3月卒業予定者向けの新卒採用を実施中。28卒向けの募集は未掲載",
       "openings": [],
       "id": "gooneys",
       "name": "StudioGOONEYS",
@@ -16647,10 +16815,10 @@
       "site": "https://gooneys.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T08:06:26.680Z",
+      "lastChanged": "2026-11-23T08:08:16.665Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒のテクニカルアーティスト/リガーを募集しているが、対象の卒業年は記載なし",
       "openings": [],
       "id": "integral-vision",
       "name": "インテグラル・ヴィジョン・グラフィックス",

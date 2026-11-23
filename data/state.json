@@ -1,4 +1,7 @@
 {
+  "2011": {
+    "hash": "a6f7513353dac7aeb15a88e7cbd99c07b1600fff"
+  },
   "sega": {
     "hash": "a11a31518818744bbd6c2e00ee3f6e8dd09426f1"
   },
@@ -682,5 +685,98 @@
   },
   "platinumgames": {
     "hash": "519ac8a239ad3e7cf2e31bc4285df0c1373c8e53"
+  },
+  "a-lim": {
+    "hash": "e2242fd225629c52a0db06ccdcd89ee01925a412"
+  },
+  "aniplex": {
+    "hash": "2c72e5b639e10299987651f8594f98e4ba6fefe2"
+  },
+  "anycolor": {
+    "hash": "59632bbbe7cd9d873168c220ac2ee373ead419ad"
+  },
+  "appirits": {
+    "hash": "9f943753b2f8001e26cba39131411d5aeea7ce69"
+  },
+  "avant": {
+    "hash": "021610fd81a098395194c75fe19f326ce884794e"
+  },
+  "concept-lab": {
+    "hash": "88004d65e8c8d8da78ba5da5b2421631d10d7ac0"
+  },
+  "cover-corp": {
+    "hash": "b55e98798b081104caaed9fb6aeaff12ea7bab2c"
+  },
+  "crossfd": {
+    "hash": "b9d1262ae0415bf718c3d77d8046cef5c62576f4"
+  },
+  "d4a": {
+    "hash": "36b6a90be1915e38e85e2f9b779033f7a9709599"
+  },
+  "dcg-e": {
+    "hash": "7816451efde154438929b13b44ffc5f3eaf272c3"
+  },
+  "digisite-g": {
+    "hash": "215bbf8ff9edd3582fc993fd4f197c816fadcc43"
+  },
+  "ensapia": {
+    "hash": "5842ad152495695d51585b3438bce057af17ba61"
+  },
+  "esquadra": {
+    "hash": "c69e9c9089fa56d67cf846a3b5ecc346f1eae9a5"
+  },
+  "exzeal": {
+    "hash": "5d7d028ea061029a939f7c4e157aabb232d9e96e"
+  },
+  "for-the-cause": {
+    "hash": "ca867430939362bddabf27a9b8ab48d711d01330"
+  },
+  "gooneys": {
+    "hash": "298097091fd125d5bcc2df35b2804a55a77da65d"
+  },
+  "grg": {
+    "hash": "d00908d052899e8571be90a5ffc37d3957278688"
+  },
+  "hinata3": {
+    "hash": "1c18bc8c5461c6787c37403198191642461beef5"
+  },
+  "integral-vision": {
+    "hash": "be72ffaa058e538343d8dcfcee86dc1de9063aea"
+  },
+  "katachi": {
+    "hash": "ca3bf2e8203e3c2eaa212719c1d5fcc6268a68ef"
+  },
+  "live2d": {
+    "hash": "5219562374e427f9befe25d46bd8a920cb465b0c"
+  },
+  "lunch-inc": {
+    "hash": "63168f0245453887e3ecdc00ff55079687781041"
+  },
+  "marza": {
+    "hash": "4ba47704d0a83a8e272c50a79829ccf7148c545c"
+  },
+  "pla-neta": {
+    "hash": "ed399b82b38672820fe14403d75e6d867388e7a4"
+  },
+  "sowhat-inc": {
+    "hash": "81f2ae154d7850c0471dfccd7058f885a74aaab1"
+  },
+  "spark-group": {
+    "hash": "feaccbc26c489c3e08ca397fe3a0550511438abf"
+  },
+  "spice-group": {
+    "hash": "bc42237e54801a65d78dce43f83f138e8e9d5724"
+  },
+  "supertrickgames": {
+    "hash": "4a8bbd90462b9f591e37f7e48d56a5fd6f21505b"
+  },
+  "techcross": {
+    "hash": "aace30f34755d510e28211bac2d1935aa06864ed"
+  },
+  "transistorstudio": {
+    "hash": "734c3333708b0b2d21ad413aa52dea79ae9cdb90"
+  },
+  "wonderium": {
+    "hash": "a73918edae5aa0c7d4e9c68d8eef537228b822cc"
   }
 }
