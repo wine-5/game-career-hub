@@ -25,7 +25,10 @@ const RULES = {
     url: /philosophy|mission|vision|rinen|purpose|values/i,
   },
   company: { text: /企業情報|会社情報|会社概要|企業概要|コーポレート|Corporate|Company|About/i, url: /corporate|company|about|info/i },
+  salary: { text: /初任給|給与|報酬|待遇|処遇|募集要項|Salary|Compensation/i, url: /salary|requirement|youkou|guideline|outline|detail|benefit|welfare/i },
 };
+// 給与の見出し（ページの中で飛ぶ先）
+const SALARY_HEADING = /初任給|給与|報酬|月給|年俸/;
 // 採用・理念と関係の無いページ（規約・統制・社員インタビューなど）
 const NEGATIVE =
   /中途|キャリア採用|経験者|アルバイト|障がい|career(?!.*fresh)|privacy|プライバシー|個人情報|ハラスメント|harassment|governance|ガバナンス|内部統制|internal|cookie|interview|インタビュー|crosstalk|対談|社員紹介/i;
@@ -58,13 +61,13 @@ function best(pages: FetchedPage[], rule: { text: RegExp; url: RegExp }, avoid?:
 }
 
 /** ページの中から理念の見出しを探し、そこへ飛ぶ URL（#id か #:~:text=）を作る */
-function jumpTo(page: FetchedPage): string | null {
+function jumpTo(page: FetchedPage, heading: RegExp = RULES.philosophy.text): string | null {
   const $ = cheerio.load(page.html);
   let found: string | null = null;
   $("h1, h2, h3, h4, dt, th, p strong, span, div").each((_, el) => {
     if (found) return;
     const own = $(el).clone().children().remove().end().text().replace(/\s+/g, " ").trim();
-    if (!own || own.length > 30 || !RULES.philosophy.text.test(own)) return;
+    if (!own || own.length > 30 || !heading.test(own)) return;
     // パンくずや見出し部の id は理念の所ではないので使わない
     const rawId = $(el).attr("id");
     const id = rawId && !/breadcrumb|nav|header|menu|top/i.test(rawId) ? rawId : undefined;
@@ -74,6 +77,18 @@ function jumpTo(page: FetchedPage): string | null {
   const u = new URL(page.url);
   u.hash = "";
   return u.toString() + found;
+}
+
+/** 新卒の給与（初任給・待遇）が書かれている所を探す。採用ページの中か、募集要項のページ */
+async function findSalary(pages: FetchedPage[]): Promise<string | undefined> {
+  for (const p of pages) {
+    const here = jumpTo(p, SALARY_HEADING);
+    if (here) return here;
+  }
+  const link = best(pages, RULES.salary);
+  if (!link) return undefined;
+  const page = await tryFetch(link);
+  return page ? jumpTo(page, SALARY_HEADING) ?? undefined : undefined;
 }
 
 async function findPhilosophy(pages: FetchedPage[]): Promise<string | undefined> {
@@ -143,7 +158,7 @@ for (const c of data.companies) {
   const links: CompanyLinks = { ...c.links };
   const need = (k: keyof CompanyLinks) => OVERWRITE || (!links[k] && (c.enabled || k === "philosophy"));
   const needPlace = OVERWRITE || !c.locations?.length;
-  if (!need("newgrad") && !need("internship") && !need("philosophy") && c.logo && !needPlace) continue;
+  if (!need("newgrad") && !need("internship") && !need("philosophy") && !need("salary") && c.logo && !needPlace) continue;
 
   console.log(`- ${c.name}`);
   const recruit = await tryFetch(c.url);
@@ -160,6 +175,11 @@ for (const c of data.companies) {
   }
   if (need("internship")) {
     links.internship = best(pages, RULES.internship, links.newgrad);
+  }
+  if (need("salary")) {
+    // 新卒の採用ページを先に見る（給与は新卒の募集要項に書かれていることが多い）
+    const ng = links.newgrad && links.newgrad !== recruit.url ? await tryFetch(links.newgrad) : null;
+    links.salary = await findSalary([...(ng ? [ng] : []), recruit]);
   }
   if (need("philosophy")) {
     links.philosophy = await findPhilosophy(pages);
@@ -178,6 +198,7 @@ for (const c of data.companies) {
   c.links = Object.fromEntries(Object.entries(links).filter(([, v]) => v)) as CompanyLinks;
   console.log(`    新卒: ${links.newgrad ?? "—"}`);
   console.log(`    インターン: ${links.internship ?? "—"}`);
+  console.log(`    給与: ${links.salary ? decodeURIComponent(links.salary) : "—"}`);
   console.log(`    企業理念: ${links.philosophy ? decodeURIComponent(links.philosophy) : "—"}`);
   console.log(`    ロゴ: ${c.logo ?? "—"}`);
   console.log(`    所在地: ${c.locations?.join("・") ?? "—"}`);
