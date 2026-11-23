@@ -86,6 +86,28 @@ const PATHS = {
   /** 企業理念（旗） */
   philosophy: <path d="M5 21V4M5 4.5h11.5l-2.3 4 2.3 4H5" />,
   x: <path d="M6 6l12 12M18 6 6 18" />,
+  /** 選考の記録（クリップボード） */
+  tracker: (
+    <>
+      <rect x="5" y="4" width="14" height="17" rx="2" />
+      <path d="M9 4V3h6v1M9 10l1.5 1.5L14 8M9 16h6" />
+    </>
+  ),
+  plus: <path d="M12 5v14M5 12h14" />,
+  trash: <path d="M4 7h16M10 7V4h4v3M6 7l1 13h10l1-13M10 11v6M14 11v6" />,
+  doc: (
+    <>
+      <path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8Z" />
+      <path d="M14 3v5h5M9 13h6M9 17h4" />
+    </>
+  ),
+  calendar: (
+    <>
+      <rect x="3" y="5" width="18" height="16" rx="2" />
+      <path d="M3 10h18M8 3v4M16 3v4" />
+    </>
+  ),
+  arrow: <path d="M5 12h14M13 6l6 6-6 6" />,
 } satisfies Record<string, ReactElement>;
 
 export type IconName = keyof typeof PATHS;
