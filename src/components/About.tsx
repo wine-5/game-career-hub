@@ -58,6 +58,7 @@ export function About({ model, targetYear }: { model: string | null; targetYear:
       <ul className="notes">
         <li>AI の読み取りには誤りがあります。日付や条件は必ず公式ページで確認してください。</li>
         <li>載せているのは要約とリンクだけです。本文は各社の公式ページをご覧ください。</li>
+        <li>どの情報にも「出典」のリンクを付けています。読み取った元のページで内容を確かめられます。</li>
         <li>自動アクセスを断っているサイトは対象にしていません。</li>
         <li>見るだけならログインは要りません。☆ のお気に入りを保存するときだけログインします。</li>
         {model && <li>読み取り: {model === "claude-code" ? "Claude Code" : model}</li>}
