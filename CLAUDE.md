@@ -15,6 +15,7 @@
 3. 整理する: `.work/todo.json` の `todo` の会社ごとに
    - `pagesFile` を読み、**`crawler/EXTRACTION_RULES.md` の決まりに従って** `extractedFile` に JSON を書く
    - 会社が 6 社を超えるときは、サブエージェントに数社ずつ分けて並行で整理させてよい（決まりの文書のパスと、担当する pagesFile / extractedFile を渡す）
+   - 監視する会社は 200 社を超える。初回や「全部読み直して」のときは変化ありが数百社になるので、1 つのサブエージェントに 15〜20 社ずつ渡し、何回かに分けて回す（途中で `npm run apply` してよい。取り込んだ会社は次の collect で「変化なし」になる）
    - ページに学生向けの募集が無ければ `{"digest": "", "openings": []}` を書く（書かないと次回また出てくる）
 4. 取り込む: `npm run apply`
    - 形の誤りが出たら、その会社の JSON を直して `npm run apply` をもう一度
