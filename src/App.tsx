@@ -169,7 +169,7 @@ export function App() {
                 <div className="cards">
                   {shown.map((o) => {
                     const c = companies.get(o.companyId);
-                    return c ? <OpeningCard key={o.id} o={o} company={c} /> : null;
+                    return c ? <OpeningCard key={o.id} o={o} company={c} role={role} /> : null;
                   })}
                 </div>
               </div>

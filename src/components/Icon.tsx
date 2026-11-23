@@ -108,6 +108,25 @@ const PATHS = {
     </>
   ),
   arrow: <path d="M5 12h14M13 6l6 6-6 6" />,
+  /** 選考の段階（エントリー・作品・課題・試験・GD・面接・内定） */
+  send: <path d="M21 3 3 10.5l7 2.5 2.5 7L21 3ZM10 13l4-4" />,
+  image: (
+    <>
+      <rect x="3" y="4" width="18" height="16" rx="2" />
+      <circle cx="9" cy="10" r="2" />
+      <path d="m21 16-5-5-9 9" />
+    </>
+  ),
+  code: <path d="m8 7-5 5 5 5M16 7l5 5-5 5M14 4l-4 16" />,
+  edit: <path d="M4 20h4L19 9l-4-4L4 16v4ZM13 7l4 4" />,
+  users: (
+    <>
+      <circle cx="9" cy="8" r="3.5" />
+      <path d="M2.5 20c0-3.6 2.9-6.5 6.5-6.5s6.5 2.9 6.5 6.5M16 4.8a3.5 3.5 0 0 1 0 6.4M18 13.8c2 .9 3.5 3 3.5 6.2" />
+    </>
+  ),
+  chat: <path d="M4 5h16v11H9l-5 4V5ZM8 9h8M8 12h5" />,
+  trophy: <path d="M8 4h8v5a4 4 0 0 1-8 0V4ZM8 6H4v1a3 3 0 0 0 4 2.8M16 6h4v1a3 3 0 0 1-4 2.8M12 13v4M8 20h8M9.5 17h5" />,
 } satisfies Record<string, ReactElement>;
 
 export type IconName = keyof typeof PATHS;

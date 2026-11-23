@@ -1,5 +1,5 @@
 import type { CSSProperties } from "react";
-import type { CompanyResult, Opening } from "../types.ts";
+import type { CompanyResult, Opening, Role } from "../types.ts";
 import { FORMAT_LABEL, ROLE_LABEL, TYPE_LABEL } from "../types.ts";
 import { daysUntil, formatDate, ROLE_COLOR, statusOf, STATUS_LABEL, todayJst } from "../lib/util.ts";
 import { useAuth } from "../lib/auth.tsx";
@@ -7,6 +7,7 @@ import { Icon } from "./Icon.tsx";
 import { CompanyLogo } from "./CompanyLogo.tsx";
 import { CompanyLinks } from "./CompanyLinks.tsx";
 import { GameStrip } from "./GameStrip.tsx";
+import { FlowSteps } from "./FlowSteps.tsx";
 import { TrackButton } from "./TrackButton.tsx";
 
 /** 募集の種類に合わせた飛び先（新卒なら新卒採用ページ、インターンならインターンページ） */
@@ -16,7 +17,7 @@ function primaryLink(o: Opening, c: CompanyResult) {
   return { url: o.sourceUrl, label: "詳細ページへ", hide: undefined };
 }
 
-export function OpeningCard({ o, company }: { o: Opening; company: CompanyResult }) {
+export function OpeningCard({ o, company, role = "all" }: { o: Opening; company: CompanyResult; role?: Role | "all" }) {
   const auth = useAuth();
   const fav = auth.favorites.has(o.id);
   const status = statusOf(o);
@@ -48,7 +49,7 @@ export function OpeningCard({ o, company }: { o: Opening; company: CompanyResult
   return (
     <article className={`card card--${status}`}>
       <header className="card__head">
-        <CompanyLogo company={company} size={40} />
+        <CompanyLogo company={company} size={40} href={company.site ?? company.url} />
         <div className="card__company">
           <p className="card__company-name">{company.name}</p>
           <p className="card__tags">
@@ -97,6 +98,8 @@ export function OpeningCard({ o, company }: { o: Opening; company: CompanyResult
           <Icon name="clock" size={13} /> 日程は公式ページで確認してください
         </p>
       )}
+
+      <FlowSteps flow={o.flow} role={role} />
 
       <GameStrip companyId={company.id} />
 
