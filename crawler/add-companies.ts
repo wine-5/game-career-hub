@@ -2,7 +2,7 @@
 // 新卒・インターンの言葉が採用ページに無い会社は、一覧には載せるが収集の対象外（enabled: false）にする。
 //
 //   npm run add-companies -- <候補の JSON> [--tags=開発会社,札幌] [--locations=北海道]
-//   候補の JSON: [{ "name": "株式会社〇〇", "site": "https://example.co.jp/", "tags": ["モバイル"] }, ...]
+//   候補の JSON: [{ "name": "株式会社〇〇", "site": "https://example.co.jp/", "tags": ["モバイル"], "pref": "東京" }, ...]
 import { readFile } from "node:fs/promises";
 import type { CompanyEntry } from "../src/types.ts";
 import { fetchPage, isAllowed, type FetchedPage } from "./fetch.ts";
@@ -12,6 +12,8 @@ interface Candidate {
   name: string;
   site: string;
   tags?: string[];
+  /** 分かっていれば本社・スタジオの都道府県（「東京」「北海道」） */
+  pref?: string;
 }
 
 const argv = process.argv.slice(2);
@@ -95,7 +97,9 @@ for (const cand of candidates) {
     url: site.toString(),
     site: site.origin + "/",
     enabled: false,
-    ...(presetLocations ? { locations: presetLocations } : {}),
+    ...(presetLocations || cand.pref
+      ? { locations: [...new Set([...(presetLocations ?? []), ...(cand.pref ? [cand.pref.replace(/[都府県]$/, "")] : [])])] }
+      : {}),
   };
 
   const top = await tryFetch(site.toString());
