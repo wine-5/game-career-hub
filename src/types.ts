@@ -49,6 +49,14 @@ export interface Opening {
   firstSeen: string;
 }
 
+/** 会社ごとの飛び先（新卒採用・インターン・企業理念） */
+export interface CompanyLinks {
+  newgrad?: string;
+  internship?: string;
+  /** 企業理念が書かれている所まで飛ぶ URL（#:~:text= で見出しへ飛ぶ） */
+  philosophy?: string;
+}
+
 export interface CompanyEntry {
   id: string;
   name: string;
@@ -56,6 +64,9 @@ export interface CompanyEntry {
   url: string;
   enabled: boolean;
   note?: string;
+  links?: CompanyLinks;
+  /** public/assets/ からの道（例: logos/sega.png） */
+  logo?: string;
 }
 
 export interface CompanyResult {
@@ -65,6 +76,8 @@ export interface CompanyResult {
   url: string;
   enabled: boolean;
   note?: string;
+  links?: CompanyLinks;
+  logo?: string;
   /** 最後に見に行った日時（ISO） */
   lastChecked: string | null;
   /** ページの中身が最後に変わった日時（ISO） */

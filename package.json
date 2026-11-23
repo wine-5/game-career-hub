@@ -13,6 +13,7 @@
     "collect": "tsx crawler/collect.ts",
     "apply": "tsx crawler/apply.ts",
     "crawl:api": "tsx crawler/crawl.ts",
+    "sync": "tsx crawler/sync.ts",
     "check-urls": "tsx crawler/check-urls.ts"
   },
   "dependencies": {
