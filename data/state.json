@@ -4,5 +4,659 @@
   },
   "colopl": {
     "hash": "384ae810f157bfb7720d6520c0dfc4a27e72d941"
+  },
+  "1-up-studio": {
+    "hash": "81949a12c96ce8408e0d18576b780f40e4efb153"
+  },
+  "8-4": {
+    "hash": "f494a77765778dca1b23e84c6e04952b61bf3b1d"
+  },
+  "8ing": {
+    "hash": "4f1eed7efbd97b9565c76f35a5e5e8084f8b4b59"
+  },
+  "a-tm": {
+    "hash": "b3de28a94a23ba439033679b8e1854d3966f8e32"
+  },
+  "accessgames": {
+    "hash": "9ceb860d31962abe72b882416362d9f2757f1a32"
+  },
+  "acquire": {
+    "hash": "c037b5c2520b1903ccb6222e332c13bedac67c61"
+  },
+  "aiming": {
+    "hash": "3df32f2cc299b6070bf6562a4a5c84bb44b489e7"
+  },
+  "alvion": {
+    "hash": "6136cfff2e012aa174fe8f52947088c924d0dd91"
+  },
+  "amata": {
+    "hash": "7f72b316a9fbe8a0a85d4a0d24855adfbad72fb2"
+  },
+  "amzy": {
+    "hash": "ca6196cd919707af6c07d5d933476d761f7cb32b"
+  },
+  "angoo": {
+    "hash": "5b1fa6b293db02228e6bac37f4068c0675c76f65"
+  },
+  "applibot": {
+    "hash": "8dd85625904e473391fe07762f5057b4792d8b2f"
+  },
+  "aqua-star": {
+    "hash": "f824beaf51fc2aac64c106d839585f21f0f0fe33"
+  },
+  "aquaplus": {
+    "hash": "078a899baf62bea62145e1f66ef6d139e73015fc"
+  },
+  "arika": {
+    "hash": "3891761b6df48f88d3826dc57cf6556d75d8445c"
+  },
+  "artdink": {
+    "hash": "e76e534b5a1cfd7ae72ac42906e15e03214fdaf6"
+  },
+  "ashibi": {
+    "hash": "1071608f8b3c5a2a9de1c1187d4ea93f20c1f33e"
+  },
+  "atlus": {
+    "hash": "4e66ada7b083907cfa8c71d0eeaecc47d271e78d"
+  },
+  "auryn": {
+    "hash": "11d3a58d8ef1c24c30c45f15d89704b9f1d19f57"
+  },
+  "bandai-namco-studios": {
+    "hash": "456fc0141b4aabdeb8134f6511106d6dda9ad938"
+  },
+  "bee-tribe": {
+    "hash": "d9711616709caea726295df1dfab1e7f5bd77e46"
+  },
+  "beyondjapan": {
+    "hash": "ccce5ebffb6a2067c03efccedd729a3bf5132610"
+  },
+  "bitgroove": {
+    "hash": "f6a6bb3dd49d932b8d6557fd826ed1ff4f638f4c"
+  },
+  "boi": {
+    "hash": "8514186dc1c44456615f20763f3ed3c3af04ad55"
+  },
+  "bullets": {
+    "hash": "707fb70d3bcb3338606019435f0e1247e3b222cc"
+  },
+  "bushiroad": {
+    "hash": "5d71bb5b797735bc16192a0e0dd236b071d9d609"
+  },
+  "byking": {
+    "hash": "a87298ae4e2a7104cdc9e0ff6ecf41ee327b2358"
+  },
+  "c4on": {
+    "hash": "c73bfe5f492dc8f9fd0c8848a5bbb6a1f84c1817"
+  },
+  "caproduction": {
+    "hash": "88b2c667f9b52c5bf7f8627a10fee58d556571ea"
+  },
+  "cave": {
+    "hash": "a7a5cfe7b7dae86658d52273df2f38e0d4db76ca"
+  },
+  "cc2": {
+    "hash": "0c506526eac5e3a6bf188cef328ab33f20ec71dd"
+  },
+  "claphanz": {
+    "hash": "4b57a17fcee22eb78cc3777a9788d997e1a5cadd"
+  },
+  "claytechworks": {
+    "hash": "b3b3be94f511cdce7039caaf77c751181520a4d6"
+  },
+  "colorfulpalette": {
+    "hash": "2dedde01f832a8f356d0a350436d0621f2084608"
+  },
+  "colyinc": {
+    "hash": "912f33c344143dea850c58d04002ea19f774060b"
+  },
+  "cosmomachia": {
+    "hash": "1ed7b2ee7b3b8a3e4a2ac285751bdb174df52005"
+  },
+  "crafts-meister": {
+    "hash": "56628421876cc1cc37ca9516439640faf60da772"
+  },
+  "creativeplus": {
+    "hash": "27708a29a20f3a451b0aa264fc9629fffbb343f0"
+  },
+  "creatures": {
+    "hash": "1ab3c077b3a925ea0a64b4660021fb43bd3a1264"
+  },
+  "cri-mw": {
+    "hash": "8d8fcfc0179cb04ebad098063fc992958861dca7"
+  },
+  "cross-games": {
+    "hash": "b688cf0f8b6be966d66a455586805a70a1b243e9"
+  },
+  "crossplus-studio": {
+    "hash": "c4264261e3dfe53a1a8720b7203dfac65f132d21"
+  },
+  "crypton": {
+    "hash": "ea645f264c2f5e17bcd3f0edf5fe5b26fc435678"
+  },
+  "cshd-cyberstep": {
+    "hash": "94281ed7bbf1a57f7faa32705221615e85449ed3"
+  },
+  "cyberagent": {
+    "hash": "4f8e65fc417fa98789b4577d70ca2af0a774a0c9"
+  },
+  "cybird": {
+    "hash": "c2a888784b670a34d9d196c84ab65b28e235d0e7"
+  },
+  "d-o-inc": {
+    "hash": "0393574bb2119fa114c759d41d84bd1eb9e0aa41"
+  },
+  "dag-inc": {
+    "hash": "d4690e6e2c27504ccc0a3ac9c1ba5c9e66c7a837"
+  },
+  "dank-hearts": {
+    "hash": "9eb99afb789c8a57a5155349e3dc186166f57c07"
+  },
+  "dena": {
+    "hash": "9af1e2a6a21393e9ca62465c910e1e3127571c77"
+  },
+  "dico4u": {
+    "hash": "fca741c6eddac1040efb07e936d10e9e8fa78b8b"
+  },
+  "dml": {
+    "hash": "fcd34b405caf99a33fc26384aeab4a897e41651c"
+  },
+  "donuts": {
+    "hash": "a953abd70f44a471365164770d7757019da5529a"
+  },
+  "dragamigames": {
+    "hash": "2d4b30072ae5927202f2887c4f37fce2200ed4fb"
+  },
+  "edia": {
+    "hash": "65830e85310c10d0ecfb6f0f6d514c6961b164ce"
+  },
+  "engi-st": {
+    "hash": "17b93cd038c9c00613033f82af3471be224410e6"
+  },
+  "enish": {
+    "hash": "1f1c044b8309881942f086847c70e2cdd4435a25"
+  },
+  "epics-gogo": {
+    "hash": "26cf869c249c2d441ec696419eb5914c865cb8af"
+  },
+  "exdesign": {
+    "hash": "e3e6dd37e4781ec01e12abfc84e9e26ed16a98ba"
+  },
+  "exsa": {
+    "hash": "b6674bbbbcb39702add31c000fb827c35441d17b"
+  },
+  "f4samurai": {
+    "hash": "366e405592b0882b9c0e115b3458dcf16fe9e55b"
+  },
+  "flamehearts": {
+    "hash": "f6d056c7ae2e12eebc2a710164ef4a0e41166f83"
+  },
+  "fnl": {
+    "hash": "7728cf98bca14405f40fb4a11a511bbb73b17fa9"
+  },
+  "freestyles": {
+    "hash": "ebbf77023cb81da2bd77dd151b839b22ffebcc83"
+  },
+  "furyu": {
+    "hash": "ebfac0ac7f1cf62af3e3d54df35902865bd3e2e6"
+  },
+  "g-angle": {
+    "hash": "a67d52fcc3bc17fb29b3cb241862ff431f0b3775"
+  },
+  "g-rounding": {
+    "hash": "c77db12feb8080008b307b846036c78a5d17cf33"
+  },
+  "g2-studios": {
+    "hash": "f4aafb80cbeed48ccb1f5934299803656cea368c"
+  },
+  "game-freak": {
+    "hash": "10aeade0b3e8c5ab48ce4fb7034cb968ea661475"
+  },
+  "game-mba-international": {
+    "hash": "3e1b67b7fce2cf3f8d9c1237a178056072a510c4"
+  },
+  "games-aktsk": {
+    "hash": "4d1e324b9b8c26aead6bb22b0b007c1fee115233"
+  },
+  "ganbarion": {
+    "hash": "7f311e947b8c66d4a9b9237e64e49475a9c4a8bc"
+  },
+  "gascoin": {
+    "hash": "95b4cbf6c88c1dab5f9b2bc8e213651e9c463cdb"
+  },
+  "gbj": {
+    "hash": "eaf3a1208a0381a201ddbfbf167e0b8687eb6f35"
+  },
+  "gchoice": {
+    "hash": "14af57dd70ecc220af29a39d5b75a11bd86b3e1f"
+  },
+  "geeplus": {
+    "hash": "69320e69ecd29a4b8219cd2d1e8c3025f729980c"
+  },
+  "geeq": {
+    "hash": "32c3d676fca4e901e34697a4fcb4846e0b1a46db"
+  },
+  "gemdrops": {
+    "hash": "ac5d679e9d7d784fa469e81c5630463512bb32e2"
+  },
+  "gendesign": {
+    "hash": "3c4c8e43e05d26d5d0065d24bd8dccb89044f1e5"
+  },
+  "genki": {
+    "hash": "d46f9c9d2884d50b1fe027a8bbf064c539266b96"
+  },
+  "gl-inc": {
+    "hash": "6afd2ad7d0bcf99668fd289fde1934dedd052d2d"
+  },
+  "gnmd": {
+    "hash": "7d822ef432220a51241921e99d36d8669c6d372a"
+  },
+  "good-feel": {
+    "hash": "68b249ca319c567e116c4010b03daaa45fb97f4c"
+  },
+  "grasshopper": {
+    "hash": "b48a6eacf697e1394300f184587e7e6fe2ace2ef"
+  },
+  "gree": {
+    "hash": "300d280a33794a5a455be80c36eded3d5ee3e6da"
+  },
+  "grenge": {
+    "hash": "f6a5dfc28f17d119256237671a90f8474fee0b94"
+  },
+  "gs2": {
+    "hash": "1101bca6154b8a0c9fd032aa02c2693e7020b6f8"
+  },
+  "gstyle": {
+    "hash": "acce9271e2a5aec0b488ea81179654112f7d4fb3"
+  },
+  "gungho": {
+    "hash": "5cd748ce311bb2f2f3b7f1417d7003463155ef4b"
+  },
+  "guru-guru": {
+    "hash": "eeacbc5c61cae15f2c07187b9856ca570399a8f9"
+  },
+  "gzeal": {
+    "hash": "5008c0db9f9d10dd7e47fdc85a21e612fdd2c9d5"
+  },
+  "hallab": {
+    "hash": "9320900b80f7a8c6e4bd974827b811f057b04831"
+  },
+  "happinet": {
+    "hash": "690b0f05c8bfec6dc821499c37cdddcdb5daf8b7"
+  },
+  "headlock": {
+    "hash": "14afda82244fa317e5a6b18e848cf9ac6622b773"
+  },
+  "hexadrive": {
+    "hash": "e35c5173d1cf58e2327069a2991a1f0cc55b860c"
+  },
+  "hike": {
+    "hash": "a74acad03504ec8c8d4dde6a184ecc6aed20f2ab"
+  },
+  "historia": {
+    "hash": "4c212e6b62b84f678ff292cd875b50eadf32c779"
+  },
+  "hit-point": {
+    "hash": "f305e96a4b0d9ee68c940f50081cdc5f4100e904"
+  },
+  "hyde": {
+    "hash": "66053789c53fcda88b311d67677359e9f2115a41"
+  },
+  "ilca": {
+    "hash": "dac19fec2edb5d9842fa65b89227f9342043d7cb"
+  },
+  "indie-us-games": {
+    "hash": "c76e415b46fb155c6aac4c2eb621e0a06630c948"
+  },
+  "indieszero": {
+    "hash": "d41eeca24bf690ef1be18e637505bc8fbbe1afa6"
+  },
+  "infiniteloop": {
+    "hash": "211e86f187e0577b85a56866d11aeb35edc56f05"
+  },
+  "intsys": {
+    "hash": "f0129a31f255aa8541bc0583d47382ee07c1ab8e"
+  },
+  "jetstudio": {
+    "hash": "0815c5856e13b977fa7a8ad3d11060ce7dd08d9b"
+  },
+  "jinjabukkaku-online": {
+    "hash": "0909a2313142f4d8be55b9fbd6ca0c3b800a592f"
+  },
+  "jpgamesinc": {
+    "hash": "81532e05f9da5aa85028e1443240a3bcd835a9f6"
+  },
+  "jupiter": {
+    "hash": "d4fe48773d885bd8265db2564d276028f36f2fb1"
+  },
+  "k2-games": {
+    "hash": "12a14db0cd65855ec676770e83c72da52950c7e3"
+  },
+  "kairosoft": {
+    "hash": "fa3aca7cae62cd86a3672dc9f108bd04b5bbcffc"
+  },
+  "kayac": {
+    "hash": "f3122d7b3fa1dbf6148d000f3d20dc4fdde4c87a"
+  },
+  "kayacpolaris": {
+    "hash": "6f8e988ec1bc472269ca17dd802a3e371400b6fd"
+  },
+  "kemco": {
+    "hash": "f5ec88e76e1e059b5c2f1689a7d824076bc87070"
+  },
+  "keywordsstudios": {
+    "hash": "da44e207ee0fa993275c118349af4928cf08a3d0"
+  },
+  "kingpawn": {
+    "hash": "30d7c73a32da50e44a05f4f8e60e4ea6cbc6390c"
+  },
+  "kms3": {
+    "hash": "c4ed694940e87990ae9c28140c22141c82e07b94"
+  },
+  "koei-tecmo": {
+    "hash": "31ce498dd0604734ef7b7604c2c1a5a1470259b9"
+  },
+  "kogado": {
+    "hash": "1d6f16f98dceb96e3e0d25bbba7dd4005222637f"
+  },
+  "komodo": {
+    "hash": "76dee704ff2f66221b40e8b898465eda40dde189"
+  },
+  "konami": {
+    "hash": "fe8f52ca0b85d62a88602316fdd58c2d7898e786"
+  },
+  "ksol": {
+    "hash": "28b01bb537ee48677ab09d8bdeefc8336433c00e"
+  },
+  "kw-games": {
+    "hash": "e57dd4c1a631fbcdbfe8f3264c5733cc7a9974f2"
+  },
+  "lab-bandainamco-am": {
+    "hash": "abd242fa7756a45ec2647509942e2da7a77b6e2e"
+  },
+  "landho": {
+    "hash": "7fc30e70b792edfb418b1b49c653b1c1774ed03d"
+  },
+  "lasengle": {
+    "hash": "82d83c253580c53514deb234ff4a6a4d2ca85b71"
+  },
+  "level-5": {
+    "hash": "6c7923dd197dfe8f91bb82ac73fce7d1698947b7"
+  },
+  "logicalbeat": {
+    "hash": "e939efeb5371f8823bb4cda2d5b344fb87759256"
+  },
+  "marioclub": {
+    "hash": "09b4d13f502e22be4fb7372eb513e41fef6c8be7"
+  },
+  "marvelous": {
+    "hash": "7bc479fac0d9fbd4afbcc6267b2b385487d07a27"
+  },
+  "masterpiece": {
+    "hash": "0871ca630210925a5f9faa327817e47260d45d99"
+  },
+  "matrixsoft": {
+    "hash": "bf015166b9dbb4051412c39312bf434bf5d812c0"
+  },
+  "mediamagic": {
+    "hash": "eb2979ede51afeefac67d3076deb88feb6b17d18"
+  },
+  "metasight": {
+    "hash": "e114c49f7486951ef99b48ab47c009bcae40913f"
+  },
+  "meteorise": {
+    "hash": "ec0a95c6bdc8adefc844adf293711127af758d35"
+  },
+  "metro-japan": {
+    "hash": "d03fee32d656c03b9e2431f2545bd2caa3d38deb"
+  },
+  "micronetclub": {
+    "hash": "e0f19769d087539720a5d084ab2cf59e74e62c2f"
+  },
+  "mirrativ": {
+    "hash": "8c87d70e4920cbd0b2b6d6f1f51ec0c99c889908"
+  },
+  "mixi": {
+    "hash": "88325bb479b9cfd3e3407d8e8050eb4ca75382c1"
+  },
+  "mkitchen": {
+    "hash": "6400cb6cccf6e3e4b30ad86627cbc4afa7494ed0"
+  },
+  "monoai": {
+    "hash": "2e089390434d64cdd18bb50876d0e7ca9cf1eb56"
+  },
+  "monolithsoft": {
+    "hash": "0c1d75be4534cf5525aabec8c5de843765889b79"
+  },
+  "mossjp": {
+    "hash": "3562a14de6ff754ab645d98b8d58e3ced65413b9"
+  },
+  "mutan": {
+    "hash": "6a17a63df25566e383ee99eb4401b118a797b046"
+  },
+  "nestopi": {
+    "hash": "065c92dfd790aa4a1309d9597c1263b82f7c5acb"
+  },
+  "neuron-age": {
+    "hash": "be87c794567dedb97cd435e744222d8bde615ba5"
+  },
+  "nhn-playart": {
+    "hash": "c09816e6ab05cd0860c2b6e72bfbbbdf45ca15c6"
+  },
+  "nintendo": {
+    "hash": "df95112f9711afbe79f77760d6e29b4172cd07d1"
+  },
+  "nintendo-cube": {
+    "hash": "39b59543e51a3a9d59e1a2e5f6a74c5e815cdeb5"
+  },
+  "nippon1": {
+    "hash": "20d02c8f0cc3b351ef6eb2d2f50bb385f943450d"
+  },
+  "nowpro": {
+    "hash": "69ad0587a8fd74ef7a66021e60dbee4c6089260f"
+  },
+  "one-or-eight": {
+    "hash": "fe7dc090a2039076473924ac3847a4b2a7dc8b8f"
+  },
+  "orca-inc": {
+    "hash": "5ee07ea051bd0169ae094b6d6a18cad87cfaca60"
+  },
+  "orgesta": {
+    "hash": "856adf678cdfc47d7ce3cf33594b7d8f80e56373"
+  },
+  "otwo": {
+    "hash": "cea5642aae7f0d923ce94cfdeb260fe3de711d3e"
+  },
+  "paon-dp": {
+    "hash": "79952413ab70144371a92e6bd7a96b24b179e97d"
+  },
+  "picola": {
+    "hash": "64b279f71e4d8a9bdd03c7f319625432d93086c1"
+  },
+  "polygonmagic": {
+    "hash": "f96fded072bf25ba56039b094ee347e4b28a2d0e"
+  },
+  "polyphony": {
+    "hash": "a3d4baabc3854e5977b3ba3d380593745e7106fa"
+  },
+  "ponos": {
+    "hash": "5383ed157559632c624dca21491432dac3a5cf10"
+  },
+  "psoft": {
+    "hash": "dd1c7bef6d63b0c56cfd7c1ed5b7f080cb957574"
+  },
+  "purmoe-design-lab": {
+    "hash": "14e4bed21c5abdcada1cd67ff031075c7276c206"
+  },
+  "q-games": {
+    "hash": "67f431f858f85d9bdb68457d2117a05131733253"
+  },
+  "qmax": {
+    "hash": "bb99b0694eff3dc2d1bbd18c79c5cb82ebf966ea"
+  },
+  "qualiarts": {
+    "hash": "792194b2f510738a9eeab4dc466459bbd62eb1b5"
+  },
+  "r-force": {
+    "hash": "5a67ec7c43671aa556804ccdaab901986b72ec3d"
+  },
+  "racjin": {
+    "hash": "ee4c5da1e6680f3e2ccfb2644f065941c0747c30"
+  },
+  "regista": {
+    "hash": "e21a051725da30c63f3737d6aa38428e41d5b9d8"
+  },
+  "rengame": {
+    "hash": "9cd765265e18fb4b78de3ea6753c0908adb2af9c"
+  },
+  "room6": {
+    "hash": "8085c04f1926332bceaec9bda66dd38de10e9ed3"
+  },
+  "rudel": {
+    "hash": "b8b551294e2d23aa3f48e5e69e42295b07182605"
+  },
+  "safarigames": {
+    "hash": "e92ee98c4ad2300e20b171e579467f0fa5b07a6a"
+  },
+  "sas-sakata": {
+    "hash": "f7709edcf3b78bfc56d6a7ee6e42bec3d6c26adb"
+  },
+  "sas-tokyo": {
+    "hash": "5edb59a5f7d406238c8d2b2a36a3b1e5ff2a8e22"
+  },
+  "se-ec": {
+    "hash": "c2367c771137d7893038e8f8d8b49f6c747accd6"
+  },
+  "sega-sapporo-studio": {
+    "hash": "005874bc817053e9cebff45aef43e7839a3a89f7"
+  },
+  "shift-gr": {
+    "hash": "080664e88a2435367989bed22a1219fe5bce6f68"
+  },
+  "shiftinc": {
+    "hash": "533c795401fdc18150e3baf91e1315e7dff32e31"
+  },
+  "smileaxe": {
+    "hash": "1da0404365a93a00fedcd293d8b5db0f96fea396"
+  },
+  "smileboom": {
+    "hash": "56ae555611b676c12cc2b78225261f011df2f288"
+  },
+  "snk-corp": {
+    "hash": "1fc7071cd63cd1490ec42e7b40d61bd314f0e2de"
+  },
+  "soft-gear": {
+    "hash": "e6544be4bd7447127c7c4767c4e17e9b148baca6"
+  },
+  "sonyinteractive": {
+    "hash": "c172a0f26e59a4e0384176dbca57cdebf259f16b"
+  },
+  "spike-chunsoft": {
+    "hash": "d66230309fbdd2cc6d02ce91a98f83bb1e64d3d6"
+  },
+  "square-enix": {
+    "hash": "61cd694989116c100234531e35efa90f93e75d09"
+  },
+  "ss-beta": {
+    "hash": "353c39d927fc64818365090cc4bdf88ac280d06a"
+  },
+  "ssl-media-vision": {
+    "hash": "e8b56821bd683c1a8876bccccb5220cb75cb1b36"
+  },
+  "studio51": {
+    "hash": "a43bc3ee4405fdbdcd5b556d3de511310db70340"
+  },
+  "sublimation": {
+    "hash": "de6c204ee014c1bf74ebf1958333b79232b875ca"
+  },
+  "sugarcut": {
+    "hash": "618ed6c50f9db043d527f2bb4121156db0b95237"
+  },
+  "summer-time-studio": {
+    "hash": "733432a9b30ebe066192c384bfe39076d456a44e"
+  },
+  "sumzap": {
+    "hash": "4c3aa823fee11a034f06082385e03080bd771442"
+  },
+  "sun-denshi": {
+    "hash": "a5290c76d31dfa928a2c3c94b9e8d8c99f508b97"
+  },
+  "syn-game": {
+    "hash": "8de0232e51c3298e18620b13b8876b4a48913b0b"
+  },
+  "syn-sophia": {
+    "hash": "325d2065cd9b6ace67435df5461fb7992e713368"
+  },
+  "taito": {
+    "hash": "dfb0a51a6300c9f0748e0f920766106c580ccc42"
+  },
+  "tamsoft": {
+    "hash": "841f6297bf6e821b1a02220eca3110885445c8b9"
+  },
+  "thinklogic": {
+    "hash": "fdd9dee0d4cc71852c02e3f07d354b2126ab1600"
+  },
+  "three-rings": {
+    "hash": "0c6d4e21f7ea4782fc893a4991ee6c14bacf3b5e"
+  },
+  "tomcreate": {
+    "hash": "656cda05eb2e31ef5fb5cfb9f9c239a589fa8586"
+  },
+  "tose": {
+    "hash": "da9361c50d6713d07cf77f551017369684c01773"
+  },
+  "toydea": {
+    "hash": "0e9d92cf959fb5449b5b5716560de36f54f12599"
+  },
+  "toylogic": {
+    "hash": "a647ad38baf6367111080abdd21dda5c517762fd"
+  },
+  "tri-ace": {
+    "hash": "6f693a5155187d9bb600ec8beae9db0fe77a2b43"
+  },
+  "trisys": {
+    "hash": "6459f4dc85d158d3955e097ec63a73266181dc49"
+  },
+  "upper-ground": {
+    "hash": "bc7d373357f4fe6116b98d1faada6fc8fed447c8"
+  },
+  "va-sa-ra": {
+    "hash": "db136b33d412e4674215b4026a10e7c96c794a54"
+  },
+  "virtuosgames": {
+    "hash": "87f07ac13ac0ccea47a7e00c0db4928ab8b99f80"
+  },
+  "visual-arts": {
+    "hash": "2d3e81a4715dd1e11f0afe78adc27b959634ad1a"
+  },
+  "wfs": {
+    "hash": "36e69e515e555924723a07507c0112600e5937c0"
+  },
+  "will-net": {
+    "hash": "06af72dba54125de9c96819ab6ebb121d366982d"
+  },
+  "winlight": {
+    "hash": "170ba9a1792b68cf48eef961219aa74ca21a7643"
+  },
+  "winning-ent": {
+    "hash": "b75310ee25f8ab14908d566053e5d009515aff54"
+  },
+  "wizardsoft": {
+    "hash": "9870c98da42c99ed125486cccc3061be6eaec534"
+  },
+  "wonderpla": {
+    "hash": "a519877974a97824214ee810d21f65026e8324b2"
+  },
+  "xeen": {
+    "hash": "7248c609f78c1856a0e2ed8d2950b02c6b7e4e64"
+  },
+  "yukes": {
+    "hash": "41a9b165b6665d2ea1e4dade13221d419a74c2de"
+  },
+  "zoo": {
+    "hash": "a14352f7e17d7855a6a646be2e6f86868427eae5"
+  },
+  "zuiki": {
+    "hash": "0826d9b07d53602e6dcfa756d769c7f6a5421b24"
   }
 }

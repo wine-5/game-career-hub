@@ -1,13 +1,54 @@
 {
-  "updatedAt": "2026-11-23T04:45:48.677Z",
+  "updatedAt": "2026-11-23T07:51:25.885Z",
   "model": "claude-code",
   "companies": [
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:44:40.774Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "28卒向けにコミック編集職の就業型インターンを掲載。12月開催の生成AIゲーム開発ハッカソンも募集中。",
+      "openings": [
+        {
+          "title": "【2028年度向け】コミック編集職 就業型インターンシップ",
+          "type": "internship",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "28卒向けのコミック編集職の就業型インターンシップ。",
+          "sourceUrl": "https://www.jp.square-enix.com/recruit/fresh/intern/",
+          "id": "7ea60f98d962",
+          "companyId": "square-enix",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【12月開催】急募！生成AIを組み込んだ新規ゲーム開発ハッカソン",
+          "type": "internship",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "2026年12月",
+          "format": "unknown",
+          "location": "",
+          "summary": "生成AIを組み込んだ新規ゲームをチームで開発する12月開催のハッカソン。",
+          "sourceUrl": "https://www.jp.square-enix.com/recruit/fresh/intern/",
+          "id": "7f275775117a",
+          "companyId": "square-enix",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "square-enix",
       "name": "スクウェア・エニックス",
       "tags": [
@@ -52,8 +93,8 @@
       ]
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:44:40.810Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -76,18 +117,15 @@
       ]
     },
     {
-      "lastChecked": "2026-11-23T04:44:58.498Z",
-      "lastChanged": "2026-11-23T04:45:48.677Z",
+      "lastChecked": "2026-11-23T07:44:40.811Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "28卒向けの新卒エントリーを受付中。職種別の1day〜3daysカレッジ（仕事体験）やセミナーを順次開催している。",
+      "digest": "2028年新卒のエントリーを受付中。セガ・セガ札幌・セガ フェイブで職種別のカレッジ（1day・3days等）やセミナーを募集中。",
       "openings": [
         {
           "title": "2028年新卒 エントリー",
           "type": "newgrad",
           "roles": [
-            "planner",
-            "programmer",
-            "artist",
             "other"
           ],
           "graduationYears": [
@@ -98,7 +136,7 @@
           "period": "",
           "format": "unknown",
           "location": "",
-          "summary": "28卒向けのエントリー受付。登録後に会社説明会・選考の案内が届く。",
+          "summary": "28卒向けのエントリー（マイページ登録）を受付中。説明会・選考はマイページで順次案内。",
           "sourceUrl": "https://www.sega.co.jp/recruit/fresh/",
           "id": "db218f10494c",
           "companyId": "sega",
@@ -115,10 +153,10 @@
           ],
           "applyStart": "",
           "deadline": "",
-          "period": "",
+          "period": "1日",
           "format": "unknown",
           "location": "",
-          "summary": "ゲームの面白さを考える、プランナー職の1日カレッジ。",
+          "summary": "セガのプランナー向け1dayカレッジ。ゲームの面白さを考えるプログラム。",
           "sourceUrl": "https://www.sega.co.jp/recruit/fresh/internship/",
           "id": "9f1a39c01ba4",
           "companyId": "sega",
@@ -135,10 +173,10 @@
           ],
           "applyStart": "",
           "deadline": "",
-          "period": "",
+          "period": "1日",
           "format": "unknown",
           "location": "",
-          "summary": "デザイナーの視点を学ぶ1日カレッジ。",
+          "summary": "セガのデザイナー向け1dayカレッジ。現場デザイナーの視点を学ぶ。",
           "sourceUrl": "https://www.sega.co.jp/recruit/fresh/internship/",
           "id": "4675f8a92c30",
           "companyId": "sega",
@@ -155,10 +193,10 @@
           ],
           "applyStart": "",
           "deadline": "",
-          "period": "",
+          "period": "1日",
           "format": "unknown",
           "location": "",
-          "summary": "現場の開発視点を体感するプログラマ向けの1日カレッジ。",
+          "summary": "セガのゲームプログラマ向け1dayカレッジ。プロの開発視点を体感する。",
           "sourceUrl": "https://www.sega.co.jp/recruit/fresh/internship/",
           "id": "47304d6dc77c",
           "companyId": "sega",
@@ -175,10 +213,10 @@
           ],
           "applyStart": "",
           "deadline": "",
-          "period": "",
+          "period": "1日",
           "format": "online",
           "location": "",
-          "summary": "セガ札幌スタジオのプログラマ職をオンラインで体験する1日カレッジ。",
+          "summary": "セガ札幌スタジオのプログラマ向けオンライン1dayカレッジ。",
           "sourceUrl": "https://www.sega.co.jp/recruit/fresh/internship/",
           "id": "af52061547c0",
           "companyId": "sega",
@@ -195,17 +233,17 @@
           ],
           "applyStart": "",
           "deadline": "",
-          "period": "",
+          "period": "2日間",
           "format": "unknown",
-          "location": "札幌",
-          "summary": "セガ札幌スタジオでのプログラマ向け2日間カレッジ。",
+          "location": "",
+          "summary": "セガ札幌スタジオのプログラマ向け2daysカレッジ。",
           "sourceUrl": "https://www.sega.co.jp/recruit/fresh/internship/",
           "id": "d070ba784df6",
           "companyId": "sega",
           "firstSeen": "2026-11-23"
         },
         {
-          "title": "セガ フェイブ メダルゲーム開発 仕事体験3daysカレッジ",
+          "title": "メダルゲーム開発 仕事体験3daysカレッジ（プランナー・プログラマ）",
           "type": "internship",
           "roles": [
             "planner",
@@ -216,32 +254,12 @@
           ],
           "applyStart": "",
           "deadline": "",
-          "period": "",
+          "period": "3日間",
           "format": "unknown",
           "location": "",
-          "summary": "メダルゲーム開発をプランナー・プログラマとして3日間体験する。",
+          "summary": "セガ フェイブのメダルゲーム開発を体験する3日間のカレッジ。プランナー・プログラマ向け。",
           "sourceUrl": "https://www.sega.co.jp/recruit/fresh/internship/",
-          "id": "f7ae2fd700a3",
-          "companyId": "sega",
-          "firstSeen": "2026-11-23"
-        },
-        {
-          "title": "【セミナー】オモシロさを形にする「ゲームプランナー職」とは",
-          "type": "event",
-          "roles": [
-            "planner"
-          ],
-          "graduationYears": [
-            2028
-          ],
-          "applyStart": "",
-          "deadline": "",
-          "period": "",
-          "format": "unknown",
-          "location": "",
-          "summary": "ゲームプランナー職の仕事を紹介するセミナー。",
-          "sourceUrl": "https://www.sega.co.jp/recruit/fresh/internship/",
-          "id": "b6f7be1fc417",
+          "id": "7d1ad793658a",
           "companyId": "sega",
           "firstSeen": "2026-11-23"
         },
@@ -259,9 +277,29 @@
           "period": "",
           "format": "unknown",
           "location": "",
-          "summary": "オンラインゲームの運営プランナーの仕事を紹介するセミナー。",
+          "summary": "セガのオンラインゲーム運営プランナーの仕事を紹介するセミナー。",
           "sourceUrl": "https://www.sega.co.jp/recruit/fresh/internship/",
           "id": "910f70275ea6",
+          "companyId": "sega",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【セミナー】オモシロさを形にする「ゲームプランナー職」とは",
+          "type": "event",
+          "roles": [
+            "planner"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "セガのゲームプランナー職の仕事を紹介するセミナー。",
+          "sourceUrl": "https://www.sega.co.jp/recruit/fresh/internship/",
+          "id": "b6f7be1fc417",
           "companyId": "sega",
           "firstSeen": "2026-11-23"
         },
@@ -279,17 +317,18 @@
           "period": "",
           "format": "unknown",
           "location": "",
-          "summary": "ゲームプログラマ職の選考対策を話すセミナー。",
+          "summary": "ゲームプログラマ志望者向けに、選考突破のポイントを解説する就活準備セミナー。",
           "sourceUrl": "https://www.sega.co.jp/recruit/fresh/internship/",
           "id": "c6583d871a34",
           "companyId": "sega",
           "firstSeen": "2026-11-23"
         },
         {
-          "title": "【セミナー】技術で遊びを創造する！現場社員が語るモノづくり（セガ フェイブ）",
+          "title": "【セミナー】技術で遊びを創造する！現場社員が語る“面白い”を生み出すモノづくり",
           "type": "event",
           "roles": [
-            "programmer"
+            "programmer",
+            "other"
           ],
           "graduationYears": [
             2028
@@ -299,14 +338,14 @@
           "period": "",
           "format": "unknown",
           "location": "",
-          "summary": "セガ フェイブの技術職社員がモノづくりを語るセミナー。",
+          "summary": "セガ フェイブの技術職向けセミナー。現場社員がモノづくりについて話す。",
           "sourceUrl": "https://www.sega.co.jp/recruit/fresh/internship/",
-          "id": "bdc20cafc0ec",
+          "id": "960c1185a4e7",
           "companyId": "sega",
           "firstSeen": "2026-11-23"
         },
         {
-          "title": "【セミナー】エンタメ企業の「営業職」とは？（セガ フェイブ）",
+          "title": "【セミナー】エンタメ企業の「営業職」とは？〜“好き”と“ワクワク”を広げる仕事について〜",
           "type": "event",
           "roles": [
             "other"
@@ -319,9 +358,9 @@
           "period": "",
           "format": "unknown",
           "location": "",
-          "summary": "セガ フェイブの営業職を紹介するセミナー。",
+          "summary": "セガ フェイブの総合職（営業）の仕事を紹介するセミナー。",
           "sourceUrl": "https://www.sega.co.jp/recruit/fresh/internship/",
-          "id": "dbc58d9367e1",
+          "id": "75076eb12dcd",
           "companyId": "sega",
           "firstSeen": "2026-11-23"
         }
@@ -347,11 +386,255 @@
       ]
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:44:40.812Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "28卒向けに職種別のセミナー・仕事紹介・ワークショップを受付中。サウンド系ワークショップは2027年1月6日締切。",
+      "openings": [
+        {
+          "title": "理工系 セミナー（ハードウェア開発、ゲーム機OS・SDK・ミドルウェア開発）",
+          "type": "event",
+          "roles": [
+            "programmer",
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "2026年10月～2027年1月",
+          "format": "unknown",
+          "location": "",
+          "summary": "ハードウェア開発とゲーム機OS・SDK・ミドルウェア開発の職種を紹介するセミナー。受付中。",
+          "sourceUrl": "https://www.nintendo.co.jp/jobs/recruit/event/index.html",
+          "id": "99f91d350fff",
+          "companyId": "nintendo",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "理工系 セミナー（ハードウェア製造）",
+          "type": "event",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "2026年10月～2027年1月",
+          "format": "unknown",
+          "location": "",
+          "summary": "ハードウェア製造の仕事を紹介するセミナー。受付中。",
+          "sourceUrl": "https://www.nintendo.co.jp/jobs/recruit/event/index.html",
+          "id": "73368ef01123",
+          "companyId": "nintendo",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "理工系 仕事紹介（ネットワークサービス開発）",
+          "type": "event",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "2026年12月～2027年1月",
+          "format": "unknown",
+          "location": "",
+          "summary": "ネットワークサービス開発の仕事紹介イベント。受付中。",
+          "sourceUrl": "https://www.nintendo.co.jp/jobs/recruit/event/index.html",
+          "id": "0e323514df3c",
+          "companyId": "nintendo",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "理工系 仕事紹介（コーポレートIT）",
+          "type": "event",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "2026年12月～2027年2月",
+          "format": "unknown",
+          "location": "",
+          "summary": "コーポレートITの仕事紹介イベント。受付中。",
+          "sourceUrl": "https://www.nintendo.co.jp/jobs/recruit/event/index.html",
+          "id": "0dd4aaa551d2",
+          "companyId": "nintendo",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "デザイン系 社員懇談会＆ポートフォリオ相談会（プロダクトデザイン）",
+          "type": "event",
+          "roles": [
+            "artist"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "2026年12月",
+          "format": "unknown",
+          "location": "",
+          "summary": "ハードウェア制作（プロダクトデザイン）の社員懇談とポートフォリオ相談。受付中。",
+          "sourceUrl": "https://www.nintendo.co.jp/jobs/recruit/event/index.html",
+          "id": "3e4967b613b4",
+          "companyId": "nintendo",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "デザイン系 オンラインセミナー アートワーク制作",
+          "type": "event",
+          "roles": [
+            "artist"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "2026-11-06",
+          "deadline": "",
+          "period": "2026年12月",
+          "format": "online",
+          "location": "",
+          "summary": "グラフィック・イラスト・3DCGモデリング等アートワーク制作のセミナー。受付中。",
+          "sourceUrl": "https://www.nintendo.co.jp/jobs/recruit/event/index.html",
+          "id": "f7ff78fe3fee",
+          "companyId": "nintendo",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "デザイン系 オンラインセミナー ソフトウェア制作",
+          "type": "event",
+          "roles": [
+            "artist",
+            "effect"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "2026-11-06",
+          "deadline": "",
+          "period": "2026年12月～2027年1月",
+          "format": "online",
+          "location": "",
+          "summary": "ステージ・キャラクター・UI・エフェクト等ソフトウェア制作のセミナー。受付中。",
+          "sourceUrl": "https://www.nintendo.co.jp/jobs/recruit/event/index.html",
+          "id": "0f1c7d7fa039",
+          "companyId": "nintendo",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "デザイン系 社員懇談会＆ポートフォリオ相談会（アートワーク制作）",
+          "type": "event",
+          "roles": [
+            "artist"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "2026-12-01",
+          "deadline": "",
+          "period": "2027年2月",
+          "format": "unknown",
+          "location": "",
+          "summary": "アートワーク制作の社員懇談とポートフォリオ相談。12月1日受付開始予定。",
+          "sourceUrl": "https://www.nintendo.co.jp/jobs/recruit/event/index.html",
+          "id": "81a8877446b6",
+          "companyId": "nintendo",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "デザイン系 Q&Aセミナー（ソフトウェア制作）",
+          "type": "event",
+          "roles": [
+            "artist",
+            "effect"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "2026-12-01",
+          "deadline": "",
+          "period": "2027年2月",
+          "format": "unknown",
+          "location": "",
+          "summary": "ソフトウェア制作のQ&Aセミナー。12月1日受付開始予定。",
+          "sourceUrl": "https://www.nintendo.co.jp/jobs/recruit/event/index.html",
+          "id": "cf15ea632280",
+          "companyId": "nintendo",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "サウンド系 オンラインセミナー",
+          "type": "event",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "2026年11月",
+          "format": "online",
+          "location": "",
+          "summary": "サウンド系職種のオンラインセミナー。受付中。",
+          "sourceUrl": "https://www.nintendo.co.jp/jobs/recruit/event/index.html",
+          "id": "bdd7dd7b98ae",
+          "companyId": "nintendo",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "サウンド系 ワークショップ",
+          "type": "event",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "2026-11-18",
+          "deadline": "2027-01-06",
+          "period": "2027-02-16〜18のいずれか1日",
+          "format": "onsite",
+          "location": "京都（任天堂本社）",
+          "summary": "ボイス収録やSE制作などを体験し社員と懇談。各回10名程度、提出物で選考あり。",
+          "sourceUrl": "https://www.nintendo.co.jp/jobs/recruit/event/sound_workshop.html",
+          "id": "85b7d422f021",
+          "companyId": "nintendo",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "制作企画系 オンラインセミナー",
+          "type": "event",
+          "roles": [
+            "planner"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "2026-10-30",
+          "deadline": "",
+          "period": "2026年12月",
+          "format": "online",
+          "location": "",
+          "summary": "プランナー職を紹介するオンラインセミナー。受付中。",
+          "sourceUrl": "https://www.nintendo.co.jp/jobs/recruit/event/index.html",
+          "id": "e51868ea0dd3",
+          "companyId": "nintendo",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "nintendo",
       "name": "任天堂",
       "tags": [
@@ -371,11 +654,32 @@
       ]
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:44:40.813Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "新卒採用は27卒向けを実施中。2028新卒向けインターンシップのエントリーを受付中。",
+      "openings": [
+        {
+          "title": "2028新卒インターンシップ",
+          "type": "internship",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "2028年卒向けインターンシップのエントリー受付。詳細はエントリー後のマイページで案内。",
+          "sourceUrl": "https://www.koeitecmo.co.jp/recruit/graduate/entry.html",
+          "id": "47f2654ea8bb",
+          "companyId": "koei-tecmo",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "koei-tecmo",
       "name": "コーエーテクモゲームス",
       "tags": [
@@ -395,8 +699,8 @@
       ]
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:44:40.814Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -419,11 +723,72 @@
       ]
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:44:43.128Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "2028年度新卒の募集要項を公開済み。プランナー向け・総合職向けの仕事体験プログラムのエントリーを受付中",
+      "openings": [
+        {
+          "title": "2028年度新卒採用",
+          "type": "newgrad",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "2026-10-01",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "2028年度新卒の募集要項を公開。選考はエントリー・書類選考、適性検査、面接、最終面接の流れ",
+          "sourceUrl": "https://www.atlus.co.jp/recruit/",
+          "id": "fd20783f98b3",
+          "companyId": "atlus",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "プランナー向け 仕事体験プログラム",
+          "type": "internship",
+          "roles": [
+            "planner"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "2026-10-16",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "新卒採用のプランナー志望者向け仕事体験プログラム。エントリー受付中",
+          "sourceUrl": "https://www.atlus.co.jp/recruit/",
+          "id": "d86b530505c6",
+          "companyId": "atlus",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "総合職向け 仕事体験プログラム",
+          "type": "internship",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "2026-10-01",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "新卒採用の総合職志望者向け仕事体験プログラム。エントリー受付中",
+          "sourceUrl": "https://www.atlus.co.jp/recruit/",
+          "id": "d230fc741901",
+          "companyId": "atlus",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "atlus",
       "name": "アトラス",
       "tags": [
@@ -441,10 +806,10 @@
       ]
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:44:44.959Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "27年度新卒採用のエントリーは終了。28卒向けの情報はまだない。",
       "openings": [],
       "id": "level-5",
       "name": "レベルファイブ",
@@ -464,10 +829,10 @@
       ]
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:44:46.065Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒採用のエントリー窓口はあるが、28卒向けの募集内容はページに記載なし。",
       "openings": [],
       "id": "game-freak",
       "name": "ゲームフリーク",
@@ -486,10 +851,10 @@
       ]
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:44:48.499Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒採用の案内は2027年新卒向け。28卒向けの募集はまだ掲載なし。",
       "openings": [],
       "id": "spike-chunsoft",
       "name": "スパイク・チュンソフト",
@@ -509,11 +874,35 @@
       ]
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:44:48.609Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "28卒の新卒採用エントリーを受付中。エンジニアを積極採用し、全体で15名程度を募集。",
+      "openings": [
+        {
+          "title": "新卒採用 2028 エントリー",
+          "type": "newgrad",
+          "roles": [
+            "programmer",
+            "artist",
+            "planner",
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "東京本社",
+          "summary": "プログラマー・クラウドエンジニア・デザイナー・サウンド・ゲーム総合職・音楽映像総合職を募集。15名程度、エンジニア積極採用。",
+          "sourceUrl": "https://www.marv.jp/career/s-information/",
+          "id": "33a51aaabbfd",
+          "companyId": "marvelous",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "marvelous",
       "name": "マーベラス",
       "tags": [
@@ -532,11 +921,32 @@
       ]
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:44:49.413Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "28卒向けの新卒採用を各部門で開始。詳細・エントリーはマイナビ2028から",
+      "openings": [
+        {
+          "title": "新卒採用（2028年卒）",
+          "type": "newgrad",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "各種部門で28卒の新卒採用を開始。選考は書類・作品選考、一次面接と筆記・適性、役員面接。詳細はマイナビ2028に掲載",
+          "sourceUrl": "https://www.tri-ace.co.jp/recruit/",
+          "id": "5d3da664a26c",
+          "companyId": "tri-ace",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "tri-ace",
       "name": "トライエース",
       "tags": [
@@ -553,11 +963,32 @@
       "logo": "logos/tri-ace.ico"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:44:49.568Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "27卒向けは七次募集（アーティスト・プログラマー、11/29締切）中。28卒向けの冬季仕事体験をオンラインで開催予定。",
+      "openings": [
+        {
+          "title": "28卒向け冬季仕事体験",
+          "type": "internship",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "online",
+          "location": "",
+          "summary": "28卒向けの冬季仕事体験をオンラインで開催。申込はマイナビ2028経由と案内されている。",
+          "sourceUrl": "https://www.ganbarion.co.jp/recruit/",
+          "id": "e7eee591f9c0",
+          "companyId": "ganbarion",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "ganbarion",
       "name": "ガンバリオン",
       "tags": [
@@ -576,8 +1007,8 @@
       ]
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:44:50.947Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -595,11 +1026,52 @@
       "logo": "logos/gungho.ico"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:44:52.965Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "28卒向けにエンジニア職とデザイン職（プロダクトデザイナー）の新卒採用を受付中。2027年10月または2028年4月入社",
+      "openings": [
+        {
+          "title": "【2028年】【エンジニア職】MIXI新卒採用",
+          "type": "newgrad",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "2026-10-05",
+          "deadline": "",
+          "period": "2027年10月または2028年4月入社",
+          "format": "onsite",
+          "location": "渋谷本社",
+          "summary": "モンスト等のゲームやWeb・アプリのクライアント／サーバ、インフラ、機械学習などの開発職。ES・複数回面接",
+          "sourceUrl": "https://mixigroup-recruit.mixi.co.jp/recruitment-category/new-graduate/14426/",
+          "id": "4807e2fc9217",
+          "companyId": "mixi",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【2028年】【デザイン職（プロダクトデザイナー）】MIXI新卒採用",
+          "type": "newgrad",
+          "roles": [
+            "artist"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "2026-10-30",
+          "deadline": "",
+          "period": "2027年10月または2028年4月入社",
+          "format": "onsite",
+          "location": "渋谷本社",
+          "summary": "ライフスタイル・スポーツ領域等のUI/UX・グラフィック・映像・3Dのデザイン職。AI活用経験が必須。ゲーム領域は別募集",
+          "sourceUrl": "https://mixigroup-recruit.mixi.co.jp/recruitment-category/new-graduate/14537/",
+          "id": "b632d0e38578",
+          "companyId": "mixi",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "mixi",
       "name": "MIXI",
       "tags": [
@@ -614,18 +1086,75 @@
       "logo": "logos/mixi.png"
     },
     {
-      "lastChecked": "2026-11-23T04:45:08.709Z",
-      "lastChanged": "2026-11-23T04:45:48.677Z",
+      "lastChecked": "2026-11-23T07:44:53.710Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "28年度入社向けの本選考を職種別に受付中。オンライン会社説明会も開催。インターンのページは受付状況が書かれていない。",
+      "digest": "2028年度（4月・10月）入社向けの本選考を職種別に受付中。27年度入社は一部職種で終了。インターン2026も掲載。",
       "openings": [
         {
-          "title": "2028年度入社 本選考",
+          "title": "本選考 サーバーサイドエンジニア・インフラエンジニア・クライアントエンジニア",
           "type": "newgrad",
           "roles": [
-            "programmer",
-            "planner",
-            "artist",
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "2028年度（4月・10月）入社",
+          "format": "unknown",
+          "location": "",
+          "summary": "2028年度入社向けのエンジニア職本選考。定員に達し次第締切の場合あり。最終面接以外はオンライン。",
+          "sourceUrl": "https://colopl.co.jp/recruit/graduate/",
+          "id": "dea62c1bd893",
+          "companyId": "colopl",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "本選考 プランナー",
+          "type": "newgrad",
+          "roles": [
+            "planner"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "2028年度（4月・10月）入社",
+          "format": "unknown",
+          "location": "",
+          "summary": "2028年度入社向けのプランナー職本選考。早めのエントリーを推奨。",
+          "sourceUrl": "https://colopl.co.jp/recruit/graduate/",
+          "id": "bf59ab9d47c5",
+          "companyId": "colopl",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "本選考 デザイナー",
+          "type": "newgrad",
+          "roles": [
+            "artist"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "2028年度（4月・10月）入社",
+          "format": "unknown",
+          "location": "",
+          "summary": "2028年度入社向けのデザイナー職本選考。3DCG未経験でも画力次第で応募可能。",
+          "sourceUrl": "https://colopl.co.jp/recruit/graduate/",
+          "id": "3fb147c3fbc7",
+          "companyId": "colopl",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "本選考 サウンドクリエイター",
+          "type": "newgrad",
+          "roles": [
             "other"
           ],
           "graduationYears": [
@@ -633,12 +1162,32 @@
           ],
           "applyStart": "",
           "deadline": "",
-          "period": "",
+          "period": "2028年度（4月・10月）入社",
           "format": "unknown",
           "location": "",
-          "summary": "エンジニア・プランナー・デザイナー・サウンド・総合職を募集。定員に達し次第終了するため早めのエントリーを推奨。",
+          "summary": "2028年度入社向けのサウンドクリエイター職本選考。",
           "sourceUrl": "https://colopl.co.jp/recruit/graduate/",
-          "id": "0b59fd8f8716",
+          "id": "88de8cbf0c03",
+          "companyId": "colopl",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "本選考 総合職",
+          "type": "newgrad",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "2028年度（4月・10月）入社",
+          "format": "unknown",
+          "location": "",
+          "summary": "2028年度入社向けの総合職本選考。",
+          "sourceUrl": "https://colopl.co.jp/recruit/graduate/",
+          "id": "6b14f365df57",
           "companyId": "colopl",
           "firstSeen": "2026-11-23"
         },
@@ -646,9 +1195,6 @@
           "title": "オンライン会社説明会",
           "type": "event",
           "roles": [
-            "programmer",
-            "planner",
-            "artist",
             "other"
           ],
           "graduationYears": [
@@ -659,7 +1205,7 @@
           "period": "",
           "format": "online",
           "location": "",
-          "summary": "28年度入社向けのオンライン会社説明会。",
+          "summary": "新卒採用ページで案内しているオンラインの会社説明会。",
           "sourceUrl": "https://colopl.co.jp/recruit/graduate/",
           "id": "4aff9e656b86",
           "companyId": "colopl",
@@ -685,11 +1231,33 @@
       ]
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:44:53.912Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "2028年4月入社（または2027年10月）希望者向けの新卒エントリーを受付中。AIスペシャリスト／AIジェネラリストの2コース。",
+      "openings": [
+        {
+          "title": "新卒採用（2028年4月入社 or 2027年10月入社）",
+          "type": "newgrad",
+          "roles": [
+            "programmer",
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "28年4月入社希望者向けの新卒エントリー。AIスペシャリストと、エンジニア・ビジネス・クリエイティブ職のAIジェネラリストの2コース。",
+          "sourceUrl": "https://student.dena.com/",
+          "id": "cea6547301f1",
+          "companyId": "dena",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "dena",
       "name": "DeNA",
       "tags": [
@@ -707,11 +1275,54 @@
       ]
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:44:54.625Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "28/29卒向けの冬期インターン（エンジニア・デザイナー）を募集中。締切は2026年12月31日",
+      "openings": [
+        {
+          "title": "冬期インターンシップ（エンジニア）",
+          "type": "internship",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028,
+            2029
+          ],
+          "applyStart": "",
+          "deadline": "2026-12-31",
+          "period": "2027年1月12日〜3月31日の期間で調整",
+          "format": "onsite",
+          "location": "東京本社",
+          "summary": "Unity開発経験者向けの有給就業型インターン。定員6名、本選考スキップ特典あり",
+          "sourceUrl": "https://recruit.aiming-inc.com/graduate/internship/",
+          "id": "333c1e503734",
+          "companyId": "aiming",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "冬期インターンシップ（デザイナー）",
+          "type": "internship",
+          "roles": [
+            "artist"
+          ],
+          "graduationYears": [
+            2028,
+            2029
+          ],
+          "applyStart": "",
+          "deadline": "2026-12-31",
+          "period": "2027年1月12日〜3月31日の期間で調整",
+          "format": "onsite",
+          "location": "東京本社",
+          "summary": "ポートフォリオ提出可能な学生向けの有給インターン。定員10名、本選考スキップ特典あり",
+          "sourceUrl": "https://recruit.aiming-inc.com/graduate/internship/",
+          "id": "608e5bf39e6f",
+          "companyId": "aiming",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "aiming",
       "name": "Aiming",
       "tags": [
@@ -727,10 +1338,10 @@
       "logo": "logos/aiming.ico"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:44:55.868Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒募集は行っていない（中途のみ募集中）",
       "openings": [],
       "id": "cave",
       "name": "ケイブ",
@@ -749,11 +1360,54 @@
       ]
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:44:58.974Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "新卒採用は学歴・卒業時期不問で通年受付。インターンも時期・期間を個別に調整して受付",
+      "openings": [
+        {
+          "title": "新卒採用",
+          "type": "newgrad",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "学歴や卒業時期を問わない新卒採用。エゴサーチ採用など独自の応募方法もあり",
+          "sourceUrl": "https://www.kayac.com/recruit/fresh",
+          "id": "210d7d17c512",
+          "companyId": "kayac",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "インターン",
+          "type": "internship",
+          "roles": [
+            "planner",
+            "artist",
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "1週間〜1ヶ月程度（応相談）",
+          "format": "hybrid",
+          "location": "鎌倉 or オンライン",
+          "summary": "ディレクター・デザイナー・エンジニア職のインターン。ESか作品のみの「つくったもの選考」で応募",
+          "sourceUrl": "https://www.kayac.com/recruit/intern",
+          "id": "f72765cd40b9",
+          "companyId": "kayac",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "kayac",
       "name": "カヤック",
       "tags": [
@@ -775,10 +1429,10 @@
       ]
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:44:59.281Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒採用はサイバーエージェントグループの新卒採用で行う。",
       "openings": [],
       "id": "sumzap",
       "name": "サムザップ",
@@ -797,9 +1451,9 @@
       ]
     },
     {
-      "lastChecked": null,
+      "lastChecked": "2026-11-23T07:45:00.087Z",
       "lastChanged": null,
-      "error": null,
+      "error": "fetch failed",
       "digest": "",
       "openings": [],
       "id": "netmarble",
@@ -942,8 +1596,8 @@
       "site": "https://www.arzest.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:01.510Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -964,11 +1618,32 @@
       "site": "https://www.artdink.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:01.853Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "新卒採用はクライアントエンジニアのみ募集中。デザイナー・企画・管理は停止中。",
+      "openings": [
+        {
+          "title": "新卒採用 クライアントエンジニア",
+          "type": "newgrad",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "新卒向けにクライアントエンジニアを募集。エントリーフォームから履歴書とポートフォリオを提出。",
+          "sourceUrl": "https://r-force.co.jp/recruit/newgrad/",
+          "id": "683ebb578544",
+          "companyId": "r-force",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "r-force",
       "name": "アールフォース・エンターテインメント",
       "tags": [
@@ -1008,10 +1683,10 @@
       "site": "https://i-rori-ent.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:02.366Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒採用は現在募集を行っていない。",
       "openings": [],
       "id": "games-aktsk",
       "name": "アカツキゲームス",
@@ -1031,10 +1706,10 @@
       "site": "https://games.aktsk.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:02.552Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "毎年3月末卒業見込みの方を対象に新卒を通年で受付（締切は毎年1月末）。28卒向けと明記された募集は無い。",
       "openings": [],
       "id": "accessgames",
       "name": "アクセスゲームズ",
@@ -1075,10 +1750,10 @@
       "site": "https://www.agni-flare.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:04.147Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "公式サイトは2027年度新卒の募集要項のみ掲載。28卒向けの情報はまだ無い",
       "openings": [],
       "id": "acquire",
       "name": "アクワイア",
@@ -1142,10 +1817,10 @@
       "site": "https://asobimo.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:04.302Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "2027年4月入社の新卒募集は締め切り済み。二次募集は改めて告知予定。",
       "openings": [],
       "id": "upper-ground",
       "name": "アッパーグラウンド",
@@ -1166,10 +1841,10 @@
       "site": "https://www.upper-ground.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:05.554Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒採用はサイバーエージェントグループの新卒採用ページで受付。このページに28卒向けの具体的な募集は無い。",
       "openings": [],
       "id": "applibot",
       "name": "アプリボット",
@@ -1189,10 +1864,10 @@
       "site": "https://www.applibot.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:06.390Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "29歳までの未経験者向けに通年の新卒・第二新卒採用制度があるが、現在は募集を停止中。",
       "openings": [],
       "id": "amata",
       "name": "あまた",
@@ -1215,10 +1890,10 @@
       "site": "https://amata.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:07.705Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒はプログラマー・プランナー・グラフィックデザイナーを年3回（5〜6月・9〜10月・1〜2月）募集。対象の卒業年の記載は無い。",
       "openings": [],
       "id": "arika",
       "name": "アリカ",
@@ -1237,8 +1912,8 @@
       "site": "https://www.arika.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:07.799Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -1300,8 +1975,8 @@
       "site": "http://www.alfasystem.net/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:08.000Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -1386,8 +2061,8 @@
       "site": "https://www.ilinx.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:08.202Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -1410,10 +2085,10 @@
       "site": "https://www.ilca.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:09.853Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "26年卒の募集は終了。現在は中途採用のみ。",
       "openings": [],
       "id": "indie-us-games",
       "name": "Indie-us Games",
@@ -1453,11 +2128,35 @@
       "site": "http://www.inti.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:09.950Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "2028年度新卒採用の受付を11/19に開始。プランナー・2D/3Dデザイナー・プログラマーを募集し、募集期間は2027年秋頃まで。",
+      "openings": [
+        {
+          "title": "2028年度新卒採用",
+          "type": "newgrad",
+          "roles": [
+            "planner",
+            "artist",
+            "effect",
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "2026-11-19",
+          "deadline": "",
+          "period": "募集期間は2027年秋頃まで",
+          "format": "unknown",
+          "location": "本社（東京都武蔵野市吉祥寺）",
+          "summary": "プランナー・2D/3Dグラフィックデザイナー・プログラマーを各若干名募集。書類・適性検査・面接で選考。",
+          "sourceUrl": "https://indieszero.co.jp/recruit/fresh.html",
+          "id": "aa4f7f438ce7",
+          "companyId": "indieszero",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "indieszero",
       "name": "インディーズゼロ",
       "tags": [
@@ -1475,11 +2174,32 @@
       "site": "https://indieszero.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:10.151Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "28卒向けの開発職新卒採用をマイナビ2028で実施中。インターンシップは現在実施していない。",
+      "openings": [
+        {
+          "title": "開発 新卒採用",
+          "type": "newgrad",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "開発職の新卒採用。募集要項と応募受付はマイナビ2028で行う。",
+          "sourceUrl": "https://www.intsys.co.jp/recruit/requirement/",
+          "id": "2588065b1e22",
+          "companyId": "intsys",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "intsys",
       "name": "インテリジェントシステムズ",
       "tags": [
@@ -1519,10 +2239,10 @@
       "site": "https://www.infight.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:10.672Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒の募集は27卒のプログラマ・総務のみ。28卒向けの募集はまだ掲載なし。",
       "openings": [],
       "id": "infiniteloop",
       "name": "インフィニットループ",
@@ -1587,10 +2307,10 @@
       "site": "https://www.vgd.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:11.565Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "2027年度の新卒採用は実施未定。28卒向けの情報は無い。",
       "openings": [],
       "id": "winlight",
       "name": "ウインライト",
@@ -1631,10 +2351,10 @@
       "site": "https://www.unico-inc.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:11.720Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "2027年卒以降の新卒一括採用を終了し、ポジション別の採用に移行。新卒・インターンの募集は掲載なし",
       "openings": [],
       "id": "a-tm",
       "name": "エイチーム",
@@ -1655,10 +2375,10 @@
       "site": "https://www.a-tm.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:13.655Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "27卒向けの新卒採用は7/30で全職種募集終了。28卒向けの募集はまだ掲載されていない。",
       "openings": [],
       "id": "8ing",
       "name": "エイティング",
@@ -1700,10 +2420,10 @@
       "site": "https://www.srd.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:14.009Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "27年3月卒業予定者向けに総合職を募集中。28卒向けの情報はまだない。",
       "openings": [],
       "id": "sas-tokyo",
       "name": "エス・エー・エス",
@@ -1723,8 +2443,8 @@
       "site": "https://www.sas-tokyo.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:16.099Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -1746,8 +2466,8 @@
       "site": "https://www.snk-corp.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:16.300Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -1765,10 +2485,10 @@
       "site": "https://www.nhn-playart.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:17.990Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "28卒プランナー向けの1日ワークショップを9月に開催済み。現在受付中の28卒向け募集の記載はなし",
       "openings": [],
       "id": "f4samurai",
       "name": "f4samurai",
@@ -1827,8 +2547,8 @@
       "site": "https://www.mtwo.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:18.546Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -1868,10 +2588,10 @@
       "site": "https://www.elementree.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:20.039Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "2027年度・2026年度卒の新卒採用を受付中。28卒向けの情報はまだ無い",
       "openings": [],
       "id": "otwo",
       "name": "オーツー",
@@ -1913,10 +2633,10 @@
       "site": "http://www.ofcr.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:20.969Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "27年新卒採用は全職種で受付終了。28卒向けの情報はまだない。",
       "openings": [],
       "id": "orca-inc",
       "name": "オルカ",
@@ -1936,10 +2656,10 @@
       "site": "https://www.orca-inc.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:21.822Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒採用は就活ナビサイト経由のみで行っており、公式ページに詳細はない。",
       "openings": [],
       "id": "orgesta",
       "name": "オルジェスタ",
@@ -1980,10 +2700,10 @@
       "site": "https://www.altplus.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:22.935Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒採用の案内は無い。学生アルバイトからの社員登用制度あり",
       "openings": [],
       "id": "kairosoft",
       "name": "カイロソフト",
@@ -2003,11 +2723,352 @@
       "site": "https://kairosoft.net/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:23.707Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "新卒向けにエンジニア・企画・シナリオ・イラスト・背景の職種別インターンと、新卒・既卒の本選考、職種別のオンライン説明会を掲載中。",
+      "openings": [
+        {
+          "title": "\"カスタムインターン\"ゲームプランナー【新卒】",
+          "type": "internship",
+          "roles": [
+            "planner"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "ゲーム開発に熱意のある学生向けの企画職インターン。",
+          "sourceUrl": "https://colorfulpalette.co.jp/recruit/position/",
+          "id": "4dfe3b978494",
+          "companyId": "colorfulpalette",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【新卒インターン】グラフィックエンジニア",
+          "type": "internship",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "3D技術で品質を追求するグラフィックエンジニアのインターン。",
+          "sourceUrl": "https://colorfulpalette.co.jp/recruit/position/",
+          "id": "6b30871d20dd",
+          "companyId": "colorfulpalette",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【新卒インターン】新規プロジェクト クライアントエンジニア",
+          "type": "internship",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "新規タイトル開発のクライアントエンジニアのインターン。",
+          "sourceUrl": "https://colorfulpalette.co.jp/recruit/position/",
+          "id": "39f17e89fa7d",
+          "companyId": "colorfulpalette",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【新卒インターン】新規プロジェクト バックエンドエンジニア",
+          "type": "internship",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "新規タイトル開発のバックエンドエンジニアのインターン。",
+          "sourceUrl": "https://colorfulpalette.co.jp/recruit/position/",
+          "id": "747c62958e2f",
+          "companyId": "colorfulpalette",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【新卒インターン】プロセカ クライアントエンジニア",
+          "type": "internship",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "「プロセカ」のクライアントエンジニアのインターン。",
+          "sourceUrl": "https://colorfulpalette.co.jp/recruit/position/",
+          "id": "9748f6c55cca",
+          "companyId": "colorfulpalette",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【新卒インターン】プロセカ バックエンドエンジニア",
+          "type": "internship",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "「プロセカ」のバックエンドエンジニアのインターン。",
+          "sourceUrl": "https://colorfulpalette.co.jp/recruit/position/",
+          "id": "daf7f86b0b72",
+          "companyId": "colorfulpalette",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【新卒インターン】背景デザイナー",
+          "type": "internship",
+          "roles": [
+            "artist"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "「プロセカ」のファン目線の絵作りを学べる背景デザイナーのインターン。",
+          "sourceUrl": "https://colorfulpalette.co.jp/recruit/position/",
+          "id": "8080bbae1c13",
+          "companyId": "colorfulpalette",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【新卒インターン】シナリオライター",
+          "type": "internship",
+          "roles": [
+            "planner"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "実務に挑戦できる新卒向けシナリオライターのインターン。",
+          "sourceUrl": "https://colorfulpalette.co.jp/recruit/position/",
+          "id": "9f0a577b4887",
+          "companyId": "colorfulpalette",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【新卒インターン】イラストレーター",
+          "type": "internship",
+          "roles": [
+            "artist"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "「プロセカ」のファン目線の絵作りを学べるイラストレーターのインターン。",
+          "sourceUrl": "https://colorfulpalette.co.jp/recruit/position/",
+          "id": "33f80c8cebef",
+          "companyId": "colorfulpalette",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【新卒】ゲームプランナー",
+          "type": "newgrad",
+          "roles": [
+            "planner"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "新卒向けゲームプランナーの本選考。",
+          "sourceUrl": "https://colorfulpalette.co.jp/recruit/position/",
+          "id": "1b842a1e9bfa",
+          "companyId": "colorfulpalette",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【新卒・既卒】シナリオライター",
+          "type": "newgrad",
+          "roles": [
+            "planner"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "未経験歓迎の若手シナリオライター募集（新卒・既卒）。",
+          "sourceUrl": "https://colorfulpalette.co.jp/recruit/position/",
+          "id": "1035d000fb7f",
+          "companyId": "colorfulpalette",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【新卒・既卒】背景デザイナー",
+          "type": "newgrad",
+          "roles": [
+            "artist"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "未経験歓迎の若手背景デザイナー募集（新卒・既卒）。",
+          "sourceUrl": "https://colorfulpalette.co.jp/recruit/position/",
+          "id": "5992d7aecfd5",
+          "companyId": "colorfulpalette",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【新卒・既卒】イラストレーター",
+          "type": "newgrad",
+          "roles": [
+            "artist"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "若手イラストレーター募集（新卒・既卒）。",
+          "sourceUrl": "https://colorfulpalette.co.jp/recruit/position/",
+          "id": "e2d15e994832",
+          "companyId": "colorfulpalette",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【新卒採用】イラストレーター職 オンライン説明会",
+          "type": "event",
+          "roles": [
+            "artist"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "online",
+          "location": "",
+          "summary": "会社概要とイラストレーターの業務内容を紹介する新卒向けオンライン説明会。",
+          "sourceUrl": "https://colorfulpalette.co.jp/recruit/position/",
+          "id": "bdd3499d9256",
+          "companyId": "colorfulpalette",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【説明会】ゲームプランナー職 オンライン会社説明会",
+          "type": "event",
+          "roles": [
+            "planner"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "online",
+          "location": "",
+          "summary": "会社概要とゲームプランナーの業務内容を紹介するオンライン説明会。",
+          "sourceUrl": "https://colorfulpalette.co.jp/recruit/position/",
+          "id": "ac79772b8317",
+          "companyId": "colorfulpalette",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【説明会】シナリオライター職 オンライン会社説明会",
+          "type": "event",
+          "roles": [
+            "planner"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "online",
+          "location": "",
+          "summary": "会社概要とシナリオライターの業務内容を紹介するオンライン説明会。",
+          "sourceUrl": "https://colorfulpalette.co.jp/recruit/position/",
+          "id": "996a86525121",
+          "companyId": "colorfulpalette",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【説明会】イラストレーター職 オンライン会社説明会（2月開催）",
+          "type": "event",
+          "roles": [
+            "artist"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "2月開催",
+          "format": "online",
+          "location": "",
+          "summary": "会社概要とイラストレーターの業務内容を紹介する2月開催のオンライン説明会。",
+          "sourceUrl": "https://colorfulpalette.co.jp/recruit/position/",
+          "id": "3742e182a181",
+          "companyId": "colorfulpalette",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "colorfulpalette",
       "name": "Colorful Palette",
       "tags": [
@@ -2026,8 +3087,8 @@
       "site": "https://colorfulpalette.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:24.267Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -2090,10 +3151,10 @@
       "site": "https://www.camelot.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:24.916Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "在学生向けに約1か月のインターンシップ制度あり（随時相談）。対象の卒業年は書かれていない",
       "openings": [],
       "id": "q-games",
       "name": "キュー・ゲームス",
@@ -2136,8 +3197,8 @@
       "site": "http://qdsoft.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:26.978Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -2159,8 +3220,8 @@
       "site": "https://qualiarts.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:27.333Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -2225,10 +3286,10 @@
       "site": "http://cloud-creative-studios.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:28.525Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "現在、新卒採用は実施していない。",
       "openings": [],
       "id": "grasshopper",
       "name": "グラスホッパー・マニファクチュア",
@@ -2248,10 +3309,10 @@
       "site": "https://www.grasshopper.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:28.894Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒は各アシスタント職として通年で受け付け。卒業年の指定はなし。",
       "openings": [],
       "id": "claphanz",
       "name": "クラップハンズ",
@@ -2293,10 +3354,10 @@
       "site": "https://www.klab.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:29.452Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "職種別の新卒採用情報ページへの案内はあるが、28卒向けの募集内容はページ上で確認できない。",
       "openings": [],
       "id": "crafts-meister",
       "name": "CRAFTS & MEISTER",
@@ -2336,10 +3397,10 @@
       "site": "https://www.granzella.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:30.886Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒採用ページは26卒向けのままで全職種募集終了。28卒向けの情報はまだない。",
       "openings": [],
       "id": "g-rounding",
       "name": "グランディング",
@@ -2403,11 +3464,56 @@
       "site": "https://www.cri.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:32.068Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "2028年度新卒の本選考エントリーを受付中（書類締切12月14日18時）。希望職種別のオンライン会社説明会も開催中。",
+      "openings": [
+        {
+          "title": "2028年度新卒採用 本選考",
+          "type": "newgrad",
+          "roles": [
+            "programmer",
+            "planner",
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "2026-11-04",
+          "deadline": "2026-12-14",
+          "period": "書類選考後、適性検査・面接3回",
+          "format": "unknown",
+          "location": "東京都千代田区（本社）",
+          "summary": "デジタルゲームプログラマ、AIエンジニア、ポケモンカード開発職、コーポレートスタッフの4職種を募集。",
+          "sourceUrl": "https://recruit.creatures.co.jp/new-graduate/job_and_entry/",
+          "id": "32377bb3234d",
+          "companyId": "creatures",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【希望職種別】会社説明会",
+          "type": "event",
+          "roles": [
+            "programmer",
+            "planner",
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "エンジニア職: 11/26・12/1、ゼネラル職: 11/24・12/2（各回2営業日前18時締切）",
+          "format": "online",
+          "location": "",
+          "summary": "エンジニア職・ゼネラル職別に、会社・職種・選考を現場社員が説明するZoom配信の説明会。",
+          "sourceUrl": "https://recruit.creatures.co.jp/new-graduate/job_and_entry/",
+          "id": "34a00832ff20",
+          "companyId": "creatures",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "creatures",
       "name": "クリーチャーズ",
       "tags": [
@@ -2426,10 +3532,10 @@
       "site": "https://www.creatures.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:32.593Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒一括採用は行っていないが、個別応募は受け付けている。",
       "openings": [],
       "id": "claytechworks",
       "name": "クレイテックワークス",
@@ -2468,8 +3574,8 @@
       "site": "https://www.grezzo.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:34.550Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -2490,10 +3596,10 @@
       "site": "https://www.grenge.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:35.651Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒はメールで応募を受け付けているが、対象の卒業年の記載はない。",
       "openings": [],
       "id": "gbj",
       "name": "グルーブボックスジャパン",
@@ -2514,8 +3620,8 @@
       "site": "https://www.gbj.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:35.723Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -2560,8 +3666,8 @@
       "site": "https://cloverlab.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:36.228Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -2583,10 +3689,10 @@
       "site": "https://www.cross-games.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:36.758Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "2027年度新卒（プログラマー・3DCGデザイナー・プランナー）を募集。28卒向けの情報はまだなし",
       "openings": [],
       "id": "crossplus-studio",
       "name": "クロスプラススタジオ",
@@ -2620,11 +3726,35 @@
       "site": "https://www.geishatokyo.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:37.232Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "2028年新卒採用のエントリーを受付中（締切2027年4月30日）。カプコングループで大阪勤務、企画・プログラム・アート・VFXなど職種別に募集。",
+      "openings": [
+        {
+          "title": "2028年新卒採用",
+          "type": "newgrad",
+          "roles": [
+            "planner",
+            "programmer",
+            "artist",
+            "effect"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "2027-04-30",
+          "period": "書類選考→一次面接→最終面接→内定",
+          "format": "onsite",
+          "location": "大阪市中央区",
+          "summary": "コンシューマーゲーム開発の新卒採用。ゲームデザイナー、プログラマー、キャラ・背景・アニメーター、VFX、UIなど職種別に作品で選考。",
+          "sourceUrl": "https://k2-games.com/recruit/new-grad.html",
+          "id": "294b523d9be8",
+          "companyId": "k2-games",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "k2-games",
       "name": "ケーツー",
       "tags": [
@@ -2688,10 +3818,10 @@
       "site": "https://www.kojimaproductions.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:37.751Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒は2027年卒向けの募集を掲載中。長期インターン・1Dayインターンの案内もあるが28卒向けの記載は無い。",
       "openings": [],
       "id": "colyinc",
       "name": "coly",
@@ -2733,11 +3863,100 @@
       "site": "https://www.compileheart.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:38.094Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "28卒向け本選考の一次募集を27年3月14日締切で受付中。12月に職種別のオンライン説明会、冬季インターンの作品チェックバック会も募集中。",
+      "openings": [
+        {
+          "title": "2028年卒 新卒採用（一次募集）",
+          "type": "newgrad",
+          "roles": [
+            "planner",
+            "programmer",
+            "artist",
+            "effect",
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "2027-03-14",
+          "period": "",
+          "format": "unknown",
+          "location": "福岡本社・東京スタジオ・大阪スタジオ",
+          "summary": "ゲームデザイナー・プログラマー・アーティスト・PM/制作進行などの28卒向け本選考。締切前でも随時応募可。",
+          "sourceUrl": "https://www.cc2.co.jp/recruit/?page_id=3284",
+          "id": "e8cd28ded740",
+          "companyId": "cc2",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "2028年卒向け会社説明会",
+          "type": "event",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "2026年12月上旬",
+          "format": "online",
+          "location": "YouTube配信",
+          "summary": "公式YouTubeチャンネルで配信する28卒向け会社説明会。予約不要。",
+          "sourceUrl": "https://www.cc2.co.jp/recruit/?page_id=3284",
+          "id": "cae25d3a350f",
+          "companyId": "cc2",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "2028年卒向け 職種別会社説明会",
+          "type": "event",
+          "roles": [
+            "programmer",
+            "artist",
+            "planner",
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "2026-10-26",
+          "deadline": "",
+          "period": "2026-12-09〜2026-12-22（職種ごとに1回）",
+          "format": "online",
+          "location": "Zoom",
+          "summary": "プログラマー・アーティスト・ゲームデザイナー・PM/制作進行の職種別説明会。フォームで予約、定員で締切。",
+          "sourceUrl": "https://www.cc2.co.jp/recruit/?page_id=3284",
+          "id": "efe90e17ad7e",
+          "companyId": "cc2",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "冬季インターンシップ2027〈アーティスト・ゲームデザイナー（プランナー）〉作品チェックバック会",
+          "type": "internship",
+          "roles": [
+            "artist",
+            "planner"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "アーティスト・ゲームデザイナー志望者向けの冬季インターン。作品へのチェックバックを受けられる。現在募集中。",
+          "sourceUrl": "https://www.cc2.co.jp/recruit/?page_id=4178",
+          "id": "fdf9dc5b3679",
+          "companyId": "cc2",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "cc2",
       "name": "サイバーコネクトツー",
       "tags": [
@@ -2757,8 +3976,8 @@
       "site": "https://www.cc2.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:38.807Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -2780,11 +3999,72 @@
       "site": "https://cshd.cyberstep.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:39.132Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "2027年度採用は終了。2028年3月以降卒業の学生向けにインターンシップを職種別に募集中（随時追加）。",
+      "openings": [
+        {
+          "title": "28卒向けインターンシップ（エンジニア職）",
+          "type": "internship",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "2028年3月以降卒業の学生が対象のエンジニア職インターン。詳細はリンク先で確認。",
+          "sourceUrl": "https://www.cybird.co.jp/recruit/graduates/entry/",
+          "id": "fa83a201208f",
+          "companyId": "cybird",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "28卒向けインターンシップ（総合職・ゲーム制作・運営）",
+          "type": "internship",
+          "roles": [
+            "planner"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "2028年3月以降卒業の学生が対象。ゲームの制作・運営に関わる総合職のインターン。",
+          "sourceUrl": "https://www.cybird.co.jp/recruit/graduates/entry/",
+          "id": "30fe010936f4",
+          "companyId": "cybird",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "28卒向けインターンシップ（総合職・マーケティング）",
+          "type": "internship",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "2028年3月以降卒業の学生が対象のマーケティング職インターン。",
+          "sourceUrl": "https://www.cybird.co.jp/recruit/graduates/entry/",
+          "id": "8ab082211051",
+          "companyId": "cybird",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "cybird",
       "name": "サイバード",
       "tags": [
@@ -2822,8 +4102,8 @@
       "site": "https://www.success-corp.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:40.031Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -2845,10 +4125,10 @@
       "site": "https://www.safarigames.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:41.943Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒採用は2027年卒向け。インターンはプログラム確定後に告知予定。",
       "openings": [],
       "id": "sun-denshi",
       "name": "サン電子",
@@ -2890,10 +4170,10 @@
       "site": "https://www.sandlot.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:42.143Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "掲載されている新卒募集は2026年度向けのみで、28卒向けの情報はなし",
       "openings": [],
       "id": "caproduction",
       "name": "シーエイプロダクション",
@@ -2912,10 +4192,10 @@
       "site": "https://www.caproduction.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:42.514Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒（プランナー・プログラマー・デザイナー）とサーバーエンジニアのインターンを掲載。インターンは来年度4月入社可能な方が対象で、28卒向けの記載は無い。",
       "openings": [],
       "id": "gzeal",
       "name": "ジーゼ",
@@ -2937,8 +4217,8 @@
       "site": "https://gzeal.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:44.443Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -2960,10 +4240,10 @@
       "site": "https://g2-studios.net/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:45.919Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "27新卒採用のお知らせのみで、28卒向けの情報はまだ無い。",
       "openings": [],
       "id": "geeplus",
       "name": "ジープラ",
@@ -3003,8 +4283,8 @@
       "site": "https://www.g-blossom.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:47.172Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -3026,8 +4306,8 @@
       "site": "https://www.xeen.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:47.904Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -3050,10 +4330,10 @@
       "site": "http://www.gemdrops.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:48.199Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "27卒向けの新卒採用（一次募集は2026年8月末締切）のみ掲載。28卒向けの募集はまだ無い。",
       "openings": [],
       "id": "gendesign",
       "name": "ジェン·デザイン",
@@ -3116,8 +4396,8 @@
       "site": "https://www.geniussonority.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:48.475Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -3140,8 +4420,8 @@
       "site": "https://c4on.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:49.885Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -3162,10 +4442,10 @@
       "site": "https://www.shift.gr.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:50.213Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "ゲームプログラマーの新卒採用を随時受付。卒業年の指定はなし。",
       "openings": [],
       "id": "sugarcut",
       "name": "シュガーカット",
@@ -3186,10 +4466,10 @@
       "site": "https://www.sugarcut.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:51.205Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "27卒（2027年度）新卒採用のエントリーは締切済み。28卒向けの情報はまだ無い。",
       "openings": [],
       "id": "jupiter",
       "name": "ジュピター",
@@ -3273,10 +4553,10 @@
       "site": "https://www.thinkandfeel.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:51.566Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "2027年度の新卒採用は実施しない。28卒向けの情報はまだ無い。",
       "openings": [],
       "id": "syn-sophia",
       "name": "シンソフィア",
@@ -3316,10 +4596,10 @@
       "site": "https://www.starfactory-inc.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:51.673Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒採用は27卒（2027年3月卒業見込み）が対象で募集中。28卒向けの情報はまだなし",
       "openings": [],
       "id": "studio51",
       "name": "Studio51",
@@ -3378,8 +4658,8 @@
       "site": "https://www.sting.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:52.078Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -3400,10 +4680,10 @@
       "site": "https://www.smileaxe.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:52.125Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "通年で社員を募集しており新卒も応募可。卒業年の指定はなし。",
       "openings": [],
       "id": "smileboom",
       "name": "スマイルブーム",
@@ -3423,11 +4703,72 @@
       "site": "https://smileboom.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:53.676Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "2028年新卒採用の募集要項を掲載中。プログラマー（クライアント）・プランナー・デザイナーを募集",
+      "openings": [
+        {
+          "title": "新卒採用 プログラマー（クライアント）",
+          "type": "newgrad",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "2028年向け新卒採用のクライアントプログラマー職",
+          "sourceUrl": "https://www.three-rings.net/wp/recruit",
+          "id": "effbec54ab88",
+          "companyId": "three-rings",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "新卒採用 プランナー",
+          "type": "newgrad",
+          "roles": [
+            "planner"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "2028年向け新卒採用のゲームプランナー職",
+          "sourceUrl": "https://www.three-rings.net/wp/recruit",
+          "id": "3767dedc2778",
+          "companyId": "three-rings",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "新卒採用 デザイナー",
+          "type": "newgrad",
+          "roles": [
+            "artist"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "2028年向け新卒採用のデザイナー職",
+          "sourceUrl": "https://www.three-rings.net/wp/recruit",
+          "id": "091dbeaad0ea",
+          "companyId": "three-rings",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "three-rings",
       "name": "スリーリングス",
       "tags": [
@@ -3446,8 +4787,8 @@
       "site": "http://www.three-rings.net/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:54.171Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -3491,8 +4832,8 @@
       "site": "http://www.sonicpowered.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:55.289Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -3537,11 +4878,32 @@
       "site": "https://soleilgamestudios.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:55.630Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "2028年度新卒採用のページを公開している（詳細は採用ページ外）。",
+      "openings": [
+        {
+          "title": "2028年度 新卒採用",
+          "type": "newgrad",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "タイトーの2028年度新卒採用。募集の詳細は専用ページで案内。",
+          "sourceUrl": "https://www.taito.co.jp/corporate/recruitment",
+          "id": "d32d900523e2",
+          "companyId": "taito",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "taito",
       "name": "タイトー",
       "tags": [
@@ -3560,10 +4922,10 @@
       "site": "https://www.taito.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:56.146Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "2027年度の新卒採用は予定していない。現在は中途採用のみ。",
       "openings": [],
       "id": "tamsoft",
       "name": "タムソフト",
@@ -3583,10 +4945,10 @@
       "site": "https://www.tamsoft.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:57.602Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒採用はグリーグループ全体で実施。グループの新卒採用ページに28卒向けの具体的な募集は書かれていない",
       "openings": [],
       "id": "wfs",
       "name": "WFS",
@@ -3606,10 +4968,10 @@
       "site": "https://www.wfs.games/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:57.914Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "2028年度新卒採用は準備中。27年度の新卒採用は受付終了。",
       "openings": [],
       "id": "dank-hearts",
       "name": "ダンクハーツ",
@@ -3628,10 +4990,10 @@
       "site": "https://www.dank-hearts.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:45:59.853Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒でデザイナー・プログラマーを募集。会社説明会は終了しており、次回は未定。",
       "openings": [],
       "id": "d-o-inc",
       "name": "ディー・オー",
@@ -3736,10 +5098,10 @@
       "site": "https://tendagames.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:00.024Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒募集要項は2023年卒向けのままで、28卒向けの情報は無い。",
       "openings": [],
       "id": "toydea",
       "name": "トイディア",
@@ -3761,8 +5123,8 @@
       "site": "https://www.toydea.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:00.086Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -3784,11 +5146,36 @@
       "site": "https://www.toylogic.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:00.111Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "2028年卒業向けの新卒採用でプランナー・プログラマー・アーティスト・サウンドなどのプレエントリーを受付中。27卒の受付は終了。",
+      "openings": [
+        {
+          "title": "2028年度卒業の方 新卒採用",
+          "type": "newgrad",
+          "roles": [
+            "planner",
+            "programmer",
+            "artist",
+            "effect",
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "京都",
+          "summary": "プランナー、ゲームプログラマー、サーバーエンジニア、アーティスト（3D・2D・UI・VFX等）、サウンドのプレエントリー受付中。会社説明会も申込可。",
+          "sourceUrl": "https://www.tose.co.jp/recruit/fresh/index.html",
+          "id": "114e4e97714e",
+          "companyId": "tose",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "tose",
       "name": "トーセ",
       "tags": [
@@ -3808,11 +5195,132 @@
       "site": "https://www.tose.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:02.105Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "28卒向けにゲームエンジニア・ゲームプランナー・ゲームプロデューサー候補など職種別の新卒募集を掲載中。",
+      "openings": [
+        {
+          "title": "ゲームエンジニア（2028年卒）",
+          "type": "newgrad",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "東京",
+          "summary": "28卒向けのゲームエンジニア新卒募集。東京勤務。定員は設けていない。",
+          "sourceUrl": "https://www.donuts.ne.jp/recruit/new_graduate/",
+          "id": "e72682d336fc",
+          "companyId": "donuts",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "ゲームプランナー（2028年卒）",
+          "type": "newgrad",
+          "roles": [
+            "planner"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "東京",
+          "summary": "28卒向けのゲームプランナー新卒募集。東京勤務。",
+          "sourceUrl": "https://www.donuts.ne.jp/recruit/new_graduate/",
+          "id": "33177768c12f",
+          "companyId": "donuts",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "ゲームプロデューサー候補（2028年卒）",
+          "type": "newgrad",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "東京",
+          "summary": "28卒向けのゲームプロデューサー候補の新卒募集。東京勤務。",
+          "sourceUrl": "https://www.donuts.ne.jp/recruit/new_graduate/",
+          "id": "01164c57c159",
+          "companyId": "donuts",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "Webエンジニア（2028年卒）",
+          "type": "newgrad",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "東京・札幌・秋田",
+          "summary": "28卒向けのWebエンジニア新卒募集。東京・札幌・秋田で勤務地別に募集。",
+          "sourceUrl": "https://www.donuts.ne.jp/recruit/new_graduate/",
+          "id": "e59eda4dcec7",
+          "companyId": "donuts",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "ビジネス総合職・サービス企画職（2028年卒）",
+          "type": "newgrad",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "東京",
+          "summary": "28卒向けのビジネス総合職とサービス企画職の新卒募集。東京勤務。",
+          "sourceUrl": "https://www.donuts.ne.jp/recruit/new_graduate/",
+          "id": "87339984319d",
+          "companyId": "donuts",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "長期インターン説明会",
+          "type": "event",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "28卒の募集職種一覧に載る期間限定の長期インターン説明会。",
+          "sourceUrl": "https://www.donuts.ne.jp/recruit/new_graduate/",
+          "id": "474220602cf1",
+          "companyId": "donuts",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "donuts",
       "name": "DONUTS",
       "tags": [
@@ -3849,8 +5357,8 @@
       "site": "https://dokidoki.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:03.363Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -3917,10 +5425,10 @@
       "site": "https://drecom.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:05.035Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "掲載中の新卒採用は2027年度（27卒）向けのプランナー・プログラマ・デザイナー。応募は就職情報サイト経由。",
       "openings": [],
       "id": "nowpro",
       "name": "ナウプロダクション",
@@ -3941,8 +5449,8 @@
       "site": "https://www.nowpro.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:05.220Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -3965,10 +5473,10 @@
       "site": "https://winning-ent.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:05.299Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "2027年度卒向けの新卒採用のみ掲載。28卒向けの募集はまだ無い。",
       "openings": [],
       "id": "nippon1",
       "name": "日本一ソフトウェア",
@@ -4030,10 +5538,10 @@
       "site": "https://www.falcom.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:05.377Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒採用の応募フォームはあるが、対象の卒業年や募集時期は書かれていない",
       "openings": [],
       "id": "neuron-age",
       "name": "ニューロン・エイジ",
@@ -4133,8 +5641,8 @@
       "site": "https://company.nexon.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:07.026Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -4155,8 +5663,8 @@
       "site": "https://www.nestopi.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:08.932Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -4174,10 +5682,10 @@
       "site": "https://byking.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:09.039Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "27卒の新卒採用を2027年1月31日まで募集中。28卒向けの情報はまだ無い",
       "openings": [],
       "id": "hyde",
       "name": "ハイド",
@@ -4222,10 +5730,10 @@
       "site": "https://bael.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:09.213Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒採用は現在募集していない。",
       "openings": [],
       "id": "paon-dp",
       "name": "パオン・ディーピー",
@@ -4286,11 +5794,53 @@
       "site": "http://www.hamster.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:09.275Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "28卒向けの採用マイページを開設し、職種別のオンライン会社説明会と仕事紹介イベントの参加を受付中。",
+      "openings": [
+        {
+          "title": "【28新卒対象】オンライン会社説明会",
+          "type": "event",
+          "roles": [
+            "programmer",
+            "artist"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "12月9日（プログラマー）、12月22日（デザイナー）17:00～18:30頃",
+          "format": "online",
+          "location": "",
+          "summary": "28卒・第二新卒向けの職種別オンライン説明会（Zoom）。残りはプログラマー・デザイナーの回。マイページ登録が必要。",
+          "sourceUrl": "https://www.i-note.jp/hallab/fresh/top.html",
+          "id": "d4dacc70d5f1",
+          "companyId": "hallab",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【28新卒対象】オンライン仕事紹介イベント",
+          "type": "event",
+          "roles": [
+            "artist"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "12月2日（デザイナー）17:00～19:00頃",
+          "format": "online",
+          "location": "",
+          "summary": "28卒・第二新卒向けのオンライン仕事紹介イベント（Zoom）。仕事解説・実演・質問コーナー。残りはデザイナーの回。",
+          "sourceUrl": "https://www.hallab.co.jp/freshinfo/detail/20261009/",
+          "id": "d451fa989b5b",
+          "companyId": "hallab",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "hallab",
       "name": "ハル研究所",
       "tags": [
@@ -4311,10 +5861,10 @@
       "site": "https://www.hallab.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:10.608Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "掲載中の新卒募集要項は2027年卒向け（プログラマー・デザイナー・プランナー）。1Dayオープン・カンパニーの案内もあるが28卒向けの記載は無い。",
       "openings": [],
       "id": "bullets",
       "name": "バレット",
@@ -4336,11 +5886,153 @@
       "site": "https://www.bullets.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:10.905Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "2028年度新卒採用をプランナー・エンジニア・デザイナー・サウンドなど7職種で募集中。",
+      "openings": [
+        {
+          "title": "2028年度 新卒採用 プランナー",
+          "type": "newgrad",
+          "roles": [
+            "planner"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "東京都新宿区",
+          "summary": "ゲームプランニングやレベルデザイン、KPI分析、仕様書作成を担う新卒プランナー。将来はディレクター等を目指す。",
+          "sourceUrl": "https://boi.jp/recruit/newgraduates/",
+          "id": "9e10ce681027",
+          "companyId": "boi",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "2028年度 新卒採用 プランナー（新規事業）",
+          "type": "newgrad",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "東京都新宿区",
+          "summary": "市場調査やサービス設計など新規事業を担う新卒職。新規事業責任者などを目指せる。",
+          "sourceUrl": "https://boi.jp/recruit/newgraduates/",
+          "id": "5039bff4eccb",
+          "companyId": "boi",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "2028年度 新卒採用 プランナー（経営戦略室）",
+          "type": "newgrad",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "東京都新宿区",
+          "summary": "経営戦略室に所属するプランナー職の新卒募集。",
+          "sourceUrl": "https://boi.jp/recruit/newgraduates/",
+          "id": "bd742afd48c9",
+          "companyId": "boi",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "2028年度 新卒採用 プランナー（クリエイティブ担当）",
+          "type": "newgrad",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "東京都新宿区",
+          "summary": "制作依頼書作成や進行・スケジュール管理を担う職。ゲームプランナーとは別職種。",
+          "sourceUrl": "https://boi.jp/recruit/newgraduates/",
+          "id": "ea60213f2324",
+          "companyId": "boi",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "2028年度 新卒採用 エンジニア",
+          "type": "newgrad",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "東京都新宿区",
+          "summary": "Unityやモバイル SDK によるアプリ開発、周辺ツール開発を担う新卒エンジニア。",
+          "sourceUrl": "https://boi.jp/recruit/newgraduates/",
+          "id": "0ae260434482",
+          "companyId": "boi",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "2028年度 新卒採用 デザイナー",
+          "type": "newgrad",
+          "roles": [
+            "artist",
+            "effect"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "東京都新宿区",
+          "summary": "キャラクター・背景・モーション・バトルエフェクト・UIなどゲーム素材を制作する新卒デザイナー。",
+          "sourceUrl": "https://boi.jp/recruit/newgraduates/",
+          "id": "696e03188bfe",
+          "companyId": "boi",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "2028年度 新卒採用 サウンドクリエイター",
+          "type": "newgrad",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "東京都新宿区",
+          "summary": "ゲーム楽曲・効果音の制作や収録ディレクション、実装を担う新卒サウンド職。",
+          "sourceUrl": "https://boi.jp/recruit/newgraduates/",
+          "id": "a93b1e0429b2",
+          "companyId": "boi",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "boi",
       "name": "バンク・オブ・イノベーション",
       "tags": [
@@ -4360,11 +6052,35 @@
       "site": "https://boi.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:11.184Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "2028卒向けの募集要項を2026年11月に更新。マイページで情報を公開中。",
+      "openings": [
+        {
+          "title": "2028年度新卒採用",
+          "type": "newgrad",
+          "roles": [
+            "planner",
+            "programmer",
+            "artist",
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "アーケード機やリアルエンタメ向けの開発職を募集。プランナー・プログラマー・メカ/電気エンジニア・デザイナー等。詳細はマイページ。",
+          "sourceUrl": "https://lab.bandainamco-am.co.jp/recruit/",
+          "id": "86cd6a3b2919",
+          "companyId": "lab-bandainamco-am",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "lab-bandainamco-am",
       "name": "バンダイナムコアミューズメントラボ",
       "tags": [
@@ -4481,8 +6197,8 @@
       "site": "https://bexide.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:11.325Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -4503,10 +6219,10 @@
       "site": "https://visual-arts.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:12.808Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "ほぼ毎月会社説明会を開催（次回2027年1月13日、中途・27卒向け）。28卒向けの募集はまだ無い",
       "openings": [],
       "id": "historia",
       "name": "ヒストリア",
@@ -4548,8 +6264,8 @@
       "site": "https://www.pittcompany.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:13.085Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -4592,8 +6308,8 @@
       "site": "https://www.hunex.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:13.328Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -4672,8 +6388,8 @@
       "site": "https://www.vridge.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:14.185Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -4695,10 +6411,10 @@
       "site": "https://www.flamehearts.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:15.127Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "2027年新卒採用は募集終了。28卒向けの情報はまだ無い",
       "openings": [],
       "id": "hexadrive",
       "name": "ヘキサドライブ",
@@ -4718,8 +6434,8 @@
       "site": "https://hexadrive.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:16.533Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -4784,8 +6500,8 @@
       "site": "https://poppin-games.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:17.279Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -4806,11 +6522,32 @@
       "site": "https://www.ponos.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:18.499Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "CGアーティストの春期インターン（2〜3月実施）の応募期間が11/1〜12/31。新卒は職種別に通年掲載で対象年の記載なし。",
+      "openings": [
+        {
+          "title": "インターンシップ（CGアーティスト）春期",
+          "type": "internship",
+          "roles": [
+            "artist"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "2026-11-01",
+          "deadline": "2026-12-31",
+          "period": "2027年2月〜3月のうち3週間程度",
+          "format": "onsite",
+          "location": "東京スタジオ・福岡アトリエ",
+          "summary": "メンターと決めたテーマでクルマや景観の3DCG制作などを行い社内発表。日当・交通費補助あり。",
+          "sourceUrl": "https://www.polyphony.co.jp/recruit/jobs/2084/",
+          "id": "d6d0653c9385",
+          "companyId": "polyphony",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "polyphony",
       "name": "ポリフォニー・デジタル",
       "tags": [
@@ -4889,8 +6626,8 @@
       "site": "https://www.m-craft.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:19.228Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -4935,8 +6672,8 @@
       "site": "https://mankindgames.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:20.893Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -4959,8 +6696,8 @@
       "site": "https://mutan.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:21.344Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -5004,8 +6741,8 @@
       "site": "https://mages.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:23.989Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -5027,10 +6764,10 @@
       "site": "https://ssl.media-vision.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:24.252Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "東京本部でプランナー・3Dモデル・3Dモーションの新卒採用を掲載しているが、対象の卒業年の記載は無い。",
       "openings": [],
       "id": "metro-japan",
       "name": "メトロ",
@@ -5051,10 +6788,10 @@
       "site": "http://www.metro-japan.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:25.543Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒（未経験）でプランナー・2DCGデザイナー・映像編集デザイナーを随時募集。対象の卒業年の記載はなし",
       "openings": [],
       "id": "mossjp",
       "name": "モス",
@@ -5074,10 +6811,10 @@
       "site": "https://mossjp.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:26.192Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒採用（東京・京都）を応募期限なしで受付中だが、対象の卒業年の記載は無い。説明会・インターンは実施していない。",
       "openings": [],
       "id": "monolithsoft",
       "name": "モノリスソフト",
@@ -5117,10 +6854,10 @@
       "site": "https://www.monkeycraft.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:26.297Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒のプランナー・デザイナー・プログラマー職のページはあるが、対象の卒業年は書かれていない。",
       "openings": [],
       "id": "yukes",
       "name": "ユークス",
@@ -5164,8 +6901,8 @@
       "site": "https://www.uniteplus.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:28.016Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -5204,11 +6941,35 @@
       "site": "https://razest.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:28.449Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "28卒向け本選考の2次エントリーを11月30日まで受付中。3次以降は確定次第案内。",
+      "openings": [
+        {
+          "title": "2028年度新卒採用 2次エントリー",
+          "type": "newgrad",
+          "roles": [
+            "planner",
+            "programmer",
+            "artist",
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "2026-10-05",
+          "deadline": "2026-11-30",
+          "period": "",
+          "format": "unknown",
+          "location": "東京都目黒区",
+          "summary": "プランナー・エンジニア・デザイナー・総合職の28卒向け本選考。2次受付は11月30日まで。",
+          "sourceUrl": "https://recruit.lasengle.co.jp/fresh2028/",
+          "id": "dd12ffbd372c",
+          "companyId": "lasengle",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "lasengle",
       "name": "ラセングル",
       "tags": [
@@ -5249,8 +7010,8 @@
       "site": "http://www.lancarse.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:32.443Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -5318,8 +7079,8 @@
       "site": "https://linkedbrain.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:32.983Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -5343,10 +7104,10 @@
       "site": "https://rudel.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:33.275Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "27卒の新卒採用は2026年8月31日で終了。現在は中途採用のみ。",
       "openings": [],
       "id": "logicalbeat",
       "name": "ロジカルビート",
@@ -5388,11 +7149,32 @@
       "site": "https://www.rocketstd.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:33.928Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "27卒（2027年4月入社）の新卒募集は締切済み。28卒向けの単独会社説明会は2026年11月以降に開催予定。",
+      "openings": [
+        {
+          "title": "2028年4月入社向け 単独会社説明会",
+          "type": "event",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "2026年11月以降に開催予定",
+          "format": "unknown",
+          "location": "",
+          "summary": "28卒（2028年4月入社）向けの単独会社説明会。日程は説明会ページで案内予定。",
+          "sourceUrl": "https://1-up-studio.jp/recruit/company/",
+          "id": "c9274861499d",
+          "companyId": "1-up-studio",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "1-up-studio",
       "name": "1-UPスタジオ",
       "tags": [
@@ -5412,8 +7194,8 @@
       "site": "https://1-up-studio.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:35.428Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -5435,11 +7217,32 @@
       "site": "https://one-or-eight.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:35.861Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "新卒向けの職種別募集と就業体験型インターンを随時受付中。説明会・選考は原則オンライン。",
+      "openings": [
+        {
+          "title": "新卒・インターンシップ",
+          "type": "newgrad",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "online",
+          "location": "",
+          "summary": "職種別の新卒募集と就業体験型インターンを随時受付。適性検査とオンライン面接2〜3回で選考。",
+          "sourceUrl": "https://wonderpla.net/recruit/entry/",
+          "id": "a576350eb833",
+          "companyId": "wonderpla",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "wonderpla",
       "name": "ワンダープラネット",
       "tags": [
@@ -5502,10 +7305,10 @@
       "site": "https://www.aiqveone.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:38.943Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "2027新卒採用は終了。28卒向けの募集はまだ掲載されていない。",
       "openings": [],
       "id": "engi-st",
       "name": "ENGI",
@@ -5607,8 +7410,8 @@
       "site": "https://dxed.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:39.097Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -5651,11 +7454,32 @@
       "site": "https://www.ybf.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:39.541Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "28卒の新卒採用プレエントリーを受付中（3DCGキャラクターモデラー）。登録者にインターン・説明会情報を優先案内",
+      "openings": [
+        {
+          "title": "2028年卒 新卒採用プレエントリー",
+          "type": "newgrad",
+          "roles": [
+            "artist"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "2026-07-15",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "3DCGキャラクターモデラー志望の28卒向けプレエントリー。登録者にはインターンや会社説明会の情報を優先して届ける",
+          "sourceUrl": "https://www.kayacpolaris.com/recruit-2028-pre",
+          "id": "ecd2d0d183c3",
+          "companyId": "kayacpolaris",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "kayacpolaris",
       "name": "カヤックポラリス",
       "tags": [
@@ -5675,8 +7499,8 @@
       "site": "https://www.kayacpolaris.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:39.572Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -5843,10 +7667,10 @@
       "site": "https://www.iosysos.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:40.642Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "3DCG・2Dデザイナーやエンジニアなど多職種で新卒を募集しているが、対象の卒業年の記載は無い。",
       "openings": [],
       "id": "exsa",
       "name": "exsa",
@@ -5885,10 +7709,10 @@
       "site": "http://www.uqigmo.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:40.981Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒イラストレーターの募集は26・27卒向け。グッズ制作ディレクター（新卒）も募集中だが卒業年の記載なし。",
       "openings": [],
       "id": "exdesign",
       "name": "エクスデザイン",
@@ -5994,10 +7818,10 @@
       "site": "https://q-ace.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:41.012Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "東京本社・札幌オフィスで正社員・アルバイトを募集中。新卒は要相談で、28卒向けの募集の記載はなし",
       "openings": [],
       "id": "kingpawn",
       "name": "キングポーン",
@@ -6060,10 +7884,10 @@
       "site": "https://classmethod.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:43.548Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "27卒の新卒採用とインターンシップの案内あり。28卒向けの情報はまだ無い",
       "openings": [],
       "id": "crypton",
       "name": "クリプトン・フューチャー・メディア",
@@ -6145,8 +7969,8 @@
       "site": "http://www.cyclone-zero.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:43.825Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -6169,10 +7993,10 @@
       "site": "https://www.g-angle.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:44.273Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "札幌本社で新卒採用（デザイナー・プランナー・プログラマー）を随時受付中。対象の卒業年は書かれていない",
       "openings": [],
       "id": "gstyle",
       "name": "ジースタイル",
@@ -6191,8 +8015,8 @@
       "site": "http://www.gstyle.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:44.693Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -6213,11 +8037,54 @@
       "site": "https://syn-game.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:46.044Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "28卒向けの本選考エントリーと説明選考会を開始。コンサルタント・エンジニアを募集し、28卒向けインターンも受付中。",
+      "openings": [
+        {
+          "title": "2028年卒 本選考",
+          "type": "newgrad",
+          "roles": [
+            "programmer",
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "2026-10-09",
+          "deadline": "",
+          "period": "",
+          "format": "online",
+          "location": "東京都港区・新宿区",
+          "summary": "コンサルタント・エンジニア職の新卒採用。提示年収500万円保証、選考はほぼオンライン。",
+          "sourceUrl": "https://recruit.shiftinc.jp/new_graduate/course/route/",
+          "id": "1bc372c45baf",
+          "companyId": "shiftinc",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "新卒インターンシップ",
+          "type": "internship",
+          "roles": [
+            "programmer",
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "2026-03-03",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "AI CODE SPRINTやAIインターン、ビジネス系など複数のプログラムを28卒向けに実施。",
+          "sourceUrl": "https://recruit.shiftinc.jp/lp/new_graduate/internship",
+          "id": "eb407aa4bebd",
+          "companyId": "shiftinc",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "shiftinc",
       "name": "SHIFT",
       "tags": [
@@ -6362,11 +8229,74 @@
       "site": "https://www.s-riccio.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:47.206Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "2028年新卒向けのエントリーを受付中（プログラマ・デザイナー・プランナー）。札幌スタジオのプログラマ向け1day/2daysカレッジも募集中。",
+      "openings": [
+        {
+          "title": "株式会社セガ札幌スタジオ 新卒採用（2028年新卒）",
+          "type": "newgrad",
+          "roles": [
+            "programmer",
+            "artist",
+            "planner"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "北海道札幌市",
+          "summary": "プログラマ・デザイナー（3Dモデル・モーション・UI中心）・プランナーを募集。セガ本体と併願可。",
+          "sourceUrl": "https://www.sega.co.jp/recruit/fresh/details/sapporostudio/",
+          "id": "bec9481a7155",
+          "companyId": "sega-sapporo-studio",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "セガ札幌スタジオ プログラマオンライン1dayカレッジ",
+          "type": "internship",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "1日",
+          "format": "online",
+          "location": "",
+          "summary": "セガ札幌スタジオのプログラマ職をオンラインで体験できる1日のカレッジ。",
+          "sourceUrl": "https://www.sega.co.jp/recruit/fresh/internship/index.html",
+          "id": "2497083b6ac9",
+          "companyId": "sega-sapporo-studio",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "セガ札幌スタジオ プログラマ2daysカレッジ",
+          "type": "internship",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "2日間",
+          "format": "unknown",
+          "location": "",
+          "summary": "セガ札幌スタジオのプログラマ職を2日間で体験できるカレッジ。",
+          "sourceUrl": "https://www.sega.co.jp/recruit/fresh/internship/index.html",
+          "id": "cf3a96627336",
+          "companyId": "sega-sapporo-studio",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "sega-sapporo-studio",
       "name": "セガ札幌スタジオ",
       "tags": [
@@ -6523,10 +8453,10 @@
       "site": "https://www.facebook.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:47.669Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "27卒の応募受付は終了。28卒の採用情報は今後告知予定。",
       "openings": [],
       "id": "nintendo-cube",
       "name": "ニンテンドーキューブ",
@@ -6648,11 +8578,32 @@
       "site": "http://www.ptw.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:47.700Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "札幌本社で毎月会社説明会を開催しており、12月以降も開催予定。WEBディレクターが新卒採用対象。",
+      "openings": [
+        {
+          "title": "会社説明会（12月以降）",
+          "type": "event",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "12月以降開催予定（日程は確定次第案内）",
+          "format": "hybrid",
+          "location": "札幌本社",
+          "summary": "会社概要・事業・職場環境・採用の説明。対面は社内見学とランチ付き、オンラインは約40分。問い合わせフォームから予約。",
+          "sourceUrl": "https://www.mediamagic.co.jp/news/3049",
+          "id": "c74f385ddf7c",
+          "companyId": "mediamagic",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "mediamagic",
       "name": "メディア・マジック",
       "tags": [
@@ -6962,10 +8913,10 @@
       "site": "https://dom-grp.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:48.983Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "札幌のCG・VFXプロダクション。現在は27卒の新卒（3DCG・Live2D等）を募集中で、28卒向けの記載は無い。",
       "openings": [],
       "id": "metasight",
       "name": "メタサイト",
@@ -7028,8 +8979,8 @@
       "site": "https://fuzz.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:49.759Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -7157,10 +9108,10 @@
       "site": "https://illumination.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:50.735Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "27年3月卒業見込み向けに3Dデザイナーを募集中。28卒向けの情報はまだない。",
       "openings": [],
       "id": "picola",
       "name": "ピコラ",
@@ -7239,10 +9190,10 @@
       "site": "https://kiteretsu.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:52.825Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "2027年4月入社向けはリクナビ経由で受付。28卒向けの募集はまだ掲載されていない。",
       "openings": [],
       "id": "psoft",
       "name": "ピー・ソフトハウス",
@@ -7301,10 +9252,10 @@
       "site": "https://www.seedsnest.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:53.198Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "27年入社向けの新卒求人のみ掲載。28卒向けの募集はまだ無い。",
       "openings": [],
       "id": "purmoe-design-lab",
       "name": "Purmoe Design Lab",
@@ -7321,8 +9272,8 @@
       "site": "http://purmoe-design-lab.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:53.786Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -7495,8 +9446,8 @@
       "site": "https://www.irem.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:54.627Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -7608,11 +9559,32 @@
       "site": "https://izanagigames.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:54.773Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "28卒向けはゲーム業界の人材営業職を募集中。開発職の新卒募集は27卒向けのみ掲載",
+      "openings": [
+        {
+          "title": "【ゲーム業界】人材営業担当（リクルーティングアドバイザー /28卒）",
+          "type": "newgrad",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "onsite",
+          "location": "東京（飯田橋）",
+          "summary": "ゲーム企業の窓口対応や派遣就業者のフォロー、転職希望者へのキャリア助言を担う営業職",
+          "sourceUrl": "https://www.geeq.co.jp/recruit/requirement/",
+          "id": "1a0c3c6f3321",
+          "companyId": "geeq",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "geeq",
       "name": "IMAGICA GEEQ",
       "tags": [],
@@ -7632,10 +9604,10 @@
       "site": "https://www.geeq.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:56.313Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒ゲームプログラマーを募集中だが、対象は2027年3月卒業見込みの方。",
       "openings": [],
       "id": "wizardsoft",
       "name": "ウィザードソフト",
@@ -7688,10 +9660,10 @@
       "site": "https://aplusjapan.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:56.544Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒採用は現在行っていない。",
       "openings": [],
       "id": "edia",
       "name": "エディア",
@@ -7784,10 +9756,10 @@
       "site": "https://www.kakehashigames.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:56.545Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒・中途の本年度募集は終了している。",
       "openings": [],
       "id": "kw-games",
       "name": "KEY WEST",
@@ -7805,8 +9777,8 @@
       "site": "https://kw-games.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:57.026Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -7844,11 +9816,36 @@
       "site": "https://www.cloudedleopardent.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:58.621Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "2028年3月卒業見込み向けのグループ新卒採用を募集中。エンジニア・エンタメ総合・ゲームプランナー・デザイナーの4職種。",
+      "openings": [
+        {
+          "title": "グループ新卒採用",
+          "type": "newgrad",
+          "roles": [
+            "programmer",
+            "planner",
+            "artist",
+            "effect",
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "東京都港区（六本木）",
+          "summary": "エンジニア職、エンタメ総合職、ゲームプランナー職、デザイナー職（エフェクト等を含む）の新卒採用。",
+          "sourceUrl": "https://www.gree.co.jp/jp/ja/recruit/position/",
+          "id": "0fbb424578c5",
+          "companyId": "gree",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "gree",
       "name": "グリーホールディングス",
       "tags": [],
@@ -7867,10 +9864,10 @@
       "site": "https://www.gree.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:58.775Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒採用は行っておらず、新卒予定者もキャリア採用枠から応募する形。",
       "openings": [],
       "id": "gs2",
       "name": "Game Server Services",
@@ -7888,10 +9885,10 @@
       "site": "https://gs2.io/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:59.967Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "現在、新卒採用活動は行っていない。募集開始時にサイトで告知予定。",
       "openings": [],
       "id": "genki",
       "name": "元気",
@@ -7928,8 +9925,8 @@
       "site": "https://www.hoyoverse.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:46:59.968Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -7948,11 +9945,273 @@
       "site": "https://komodo.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:00.808Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "28卒向けにビジネス・エンジニアコースの本選考とインターンを展開中。ゲーム系はGame Planner Campや Game Client College、各ゲーム子会社の就業型インターンを募集中。",
+      "openings": [
+        {
+          "title": "【大阪開催】現場体験型プログラムへ進める！ 選考直結型説明会（ゲーム・エンターテイメント事業部主催）",
+          "type": "event",
+          "roles": [
+            "planner",
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "2026-11-16",
+          "deadline": "",
+          "period": "2026-12-05",
+          "format": "onsite",
+          "location": "大阪",
+          "summary": "ゲーム・エンタメ事業部主催の28卒ビジネスコース向け選考直結型説明会。現場体験型プログラムへ進める。",
+          "sourceUrl": "https://www.cyberagent.co.jp/careers/students/biz/",
+          "id": "ed8a5ef12879",
+          "companyId": "cyberagent",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【28卒ビジネスコース向け】オンライン会社説明会～本選考徹底解説編～",
+          "type": "event",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "2026-10-27",
+          "deadline": "",
+          "period": "",
+          "format": "online",
+          "location": "",
+          "summary": "28卒ビジネスコースの本選考を解説するオンライン会社説明会。",
+          "sourceUrl": "https://www.cyberagent.co.jp/careers/students/biz/",
+          "id": "4a8430048566",
+          "companyId": "cyberagent",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "Game Planner Camp（ゲームプランナーキャンプ）～Winter 2028～",
+          "type": "internship",
+          "roles": [
+            "planner"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "2026-10-01〜2027-02-26",
+          "format": "unknown",
+          "location": "",
+          "summary": "28卒ビジネスコース向けのゲームプランナー体験インターン。募集中。",
+          "sourceUrl": "https://www.cyberagent.co.jp/careers/students/biz/internship/",
+          "id": "0fe8da86b368",
+          "companyId": "cyberagent",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【企画職/プランナー】長期インターンシップ（ゲーム・エンターテイメント事業部）",
+          "type": "internship",
+          "roles": [
+            "planner"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "2026-10-01〜2027-02-26",
+          "format": "unknown",
+          "location": "",
+          "summary": "ゲーム・エンタメ事業部で企画職・プランナーとして働く長期インターン。28卒向けに募集中。",
+          "sourceUrl": "https://www.cyberagent.co.jp/careers/students/biz/internship/",
+          "id": "9d32d8c13f9b",
+          "companyId": "cyberagent",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【本選考参加者向け】1dayインターンシップ",
+          "type": "internship",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "2026-10-15〜2027-03-31",
+          "format": "unknown",
+          "location": "",
+          "summary": "28卒ビジネスコースの本選考参加者向けの1日インターン。募集中。",
+          "sourceUrl": "https://www.cyberagent.co.jp/careers/students/biz/internship/",
+          "id": "2d5d0933a766",
+          "companyId": "cyberagent",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "Game Client College プロの技術でゲーム設計を極める",
+          "type": "internship",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "2027-02-20〜2027-03-12",
+          "format": "unknown",
+          "location": "",
+          "summary": "28卒エンジニアコース向けの短期体験型インターン。ゲームクライアントの設計をプロから学ぶ。",
+          "sourceUrl": "https://www.cyberagent.co.jp/careers/students/tech/",
+          "id": "0f2124f84851",
+          "companyId": "cyberagent",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【2DAYS】Casual Game JAM vol.2 “ヒットを生み出すモノ作り”を体験する事業創出実践型インターンシップ",
+          "type": "internship",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "2026-12-12〜2026-12-13",
+          "format": "unknown",
+          "location": "",
+          "summary": "28卒エンジニアコース向けの2日間のカジュアルゲーム開発ジャム。ヒット作づくりを体験。",
+          "sourceUrl": "https://www.cyberagent.co.jp/careers/students/tech/",
+          "id": "6ab8faeea7fe",
+          "companyId": "cyberagent",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "Go College Goのサーバーサイド開発について学べる！",
+          "type": "internship",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "2027-02-06〜2027-03-12",
+          "format": "unknown",
+          "location": "",
+          "summary": "28卒エンジニアコース向けの短期体験型インターン。Goでのサーバーサイド開発を学ぶ。",
+          "sourceUrl": "https://www.cyberagent.co.jp/careers/students/tech/",
+          "id": "69bc477a4a7a",
+          "companyId": "cyberagent",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【学生インターンシップ】ゲームの面白さやグラフィックのクオリティを一緒に追求できるエンジニアを募集！／QualiArts",
+          "type": "internship",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "2026-09-14〜2027-09-13",
+          "format": "unknown",
+          "location": "",
+          "summary": "QualiArtsでゲームの面白さやグラフィック品質を追求するミッション型の就業インターン。",
+          "sourceUrl": "https://www.cyberagent.co.jp/careers/students/tech/",
+          "id": "93aade11b7d0",
+          "companyId": "cyberagent",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【CA Tech JOB】ゲーム開発エンジニア募集（バックエンド／クライアント）サムザップ",
+          "type": "internship",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "2026-04-01〜2027-03-31",
+          "format": "unknown",
+          "location": "",
+          "summary": "サムザップでバックエンド・クライアントのゲーム開発に携わるミッション型インターン。募集中。",
+          "sourceUrl": "https://www.cyberagent.co.jp/careers/students/tech/internship/",
+          "id": "d67ada01884d",
+          "companyId": "cyberagent",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【学生インターンシップ】ゲーム開発を支えるサーバーサイドエンジニア募集・ゲーム開発を支えるクライアントエンジニア募集／アプリボット",
+          "type": "internship",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "〜2026-12-22",
+          "format": "unknown",
+          "location": "",
+          "summary": "アプリボットでサーバー・クライアントのゲーム開発を担うミッション型インターン。募集中。",
+          "sourceUrl": "https://www.cyberagent.co.jp/careers/students/tech/internship/",
+          "id": "23a71a7e4166",
+          "companyId": "cyberagent",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "Colorful Palette / Colorful Palette ENCORE ユーザーの楽しさや、ゲームの面白さを追求できるエンジニアインターンシップ参加者募集！",
+          "type": "internship",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "〜2026-12-26",
+          "format": "unknown",
+          "location": "",
+          "summary": "Colorful Paletteでゲームの面白さを追求するエンジニア向けミッション型インターン。募集中。",
+          "sourceUrl": "https://www.cyberagent.co.jp/careers/students/tech/internship/",
+          "id": "4a4dc13e874e",
+          "companyId": "cyberagent",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "全職種向け 実践就業型インターンシップ【オンライン参加可】 CA Tech JOB",
+          "type": "internship",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "〜2027-04-30",
+          "format": "hybrid",
+          "location": "",
+          "summary": "エンジニア全職種向けの実践就業型インターン。オンライン参加も可能。募集中。",
+          "sourceUrl": "https://www.cyberagent.co.jp/careers/students/tech/internship/",
+          "id": "8c47b26fe1d8",
+          "companyId": "cyberagent",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "cyberagent",
       "name": "サイバーエージェント",
       "tags": [],
@@ -7986,8 +10245,8 @@
       "site": "https://shake-e.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:01.813Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -8027,11 +10286,73 @@
       "site": "https://www.jpuniverse.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:02.014Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "新卒者採用で3DCGデザイナー・制作進行・ゲーム開発エンジニアの応募を受付中。卒業年の記載は無し。",
+      "openings": [
+        {
+          "title": "新卒者採用 3DCGデザイナー（3Dモデラー・3Dアニメーター・3Dリガー・エフェクトデザイナー）",
+          "type": "newgrad",
+          "roles": [
+            "artist",
+            "effect"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "東京本社（千代田区九段北）",
+          "summary": "3DCGを学んだ人向け。モデリング・アニメーション・リグ・エフェクトの各職種で作品選考と面接2回。",
+          "sourceUrl": "https://jetstudio.jp/recruit/",
+          "id": "6a02dac6d6da",
+          "companyId": "jetstudio",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "新卒者採用 制作進行",
+          "type": "newgrad",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "東京本社（千代田区九段北）",
+          "summary": "4年制大学・専門学校卒業予定でCG・映像に興味がある人向け。スケジュール管理とクライアント窓口を担う。",
+          "sourceUrl": "https://jetstudio.jp/recruit/",
+          "id": "5262da37ca0e",
+          "companyId": "jetstudio",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "新卒者採用 ゲーム開発エンジニア（アプリケーション・サーバー・グラフィックス）",
+          "type": "newgrad",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "東京本社（千代田区九段北）",
+          "summary": "C/C++の基礎がある人向け。ゲームのプログラム、サーバー、描画プログラムの設計・実装を担当。",
+          "sourceUrl": "https://jetstudio.jp/recruit/",
+          "id": "2ff4c8cc5618",
+          "companyId": "jetstudio",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "jetstudio",
       "name": "ジェットスタジオ",
       "tags": [],
@@ -8177,10 +10498,10 @@
       "site": "https://diarkis.io/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:02.843Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "27卒向けの新卒採用をマイナビ2027で受付中（12月15日締切）。28卒向けの情報はまだ無い。",
       "openings": [],
       "id": "dag-inc",
       "name": "D・A・G",
@@ -8217,8 +10538,8 @@
       "site": "https://www.d3p.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:04.114Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -8278,8 +10599,8 @@
       "site": "https://www.dxg.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:05.987Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -8319,8 +10640,8 @@
       "site": "https://www.noisycroak.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:06.772Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -8358,11 +10679,92 @@
       "site": "https://bhaze.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:07.934Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "28卒向けインターンシップのエントリー受付中。本選考は2028年3月卒業見込みが対象で、3月の会社説明会（参加必須）から開始。",
+      "openings": [
+        {
+          "title": "2028年卒向けインターンシップ",
+          "type": "internship",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "エンタメ商社ハピネットの28卒向けインターンシップ。エントリー受付中。",
+          "sourceUrl": "https://www.happinet.co.jp/recruit/fresh.html",
+          "id": "6ca52c05c280",
+          "companyId": "happinet",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "株式会社ハピネット（総合職）",
+          "type": "newgrad",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "3月会社説明会、3〜6月に選考・内々定",
+          "format": "unknown",
+          "location": "東京、大阪",
+          "summary": "セールス・マーケティング・スタッフなどの総合職。2028年3月卒業見込みが対象で、説明会参加が必須。",
+          "sourceUrl": "https://www.happinet.co.jp/recruit/information/guideline.html",
+          "id": "da0dac771bc0",
+          "companyId": "happinet",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "株式会社ハピネット（経理・口座管理職）",
+          "type": "newgrad",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "3月会社説明会、3〜6月に選考・内々定",
+          "format": "unknown",
+          "location": "東京",
+          "summary": "経理・口座管理職の新卒採用。日商簿記2級（見込み可）が必要。2028年3月卒業見込みが対象。",
+          "sourceUrl": "https://www.happinet.co.jp/recruit/information/guideline.html",
+          "id": "d2b69935dd22",
+          "companyId": "happinet",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "株式会社ハピネット・ロジスティクスサービス",
+          "type": "newgrad",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "3月会社説明会、4〜5月に選考",
+          "format": "unknown",
+          "location": "",
+          "summary": "グループ会社の物流運用管理・物流企画職の新卒採用。2028年3月卒業見込みが対象。",
+          "sourceUrl": "https://www.happinet.co.jp/recruit/information/guideline.html",
+          "id": "b3032f6ae1f7",
+          "companyId": "happinet",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "happinet",
       "name": "ハピネット",
       "tags": [],
@@ -8416,11 +10818,34 @@
       "site": "https://www.pikii.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:08.214Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "2028年度新卒採用を実施。ITエンジニアやゲームプランナーなどを募集し、エントリーはマイナビから。",
+      "openings": [
+        {
+          "title": "2028年度新卒採用",
+          "type": "newgrad",
+          "roles": [
+            "programmer",
+            "planner",
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "選考スケジュールは就活イベントで案内",
+          "format": "unknown",
+          "location": "本社・フジテレビ内オフィス（東京）",
+          "summary": "ITエンジニア（ゲーム開発含む）、インフラエンジニア、ゲームプランナー、マーケティング、営業等を募集。",
+          "sourceUrl": "https://www.fnl.co.jp/recruit/graduates/",
+          "id": "50174f7e0be5",
+          "companyId": "fnl",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "fnl",
       "name": "フジ・ネクステラ・ラボ",
       "tags": [],
@@ -8438,11 +10863,34 @@
       "site": "https://www.fnl.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:08.384Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "2028年度新卒のエンターテイメント総合職を募集中。マイページ登録からエントリー",
+      "openings": [
+        {
+          "title": "2028年度新卒採用 エンターテイメント総合職",
+          "type": "newgrad",
+          "roles": [
+            "planner",
+            "artist",
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "東京本社",
+          "summary": "TCG企画・広報・ライセンス・デザイナー・グループ各社などの総合職。ES、適性診断、面接2回で選考",
+          "sourceUrl": "https://recruit.bushiroad.co.jp/fresh2028/job-description/",
+          "id": "f3e2a04e21c5",
+          "companyId": "bushiroad",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "bushiroad",
       "name": "ブシロード",
       "tags": [],
@@ -8481,11 +10929,53 @@
       "site": "https://www.flypenguin.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:08.817Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "28卒向けにエンジニア職コース（京都）とビジネス職コースの本選考要項を公開中。ES締切は未定。",
+      "openings": [
+        {
+          "title": "エンジニア職コース（2028卒）",
+          "type": "newgrad",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "京都（京都事業所）",
+          "summary": "Webサービス・プリ機のソフト/ハード開発等のエンジニア。ゲームエンジニアも含む。5名程度、ES締切未定。",
+          "sourceUrl": "https://www.furyu.jp/recruit/fresh/requirements/",
+          "id": "8670559fe21e",
+          "companyId": "furyu",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "ビジネス職コース（2028卒）",
+          "type": "newgrad",
+          "roles": [
+            "planner",
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "東京・京都・愛知",
+          "summary": "企画系・営業系・スタッフ系のいずれかを担当する総合職。10名程度、ES締切未定。",
+          "sourceUrl": "https://www.furyu.jp/recruit/fresh/requirements/",
+          "id": "e21d5c86ec83",
+          "companyId": "furyu",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "furyu",
       "name": "フリュー",
       "tags": [],
@@ -8542,10 +11032,10 @@
       "site": "https://corporate.pokemon.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:12.189Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "27新卒採用のお知らせのみで、28卒向けの情報はまだ無い。",
       "openings": [],
       "id": "polygonmagic",
       "name": "ポリゴンマジック",
@@ -8623,8 +11113,8 @@
       "site": "https://www.metasla.net/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:13.681Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -8644,8 +11134,8 @@
       "site": "https://www.meteorise.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:15.295Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -8760,10 +11250,10 @@
       "site": "https://www.liberent.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:15.588Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "現在、スタッフ・インターンシップの募集は行っていない",
       "openings": [],
       "id": "room6",
       "name": "room6",
@@ -8780,10 +11270,10 @@
       "site": "https://www.room6.net/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:16.115Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "2027年3月卒業見込み向けの新卒採用（2026年12月31日締切）のみ掲載。28卒向けはまだ無い。",
       "openings": [],
       "id": "rengame",
       "name": "RENGAME",
@@ -8817,11 +11307,52 @@
       "site": "https://www.vicgamestudios.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:16.737Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "28卒向けにオンラインのオープンカンパニーと、冬期インターンに向けた1on1カジュアル面談を受付中。新卒採用は現在行っていない。",
+      "openings": [
+        {
+          "title": "【28卒対象】オープンカンパニー",
+          "type": "event",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "online",
+          "location": "",
+          "summary": "人事と若手社員が、約2週間の音声・映像の研究開発インターンの特徴を紹介するオンライン企画。",
+          "sourceUrl": "https://recruit.cri-mw.co.jp/recruit/parttime.html",
+          "id": "ad3432877d77",
+          "companyId": "cri-mw",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【28卒】1on1インターンカジュアル面談",
+          "type": "internship",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "冬期インターンに先立ち、研究内容や興味をもとに挑戦できる領域や実施時期を個別に相談する面談。",
+          "sourceUrl": "https://recruit.cri-mw.co.jp/recruit/casual_meeting.html",
+          "id": "8f51429075f1",
+          "companyId": "cri-mw",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "cri-mw",
       "name": "CRI・ミドルウェア",
       "tags": [],
@@ -8857,10 +11388,10 @@
       "site": "https://lighthouse-studio.voyage/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:16.906Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "インターンシップ・会社説明会は実施していない",
       "openings": [],
       "id": "gnmd",
       "name": "GANYMEDE",
@@ -8878,8 +11409,8 @@
       "site": "https://gnmd.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:17.371Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -8976,10 +11507,10 @@
       "site": "https://aktsk.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:17.540Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "2027年度の新卒採用は終了。28卒向けの募集はまだ無い。",
       "openings": [],
       "id": "qmax",
       "name": "キューマックス",
@@ -8996,10 +11527,10 @@
       "site": "https://qmax.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:19.142Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "現在、新卒採用は行っていない。",
       "openings": [],
       "id": "auryn",
       "name": "アウリン",
@@ -9016,8 +11547,8 @@
       "site": "https://www.auryn.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:19.313Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -9037,10 +11568,10 @@
       "site": "https://www.kemco.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:19.545Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒募集要項は2026年3月卒業見込み向け。28卒向けの募集は掲載なし。",
       "openings": [],
       "id": "zuiki",
       "name": "瑞起",
@@ -9169,8 +11700,8 @@
       "site": "http://www.d4e.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:19.995Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -9208,8 +11739,8 @@
       "site": "http://www.hkm.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:20.351Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -9359,8 +11890,8 @@
       "site": "http://www.art95.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:21.215Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -9545,8 +12076,8 @@
       "site": "http://www.vitei.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:21.957Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -9757,10 +12288,10 @@
       "site": "https://www.gamearts.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:23.171Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "応募フォームの対象は2027年新卒・第二新卒。28卒向けの募集はまだ無い。",
       "openings": [],
       "id": "kogado",
       "name": "工画堂スタジオ",
@@ -9796,10 +12327,10 @@
       "site": "http://www.goshow.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:23.715Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "現在、新卒採用の選考は行っていない",
       "openings": [],
       "id": "cosmomachia",
       "name": "コスモマキアー",
@@ -9817,8 +12348,8 @@
       "site": "https://www.cosmomachia.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:23.791Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -9877,10 +12408,10 @@
       "site": "http://www.snami.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:25.046Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒採用は現在募集していない。",
       "openings": [],
       "id": "gchoice",
       "name": "ジーチョイス",
@@ -9916,11 +12447,52 @@
       "site": "http://www.sims.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:25.883Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "28卒向けにソフトウェア業界のWeb説明会と現地の企業説明会を開催中（マイナビ2028から申込）。",
+      "openings": [
+        {
+          "title": "【夜間開催】ソフトウェア業界が分かるWeb説明会",
+          "type": "event",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "2026/11/27、12/18 各19:00～21:00（希望日開催も可）",
+          "format": "online",
+          "location": "",
+          "summary": "ソフト開発を仕事にしたい学生向けに、業界や会社を社員が紹介する1日完結のZoom説明会。",
+          "sourceUrl": "https://www.zoo.co.jp/job/",
+          "id": "4f71bdd93874",
+          "companyId": "zoo",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "企業説明会（現地開催）",
+          "type": "event",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "2026/11/25、12/23、2027/1/7、2/9 各14:00～16:00",
+          "format": "onsite",
+          "location": "",
+          "summary": "28卒向けの1日完結の現地企業説明会。マイナビ2028にエントリーの上で申し込む。",
+          "sourceUrl": "https://www.zoo.co.jp/job/",
+          "id": "91a75b50b23b",
+          "companyId": "zoo",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "zoo",
       "name": "ズー",
       "tags": [],
@@ -10178,8 +12750,8 @@
       "site": "http://www.noise-games.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:25.959Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -10369,8 +12941,8 @@
       "site": "https://www.rainyfrog.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:27.124Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -10487,10 +13059,10 @@
       "site": "http://www.aeria.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:27.220Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "2027年度新卒採用（プログラマー・デザイナー・プランナー）を受付中。28卒向けの募集はまだ掲載なし。",
       "openings": [],
       "id": "amzy",
       "name": "アムジー",
@@ -10751,8 +13323,8 @@
       "site": "https://www.e-xtreme.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:28.577Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -10916,8 +13488,8 @@
       "site": "https://www.gaia-games.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:28.632Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -11028,10 +13600,10 @@
       "site": "https://kuusoukagaku.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:29.086Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "エントリーフォームで新卒採用の応募を受け付けているが、対象の卒業年は書かれていない",
       "openings": [],
       "id": "gl-inc",
       "name": "グッドラックスリー",
@@ -11200,10 +13772,10 @@
       "site": "http://www.cc-media.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:29.491Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "2026年新卒採用の募集は終了。28卒向けの情報はまだ無い",
       "openings": [],
       "id": "se-ec",
       "name": "SEEC",
@@ -11649,11 +14221,32 @@
       "site": "http://app.hap.ne.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:29.633Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "新卒ゲームプログラマー（既卒も対象）を募集中。京都の開発会社で、C++の経験が必須。",
+      "openings": [
+        {
+          "title": "新卒採用／ゲームプログラマー",
+          "type": "newgrad",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "onsite",
+          "location": "京都",
+          "summary": "ゲーム中心のソフト開発を担う新卒プログラマー。C++必須、作品と説明資料を提出。既卒も応募可。",
+          "sourceUrl": "https://recruit.bitgroove.net/%e6%8e%a1%e7%94%a8%e6%83%85%e5%a0%b1/",
+          "id": "76c46ea62a2d",
+          "companyId": "bitgroove",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "bitgroove",
       "name": "ビットグルーヴ",
       "tags": [],
@@ -11777,8 +14370,8 @@
       "site": "https://favary.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:30.319Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -11836,10 +14429,10 @@
       "site": "http://bouken.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:30.459Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "2027年度新卒の採用情報のみ掲載。28卒向けの募集はまだ無い。",
       "openings": [],
       "id": "micronetclub",
       "name": "マイクロネット",
@@ -11874,10 +14467,10 @@
       "site": "http://www.magicseed.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:31.001Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "エンジニア・ゲームディレクター等を通年募集（応募種別に新卒・第二新卒あり）。28卒向けと明記された募集はなし",
       "openings": [],
       "id": "masterpiece",
       "name": "マスターピース",
@@ -12086,10 +14679,10 @@
       "site": "https://wize-inc.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:31.257Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "2027年卒業予定者の新卒募集を実施中。28卒向けの募集はまだ無い。",
       "openings": [],
       "id": "dml",
       "name": "デジタル・メディア・ラボ",
@@ -12107,8 +14700,8 @@
       "site": "https://www.dml.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:32.281Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -12146,11 +14739,32 @@
       "site": "https://17-bit.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:32.454Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "日本文化の発信に関わるインターンを随時募集中（オンライン中心、週1日2時間〜）。",
+      "openings": [
+        {
+          "title": "インターン募集",
+          "type": "internship",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "週1日2時間〜（要相談）",
+          "format": "online",
+          "location": "オンライン（希望により京都事務所・寺社）",
+          "summary": "イベント企画、SNS発信、記事執筆、法人営業などを手伝うインターン。要件なし、事前面談あり。",
+          "sourceUrl": "https://jinjabukkaku.online/ouen/",
+          "id": "1b3170ca65f5",
+          "companyId": "jinjabukkaku-online",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "jinjabukkaku-online",
       "name": "神社仏閣オンライン",
       "tags": [],
@@ -12301,10 +14915,10 @@
       "site": "https://goodia.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:32.984Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "27年新卒向けに総合職・クリエイティブ職を随時募集中。28卒向けの情報はまだない。",
       "openings": [],
       "id": "ss-beta",
       "name": "システムソフト・ベータ",
@@ -12360,8 +14974,8 @@
       "site": "https://www.trifstudio.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:33.126Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -12417,8 +15031,8 @@
       "site": "https://www.techciao.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:34.640Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -12476,10 +15090,10 @@
       "site": "https://www.nttsolmare.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:34.938Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒採用で大阪・東京のプログラマー、プランナー、3DCG職を募集中だが、対象の卒業年の記載なし。",
       "openings": [],
       "id": "bee-tribe",
       "name": "ビー・トライブ",
@@ -12553,10 +15167,10 @@
       "site": "http://rocket-engine.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:35.171Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒はメタバース事業のエンジニアを募集中だが対象は27卒。28卒向けの募集はまだ掲載なし。",
       "openings": [],
       "id": "ashibi",
       "name": "あしびかんぱにー",
@@ -12707,10 +15321,10 @@
       "site": "https://bocste.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:47:36.025Z",
+      "lastChanged": "2026-11-23T07:51:25.885Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒は2027年3月卒業予定者向けにグラフィックデザイナー・ソフトウェアエンジニアを募集。インターンも受け入れているが対象年の記載は無い。",
       "openings": [],
       "id": "sas-sakata",
       "name": "酒田エス・エー・エス",
