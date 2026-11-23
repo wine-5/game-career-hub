@@ -1,9 +1,11 @@
 // 会社ごとの作品（public/data/games.json）を読み、作品一覧の窓を開け閉めする。
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
-import type { CompanyGames, GamesData } from "../types.ts";
+import type { CompanyGames, GamesData, TechData, TechItem } from "../types.ts";
 
 interface GamesState {
   get: (companyId: string) => CompanyGames | undefined;
+  /** 採用ページに書かれている言語・エンジン */
+  tech: (companyId: string) => TechItem[] | undefined;
   openFor: string | null;
   open: (companyId: string) => void;
   close: () => void;
@@ -13,6 +15,7 @@ const Ctx = createContext<GamesState | null>(null);
 
 export function GamesProvider({ children }: { children: ReactNode }) {
   const [data, setData] = useState<GamesData | null>(null);
+  const [tech, setTech] = useState<TechData | null>(null);
   const [openFor, setOpenFor] = useState<string | null>(null);
 
   useEffect(() => {
@@ -21,16 +24,21 @@ export function GamesProvider({ children }: { children: ReactNode }) {
       .then((r) => (r.ok ? (r.json() as Promise<GamesData>) : null))
       .then(setData)
       .catch(() => setData(null));
+    fetch(`${import.meta.env.BASE_URL}data/tech.json`, { cache: "no-cache" })
+      .then((r) => (r.ok ? (r.json() as Promise<TechData>) : null))
+      .then(setTech)
+      .catch(() => setTech(null));
   }, []);
 
   const value = useMemo<GamesState>(
     () => ({
       get: (id) => data?.companies[id],
+      tech: (id) => tech?.companies[id],
       openFor,
       open: setOpenFor,
       close: () => setOpenFor(null),
     }),
-    [data, openFor],
+    [data, tech, openFor],
   );
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
 }

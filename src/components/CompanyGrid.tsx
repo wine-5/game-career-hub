@@ -12,6 +12,7 @@ import { companyTargets, score } from "../lib/search.ts";
 import { useAuth } from "../lib/auth.tsx";
 import { CONDITION_SORT_LABEL, conditionKey, isConditionSort, matchConditions, NO_CONDITION, type ConditionFilter, type ConditionSort } from "../lib/conditions.ts";
 import { ConditionSelects } from "./ConditionSelects.tsx";
+import { TechChips } from "./TechChips.tsx";
 import { ConditionChips } from "./ConditionChips.tsx";
 
 type CompanySort = "open" | ConditionSort | "name";
@@ -182,6 +183,7 @@ export function CompanyCard({ c, open }: { c: CompanyResult; open: number }) {
             </a>
           )}
           <ConditionChips k={c.conditions} />
+          <TechChips companyId={c.id} />
           <GameStrip companyId={c.id} />
           <span className="company__meta">
             {c.enabled ? (

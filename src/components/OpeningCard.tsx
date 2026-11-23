@@ -11,6 +11,7 @@ import { FlowSteps } from "./FlowSteps.tsx";
 import { SourceLink } from "./SourceLink.tsx";
 import { ConditionChips } from "./ConditionChips.tsx";
 import { TrackButton } from "./TrackButton.tsx";
+import { TechChips } from "./TechChips.tsx";
 
 /** 募集の種類に合わせた飛び先（新卒なら新卒採用ページ、インターンならインターンページ） */
 function primaryLink(o: Opening, c: CompanyResult) {
@@ -103,6 +104,9 @@ export function OpeningCard({ o, company, role = "all" }: { o: Opening; company:
       )}
 
       {o.type === "newgrad" && <ConditionChips k={company.conditions} />}
+
+      {/* プログラマーを選んでいるとき（またはプログラマーの募集）は、使われている言語・エンジンも出す */}
+      {(role === "programmer" || (role === "all" && o.roles.includes("programmer"))) && <TechChips companyId={company.id} />}
 
       <FlowSteps flow={o.flow} role={role} sourceUrl={o.flowSourceUrl ?? o.sourceUrl} note={o.flowNote} />
 
