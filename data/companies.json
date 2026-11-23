@@ -1,0 +1,33 @@
+{
+  "$comment": "監視する会社の一覧。1 社 1 件。enabled:false の会社は収集しない。url は採用（新卒・インターン）の入口ページ。追加は README の「会社を増やす」を参照",
+  "companies": [
+    { "id": "square-enix", "name": "スクウェア・エニックス", "tags": ["コンシューマ", "大手"], "url": "https://www.jp.square-enix.com/recruit/", "enabled": true },
+    { "id": "capcom", "name": "カプコン", "tags": ["コンシューマ", "大手"], "url": "https://www.capcom.co.jp/recruit/new/", "enabled": true },
+    { "id": "bandai-namco-studios", "name": "バンダイナムコスタジオ", "tags": ["コンシューマ", "大手"], "url": "https://www.bandainamcostudios.com/recruit/", "enabled": true },
+    { "id": "sega", "name": "セガ", "tags": ["コンシューマ", "大手"], "url": "https://www.sega.co.jp/recruit/fresh/", "enabled": true },
+    { "id": "nintendo", "name": "任天堂", "tags": ["コンシューマ", "大手"], "url": "https://www.nintendo.co.jp/jobs/", "enabled": true },
+    { "id": "koei-tecmo", "name": "コーエーテクモゲームス", "tags": ["コンシューマ", "大手"], "url": "https://www.koeitecmo.co.jp/recruit/", "enabled": true },
+    { "id": "konami", "name": "コナミ", "tags": ["コンシューマ", "大手"], "url": "https://www.konami.com/jobs/ja/", "enabled": true },
+    { "id": "atlus", "name": "アトラス", "tags": ["コンシューマ"], "url": "https://www.atlus.co.jp/recruit/", "enabled": true },
+    { "id": "level-5", "name": "レベルファイブ", "tags": ["コンシューマ"], "url": "https://www.level5.co.jp/recruit/", "enabled": true },
+    { "id": "game-freak", "name": "ゲームフリーク", "tags": ["コンシューマ"], "url": "https://www.gamefreak.co.jp/recruit/", "enabled": true },
+    { "id": "spike-chunsoft", "name": "スパイク・チュンソフト", "tags": ["コンシューマ"], "url": "https://www.spike-chunsoft.co.jp/recruit/", "enabled": true },
+    { "id": "marvelous", "name": "マーベラス", "tags": ["コンシューマ", "モバイル"], "url": "https://www.marv.jp/career/", "enabled": true },
+    { "id": "tri-ace", "name": "トライエース", "tags": ["コンシューマ", "開発会社"], "url": "https://www.tri-ace.co.jp/recruit/", "enabled": true },
+    { "id": "ganbarion", "name": "ガンバリオン", "tags": ["コンシューマ", "開発会社"], "url": "https://www.ganbarion.co.jp/recruit/", "enabled": true },
+    { "id": "gungho", "name": "ガンホー・オンライン・エンターテイメント", "tags": ["モバイル"], "url": "https://www.gungho.co.jp/jp/recruit/", "enabled": true },
+    { "id": "mixi", "name": "MIXI", "tags": ["モバイル"], "url": "https://mixigroup-recruit.mixi.co.jp/", "enabled": true },
+    { "id": "colopl", "name": "コロプラ", "tags": ["モバイル"], "url": "https://colopl.co.jp/recruit/", "enabled": true },
+    { "id": "dena", "name": "DeNA", "tags": ["モバイル"], "url": "https://dena.com/jp/recruit/", "enabled": true },
+    { "id": "aiming", "name": "Aiming", "tags": ["モバイル", "開発会社"], "url": "https://recruit.aiming-inc.com/", "enabled": true },
+    { "id": "cave", "name": "ケイブ", "tags": ["モバイル"], "url": "https://www.cave.co.jp/recruit/", "enabled": true },
+    { "id": "kayac", "name": "カヤック", "tags": ["モバイル", "Web"], "url": "https://www.kayac.com/recruit/fresh", "enabled": true },
+    { "id": "sumzap", "name": "サムザップ", "tags": ["モバイル"], "url": "https://sumzap.co.jp/recruit/", "enabled": true },
+    { "id": "netmarble", "name": "ネットマーブル", "tags": ["モバイル"], "url": "https://www.netmarble.co.jp/recruit/", "enabled": true },
+
+    { "id": "cygames", "name": "Cygames", "tags": ["モバイル", "大手"], "url": "https://www.cygames.co.jp/recruit/", "enabled": false, "note": "自動アクセスを断られる（403）。手動で確認" },
+    { "id": "bandai-namco-ent", "name": "バンダイナムコエンターテインメント", "tags": ["コンシューマ", "大手"], "url": "https://www.bandainamcoent.co.jp/recruit/", "enabled": false, "note": "自動アクセスを断られる（403）。手動で確認" },
+    { "id": "fromsoftware", "name": "フロム・ソフトウェア", "tags": ["コンシューマ"], "url": "https://www.fromsoftware.jp/", "enabled": false, "note": "採用ページの URL を確認中" },
+    { "id": "platinumgames", "name": "プラチナゲームズ", "tags": ["コンシューマ", "開発会社"], "url": "https://www.platinumgames.co.jp/", "enabled": false, "note": "採用ページの URL を確認中" }
+  ]
+}

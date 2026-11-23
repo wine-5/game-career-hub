@@ -1,0 +1,403 @@
+{
+  "updatedAt": null,
+  "model": null,
+  "companies": [
+    {
+      "id": "square-enix",
+      "name": "スクウェア・エニックス",
+      "tags": [
+        "コンシューマ",
+        "大手"
+      ],
+      "url": "https://www.jp.square-enix.com/recruit/",
+      "enabled": true,
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": []
+    },
+    {
+      "id": "capcom",
+      "name": "カプコン",
+      "tags": [
+        "コンシューマ",
+        "大手"
+      ],
+      "url": "https://www.capcom.co.jp/recruit/new/",
+      "enabled": true,
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": []
+    },
+    {
+      "id": "bandai-namco-studios",
+      "name": "バンダイナムコスタジオ",
+      "tags": [
+        "コンシューマ",
+        "大手"
+      ],
+      "url": "https://www.bandainamcostudios.com/recruit/",
+      "enabled": true,
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": []
+    },
+    {
+      "id": "sega",
+      "name": "セガ",
+      "tags": [
+        "コンシューマ",
+        "大手"
+      ],
+      "url": "https://www.sega.co.jp/recruit/fresh/",
+      "enabled": true,
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": []
+    },
+    {
+      "id": "nintendo",
+      "name": "任天堂",
+      "tags": [
+        "コンシューマ",
+        "大手"
+      ],
+      "url": "https://www.nintendo.co.jp/jobs/",
+      "enabled": true,
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": []
+    },
+    {
+      "id": "koei-tecmo",
+      "name": "コーエーテクモゲームス",
+      "tags": [
+        "コンシューマ",
+        "大手"
+      ],
+      "url": "https://www.koeitecmo.co.jp/recruit/",
+      "enabled": true,
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": []
+    },
+    {
+      "id": "konami",
+      "name": "コナミ",
+      "tags": [
+        "コンシューマ",
+        "大手"
+      ],
+      "url": "https://www.konami.com/jobs/ja/",
+      "enabled": true,
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": []
+    },
+    {
+      "id": "atlus",
+      "name": "アトラス",
+      "tags": [
+        "コンシューマ"
+      ],
+      "url": "https://www.atlus.co.jp/recruit/",
+      "enabled": true,
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": []
+    },
+    {
+      "id": "level-5",
+      "name": "レベルファイブ",
+      "tags": [
+        "コンシューマ"
+      ],
+      "url": "https://www.level5.co.jp/recruit/",
+      "enabled": true,
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": []
+    },
+    {
+      "id": "game-freak",
+      "name": "ゲームフリーク",
+      "tags": [
+        "コンシューマ"
+      ],
+      "url": "https://www.gamefreak.co.jp/recruit/",
+      "enabled": true,
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": []
+    },
+    {
+      "id": "spike-chunsoft",
+      "name": "スパイク・チュンソフト",
+      "tags": [
+        "コンシューマ"
+      ],
+      "url": "https://www.spike-chunsoft.co.jp/recruit/",
+      "enabled": true,
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": []
+    },
+    {
+      "id": "marvelous",
+      "name": "マーベラス",
+      "tags": [
+        "コンシューマ",
+        "モバイル"
+      ],
+      "url": "https://www.marv.jp/career/",
+      "enabled": true,
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": []
+    },
+    {
+      "id": "tri-ace",
+      "name": "トライエース",
+      "tags": [
+        "コンシューマ",
+        "開発会社"
+      ],
+      "url": "https://www.tri-ace.co.jp/recruit/",
+      "enabled": true,
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": []
+    },
+    {
+      "id": "ganbarion",
+      "name": "ガンバリオン",
+      "tags": [
+        "コンシューマ",
+        "開発会社"
+      ],
+      "url": "https://www.ganbarion.co.jp/recruit/",
+      "enabled": true,
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": []
+    },
+    {
+      "id": "gungho",
+      "name": "ガンホー・オンライン・エンターテイメント",
+      "tags": [
+        "モバイル"
+      ],
+      "url": "https://www.gungho.co.jp/jp/recruit/",
+      "enabled": true,
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": []
+    },
+    {
+      "id": "mixi",
+      "name": "MIXI",
+      "tags": [
+        "モバイル"
+      ],
+      "url": "https://mixigroup-recruit.mixi.co.jp/",
+      "enabled": true,
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": []
+    },
+    {
+      "id": "colopl",
+      "name": "コロプラ",
+      "tags": [
+        "モバイル"
+      ],
+      "url": "https://colopl.co.jp/recruit/",
+      "enabled": true,
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": []
+    },
+    {
+      "id": "dena",
+      "name": "DeNA",
+      "tags": [
+        "モバイル"
+      ],
+      "url": "https://dena.com/jp/recruit/",
+      "enabled": true,
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": []
+    },
+    {
+      "id": "aiming",
+      "name": "Aiming",
+      "tags": [
+        "モバイル",
+        "開発会社"
+      ],
+      "url": "https://recruit.aiming-inc.com/",
+      "enabled": true,
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": []
+    },
+    {
+      "id": "cave",
+      "name": "ケイブ",
+      "tags": [
+        "モバイル"
+      ],
+      "url": "https://www.cave.co.jp/recruit/",
+      "enabled": true,
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": []
+    },
+    {
+      "id": "kayac",
+      "name": "カヤック",
+      "tags": [
+        "モバイル",
+        "Web"
+      ],
+      "url": "https://www.kayac.com/recruit/fresh",
+      "enabled": true,
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": []
+    },
+    {
+      "id": "sumzap",
+      "name": "サムザップ",
+      "tags": [
+        "モバイル"
+      ],
+      "url": "https://sumzap.co.jp/recruit/",
+      "enabled": true,
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": []
+    },
+    {
+      "id": "netmarble",
+      "name": "ネットマーブル",
+      "tags": [
+        "モバイル"
+      ],
+      "url": "https://www.netmarble.co.jp/recruit/",
+      "enabled": true,
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": []
+    },
+    {
+      "id": "cygames",
+      "name": "Cygames",
+      "tags": [
+        "モバイル",
+        "大手"
+      ],
+      "url": "https://www.cygames.co.jp/recruit/",
+      "enabled": false,
+      "note": "自動アクセスを断られる（403）。手動で確認",
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": []
+    },
+    {
+      "id": "bandai-namco-ent",
+      "name": "バンダイナムコエンターテインメント",
+      "tags": [
+        "コンシューマ",
+        "大手"
+      ],
+      "url": "https://www.bandainamcoent.co.jp/recruit/",
+      "enabled": false,
+      "note": "自動アクセスを断られる（403）。手動で確認",
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": []
+    },
+    {
+      "id": "fromsoftware",
+      "name": "フロム・ソフトウェア",
+      "tags": [
+        "コンシューマ"
+      ],
+      "url": "https://www.fromsoftware.jp/",
+      "enabled": false,
+      "note": "採用ページの URL を確認中",
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": []
+    },
+    {
+      "id": "platinumgames",
+      "name": "プラチナゲームズ",
+      "tags": [
+        "コンシューマ",
+        "開発会社"
+      ],
+      "url": "https://www.platinumgames.co.jp/",
+      "enabled": false,
+      "note": "採用ページの URL を確認中",
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": []
+    }
+  ]
+}

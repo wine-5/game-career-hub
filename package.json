@@ -1,0 +1,33 @@
+{
+  "name": "game-career-hub",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "ゲーム業界を目指す人向けの、インターン・新卒採用の一覧サイト（AI が自動で更新）",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "crawl": "tsx crawler/crawl.ts",
+    "crawl:dry": "tsx crawler/crawl.ts --dry",
+    "check-urls": "tsx crawler/check-urls.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.119.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@anthropic-ai/sdk": "^1.12.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "cheerio": "^1.2.0",
+    "robots-parser": "^3.1.1",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.0",
+    "vite": "^8.3.8"
+  }
+}

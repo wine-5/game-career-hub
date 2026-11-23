@@ -1,0 +1,28 @@
+name: 会社の追加
+description: 監視してほしいゲーム会社を提案する
+title: "[会社の追加] "
+labels: ["add-company"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: 会社名
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: 新卒・インターンの採用ページの URL
+      placeholder: https://example.co.jp/recruit/
+    validations:
+      required: true
+  - type: dropdown
+    id: tags
+    attributes:
+      label: 分類
+      multiple: true
+      options: [コンシューマ, モバイル, 開発会社, 大手, インディー, Web]
+  - type: textarea
+    id: memo
+    attributes:
+      label: メモ（任意）

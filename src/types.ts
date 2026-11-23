@@ -1,0 +1,83 @@
+// サイトと収集スクリプトで共有する型
+
+export const ROLES = ["programmer", "planner", "effect", "artist", "other"] as const;
+export type Role = (typeof ROLES)[number];
+
+export const ROLE_LABEL: Record<Role, string> = {
+  programmer: "プログラマー",
+  planner: "プランナー",
+  effect: "エフェクトデザイナー",
+  artist: "アーティスト",
+  other: "その他",
+};
+
+export type OpeningType = "internship" | "newgrad" | "event" | "other";
+export const TYPE_LABEL: Record<OpeningType, string> = {
+  internship: "インターン",
+  newgrad: "新卒採用",
+  event: "説明会・イベント",
+  other: "その他",
+};
+
+export type WorkFormat = "online" | "onsite" | "hybrid" | "unknown";
+export const FORMAT_LABEL: Record<WorkFormat, string> = {
+  online: "オンライン",
+  onsite: "対面",
+  hybrid: "対面＋オンライン",
+  unknown: "形式不明",
+};
+
+export interface Opening {
+  /** 会社 ID と題名から作る安定した ID（お気に入りのキー） */
+  id: string;
+  companyId: string;
+  title: string;
+  type: OpeningType;
+  roles: Role[];
+  /** 対象の卒業年（例: 2028）。空なら不明 */
+  graduationYears: number[];
+  /** YYYY-MM-DD。空文字は不明 */
+  applyStart: string;
+  deadline: string;
+  /** 開催・選考の期間などの自由記述 */
+  period: string;
+  format: WorkFormat;
+  location: string;
+  summary: string;
+  sourceUrl: string;
+  /** この募集を初めて見つけた日（YYYY-MM-DD） */
+  firstSeen: string;
+}
+
+export interface CompanyEntry {
+  id: string;
+  name: string;
+  tags: string[];
+  url: string;
+  enabled: boolean;
+  note?: string;
+}
+
+export interface CompanyResult {
+  id: string;
+  name: string;
+  tags: string[];
+  url: string;
+  enabled: boolean;
+  note?: string;
+  /** 最後に見に行った日時（ISO） */
+  lastChecked: string | null;
+  /** ページの中身が最後に変わった日時（ISO） */
+  lastChanged: string | null;
+  /** 最後の収集で起きた問題。無ければ null */
+  error: string | null;
+  /** AI がまとめた、会社の採用の要点（1〜2 文） */
+  digest: string;
+  openings: Opening[];
+}
+
+export interface JobsData {
+  updatedAt: string | null;
+  model: string | null;
+  companies: CompanyResult[];
+}
