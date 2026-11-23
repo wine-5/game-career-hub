@@ -4,6 +4,7 @@ import { Icon, type IconName } from "./Icon.tsx";
 export const LINK_META: Record<keyof Links, { icon: IconName; label: string }> = {
   newgrad: { icon: "graduate", label: "新卒採用ページ" },
   internship: { icon: "internship", label: "インターンページ" },
+  salary: { icon: "salary", label: "給与・待遇" },
   philosophy: { icon: "philosophy", label: "企業理念" },
 };
 

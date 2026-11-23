@@ -40,6 +40,7 @@ export function About({ model, targetYear }: { model: string | null; targetYear:
             </span>
             {LINK_META[k].label}
             {k === "philosophy" && "（理念が書かれている所まで飛びます）"}
+            {k === "salary" && "（初任給などが書かれている所まで飛びます）"}
           </div>
         ))}
       </div>

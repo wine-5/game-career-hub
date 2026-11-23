@@ -53,6 +53,8 @@ export interface Opening {
 export interface CompanyLinks {
   newgrad?: string;
   internship?: string;
+  /** 給与（初任給・待遇）が書かれている所まで飛ぶ URL */
+  salary?: string;
   /** 企業理念が書かれている所まで飛ぶ URL（#:~:text= で見出しへ飛ぶ） */
   philosophy?: string;
 }

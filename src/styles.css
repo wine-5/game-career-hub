@@ -22,6 +22,7 @@
   --c-newgrad: #3157d5;
   --c-internship: #2b8a3e;
   --c-philosophy: #b7791f;
+  --c-salary: #0c8599;
 
   --radius: 12px;
   --radius-sm: 8px;
@@ -54,6 +55,7 @@
     --c-newgrad: #7c9cff;
     --c-internship: #51cf66;
     --c-philosophy: #fcc419;
+    --c-salary: #3bc9db;
     --shadow: none;
     --shadow-hover: 0 6px 18px rgba(0, 0, 0, 0.35);
     color-scheme: dark;
@@ -222,6 +224,7 @@ p { margin: 0; }
 .link-icon:hover { background: color-mix(in srgb, var(--c) 18%, var(--surface)); }
 .link-icon--newgrad { --c: var(--c-newgrad); }
 .link-icon--internship { --c: var(--c-internship); }
+.link-icon--salary { --c: var(--c-salary); }
 .link-icon--philosophy { --c: var(--c-philosophy); }
 
 /* ===== 締切カレンダー ===== */
