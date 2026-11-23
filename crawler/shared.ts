@@ -106,7 +106,7 @@ export function baseResult(c: CompanyEntry, old: CompanyResult | undefined): Com
     lastChecked: null, lastChanged: null, error: null, digest: "", openings: [],
     ...old,
     id: c.id, name: c.name, tags: c.tags, url: c.url, enabled: c.enabled, note: c.note,
-    links: c.links, logo: c.logo,
+    links: c.links, logo: c.logo, locations: c.locations, site: c.site,
   };
 }
 

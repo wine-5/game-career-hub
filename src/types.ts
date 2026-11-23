@@ -67,6 +67,10 @@ export interface CompanyEntry {
   links?: CompanyLinks;
   /** public/assets/ からの道（例: logos/sega.png） */
   logo?: string;
+  /** 本社・スタジオのある都道府県（「東京」「北海道」など） */
+  locations?: string[];
+  /** 公式サイトのトップ（採用ページが無い会社の入口にも使う） */
+  site?: string;
 }
 
 export interface CompanyResult {
@@ -78,6 +82,8 @@ export interface CompanyResult {
   note?: string;
   links?: CompanyLinks;
   logo?: string;
+  locations?: string[];
+  site?: string;
   /** 最後に見に行った日時（ISO） */
   lastChecked: string | null;
   /** ページの中身が最後に変わった日時（ISO） */

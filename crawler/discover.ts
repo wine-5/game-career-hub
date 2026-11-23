@@ -10,6 +10,7 @@ import * as cheerio from "cheerio";
 import type { CompanyEntry, CompanyLinks } from "../src/types.ts";
 import { fetchPage, isAllowed, USER_AGENT, type FetchedPage } from "./fetch.ts";
 import { loadCompanyList, ROOT, saveCompanyList, sleep, WAIT_MS } from "./shared.ts";
+import { extractPrefectures } from "./location.ts";
 
 const LOGO_DIR = path.join(ROOT, "public/assets/logos");
 const argv = process.argv.slice(2);
@@ -137,10 +138,12 @@ async function findLogo(c: CompanyEntry, pages: FetchedPage[]): Promise<string |
 const data = await loadCompanyList();
 
 for (const c of data.companies) {
-  if (!c.enabled || (ONLY && !ONLY.includes(c.id))) continue;
+  // 収集の対象外（enabled: false）の会社も、ロゴ・所在地・理念は探す（会社の一覧に出すため）
+  if (ONLY && !ONLY.includes(c.id)) continue;
   const links: CompanyLinks = { ...c.links };
-  const need = (k: keyof CompanyLinks) => OVERWRITE || !links[k];
-  if (!need("newgrad") && !need("internship") && !need("philosophy") && c.logo && !OVERWRITE) continue;
+  const need = (k: keyof CompanyLinks) => OVERWRITE || (!links[k] && (c.enabled || k === "philosophy"));
+  const needPlace = OVERWRITE || !c.locations?.length;
+  if (!need("newgrad") && !need("internship") && !need("philosophy") && c.logo && !needPlace) continue;
 
   console.log(`- ${c.name}`);
   const recruit = await tryFetch(c.url);
@@ -161,6 +164,14 @@ for (const c of data.companies) {
   if (need("philosophy")) {
     links.philosophy = await findPhilosophy(pages);
   }
+  if (needPlace) {
+    // 会社概要・アクセスのページと、採用ページ（勤務地）から都道府県を読む
+    const about = best(pages, RULES.company);
+    const aboutPage = about ? await tryFetch(about) : null;
+    const texts = [...pages, ...(aboutPage ? [aboutPage] : [])].map((p) => p.text).join(String.fromCharCode(10));
+    const prefs = extractPrefectures(texts);
+    if (prefs.length) c.locations = prefs;
+  }
   if (OVERWRITE || !c.logo) {
     c.logo = (await findLogo(c, top ? [top, recruit] : [recruit])) ?? c.logo;
   }
@@ -169,6 +180,7 @@ for (const c of data.companies) {
   console.log(`    インターン: ${links.internship ?? "—"}`);
   console.log(`    企業理念: ${links.philosophy ? decodeURIComponent(links.philosophy) : "—"}`);
   console.log(`    ロゴ: ${c.logo ?? "—"}`);
+  console.log(`    所在地: ${c.locations?.join("・") ?? "—"}`);
   await saveCompanyList(data);
 }
 console.log("完了。結果は data/companies.json。おかしな飛び先は手で直す（直した所は次から上書きされない）");
