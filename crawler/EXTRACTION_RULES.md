@@ -26,6 +26,11 @@
 - sourceUrl は、その募集が書かれていたページの URL（渡されたページの URL から選ぶ）。
 - title は募集・イベントの名前を、ページの表記のまま短く。同じ募集を 2 回入れない。
 - 学生向けの募集がページに無ければ openings は空の配列にする。
+- flow は選考の流れ。**ページに選考フロー・選考ステップが書かれている時だけ**入れ、書かれていなければ入れない（空の配列か省く）。
+  - 順番どおりに `{ "kind": 種類, "label": ページの表記を短く }` を並べる。kind は次から選ぶ:
+    entry（エントリー・プレエントリー）/ briefing（説明会）/ es（ES・履歴書・書類）/ portfolio（作品・ポートフォリオ提出）/ assignment（課題・技術テスト・コーディング試験）/ test（適性検査・Web テスト・SPI）/ groupwork（グループワーク・GD）/ interview（面接。一次・二次も）/ final（最終面接・役員面接）/ offer（内定）/ other
+  - 職種で流れが違うとき（「プログラマーは技術課題あり」「デザイナーは作品提出」など）は、その職種だけの段階に `"roles": ["programmer"]` のように付ける。全職種共通の段階には roles を付けない。
+  - 面接が「複数回」としか書かれていなければ interview を 1 つにして label を「面接（複数回）」にする。
 - digest は、この会社の新卒・インターン採用の現状を 1〜2 文で（例:「28卒向けの本選考は3月開始予定。現在は職種別の冬インターンを募集中」）。情報が無ければ空文字。
 
 ## 出す形（JSON）
@@ -45,7 +50,14 @@
       "format": "online | onsite | hybrid | unknown",
       "location": "開催地・勤務地。不明なら空文字",
       "summary": "80字以内の要約",
-      "sourceUrl": "https://..."
+      "sourceUrl": "https://...",
+      "flow": [
+        { "kind": "entry", "label": "エントリー" },
+        { "kind": "portfolio", "label": "作品提出", "roles": ["artist", "effect"] },
+        { "kind": "assignment", "label": "技術課題", "roles": ["programmer"] },
+        { "kind": "interview", "label": "面接（2〜3回）" },
+        { "kind": "offer", "label": "内定" }
+      ]
     }
   ]
 }

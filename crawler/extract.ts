@@ -42,6 +42,20 @@ const SCHEMA = {
           location: { type: "string", description: "開催地・勤務地。不明なら空文字" },
           summary: { type: "string", description: "内容の要約を 80 字以内で。原文を写さない" },
           sourceUrl: { type: "string", description: "その募集が書かれていたページの URL（下の候補から選ぶ）" },
+          flow: {
+            type: "array",
+            description: "選考の流れ。ページに書かれている時だけ。無ければ空の配列",
+            items: {
+              type: "object",
+              additionalProperties: false,
+              required: ["kind", "label"],
+              properties: {
+                kind: { type: "string", enum: ["entry", "briefing", "es", "portfolio", "assignment", "test", "groupwork", "interview", "final", "offer", "other"] },
+                label: { type: "string" },
+                roles: { type: "array", items: { type: "string", enum: ["programmer", "planner", "effect", "artist", "other"] } },
+              },
+            },
+          },
         },
       },
     },

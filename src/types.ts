@@ -27,6 +27,33 @@ export const FORMAT_LABEL: Record<WorkFormat, string> = {
   unknown: "形式不明",
 };
 
+/** 選考の段階の種類（アイコンと色を決める） */
+export const FLOW_KINDS = [
+  "entry", "briefing", "es", "portfolio", "assignment", "test", "groupwork", "interview", "final", "offer", "other",
+] as const;
+export type FlowKind = (typeof FLOW_KINDS)[number];
+export const FLOW_LABEL: Record<FlowKind, string> = {
+  entry: "エントリー",
+  briefing: "説明会",
+  es: "ES・書類",
+  portfolio: "作品提出",
+  assignment: "課題",
+  test: "適性検査",
+  groupwork: "グループワーク",
+  interview: "面接",
+  final: "最終面接",
+  offer: "内定",
+  other: "その他",
+};
+
+/** 選考の 1 段階。roles があればその職種だけの段階 */
+export interface FlowStep {
+  kind: FlowKind;
+  /** ページの表記（「技術課題」「一次面接」など） */
+  label: string;
+  roles?: Role[];
+}
+
 export interface Opening {
   /** 会社 ID と題名から作る安定した ID（お気に入りのキー） */
   id: string;
@@ -45,6 +72,8 @@ export interface Opening {
   location: string;
   summary: string;
   sourceUrl: string;
+  /** 選考の流れ（ページに書かれている時だけ） */
+  flow?: FlowStep[];
   /** この募集を初めて見つけた日（YYYY-MM-DD） */
   firstSeen: string;
 }

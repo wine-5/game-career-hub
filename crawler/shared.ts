@@ -4,7 +4,7 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import type { CompanyEntry, CompanyResult, JobsData, Opening } from "../src/types.ts";
-import { ROLES } from "../src/types.ts";
+import { FLOW_KINDS, ROLES } from "../src/types.ts";
 import { fetchPage, isAllowed, pickSubpages, sleep, type FetchedPage } from "./fetch.ts";
 
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -41,6 +41,13 @@ export interface ExtractedOpening {
   location: string;
   summary: string;
   sourceUrl: string;
+  flow?: Opening["flow"];
+}
+
+export interface ExtractedFlowStep {
+  kind: string;
+  label: string;
+  roles?: string[];
 }
 
 export interface Extracted {
@@ -169,6 +176,16 @@ export function validateExtracted(x: unknown): string[] {
     for (const k of ["period", "location", "summary", "sourceUrl"] as const)
       if (typeof o[k] !== "string") errs.push(`${at}.${k} が文字列ではない`);
     if (!FORMATS.includes(o.format)) errs.push(`${at}.format が ${FORMATS.join("/")} のどれでもない: ${o.format}`);
+    if (o.flow !== undefined) {
+      if (!Array.isArray(o.flow)) errs.push(`${at}.flow は配列にする`);
+      else
+        o.flow.forEach((s, j) => {
+          if (!(FLOW_KINDS as readonly string[]).includes(s.kind)) errs.push(`${at}.flow[${j}].kind が ${FLOW_KINDS.join("/")} のどれでもない: ${s.kind}`);
+          if (typeof s.label !== "string" || !s.label) errs.push(`${at}.flow[${j}].label が無い`);
+          if (s.roles !== undefined && (!Array.isArray(s.roles) || s.roles.some((r) => !(ROLES as readonly string[]).includes(r))))
+            errs.push(`${at}.flow[${j}].roles に知らない職種がある`);
+        });
+    }
   });
   return errs;
 }
