@@ -18,7 +18,7 @@ async function main() {
     console.error("ANTHROPIC_API_KEY が無い。API を使わずに更新するときは CLAUDE.md の手順（npm run collect）を使う");
     process.exit(1);
   }
-  const { companies, state, prev } = await loadAll();
+  const { companies, state, prev, targetGraduationYear } = await loadAll();
   const prevById = new Map(prev.companies.map((c) => [c.id, c]));
   const today = todayJst();
   console.log(`モデル: ${MODEL} / 会社: ${companies.length} 社`);
@@ -42,9 +42,9 @@ async function main() {
       result.error = null;
       if (!changed && !force) continue;
 
-      const ex = await extract(c.name, pages, today);
+      const ex = await extract(c.name, pages, today, targetGraduationYear);
       aiCalls++;
-      mergeExtracted(result, ex, new Set(pages.map((p) => p.url)), today, now);
+      mergeExtracted(result, ex, new Set(pages.map((p) => p.url)), today, now, targetGraduationYear);
       state[c.id] = { hash };
       await writeJson(STATE_FILE, state);
       console.log(`    募集 ${result.openings.length} 件`);
@@ -58,6 +58,7 @@ async function main() {
   const out: JobsData = {
     updatedAt: aiCalls > 0 ? new Date().toISOString() : prev.updatedAt,
     model: aiCalls > 0 ? MODEL : prev.model,
+    targetGraduationYear,
     companies: results,
   };
   await writeJson(OUT_FILE, out);

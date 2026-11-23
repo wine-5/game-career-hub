@@ -7,7 +7,7 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import type { JobsData } from "../src/types.ts";
 import {
-  mergeExtracted, readJson, todayJst, validateExtracted, writeJson,
+  loadSettings, mergeExtracted, readJson, todayJst, validateExtracted, writeJson,
   OUT_FILE, ROOT, STATE_FILE, WORK_DIR, type Extracted, type State,
 } from "./shared.ts";
 import type { TodoItem } from "./collect.ts";
@@ -24,6 +24,7 @@ if (!work) {
 const data = await readJson<JobsData>(OUT_FILE, { updatedAt: null, model: null, companies: [] });
 const state = await readJson<State>(STATE_FILE, {});
 const byId = new Map(data.companies.map((c) => [c.id, c]));
+const { targetGraduationYear } = await loadSettings();
 const today = todayJst();
 const now = new Date().toISOString();
 
@@ -57,13 +58,14 @@ for (const t of work.todo) {
     problems.push(`${t.name}: jobs.json に会社が無い（collect をやり直す）`);
     continue;
   }
-  const { added, removed } = mergeExtracted(result, ex, new Set(t.pageUrls), today, now);
+  const { added, removed, skipped } = mergeExtracted(result, ex, new Set(t.pageUrls), today, now, targetGraduationYear);
   state[t.id] = { hash: t.hash };
   applied++;
   report.push(
     `${t.name}: 募集 ${result.openings.length} 件` +
       (added.length ? ` / 新しく ${added.length} 件（${added.map((o) => o.title).join("、")}）` : "") +
-      (removed.length ? ` / 消えた ${removed.length} 件` : ""),
+      (removed.length ? ` / 消えた ${removed.length} 件` : "") +
+      (skipped ? ` / ${targetGraduationYear}年卒向けでないので外した ${skipped} 件` : ""),
   );
 }
 
@@ -71,6 +73,7 @@ if (applied > 0) {
   data.updatedAt = now;
   data.model = "claude-code";
 }
+data.targetGraduationYear = targetGraduationYear;
 await writeJson(OUT_FILE, data);
 await writeJson(STATE_FILE, state);
 

@@ -1,0 +1,4 @@
+{
+  "$comment": "サイト全体の設定。targetGraduationYear の卒業年向けの募集だけを載せる（毎年ここを 1 つ上げる）",
+  "targetGraduationYear": 2028
+}

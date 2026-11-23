@@ -64,6 +64,7 @@ export async function extract(
   companyName: string,
   pages: { url: string; title: string; text: string }[],
   today: string,
+  targetYear: number,
 ): Promise<Extracted> {
   client ??= new Anthropic();
 
@@ -82,7 +83,7 @@ export async function extract(
     messages: [
       {
         role: "user" as const,
-        content: `今日の日付: ${today}\n会社名: ${companyName}\n\n以下がこの会社の採用ページです。\n\n${body}`,
+        content: `今日の日付: ${today}\n対象の卒業年: ${targetYear}\n会社名: ${companyName}\n\n以下がこの会社の採用ページです。\n\n${body}`,
       },
     ],
   };

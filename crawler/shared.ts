@@ -12,6 +12,7 @@ export const COMPANIES_FILE = path.join(ROOT, "data/companies.json");
 export const STATE_FILE = path.join(ROOT, "data/state.json");
 export const OUT_FILE = path.join(ROOT, "public/data/jobs.json");
 export const RULES_FILE = path.join(ROOT, "crawler/EXTRACTION_RULES.md");
+export const SETTINGS_FILE = path.join(ROOT, "data/settings.json");
 /** 収集の途中の物（git には入れない） */
 export const WORK_DIR = path.join(ROOT, ".work");
 
@@ -74,7 +75,12 @@ export async function loadAll() {
   const { companies } = await readJson<{ companies: CompanyEntry[] }>(COMPANIES_FILE, { companies: [] });
   const state = await readJson<State>(STATE_FILE, {});
   const prev = await readJson<JobsData>(OUT_FILE, { updatedAt: null, model: null, companies: [] });
-  return { companies, state, prev };
+  const { targetGraduationYear } = await loadSettings();
+  return { companies, state, prev, targetGraduationYear };
+}
+
+export async function loadSettings() {
+  return readJson<{ targetGraduationYear: number }>(SETTINGS_FILE, { targetGraduationYear: 2028 });
 }
 
 /** 会社の一覧の側（名前・タグ・URL・有効か）を、前回の結果に重ねる */
@@ -143,18 +149,27 @@ export function validateExtracted(x: unknown): string[] {
   return errs;
 }
 
-/** 整理した結果を、会社の結果に取り込む（ID を振り、初めて見た日を引き継ぐ） */
+/**
+ * 整理した結果を、会社の結果に取り込む（ID を振り、初めて見た日を引き継ぐ）。
+ * 対象の卒業年（targetYear）向けと分かる募集だけを残す。
+ */
 export function mergeExtracted(
   result: CompanyResult,
   ex: Extracted,
   pageUrls: Set<string>,
   today: string,
   now: string,
+  targetYear: number,
 ) {
   const oldOpenings = new Map(result.openings.map((o) => [o.id, o]));
   const seen = new Set<string>();
   const openings: Opening[] = [];
+  let skipped = 0;
   for (const o of ex.openings) {
+    if (!o.graduationYears.includes(targetYear)) {
+      skipped++;
+      continue;
+    }
     const id = sha1(`${result.id}|${o.type}|${o.title.trim()}`).slice(0, 12);
     if (seen.has(id)) continue;
     seen.add(id);
@@ -174,6 +189,7 @@ export function mergeExtracted(
   result.lastChanged = now;
   result.error = null;
   return {
+    skipped,
     added: openings.filter((o) => !before.has(o.id)),
     removed: [...before].filter((id) => !seen.has(id)).map((id) => oldOpenings.get(id)!),
   };

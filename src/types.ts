@@ -78,6 +78,8 @@ export interface CompanyResult {
 
 export interface JobsData {
   updatedAt: string | null;
+  /** 載せている募集の対象の卒業年（例: 2028） */
+  targetGraduationYear?: number;
   model: string | null;
   companies: CompanyResult[];
 }

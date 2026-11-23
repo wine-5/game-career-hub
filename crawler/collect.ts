@@ -24,7 +24,7 @@ export interface TodoItem {
 }
 
 const { force, only } = parseArgs(process.argv.slice(2));
-const { companies, state, prev } = await loadAll();
+const { companies, state, prev, targetGraduationYear } = await loadAll();
 const prevById = new Map(prev.companies.map((c) => [c.id, c]));
 const today = todayJst();
 
@@ -55,7 +55,7 @@ for (const c of companies) {
     } else {
       const pagesFile = path.join(WORK_DIR, "pages", `${c.id}.md`);
       const body = pages.map((p) => `## ページ: ${p.url}\n題名: ${p.title}\n\n${p.text}`).join("\n\n---\n\n");
-      await writeFile(pagesFile, `# ${c.name}（${c.id}）\n今日の日付: ${today}\n\n${body}\n`, "utf8");
+      await writeFile(pagesFile, `# ${c.name}（${c.id}）\n今日の日付: ${today}\n対象の卒業年: ${targetGraduationYear}\n\n${body}\n`, "utf8");
       todo.push({
         id: c.id,
         name: c.name,
@@ -75,7 +75,7 @@ for (const c of companies) {
 
 await writeJson(path.join(WORK_DIR, "todo.json"), { today, todo, failed });
 // 確認した日時と失敗だけを先に反映しておく（募集の中身は apply で変わる）
-const out: JobsData = { ...prev, companies: results };
+const out: JobsData = { ...prev, targetGraduationYear, companies: results };
 await writeJson(OUT_FILE, out);
 
 console.log("");
