@@ -505,16 +505,19 @@ p { margin: 0; }
 .flow-mini { display: grid; gap: 6px; }
 .flow-mini__head { display: flex; align-items: center; gap: 8px; font-size: 11px; font-weight: 700; color: var(--text-3); }
 .flow-mini__role { font-weight: 700; color: var(--accent); background: var(--accent-soft); border-radius: 999px; padding: 0 8px; }
-.flow-mini__list { list-style: none; margin: 0; padding: 0 0 2px; display: flex; overflow-x: auto; scrollbar-width: none; }
-.flow-mini__list::-webkit-scrollbar { display: none; }
-.flow-mini__step { --k: var(--accent); position: relative; flex: 1 0 64px; display: grid; justify-items: center; gap: 3px; text-align: center; padding: 0 2px; }
-.flow-mini__step + .flow-mini__step::before {
-  content: ""; position: absolute; top: 15px; right: calc(50% + 17px); width: calc(100% - 34px); height: 2px;
-  background: repeating-linear-gradient(90deg, var(--border-strong) 0 4px, transparent 4px 7px);
+.flow-mini__list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 6px 4px; counter-reset: step; }
+/* 段階は折り返して全部見せる（横に流して隠さない） */
+.flow-mini__step {
+  --k: var(--accent); counter-increment: step;
+  display: inline-flex; align-items: center; gap: 5px; max-width: 100%;
+  padding: 3px 9px 3px 3px; border-radius: 999px;
+  background: color-mix(in srgb, var(--k) 8%, var(--surface)); border: 1px solid color-mix(in srgb, var(--k) 30%, var(--border));
 }
-.flow-mini__icon { display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%; color: var(--k); background: color-mix(in srgb, var(--k) 12%, var(--surface)); border: 1.5px solid color-mix(in srgb, var(--k) 45%, var(--border)); }
-.flow-mini__label { font-size: 10.5px; line-height: 1.3; color: var(--text-2); word-break: keep-all; overflow-wrap: anywhere; }
-.flow-mini__only { font-size: 9.5px; color: var(--text-3); }
+.flow-mini__arrow { color: var(--text-3); font-size: 13px; font-weight: 700; line-height: 1; }
+.flow-mini__icon { position: relative; display: grid; place-items: center; flex: none; width: 24px; height: 24px; border-radius: 50%; color: var(--k); background: var(--surface); border: 1.5px solid color-mix(in srgb, var(--k) 55%, var(--border)); }
+.flow-mini__icon .icon { width: 13px; height: 13px; }
+.flow-mini__label { font-size: 11.5px; line-height: 1.35; color: var(--text); font-weight: 500; }
+.flow-mini__only { font-size: 10px; color: var(--text-3); }
 .flow-mini__step--entry, .flow-mini__step--briefing { --k: var(--c-newgrad); }
 .flow-mini__step--es, .flow-mini__step--test { --k: var(--c-salary); }
 .flow-mini__step--portfolio { --k: var(--c-artist); }

@@ -33,15 +33,20 @@ export function FlowSteps({ flow, role }: { flow?: FlowStep[]; role: Role | "all
         {roleOnly && <span className="flow-mini__role">{ROLE_LABEL[role]}の場合</span>}
       </p>
       <ol className="flow-mini__list">
-        {steps.map((s, i) => (
+        {steps.map((s, i) => [
+          i > 0 && (
+            <li key={`a${i}`} className="flow-mini__arrow" aria-hidden>
+              ›
+            </li>
+          ),
           <li key={i} className={`flow-mini__step flow-mini__step--${s.kind}`} title={s.roles?.length ? `${s.label}（${s.roles.map((r) => ROLE_LABEL[r]).join("・")}）` : s.label}>
             <span className="flow-mini__icon">
               <Icon name={FLOW_ICON[s.kind]} size={15} />
             </span>
             <span className="flow-mini__label">{s.label}</span>
             {role === "all" && s.roles?.length ? <span className="flow-mini__only">{s.roles.map((r) => ROLE_LABEL[r].slice(0, 2)).join("・")}</span> : null}
-          </li>
-        ))}
+          </li>,
+        ])}
       </ol>
     </div>
   );
