@@ -1,18 +1,21 @@
 import type { OpeningType } from "../types.ts";
 import { Icon } from "./Icon.tsx";
+import { prefLabel } from "../lib/util.ts";
 
 export type Sort = "deadline" | "new" | "company";
 
 export interface Filters {
   type: OpeningType | "all";
   tag: string | "all";
+  /** 都道府県（「北海道」など） */
+  pref: string | "all";
   showClosed: boolean;
   query: string;
   sort: Sort;
 }
 
 export const DEFAULT_FILTERS: Filters = {
-  type: "all", tag: "all", showClosed: false, query: "", sort: "deadline",
+  type: "all", tag: "all", pref: "all", showClosed: false, query: "", sort: "deadline",
 };
 
 const TYPES: { v: Filters["type"]; label: string }[] = [
@@ -22,10 +25,11 @@ const TYPES: { v: Filters["type"]; label: string }[] = [
   { v: "event", label: "説明会・セミナー" },
 ];
 
-export function FilterBar({ f, set, tags, resultCount }: {
+export function FilterBar({ f, set, tags, prefs, resultCount }: {
   f: Filters;
   set: (patch: Partial<Filters>) => void;
   tags: string[];
+  prefs: string[];
   resultCount: number;
 }) {
   return (
@@ -46,6 +50,15 @@ export function FilterBar({ f, set, tags, resultCount }: {
       <label className="search">
         <Icon name="search" size={16} />
         <input type="search" placeholder="会社名・キーワードで検索" value={f.query} onChange={(e) => set({ query: e.target.value })} />
+      </label>
+      <label className="select">
+        <span>地域</span>
+        <select value={f.pref} onChange={(e) => set({ pref: e.target.value })}>
+          <option value="all">すべて</option>
+          {prefs.map((p) => (
+            <option key={p} value={p}>{prefLabel(p)}</option>
+          ))}
+        </select>
       </label>
       <label className="select">
         <span>分類</span>

@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import type { CompanyResult, JobsData, Opening, Role } from "./types.ts";
 import { ROLES } from "./types.ts";
-import { daysUntil, statusOf, todayJst } from "./lib/util.ts";
+import { daysUntil, openingInPref, sortPrefs, statusOf, todayJst } from "./lib/util.ts";
 import { useAuth } from "./lib/auth.tsx";
 import { Header, type View } from "./components/Header.tsx";
 import { Hero } from "./components/Hero.tsx";
@@ -77,6 +77,7 @@ export function App() {
   const byId = useMemo(() => new Map(all.map((o) => [o.id, o])), [all]);
 
   const tags = useMemo(() => [...new Set((data?.companies ?? []).flatMap((c) => c.tags))], [data]);
+  const prefs = useMemo(() => sortPrefs((data?.companies ?? []).flatMap((c) => c.locations ?? [])), [data]);
 
   // 職種以外の条件で絞った物（職種カードの件数に使う）
   const base = useMemo(() => {
@@ -86,6 +87,7 @@ export function App() {
       if (!filters.showClosed && statusOf(o) === "closed") return false;
       if (filters.type !== "all" && o.type !== filters.type) return false;
       if (filters.tag !== "all" && !c?.tags.includes(filters.tag)) return false;
+      if (filters.pref !== "all" && !openingInPref(o, c?.locations, filters.pref)) return false;
       if (q && !`${c?.name} ${o.title} ${o.summary} ${o.location}`.toLowerCase().includes(q)) return false;
       return true;
     });
@@ -137,7 +139,7 @@ export function App() {
           <>
             <Hero stats={stats} updatedAt={data?.updatedAt ?? null} targetYear={data?.targetGraduationYear ?? null} />
             <RolePicker value={role} counts={counts} onChange={setRole} />
-            <FilterBar f={filters} set={set} tags={tags} resultCount={shown.length} />
+            <FilterBar f={filters} set={set} tags={tags} prefs={prefs} resultCount={shown.length} />
             <div className="layout">
               <div className="layout__main">
                 {!data && !loadError && <Skeleton />}
