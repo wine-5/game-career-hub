@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T12:31:41.821Z",
+  "updatedAt": "2026-11-23T12:40:27.396Z",
   "model": "claude-code",
   "companies": [
     {
@@ -123,10 +123,10 @@
       }
     },
     {
-      "lastChecked": "2026-11-23T12:17:08.631Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:03.104Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
-      "digest": "28卒向けのエントリー受付中（通年採用）。プランナー・デザイナー・プログラマ向けの1day/3daysカレッジやセミナーを開催予定。",
+      "digest": "28卒向けのエントリー受付中（通年採用）。プランナー・デザイナー・プログラマ向けの1day/2days/3daysカレッジやセミナーを開催予定。",
       "openings": [
         {
           "title": "株式会社セガ 2028年新卒採用",
@@ -138,6 +138,17 @@
             "effect",
             "other"
           ],
+          "designKinds": [
+            "character",
+            "2d",
+            "3d",
+            "background",
+            "motion",
+            "ui",
+            "movie",
+            "ta",
+            "graphic"
+          ],
           "graduationYears": [
             2028
           ],
@@ -146,7 +157,7 @@
           "period": "通年採用",
           "format": "unknown",
           "location": "東京都品川区",
-          "summary": "プランナー・プログラマ・デザイナー・サウンド・総合職の新卒採用。2028年新卒向けのエントリーを受付中。",
+          "summary": "プランナー・プログラマ・デザイナー（キャラ・背景・モーション・エフェクト・UI・TA・Webなど）・サウンド・総合職の新卒採用。28卒エントリー受付中。",
           "sourceUrl": "https://www.sega.co.jp/recruit/fresh/",
           "flow": [
             {
@@ -216,6 +227,11 @@
             "artist",
             "planner"
           ],
+          "designKinds": [
+            "3d",
+            "motion",
+            "ui"
+          ],
           "graduationYears": [
             2028
           ],
@@ -224,7 +240,7 @@
           "period": "",
           "format": "unknown",
           "location": "北海道札幌市",
-          "summary": "札幌スタジオでプログラマ・デザイナー（3Dモデル・モーション・UI中心）・プランナーを募集。2028年新卒のエントリー窓口あり。",
+          "summary": "札幌スタジオでプログラマ・デザイナー（3Dモデリング・モーション・UI中心）・プランナーを募集。28卒のエントリー窓口あり。",
           "sourceUrl": "https://www.sega.co.jp/recruit/fresh/details/sapporostudio/",
           "flow": [
             {
@@ -515,8 +531,8 @@
       }
     },
     {
-      "lastChecked": "2026-11-23T12:17:08.632Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:03.131Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "28卒の新卒採用の募集要項を公開中。理工系・デザイン系・サウンド系・制作企画系の採用イベントを順次受付しており、サウンド系ワークショップは1月6日締切。",
       "openings": [
@@ -530,6 +546,17 @@
             "artist",
             "other"
           ],
+          "designKinds": [
+            "background",
+            "character",
+            "motion",
+            "ui",
+            "movie",
+            "ta",
+            "graphic",
+            "2d",
+            "3d"
+          ],
           "graduationYears": [
             2028
           ],
@@ -538,7 +565,7 @@
           "period": "",
           "format": "unknown",
           "location": "主に京都（配属により東京）",
-          "summary": "理工系・デザイン系・サウンド系・制作企画系・管理営業系の5系統で募集。2028年4月入社が可能な人が対象。",
+          "summary": "理工系・デザイン系（ステージ・キャラクター・UI・カットシーン・イラスト・3DCG等）・サウンド系・制作企画系・管理営業系で募集。",
           "sourceUrl": "https://www.nintendo.co.jp/jobs/recruit/requirements/index.html",
           "id": "80a44045c189",
           "companyId": "nintendo",
@@ -691,6 +718,11 @@
           "roles": [
             "artist"
           ],
+          "designKinds": [
+            "graphic",
+            "2d",
+            "3d"
+          ],
           "graduationYears": [
             2028
           ],
@@ -712,6 +744,14 @@
             "artist",
             "effect"
           ],
+          "designKinds": [
+            "background",
+            "character",
+            "motion",
+            "ui",
+            "movie",
+            "ta"
+          ],
           "graduationYears": [
             2028
           ],
@@ -731,6 +771,11 @@
           "type": "event",
           "roles": [
             "artist"
+          ],
+          "designKinds": [
+            "graphic",
+            "2d",
+            "3d"
           ],
           "graduationYears": [
             2028
@@ -752,6 +797,14 @@
           "roles": [
             "artist",
             "effect"
+          ],
+          "designKinds": [
+            "background",
+            "character",
+            "motion",
+            "ui",
+            "movie",
+            "ta"
           ],
           "graduationYears": [
             2028
@@ -907,8 +960,8 @@
       ]
     },
     {
-      "lastChecked": "2026-11-23T12:17:10.792Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:03.132Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "2028年度新卒の募集要項を2026年10月に公開。総合職向け・プランナー向けの仕事体験プログラムのエントリーを受付中。",
       "openings": [
@@ -922,6 +975,16 @@
             "programmer",
             "other"
           ],
+          "designKinds": [
+            "concept",
+            "2d",
+            "character",
+            "background",
+            "3d",
+            "motion",
+            "ui",
+            "movie"
+          ],
           "graduationYears": [
             2028
           ],
@@ -930,7 +993,7 @@
           "period": "",
           "format": "unknown",
           "location": "",
-          "summary": "2028年度新卒の募集要項を公開。開発職・ビジネス職など多職種で採用。",
+          "summary": "2028年度新卒の募集要項を公開。プランナー・デザイナー（コンセプトアート・2D・3D・モーション・UI等）・プログラマーなど多職種。",
           "sourceUrl": "https://www.atlus.co.jp/recruit/",
           "flow": [
             {
@@ -1090,8 +1153,8 @@
       ]
     },
     {
-      "lastChecked": "2026-11-23T12:17:18.789Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:03.133Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "28卒向け新卒採用のエントリーを受付中。28卒向けインターンシップの案内もある。",
       "openings": [
@@ -1302,8 +1365,8 @@
       "logo": "logos/gungho.ico"
     },
     {
-      "lastChecked": "2026-11-23T12:17:22.520Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:03.134Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "28卒（2027年10月・2028年4月入社）向けにエンジニア職とデザイン職（プロダクトデザイナー）の新卒採用を受付中。",
       "openings": [
@@ -1351,6 +1414,13 @@
           "type": "newgrad",
           "roles": [
             "artist"
+          ],
+          "designKinds": [
+            "ui",
+            "graphic",
+            "movie",
+            "motion",
+            "3d"
           ],
           "graduationYears": [
             2028
@@ -1406,8 +1476,8 @@
       }
     },
     {
-      "lastChecked": "2026-11-23T12:17:22.659Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:03.135Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "2028年度入社（28卒）向けの本選考を職種別に受付中。オンライン会社説明会も案内している。",
       "openings": [
@@ -1477,8 +1547,8 @@
       ]
     },
     {
-      "lastChecked": "2026-11-23T12:17:22.720Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:08.354Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "2028年4月入社（または2027年10月入社）希望者向けの新卒エントリーを受付中。AIスペシャリストとAIジェネラリスト（エンジニア・ビジネス・クリエイティブ）の2コース。",
       "openings": [
@@ -1498,7 +1568,7 @@
           "period": "",
           "format": "unknown",
           "location": "",
-          "summary": "2028年4月または2027年10月入社希望者向けのエントリー。AIスペシャリストコースと、エンジニア・ビジネス・クリエイティブ職のAIジェネラリストコースがある。",
+          "summary": "2028年4月または2027年10月入社希望者向け。AIスペシャリストコースと、エンジニア・ビジネス・クリエイティブ職のAIジェネラリストコース。",
           "sourceUrl": "https://student.dena.com/",
           "id": "cea6547301f1",
           "companyId": "dena",
@@ -1522,8 +1592,8 @@
       ]
     },
     {
-      "lastChecked": "2026-11-23T12:17:23.993Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:08.386Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "28/29卒向けの冬期インターン（エンジニア・デザイナー）を募集中。締切は2026年12月31日。",
       "openings": [
@@ -1629,8 +1699,8 @@
       ]
     },
     {
-      "lastChecked": "2026-11-23T12:17:27.668Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:08.588Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "新卒は通年採用で27卒以降を受付中（28卒も対象）。インターンも職種別に随時受付",
       "openings": [
@@ -1643,6 +1713,11 @@
             "programmer",
             "other"
           ],
+          "designKinds": [
+            "2d",
+            "motion",
+            "ui"
+          ],
           "graduationYears": [
             2028
           ],
@@ -1651,7 +1726,7 @@
           "period": "通年",
           "format": "unknown",
           "location": "鎌倉 または 秋葉原",
-          "summary": "ディレクター・デザイナー・Unityプログラマ等を通年募集。ESのほか作品やコードだけの選考も可",
+          "summary": "ディレクター・デザイナー（イラスト・モーショングラフィック・ゲームUI）・Unityプログラマ等を通年募集。作品やコードだけの選考も可",
           "sourceUrl": "https://www.kayac.com/recruit/fresh",
           "id": "5e75ed625844",
           "companyId": "kayac",
@@ -1665,6 +1740,11 @@
             "artist",
             "programmer"
           ],
+          "designKinds": [
+            "2d",
+            "motion",
+            "ui"
+          ],
           "graduationYears": [
             2028
           ],
@@ -1673,7 +1753,7 @@
           "period": "1週間〜1ヶ月程度（時期は個別に設定）",
           "format": "hybrid",
           "location": "鎌倉 or オンライン",
-          "summary": "ディレクター・デザイナー・エンジニア職でブレストや制作を体験。ESか作品で応募",
+          "summary": "ディレクター・デザイナー（イラスト・モーション・ゲームUI）・エンジニア職でブレストや制作を体験。ESか作品で応募",
           "sourceUrl": "https://www.kayac.com/recruit/intern",
           "id": "f72765cd40b9",
           "companyId": "kayac",
@@ -1932,8 +2012,8 @@
       }
     },
     {
-      "lastChecked": "2026-11-23T12:17:31.509Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:12.515Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "28卒の新卒採用エントリーを2026年10月1日に開始。11月からポートフォリオ相談会の応募も受付中。",
       "openings": [
@@ -1947,6 +2027,17 @@
             "effect",
             "other"
           ],
+          "designKinds": [
+            "concept",
+            "3d",
+            "background",
+            "character",
+            "ui",
+            "motion",
+            "movie",
+            "ta",
+            "graphic"
+          ],
           "graduationYears": [
             2028
           ],
@@ -1955,7 +2046,7 @@
           "period": "",
           "format": "unknown",
           "location": "東京本社／福岡スタジオ",
-          "summary": "プランナー・エンジニア・グラフィック（エフェクト含む）・サウンド・プロモーション職を募集。作品選考は何度でも再挑戦できる。",
+          "summary": "プランナー・エンジニア・グラフィック職（デザイナー・3D・エフェクト・UI・モーション・リギング・シネマティック・TA）・サウンド・広告デザイナーを募集。",
           "sourceUrl": "https://careers.fromsoftware.jp/jp/newgraduates.html",
           "flow": [
             {
@@ -2095,8 +2186,8 @@
       ]
     },
     {
-      "lastChecked": "2026-11-23T12:17:31.756Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:13.078Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "アーティスト・ゲームデザイナー・プログラマーの新卒を通年採用で受付中。説明会・インターンは現在実施していない。",
       "openings": [
@@ -2106,6 +2197,11 @@
           "roles": [
             "artist",
             "effect"
+          ],
+          "designKinds": [
+            "character",
+            "background",
+            "motion"
           ],
           "graduationYears": [
             2028
@@ -2845,34 +2941,31 @@
       "site": "http://www.inti.co.jp/"
     },
     {
-      "lastChecked": "2026-11-23T12:17:43.822Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:13.283Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
-      "digest": "2028年度新卒採用の受付を2026年11月19日に開始（プランナー・2D/3Dデザイナー・プログラマー）。募集は2027年秋頃まで。",
+      "digest": "2028年度新卒採用の受付を2026年11月19日に開始。プランナー・2D/3Dグラフィックデザイナー・プログラマーを募集し、募集は2027年秋頃まで。",
       "openings": [
         {
-          "title": "2028年度新卒採用",
+          "title": "2028年度新卒採用 プランナー",
           "type": "newgrad",
           "roles": [
-            "planner",
-            "artist",
-            "effect",
-            "programmer"
+            "planner"
           ],
           "graduationYears": [
             2028
           ],
           "applyStart": "2026-11-19",
           "deadline": "",
-          "period": "2027年秋頃まで募集",
-          "format": "unknown",
-          "location": "本社（東京都武蔵野市吉祥寺）",
-          "summary": "プランナー、2D・3Dグラフィックデザイナー（エフェクト含む）、プログラマーを各若干名募集。履歴書・ES・作品を提出。",
+          "period": "募集期間は2027年秋頃まで",
+          "format": "onsite",
+          "location": "東京都武蔵野市吉祥寺（本社）",
+          "summary": "企画書・仕様書の作成、ゲームデータやスクリプトの作成、画面レイアウトの検討などを担うプランナー職。各職種若干名。",
           "sourceUrl": "https://indieszero.co.jp/recruit/fresh.html",
           "flow": [
             {
               "kind": "es",
-              "label": "書類選考"
+              "label": "書類選考（履歴書・ES・作品）"
             },
             {
               "kind": "test",
@@ -2884,7 +2977,126 @@
             }
           ],
           "flowSourceUrl": "https://indieszero.co.jp/recruit/fresh.html",
-          "id": "aa4f7f438ce7",
+          "id": "fca1ee4cf769",
+          "companyId": "indieszero",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "2028年度新卒採用 2Dグラフィックデザイナー",
+          "type": "newgrad",
+          "roles": [
+            "artist"
+          ],
+          "designKinds": [
+            "2d",
+            "character",
+            "motion",
+            "ui",
+            "background"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "2026-11-19",
+          "deadline": "",
+          "period": "募集期間は2027年秋頃まで",
+          "format": "onsite",
+          "location": "東京都武蔵野市吉祥寺（本社）",
+          "summary": "2Dのキャラクター・アニメーション・インターフェイス・背景などのデザイン全般を担う。Photoshop・Illustratorの基本操作が必須。",
+          "sourceUrl": "https://indieszero.co.jp/recruit/fresh.html",
+          "flow": [
+            {
+              "kind": "es",
+              "label": "書類選考（履歴書・ES・作品）"
+            },
+            {
+              "kind": "test",
+              "label": "適性検査"
+            },
+            {
+              "kind": "interview",
+              "label": "面接"
+            }
+          ],
+          "flowSourceUrl": "https://indieszero.co.jp/recruit/fresh.html",
+          "id": "a42934fb5e12",
+          "companyId": "indieszero",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "2028年度新卒採用 3Dグラフィックデザイナー",
+          "type": "newgrad",
+          "roles": [
+            "artist",
+            "effect"
+          ],
+          "designKinds": [
+            "3d",
+            "character",
+            "motion",
+            "background"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "2026-11-19",
+          "deadline": "",
+          "period": "募集期間は2027年秋頃まで",
+          "format": "onsite",
+          "location": "東京都武蔵野市吉祥寺（本社）",
+          "summary": "3Dのキャラクター・モーション・背景・エフェクトなどのデザイン全般を担う。3DCGソフトの基本操作が必須。",
+          "sourceUrl": "https://indieszero.co.jp/recruit/fresh.html",
+          "flow": [
+            {
+              "kind": "es",
+              "label": "書類選考（履歴書・ES・作品）"
+            },
+            {
+              "kind": "test",
+              "label": "適性検査"
+            },
+            {
+              "kind": "interview",
+              "label": "面接"
+            }
+          ],
+          "flowSourceUrl": "https://indieszero.co.jp/recruit/fresh.html",
+          "id": "65863ecb205e",
+          "companyId": "indieszero",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "2028年度新卒採用 プログラマー",
+          "type": "newgrad",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "2026-11-19",
+          "deadline": "",
+          "period": "募集期間は2027年秋頃まで",
+          "format": "onsite",
+          "location": "東京都武蔵野市吉祥寺（本社）",
+          "summary": "ゲームプログラミングとツール作成などを担う。C++とC#の知識が必須。",
+          "sourceUrl": "https://indieszero.co.jp/recruit/fresh.html",
+          "flow": [
+            {
+              "kind": "es",
+              "label": "書類選考（履歴書・ES・作品）"
+            },
+            {
+              "kind": "test",
+              "label": "適性検査"
+            },
+            {
+              "kind": "interview",
+              "label": "面接"
+            }
+          ],
+          "flowSourceUrl": "https://indieszero.co.jp/recruit/fresh.html",
+          "id": "d03d63e0893e",
           "companyId": "indieszero",
           "firstSeen": "2026-11-23"
         }
@@ -2906,7 +3118,7 @@
       "site": "https://indieszero.co.jp/",
       "conditions": {
         "salary": 266000,
-        "salaryLabel": "月給26.6万円（固定残業35時間分5.8万円含む、2026年度卒の想定額）",
+        "salaryLabel": "月給26.6万円（固定残業35時間分5.8万円含む・2026年度卒の想定額）",
         "holidays": 122,
         "sourceUrl": "https://indieszero.co.jp/recruit/fresh.html"
       }
@@ -3465,10 +3677,10 @@
       "site": "https://kairosoft.net/"
     },
     {
-      "lastChecked": "2026-11-23T12:17:58.002Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:15.400Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
-      "digest": "募集職種一覧に新卒向けインターン（エンジニア・プランナー・イラスト・背景・シナリオ）を掲載中。新卒本選考の職種もあるが卒業年の記載は無い。",
+      "digest": "募集職種一覧の新卒タブに、新卒向けインターン（エンジニア・プランナー・イラストレーター・背景デザイナー・シナリオ）を掲載中。新卒本選考の職種もあるが卒業年の記載は無い。",
       "openings": [
         {
           "title": "\"カスタムインターン\"ゲームプランナー【新卒】",
@@ -3484,7 +3696,7 @@
           "period": "",
           "format": "unknown",
           "location": "",
-          "summary": "ゲーム開発に意欲のある学生向けの企画職インターン。募集職種一覧に掲載中。",
+          "summary": "ゲーム開発への熱意がある学生向けの企画職インターン。",
           "sourceUrl": "https://colorfulpalette.co.jp/recruit/position/",
           "id": "4dfe3b978494",
           "companyId": "colorfulpalette",
@@ -3524,7 +3736,7 @@
           "period": "",
           "format": "unknown",
           "location": "",
-          "summary": "新規開発タイトルのクライアント開発に携わるエンジニアインターン。",
+          "summary": "新規開発タイトルのクライアントエンジニアとして参加するインターン。",
           "sourceUrl": "https://colorfulpalette.co.jp/recruit/position/",
           "id": "39f17e89fa7d",
           "companyId": "colorfulpalette",
@@ -3544,7 +3756,7 @@
           "period": "",
           "format": "unknown",
           "location": "",
-          "summary": "新規開発タイトルのバックエンド開発に携わるエンジニアインターン。",
+          "summary": "新規開発タイトルのバックエンドエンジニアとして参加するインターン。",
           "sourceUrl": "https://colorfulpalette.co.jp/recruit/position/",
           "id": "747c62958e2f",
           "companyId": "colorfulpalette",
@@ -3564,7 +3776,7 @@
           "period": "",
           "format": "unknown",
           "location": "",
-          "summary": "『プロセカ』のクライアント開発に携わるエンジニアインターン。",
+          "summary": "「プロセカ」のクライアントエンジニアとして参加するインターン。",
           "sourceUrl": "https://colorfulpalette.co.jp/recruit/position/",
           "id": "9748f6c55cca",
           "companyId": "colorfulpalette",
@@ -3584,7 +3796,7 @@
           "period": "",
           "format": "unknown",
           "location": "",
-          "summary": "『プロセカ』のバックエンド開発に携わるエンジニアインターン。",
+          "summary": "「プロセカ」のバックエンドエンジニアとして参加するインターン。",
           "sourceUrl": "https://colorfulpalette.co.jp/recruit/position/",
           "id": "daf7f86b0b72",
           "companyId": "colorfulpalette",
@@ -3596,6 +3808,9 @@
           "roles": [
             "artist"
           ],
+          "designKinds": [
+            "background"
+          ],
           "graduationYears": [
             2028
           ],
@@ -3604,7 +3819,7 @@
           "period": "",
           "format": "unknown",
           "location": "",
-          "summary": "『プロセカ』のファン目線の絵作りを背景制作を通して学べるインターン。",
+          "summary": "「プロセカ」のファン目線の絵作りを学ぶ、背景デザイナーのインターン。",
           "sourceUrl": "https://colorfulpalette.co.jp/recruit/position/",
           "id": "8080bbae1c13",
           "companyId": "colorfulpalette",
@@ -3616,6 +3831,9 @@
           "roles": [
             "artist"
           ],
+          "designKinds": [
+            "2d"
+          ],
           "graduationYears": [
             2028
           ],
@@ -3624,7 +3842,7 @@
           "period": "",
           "format": "unknown",
           "location": "",
-          "summary": "『プロセカ』のファン目線の絵作りをイラスト制作を通して学べるインターン。",
+          "summary": "「プロセカ」のファン目線の絵作りを学ぶ、イラストレーターのインターン。",
           "sourceUrl": "https://colorfulpalette.co.jp/recruit/position/",
           "id": "33f80c8cebef",
           "companyId": "colorfulpalette",
@@ -3644,7 +3862,7 @@
           "period": "",
           "format": "unknown",
           "location": "",
-          "summary": "新卒向けに実務へ挑戦できるシナリオライターのインターン。",
+          "summary": "新卒向けに実務へ挑戦するシナリオライターのインターン。",
           "sourceUrl": "https://colorfulpalette.co.jp/recruit/position/",
           "id": "9f0a577b4887",
           "companyId": "colorfulpalette",
@@ -4250,10 +4468,10 @@
       "site": "https://www.grenge.co.jp/"
     },
     {
-      "lastChecked": "2026-11-23T12:18:10.717Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:16.922Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
-      "digest": "新卒採用をメールで随時受付（プランナー・プログラマー・2D/3Dデザイナー）。選考にインターンシップを含む。",
+      "digest": "新卒採用をメールで受付（プランナー・プログラマー・2D/3Dデザイナー）。選考の途中に5〜10日間のインターンシップがある。",
       "openings": [
         {
           "title": "新卒採用（プランナー・2Dデザイナー・3Dデザイナー・プログラマー）",
@@ -4263,6 +4481,10 @@
             "artist",
             "programmer"
           ],
+          "designKinds": [
+            "2d",
+            "3d"
+          ],
           "graduationYears": [
             2028
           ],
@@ -4271,12 +4493,12 @@
           "period": "",
           "format": "unknown",
           "location": "",
-          "summary": "写真付き履歴書と希望職種に沿った自作作品をメールで送って応募。選考途中に5〜10日間のインターンシップあり（遠隔地はオンライン）。",
+          "summary": "履歴書と希望職種に沿った自作の作品をメールで送って応募する。遠方の人は面接とインターンをオンラインで実施。",
           "sourceUrl": "https://www.gbj.co.jp/recruit/",
           "flow": [
             {
               "kind": "es",
-              "label": "書類選考"
+              "label": "書類選考（履歴書・作品）"
             },
             {
               "kind": "interview",
@@ -4284,7 +4506,7 @@
             },
             {
               "kind": "other",
-              "label": "インターンシップ（5日〜10日間）"
+              "label": "インターンシップ（5〜10日間）"
             },
             {
               "kind": "final",
@@ -4436,19 +4658,16 @@
       "site": "https://www.geishatokyo.com/"
     },
     {
-      "lastChecked": "2026-11-23T12:18:12.863Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:17.727Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
-      "digest": "2028年新卒採用のエントリーを受付中（締切2027年4月30日）。ゲームデザイナー・プログラマー・各種アーティストを大阪勤務で募集。",
+      "digest": "2028年新卒採用のエントリーを受付中（締切2027年4月30日）。ゲームデザイナー・プログラマーと、キャラクター・背景・アニメーター・シネマティック・VFX・UIの各アーティストを大阪勤務で募集。",
       "openings": [
         {
-          "title": "2028年新卒採用",
+          "title": "2028年度新卒 ゲームデザイナー",
           "type": "newgrad",
           "roles": [
-            "planner",
-            "programmer",
-            "artist",
-            "effect"
+            "planner"
           ],
           "graduationYears": [
             2028
@@ -4456,9 +4675,9 @@
           "applyStart": "",
           "deadline": "2027-04-30",
           "period": "",
-          "format": "unknown",
-          "location": "大阪市中央区（本社）",
-          "summary": "カプコングループのコンシューマー開発。ゲームデザイナー、プログラマー、キャラクター・背景・アニメーター・シネマティック・VFX・UIアーティストを募集。",
+          "format": "onsite",
+          "location": "大阪市中央区淡路町（北浜）",
+          "summary": "コンシューマーゲームの企画業務。企画書作成の経験とExcel・PowerPointでの書類作成が応募条件。",
           "sourceUrl": "https://k2-games.com/recruit/new-grad.html",
           "flow": [
             {
@@ -4479,7 +4698,305 @@
             }
           ],
           "flowSourceUrl": "https://k2-games.com/recruit/new-grad.html",
-          "id": "294b523d9be8",
+          "id": "bb95a6e1f16f",
+          "companyId": "k2-games",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "2028年度新卒 ゲームプログラマー",
+          "type": "newgrad",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "2027-04-30",
+          "period": "",
+          "format": "onsite",
+          "location": "大阪市中央区淡路町（北浜）",
+          "summary": "コンシューマーゲームのソフト開発。C++かC#でのアプリ制作経験が応募条件。",
+          "sourceUrl": "https://k2-games.com/recruit/new-grad.html",
+          "flow": [
+            {
+              "kind": "es",
+              "label": "書類選考"
+            },
+            {
+              "kind": "interview",
+              "label": "一次面接"
+            },
+            {
+              "kind": "final",
+              "label": "最終面接"
+            },
+            {
+              "kind": "offer",
+              "label": "内定"
+            }
+          ],
+          "flowSourceUrl": "https://k2-games.com/recruit/new-grad.html",
+          "id": "913e26434896",
+          "companyId": "k2-games",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "2028年度新卒 キャラクター アーティスト",
+          "type": "newgrad",
+          "roles": [
+            "artist"
+          ],
+          "designKinds": [
+            "3d",
+            "character"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "2027-04-30",
+          "period": "",
+          "format": "onsite",
+          "location": "大阪市中央区淡路町（北浜）",
+          "summary": "コンシューマーゲームのキャラクターモデル制作。3DCGでフォトリアルな人体スカルプトができることが条件。",
+          "sourceUrl": "https://k2-games.com/recruit/new-grad.html",
+          "flow": [
+            {
+              "kind": "es",
+              "label": "書類選考"
+            },
+            {
+              "kind": "interview",
+              "label": "一次面接"
+            },
+            {
+              "kind": "final",
+              "label": "最終面接"
+            },
+            {
+              "kind": "offer",
+              "label": "内定"
+            }
+          ],
+          "flowSourceUrl": "https://k2-games.com/recruit/new-grad.html",
+          "id": "2d61030be535",
+          "companyId": "k2-games",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "2028年度新卒 エンヴァイロメント アーティスト",
+          "type": "newgrad",
+          "roles": [
+            "artist"
+          ],
+          "designKinds": [
+            "3d",
+            "background"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "2027-04-30",
+          "period": "",
+          "format": "onsite",
+          "location": "大阪市中央区淡路町（北浜）",
+          "summary": "コンシューマーゲームの背景制作。3DCGでフォトリアルな形状・質感を表現できることが条件。",
+          "sourceUrl": "https://k2-games.com/recruit/new-grad.html",
+          "flow": [
+            {
+              "kind": "es",
+              "label": "書類選考"
+            },
+            {
+              "kind": "interview",
+              "label": "一次面接"
+            },
+            {
+              "kind": "final",
+              "label": "最終面接"
+            },
+            {
+              "kind": "offer",
+              "label": "内定"
+            }
+          ],
+          "flowSourceUrl": "https://k2-games.com/recruit/new-grad.html",
+          "id": "edea3aa74083",
+          "companyId": "k2-games",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "2028年度新卒 アニメーター",
+          "type": "newgrad",
+          "roles": [
+            "artist"
+          ],
+          "designKinds": [
+            "3d",
+            "motion"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "2027-04-30",
+          "period": "",
+          "format": "onsite",
+          "location": "大阪市中央区淡路町（北浜）",
+          "summary": "コンシューマーゲームのアニメーション制作。3DCGキャラクターアニメーションの制作経験が条件。",
+          "sourceUrl": "https://k2-games.com/recruit/new-grad.html",
+          "flow": [
+            {
+              "kind": "es",
+              "label": "書類選考"
+            },
+            {
+              "kind": "interview",
+              "label": "一次面接"
+            },
+            {
+              "kind": "final",
+              "label": "最終面接"
+            },
+            {
+              "kind": "offer",
+              "label": "内定"
+            }
+          ],
+          "flowSourceUrl": "https://k2-games.com/recruit/new-grad.html",
+          "id": "1a9afd0fa2ad",
+          "companyId": "k2-games",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "2028年度新卒 シネマティック アーティスト",
+          "type": "newgrad",
+          "roles": [
+            "artist"
+          ],
+          "designKinds": [
+            "movie",
+            "3d",
+            "motion"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "2027-04-30",
+          "period": "",
+          "format": "onsite",
+          "location": "大阪市中央区淡路町（北浜）",
+          "summary": "コンシューマーゲームの映像演出。3DCG映像のカット編集とキャラクターアニメーション演出の経験が条件。",
+          "sourceUrl": "https://k2-games.com/recruit/new-grad.html",
+          "flow": [
+            {
+              "kind": "es",
+              "label": "書類選考"
+            },
+            {
+              "kind": "interview",
+              "label": "一次面接"
+            },
+            {
+              "kind": "final",
+              "label": "最終面接"
+            },
+            {
+              "kind": "offer",
+              "label": "内定"
+            }
+          ],
+          "flowSourceUrl": "https://k2-games.com/recruit/new-grad.html",
+          "id": "fa8e3469497a",
+          "companyId": "k2-games",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "2028年度新卒 ヴィジュアルエフェクツ アーティスト",
+          "type": "newgrad",
+          "roles": [
+            "effect"
+          ],
+          "designKinds": [
+            "3d"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "2027-04-30",
+          "period": "",
+          "format": "onsite",
+          "location": "大阪市中央区淡路町（北浜）",
+          "summary": "コンシューマーゲームのエフェクト制作。ゲームエンジンでのエフェクト制作と3DCGソフトの使用経験が条件。",
+          "sourceUrl": "https://k2-games.com/recruit/new-grad.html",
+          "flow": [
+            {
+              "kind": "es",
+              "label": "書類選考"
+            },
+            {
+              "kind": "interview",
+              "label": "一次面接"
+            },
+            {
+              "kind": "final",
+              "label": "最終面接"
+            },
+            {
+              "kind": "offer",
+              "label": "内定"
+            }
+          ],
+          "flowSourceUrl": "https://k2-games.com/recruit/new-grad.html",
+          "id": "0d202975d885",
+          "companyId": "k2-games",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "2028年度新卒 ユーザーインターフェイス アーティスト",
+          "type": "newgrad",
+          "roles": [
+            "artist"
+          ],
+          "designKinds": [
+            "ui",
+            "2d",
+            "motion"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "2027-04-30",
+          "period": "",
+          "format": "onsite",
+          "location": "大阪市中央区淡路町（北浜）",
+          "summary": "コンシューマーゲームのUI制作。ゲームUIとレイアウト・アニメーション作成の経験が条件。",
+          "sourceUrl": "https://k2-games.com/recruit/new-grad.html",
+          "flow": [
+            {
+              "kind": "es",
+              "label": "書類選考"
+            },
+            {
+              "kind": "interview",
+              "label": "一次面接"
+            },
+            {
+              "kind": "final",
+              "label": "最終面接"
+            },
+            {
+              "kind": "offer",
+              "label": "内定"
+            }
+          ],
+          "flowSourceUrl": "https://k2-games.com/recruit/new-grad.html",
+          "id": "5af9a801c9b4",
           "companyId": "k2-games",
           "firstSeen": "2026-11-23"
         }
@@ -4779,10 +5296,10 @@
       "site": "https://www.compileheart.com/"
     },
     {
-      "lastChecked": "2026-11-23T12:18:13.890Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:17.789Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
-      "digest": "28卒向け本選考の応募を受付中（一次募集締切2027年3月14日）。12月に28卒向け会社説明会（YouTube・職種別Zoom）と冬季インターン作品チェックバック会を実施。",
+      "digest": "28卒向け本選考の応募を受付中（一次募集締切2027年3月14日、締切前も随時受付）。12月に28卒向け会社説明会（YouTube配信・職種別Zoom）を行い、冬季インターンの作品チェックバック会も募集中。",
       "openings": [
         {
           "title": "新卒採用（2028年3月卒業見込み）一次募集",
@@ -4799,17 +5316,17 @@
           ],
           "applyStart": "",
           "deadline": "2027-03-14",
-          "period": "",
+          "period": "締切前でも随時応募できる",
           "format": "unknown",
           "location": "福岡本社・東京スタジオ・大阪スタジオ",
-          "summary": "28卒向けの新卒本選考。ゲームデザイナー・プログラマー・アーティスト・PM等を募集し、一次募集の締切前でも随時応募できる。",
+          "summary": "ゲームデザイナー・プログラマー・アーティスト（VFX含む）・PM/制作進行などの28卒向け新卒採用。一次募集は3月14日締切。",
           "sourceUrl": "https://www.cc2.co.jp/recruit/?page_id=3284",
           "id": "6f0e4c3b136c",
           "companyId": "cc2",
           "firstSeen": "2026-11-23"
         },
         {
-          "title": "2028年卒向け会社説明会（YouTube配信）",
+          "title": "サイバーコネクトツー【2028年卒向け会社説明会】（YouTube配信）",
           "type": "event",
           "roles": [
             "planner",
@@ -4824,15 +5341,15 @@
           "deadline": "",
           "period": "2026年12月上旬",
           "format": "online",
-          "location": "",
-          "summary": "28卒向けの会社説明会を公式YouTubeチャンネルで配信予定。予約は不要。",
+          "location": "CC2公式YouTubeチャンネル",
+          "summary": "28卒向けの会社説明会をYouTubeで配信。予約は不要。",
           "sourceUrl": "https://www.cc2.co.jp/recruit/?page_id=3284",
-          "id": "ff2871ef108f",
+          "id": "52c41fd34a68",
           "companyId": "cc2",
           "firstSeen": "2026-11-23"
         },
         {
-          "title": "2028年卒向け職種別会社説明会 プログラマー編",
+          "title": "【2028年卒向け会社説明会】職種別 プログラマー編",
           "type": "event",
           "roles": [
             "programmer"
@@ -4844,15 +5361,15 @@
           "deadline": "",
           "period": "2026-12-09 14:00〜15:00",
           "format": "online",
-          "location": "",
-          "summary": "28卒向けのプログラマー職の説明会をZoomで開催。予約フォームから申込み、定員になり次第締切。",
+          "location": "Zoom",
+          "summary": "28卒向けのプログラマー職の説明会。予約フォームから申し込み、定員になり次第締切。",
           "sourceUrl": "https://www.cc2.co.jp/recruit/?page_id=3284",
-          "id": "0093130592fc",
+          "id": "9859d2874c1f",
           "companyId": "cc2",
           "firstSeen": "2026-11-23"
         },
         {
-          "title": "2028年卒向け職種別会社説明会 アーティスト編",
+          "title": "【2028年卒向け会社説明会】職種別 アーティスト編",
           "type": "event",
           "roles": [
             "artist"
@@ -4864,15 +5381,15 @@
           "deadline": "",
           "period": "2026-12-15 14:00〜15:00",
           "format": "online",
-          "location": "",
-          "summary": "28卒向けのアーティスト職の説明会をZoomで開催。予約フォームから申込み、定員になり次第締切。",
+          "location": "Zoom",
+          "summary": "28卒向けのアーティスト職の説明会。予約フォームから申し込み、定員になり次第締切。",
           "sourceUrl": "https://www.cc2.co.jp/recruit/?page_id=3284",
-          "id": "c02af8d57840",
+          "id": "61777615bba4",
           "companyId": "cc2",
           "firstSeen": "2026-11-23"
         },
         {
-          "title": "2028年卒向け職種別会社説明会 ゲームデザイナー編",
+          "title": "【2028年卒向け会社説明会】職種別 ゲームデザイナー編",
           "type": "event",
           "roles": [
             "planner"
@@ -4884,15 +5401,15 @@
           "deadline": "",
           "period": "2026-12-17 14:00〜15:00",
           "format": "online",
-          "location": "",
-          "summary": "28卒向けのゲームデザイナー職の説明会をZoomで開催。予約フォームから申込み、定員になり次第締切。",
+          "location": "Zoom",
+          "summary": "28卒向けのゲームデザイナー職の説明会。予約フォームから申し込み、定員になり次第締切。",
           "sourceUrl": "https://www.cc2.co.jp/recruit/?page_id=3284",
-          "id": "94f78a7b6ac4",
+          "id": "b6a6c4fd2d66",
           "companyId": "cc2",
           "firstSeen": "2026-11-23"
         },
         {
-          "title": "2028年卒向け職種別会社説明会 PM/制作進行編",
+          "title": "【2028年卒向け会社説明会】職種別 PM/制作進行編",
           "type": "event",
           "roles": [
             "other"
@@ -4904,15 +5421,15 @@
           "deadline": "",
           "period": "2026-12-22 14:00〜15:00",
           "format": "online",
-          "location": "",
-          "summary": "28卒向けのPM・制作進行職の説明会をZoomで開催。予約フォームから申込み、定員になり次第締切。",
+          "location": "Zoom",
+          "summary": "28卒向けのPM・制作進行職の説明会。予約フォームから申し込み、定員になり次第締切。",
           "sourceUrl": "https://www.cc2.co.jp/recruit/?page_id=3284",
-          "id": "3b48b52696b1",
+          "id": "945a31e243b6",
           "companyId": "cc2",
           "firstSeen": "2026-11-23"
         },
         {
-          "title": "冬季インターンシップ2027〈アーティスト・ゲームデザイナー（プランナー）〉作品チェックバック会",
+          "title": "サイバーコネクトツー冬季インターンシップ2027〈アーティスト・ゲームデザイナー（プランナー）〉作品チェックバック会",
           "type": "internship",
           "roles": [
             "artist",
@@ -4926,9 +5443,9 @@
           "period": "",
           "format": "unknown",
           "location": "",
-          "summary": "アーティスト・ゲームデザイナー志望向けに作品へのフィードバックを行う冬季インターン。現在募集中と掲載。",
+          "summary": "現在募集中の冬季インターン。アーティストとゲームデザイナー志望者の作品を社員が確認して講評する会。",
           "sourceUrl": "https://www.cc2.co.jp/recruit/?page_id=4178",
-          "id": "fdf9dc5b3679",
+          "id": "0337765d9942",
           "companyId": "cc2",
           "firstSeen": "2026-11-23"
         }
@@ -5724,18 +6241,16 @@
       "site": "https://smileboom.com/"
     },
     {
-      "lastChecked": "2026-11-23T12:18:30.117Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:19.040Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "2028年向けの新卒募集要項を掲載し、プログラマー（クライアント）・プランナー・デザイナーを募集している。応募はお問い合わせフォームの新卒タブから。",
       "openings": [
         {
-          "title": "新卒採用 2028（プログラマー・プランナー・デザイナー）",
+          "title": "新卒採用 2028 プログラマー（クライアント）",
           "type": "newgrad",
           "roles": [
-            "programmer",
-            "planner",
-            "artist"
+            "programmer"
           ],
           "graduationYears": [
             2028
@@ -5744,10 +6259,56 @@
           "deadline": "",
           "period": "",
           "format": "unknown",
-          "location": "",
-          "summary": "2028年向け新卒募集要項でプログラマー（クライアント）、プランナー、デザイナーの3職種を募集。",
+          "location": "横浜オフィス",
+          "summary": "2028年の新卒募集要項に載っているクライアントプログラマー職。応募はお問い合わせフォームの新卒タブから。",
           "sourceUrl": "https://www.three-rings.net/wp/recruit",
-          "id": "d262ed622c25",
+          "id": "f8fa8f1dde54",
+          "companyId": "three-rings",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "新卒採用 2028 プランナー",
+          "type": "newgrad",
+          "roles": [
+            "planner"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "横浜オフィス",
+          "summary": "2028年の新卒募集要項に載っているプランナー職。応募はお問い合わせフォームの新卒タブから。",
+          "sourceUrl": "https://www.three-rings.net/wp/recruit",
+          "id": "df3852fef428",
+          "companyId": "three-rings",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "新卒採用 2028 デザイナー",
+          "type": "newgrad",
+          "roles": [
+            "artist",
+            "effect"
+          ],
+          "designKinds": [
+            "3d",
+            "character",
+            "ui"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "横浜オフィス",
+          "summary": "2028年の新卒募集要項に載っているデザイナー職。応募フォームの希望職種に「3Dキャラモデラ・3Dエフェクト・UI」がある。",
+          "sourceUrl": "https://www.three-rings.net/wp/contact?tab=graduate",
+          "id": "b7f2ebbb4532",
           "companyId": "three-rings",
           "firstSeen": "2026-11-23"
         }
@@ -5934,19 +6495,83 @@
       "site": "https://www.tamsoft.co.jp/"
     },
     {
-      "lastChecked": "2026-11-23T12:18:33.880Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:19.196Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
-      "digest": "新卒採用はグリーグループ全体で実施。28卒向けにエンジニア・ゲームプランナー・デザイナー・エンタメ総合職を募集中。",
+      "digest": "新卒採用はグリーグループ全体で実施。2028年3月卒業見込み向けにエンジニア職・ゲームプランナー職・デザイナー職・エンタメ総合職を募集中。",
       "openings": [
         {
-          "title": "グリーグループ新卒採用（2028年3月卒業見込み）",
+          "title": "グリーグループ新卒採用 エンジニア職（2028年3月卒業見込み）",
           "type": "newgrad",
           "roles": [
-            "programmer",
-            "planner",
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "onsite",
+          "location": "東京都港区六本木（本社）",
+          "summary": "クライアント・サーバーサイド・データサイエンス・インフラの各領域でゲームやアプリを開発するエンジニア職。",
+          "sourceUrl": "https://hd.gree.net/jp/ja/recruit/position/",
+          "id": "840f2e1d955a",
+          "companyId": "wfs",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "グリーグループ新卒採用 ゲームプランナー職（2028年3月卒業見込み）",
+          "type": "newgrad",
+          "roles": [
+            "planner"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "onsite",
+          "location": "東京都港区六本木（本社）",
+          "summary": "新規・運営中タイトルのディレクターやゲームデザイナー（シナリオ・演出・システム・レベルデザイン）を担う職種。",
+          "sourceUrl": "https://hd.gree.net/jp/ja/recruit/position/",
+          "id": "6692a62c078e",
+          "companyId": "wfs",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "グリーグループ新卒採用 デザイナー職（2028年3月卒業見込み）",
+          "type": "newgrad",
+          "roles": [
             "artist",
-            "effect",
+            "effect"
+          ],
+          "designKinds": [
+            "2d",
+            "3d",
+            "concept",
+            "ui",
+            "motion"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "onsite",
+          "location": "東京都港区六本木（本社）",
+          "summary": "2D/3Dを問わず、コンセプトアート・UIデザイン・アニメーション・エフェクトなどでゲームの世界観をつくる職種。",
+          "sourceUrl": "https://hd.gree.net/jp/ja/recruit/position/",
+          "id": "cd037e772c8c",
+          "companyId": "wfs",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "グリーグループ新卒採用 エンタメ総合職（2028年3月卒業見込み）",
+          "type": "newgrad",
+          "roles": [
             "other"
           ],
           "graduationYears": [
@@ -5955,11 +6580,11 @@
           "applyStart": "",
           "deadline": "",
           "period": "",
-          "format": "unknown",
+          "format": "onsite",
           "location": "東京都港区六本木（本社）",
-          "summary": "グリーグループ一括の新卒採用。エンジニア職、ゲームプランナー職、デザイナー職（エフェクト含む）、エンタメ総合職を募集。",
+          "summary": "マーケティング・セールス・IPプロデューサー・プロダクトマネージャー・新規事業企画などを担うビジネス職。",
           "sourceUrl": "https://hd.gree.net/jp/ja/recruit/position/",
-          "id": "d8c83b8f6ead",
+          "id": "93e55c2ab3cd",
           "companyId": "wfs",
           "firstSeen": "2026-11-23"
         }
@@ -6165,8 +6790,8 @@
       "site": "https://www.toylogic.co.jp/"
     },
     {
-      "lastChecked": "2026-11-23T12:18:36.443Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:19.211Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "28卒向け新卒採用でプランナー・ゲームプログラマー・サーバーエンジニア・アーティスト・サウンドクリエイター（京都）のプレエントリーを受付中。会社説明会の申込も案内している。",
       "openings": [
@@ -6181,10 +6806,10 @@
           ],
           "applyStart": "",
           "deadline": "",
-          "period": "",
-          "format": "unknown",
+          "period": "プレエントリー受付中",
+          "format": "onsite",
           "location": "京都府長岡京市",
-          "summary": "企画提案・仕様書作成・ゲームデザイン・制作進行管理などを担当。プレエントリー受付中。",
+          "summary": "企画提案・仕様書作成・ゲームデザイン・イベントシーン制作・進行管理を担う。入社後約2ヶ月の研修あり。",
           "sourceUrl": "https://www.tose.co.jp/recruit/fresh/_planner.html",
           "flow": [
             {
@@ -6220,10 +6845,10 @@
           ],
           "applyStart": "",
           "deadline": "",
-          "period": "",
-          "format": "unknown",
-          "location": "京都",
-          "summary": "ゲームやWEBアプリ、ツールの設計・開発・運用を担当。プレエントリー受付中。",
+          "period": "プレエントリー受付中",
+          "format": "onsite",
+          "location": "京都府長岡京市",
+          "summary": "ゲームやWEBアプリ、ツールの設計・開発・運用を担当する。",
           "sourceUrl": "https://www.tose.co.jp/recruit/fresh/index.html",
           "id": "8126e5ff1f8f",
           "companyId": "tose",
@@ -6240,10 +6865,10 @@
           ],
           "applyStart": "",
           "deadline": "",
-          "period": "",
-          "format": "unknown",
-          "location": "京都",
-          "summary": "ゲームやWEBアプリのサーバー設計・開発・運用と関連ツール開発を担当。プレエントリー受付中。",
+          "period": "プレエントリー受付中",
+          "format": "onsite",
+          "location": "京都府長岡京市",
+          "summary": "ゲームやWEBアプリのサーバー設計・開発・運用と関連ツール開発を担当する。",
           "sourceUrl": "https://www.tose.co.jp/recruit/fresh/index.html",
           "id": "f2fff5cb775b",
           "companyId": "tose",
@@ -6256,15 +6881,21 @@
             "artist",
             "effect"
           ],
+          "designKinds": [
+            "3d",
+            "2d",
+            "ui",
+            "motion"
+          ],
           "graduationYears": [
             2028
           ],
           "applyStart": "",
           "deadline": "",
-          "period": "",
-          "format": "unknown",
-          "location": "京都",
-          "summary": "3D・2D制作、UI、VFX、モーションなど幅広いデザイナー業務を担当。プレエントリー受付中。",
+          "period": "プレエントリー受付中",
+          "format": "onsite",
+          "location": "京都府長岡京市",
+          "summary": "3D・2D制作、UI、VFX、モーションなど幅広いデザイナー業務を担当する。",
           "sourceUrl": "https://www.tose.co.jp/recruit/fresh/index.html",
           "id": "a6f17245a3c2",
           "companyId": "tose",
@@ -6281,10 +6912,10 @@
           ],
           "applyStart": "",
           "deadline": "",
-          "period": "",
-          "format": "unknown",
-          "location": "京都",
-          "summary": "ゲーム・スマホアプリ向けの楽曲・効果音制作や実装作業を担当。プレエントリー受付中。",
+          "period": "プレエントリー受付中",
+          "format": "onsite",
+          "location": "京都府長岡京市",
+          "summary": "ゲーム・スマホアプリ向けの楽曲・効果音制作や実装作業を担当する。",
           "sourceUrl": "https://www.tose.co.jp/recruit/fresh/index.html",
           "id": "b35f8281c254",
           "companyId": "tose",
@@ -7041,10 +7672,10 @@
       "site": "http://www.hamster.co.jp/"
     },
     {
-      "lastChecked": "2026-11-23T12:18:47.269Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:19.610Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
-      "digest": "28卒向けの採用マイページが開設され、職種別のオンライン会社説明会と仕事紹介イベントを受付中。募集要項は27卒向けのものが掲載されている。",
+      "digest": "28卒向けの採用マイページが開設され、職種別のオンライン会社説明会（プログラマー12/9・デザイナー12/22）と仕事紹介イベント（デザイナー12/2）を受付中。募集要項はまだ27卒向けのもの。",
       "openings": [
         {
           "title": "【28新卒対象】オンライン会社説明会",
@@ -7056,12 +7687,12 @@
           "graduationYears": [
             2028
           ],
-          "applyStart": "2026-10-27",
+          "applyStart": "",
           "deadline": "",
-          "period": "2026年12月9日（プログラマー）、12月22日（デザイナー） 17:00〜18:30頃（サウンド・プランナー回は11月に開催済み）",
+          "period": "2026-12-09 プログラマー、2026-12-22 デザイナー（17:00〜18:30頃）",
           "format": "online",
-          "location": "オンライン（Zoom）",
-          "summary": "28卒・第二新卒向けの職種別オンライン会社説明会。採用マイページ（28新卒採用）に登録して申し込む。",
+          "location": "Zoom",
+          "summary": "28卒・第二新卒向けの職種別会社説明会。採用マイページ(28新卒)に登録して申し込む。",
           "sourceUrl": "https://www.i-note.jp/hallab/fresh/top.html",
           "id": "d4dacc70d5f1",
           "companyId": "hallab",
@@ -7078,10 +7709,10 @@
           ],
           "applyStart": "",
           "deadline": "",
-          "period": "2026年12月2日（デザイナー） 17:00頃から（プログラマー回は11月17日に開催済み）",
+          "period": "2026-12-02 デザイナー（17:00〜19:00頃）",
           "format": "online",
-          "location": "オンライン（Zoom）",
-          "summary": "28卒・第二新卒向けに仕事の解説や実演、質問コーナーを行うオンラインイベント。採用マイページから申し込む。",
+          "location": "Zoom",
+          "summary": "28卒・第二新卒向けの仕事解説・実演・質問コーナー。採用マイページ(28新卒)から申し込む。",
           "sourceUrl": "https://www.hallab.co.jp/freshinfo/detail/20261009/",
           "id": "d451fa989b5b",
           "companyId": "hallab",
@@ -7145,8 +7776,8 @@
       }
     },
     {
-      "lastChecked": "2026-11-23T12:18:48.492Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:19.857Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "2028年度新卒採用をプランナー（4種）・エンジニア・デザイナー・サウンドクリエイターで募集中。選考は応募→書類選考→面接（2〜3回）→内定。",
       "openings": [
@@ -7162,9 +7793,9 @@
           "applyStart": "",
           "deadline": "",
           "period": "",
-          "format": "unknown",
-          "location": "東京都新宿区",
-          "summary": "28卒向けゲームプランナー。企画・レベルデザイン・KPI分析・仕様書作成を担当し、将来はディレクター等を目指す。",
+          "format": "onsite",
+          "location": "東京都新宿区新宿6丁目",
+          "summary": "ゲームプランニング・レベルデザイン・KPI分析・仕様書作成を担い、将来はディレクター/プロデューサーを目指す。",
           "sourceUrl": "https://boi.jp/recruit/newgraduates/",
           "flow": [
             {
@@ -7185,6 +7816,7 @@
             }
           ],
           "flowSourceUrl": "https://boi.jp/recruit/newgraduates/",
+          "flowNote": "詳しい流れは各エントリーフォームで確認",
           "id": "49ecc064cbca",
           "companyId": "boi",
           "firstSeen": "2026-11-23"
@@ -7202,9 +7834,9 @@
           "applyStart": "",
           "deadline": "",
           "period": "",
-          "format": "unknown",
-          "location": "東京都新宿区",
-          "summary": "28卒向け。市場調査やマーケティング・サービス設計など新規事業の立ち上げに関わる。",
+          "format": "onsite",
+          "location": "東京都新宿区新宿6丁目",
+          "summary": "市場調査・マーケティング戦略・サービス設計などを担い、新規事業の責任者などを目指す。",
           "sourceUrl": "https://boi.jp/recruit/newgraduates/",
           "flow": [
             {
@@ -7225,6 +7857,7 @@
             }
           ],
           "flowSourceUrl": "https://boi.jp/recruit/newgraduates/",
+          "flowNote": "詳しい流れは各エントリーフォームで確認",
           "id": "031f3ae8fb43",
           "companyId": "boi",
           "firstSeen": "2026-11-23"
@@ -7242,9 +7875,9 @@
           "applyStart": "",
           "deadline": "",
           "period": "",
-          "format": "unknown",
-          "location": "東京都新宿区",
-          "summary": "28卒向け。既存プロダクトのデータ分析や改善提案、事業戦略設計を経営陣と担う。",
+          "format": "onsite",
+          "location": "東京都新宿区新宿6丁目",
+          "summary": "既存プロダクトのデータ分析や改善提案、マーケティング・事業戦略の設計を経営陣と担う。",
           "sourceUrl": "https://boi.jp/recruit/newgraduates/",
           "flow": [
             {
@@ -7265,6 +7898,7 @@
             }
           ],
           "flowSourceUrl": "https://boi.jp/recruit/newgraduates/",
+          "flowNote": "詳しい流れは各エントリーフォームで確認",
           "id": "48deccfcb5f9",
           "companyId": "boi",
           "firstSeen": "2026-11-23"
@@ -7281,9 +7915,9 @@
           "applyStart": "",
           "deadline": "",
           "period": "",
-          "format": "unknown",
-          "location": "東京都新宿区",
-          "summary": "28卒向け。仕様書・制作依頼書の作成や進行管理を担当。ゲームプランナー職とは別の職種。",
+          "format": "onsite",
+          "location": "東京都新宿区新宿6丁目",
+          "summary": "仕様書・制作依頼書の作成や進行・スケジュール管理を担う。ゲームプランナー職とは別の職種。",
           "sourceUrl": "https://boi.jp/recruit/newgraduates/",
           "flow": [
             {
@@ -7304,6 +7938,7 @@
             }
           ],
           "flowSourceUrl": "https://boi.jp/recruit/newgraduates/",
+          "flowNote": "詳しい流れは各エントリーフォームで確認",
           "id": "fcfba9e0ca7f",
           "companyId": "boi",
           "firstSeen": "2026-11-23"
@@ -7320,9 +7955,9 @@
           "applyStart": "",
           "deadline": "",
           "period": "",
-          "format": "unknown",
-          "location": "東京都新宿区",
-          "summary": "28卒向け。iOS/Android SDKやUnityでのアプリ開発、周辺ツール開発を担当。",
+          "format": "onsite",
+          "location": "東京都新宿区新宿6丁目",
+          "summary": "iOS/Android SDKやUnityでのアプリ開発、周辺ツール開発を担う。",
           "sourceUrl": "https://boi.jp/recruit/newgraduates/",
           "flow": [
             {
@@ -7343,6 +7978,7 @@
             }
           ],
           "flowSourceUrl": "https://boi.jp/recruit/newgraduates/",
+          "flowNote": "詳しい流れは各エントリーフォームで確認",
           "id": "2525a2dc6e2e",
           "companyId": "boi",
           "firstSeen": "2026-11-23"
@@ -7354,15 +7990,24 @@
             "artist",
             "effect"
           ],
+          "designKinds": [
+            "concept",
+            "background",
+            "character",
+            "2d",
+            "motion",
+            "ui",
+            "graphic"
+          ],
           "graduationYears": [
             2028
           ],
           "applyStart": "",
           "deadline": "",
           "period": "",
-          "format": "unknown",
-          "location": "東京都新宿区",
-          "summary": "28卒向け。キャラ・背景・UI・モーション・バトルエフェクトなどゲーム素材の制作を担当。",
+          "format": "onsite",
+          "location": "東京都新宿区新宿6丁目",
+          "summary": "コンセプトデザイン、背景・アイテム素材、キャラ/モンスターイラスト、モーション、エフェクト、UI、バナーなどを制作。",
           "sourceUrl": "https://boi.jp/recruit/newgraduates/",
           "flow": [
             {
@@ -7383,6 +8028,7 @@
             }
           ],
           "flowSourceUrl": "https://boi.jp/recruit/newgraduates/",
+          "flowNote": "詳しい流れは各エントリーフォームで確認",
           "id": "d88d03aaf4c0",
           "companyId": "boi",
           "firstSeen": "2026-11-23"
@@ -7399,9 +8045,9 @@
           "applyStart": "",
           "deadline": "",
           "period": "",
-          "format": "unknown",
-          "location": "東京都新宿区",
-          "summary": "28卒向け。楽曲・効果音の制作、収録ディレクション、ゲームへの実装を担当。",
+          "format": "onsite",
+          "location": "東京都新宿区新宿6丁目",
+          "summary": "ボーカル曲・BGM・効果音の制作、収録のディレクション、音声編集、ゲームへの実装を担う。",
           "sourceUrl": "https://boi.jp/recruit/newgraduates/",
           "flow": [
             {
@@ -7422,6 +8068,7 @@
             }
           ],
           "flowSourceUrl": "https://boi.jp/recruit/newgraduates/",
+          "flowNote": "詳しい流れは各エントリーフォームで確認",
           "id": "a6fe26dbddc3",
           "companyId": "boi",
           "firstSeen": "2026-11-23"
@@ -7446,13 +8093,13 @@
       "site": "https://boi.jp/",
       "conditions": {
         "salary": 340000,
-        "salaryLabel": "大学卒 月給34万円（固定残業24時間分 53,684円含む）",
+        "salaryLabel": "大学卒 月給34万円（固定残業24時間分53,684円含む）※一部職種は28万円",
         "sourceUrl": "https://boi.jp/recruit/newgraduates/"
       }
     },
     {
-      "lastChecked": "2026-11-23T12:18:48.776Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:21.707Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "28卒向けの募集要項を2026年11月に更新。マイページから応募を受付",
       "openings": [
@@ -7947,8 +8594,8 @@
       "site": "https://www.ponos.jp/"
     },
     {
-      "lastChecked": "2026-11-23T12:18:56.668Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:23.221Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "CGアーティストの春期インターン（2〜3月実施）の応募を11〜12月に受付。新卒はプログラマー・CGアーティスト等6職種を掲載（受付期間の記載なし）。",
       "openings": [
@@ -7958,6 +8605,11 @@
           "roles": [
             "artist"
           ],
+          "designKinds": [
+            "3d",
+            "background",
+            "movie"
+          ],
           "graduationYears": [
             2028
           ],
@@ -7966,7 +8618,7 @@
           "period": "春期 2027年2月〜3月（3週間程度）",
           "format": "onsite",
           "location": "東京スタジオ（江東区）または福岡アトリエ",
-          "summary": "学生向け。メンターと決めたテーマで3D制作等に取り組み、最後に社内発表。日当・交通費補助あり。春期は11〜12月に応募。",
+          "summary": "学生向け。3DCGのメンターと決めたテーマ（車パーツ・景観・ムービー等）で制作し社内発表。春期は11〜12月に応募。",
           "sourceUrl": "https://www.polyphony.co.jp/recruit/jobs/2084/",
           "flow": [
             {
@@ -8409,8 +9061,8 @@
       "site": "https://razest.co.jp/"
     },
     {
-      "lastChecked": "2026-11-23T12:19:06.610Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:23.624Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "28卒向け新卒採用の2次エントリーを11月30日まで受付中（プランナー・エンジニア・デザイナー・総合職）。3次受付以降は確定次第案内。",
       "openings": [
@@ -8987,8 +9639,8 @@
       "site": "https://www.ybf.co.jp/"
     },
     {
-      "lastChecked": "2026-11-23T12:19:18.038Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:26.068Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "28卒向け新卒（3DCGキャラクターモデラー）のプレエントリーを2026年7月から受付中",
       "openings": [
@@ -8997,6 +9649,10 @@
           "type": "newgrad",
           "roles": [
             "artist"
+          ],
+          "designKinds": [
+            "3d",
+            "character"
           ],
           "graduationYears": [
             2028
@@ -9973,8 +10629,8 @@
       "site": "https://www.s-riccio.co.jp/"
     },
     {
-      "lastChecked": "2026-11-23T12:19:25.164Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:28.309Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "2028年新卒向けのエントリー窓口があり、プログラマ・デザイナー・プランナーを募集。プログラマ向けの1day・2daysカレッジも掲載中。",
       "openings": [
@@ -9985,6 +10641,11 @@
             "programmer",
             "artist",
             "planner"
+          ],
+          "designKinds": [
+            "3d",
+            "motion",
+            "ui"
           ],
           "graduationYears": [
             2028
@@ -11685,8 +12346,8 @@
       "site": "https://www.cloudedleopardent.com/"
     },
     {
-      "lastChecked": "2026-11-23T12:19:38.181Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:29.114Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "2028年3月卒業見込み向けにエンジニア・エンタメ総合職・ゲームプランナー・デザイナーの4職種で新卒募集中。インターンはGREE CampとGREE Jobsの案内があるが対象年は書かれていない。",
       "openings": [
@@ -11700,6 +12361,13 @@
             "effect",
             "other"
           ],
+          "designKinds": [
+            "2d",
+            "3d",
+            "concept",
+            "ui",
+            "motion"
+          ],
           "graduationYears": [
             2028
           ],
@@ -11708,7 +12376,7 @@
           "period": "",
           "format": "unknown",
           "location": "東京都港区（六本木ヒルズゲートタワー）",
-          "summary": "エンジニア、エンタメ総合職、ゲームプランナー、デザイナー（エフェクト等含む）の新卒募集。2028年3月卒業見込みが対象。",
+          "summary": "エンジニア、エンタメ総合職、ゲームプランナー、デザイナー（コンセプトアート・UI・アニメーション・3D・エフェクト等）の28卒新卒募集。",
           "sourceUrl": "https://www.gree.co.jp/jp/ja/recruit/position/",
           "id": "0fbb424578c5",
           "companyId": "gree",
@@ -12822,8 +13490,8 @@
       }
     },
     {
-      "lastChecked": "2026-11-23T12:19:47.723Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:29.115Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "28卒向けのエンターテイメント総合職の新卒採用を受付中。マイページ登録からエントリーする。",
       "openings": [
@@ -12835,6 +13503,9 @@
             "artist",
             "other"
           ],
+          "designKinds": [
+            "graphic"
+          ],
           "graduationYears": [
             2028
           ],
@@ -12843,7 +13514,7 @@
           "period": "",
           "format": "unknown",
           "location": "東京本社",
-          "summary": "28卒向けの総合職。広報宣伝・ライセンス・ゲーム運営・TCG企画・デザイナー・グループ各社などに配属。",
+          "summary": "28卒向けの総合職。広報宣伝・ライセンス・ゲーム運営・TCG企画・デザイナー（広告・ロゴ・KV・パッケージ等）などに配属。",
           "sourceUrl": "https://recruit.bushiroad.co.jp/fresh2028/job-description/",
           "flow": [
             {
@@ -15765,8 +16436,8 @@
       "site": "https://www.gl-inc.jp/"
     },
     {
-      "lastChecked": "2026-11-23T12:20:10.305Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:29.436Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "2028年3月卒業見込み向けのグループ新卒採用（エンジニア・エンタメ総合・ゲームプランナー・デザイナー職）を募集中。",
       "openings": [
@@ -15817,6 +16488,13 @@
             "artist",
             "effect"
           ],
+          "designKinds": [
+            "2d",
+            "3d",
+            "concept",
+            "ui",
+            "motion"
+          ],
           "graduationYears": [
             2028
           ],
@@ -15825,7 +16503,7 @@
           "period": "",
           "format": "unknown",
           "location": "東京都港区（六本木ヒルズゲートタワー）",
-          "summary": "28卒向けのデザイナー職。ゲームのコンセプトアート・UI・アニメーション・エフェクトなどを担当する。",
+          "summary": "28卒向けのデザイナー職。2D/3Dのコンセプトアート・UI・アニメーション・3Dモデル・エフェクトなどを担当する。",
           "sourceUrl": "https://hd.gree.net/jp/ja/recruit/position/",
           "id": "eb0fb91369dd",
           "companyId": "cp-gree",
@@ -17658,8 +18336,8 @@
       }
     },
     {
-      "lastChecked": "2026-11-23T12:31:11.533Z",
-      "lastChanged": "2026-11-23T12:31:41.821Z",
+      "lastChecked": "2026-11-23T12:36:32.845Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "2028年度新卒のビジネス職・エンジニア・デザイナーを募集中。ES第2次締切は11/30。",
       "openings": [
@@ -17708,6 +18386,12 @@
           "type": "newgrad",
           "roles": [
             "artist"
+          ],
+          "designKinds": [
+            "3d",
+            "character",
+            "background",
+            "graphic"
           ],
           "graduationYears": [
             2028
@@ -18059,8 +18743,8 @@
       }
     },
     {
-      "lastChecked": "2026-11-23T12:20:26.103Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:33.077Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "28卒向けにエンジニアとサービスデザイナー（プランナー）の求人を公開中。デザイナーは求人準備中で、28以降卒向けのプレエントリーを案内している。27卒のエントリーは終了。",
       "openings": [
@@ -18078,7 +18762,7 @@
           "period": "",
           "format": "unknown",
           "location": "東京・福岡",
-          "summary": "2028年卒業見込みの高専・専門・大学・院生向けのエンジニア新卒募集。生成AIも活用し、アバターやデジタル世界のサービスを開発する。",
+          "summary": "28年卒業見込みの高専・専門・大学・院生向けのエンジニア新卒募集。アバターやデジタル世界のサービスを開発。",
           "sourceUrl": "https://ensapia.com/joinus/new-grads/",
           "flow": [
             {
@@ -18122,7 +18806,7 @@
           "period": "",
           "format": "unknown",
           "location": "東京・福岡",
-          "summary": "2028年卒業見込みの学生向けのサービスデザイナー（プランナー）新卒募集。お客様の体験を設計し、アプリのサービスを形にする。",
+          "summary": "28年卒業見込みの学生向けのサービスデザイナー（プランナー）新卒募集。お客様の体験を設計しサービスを形にする。",
           "sourceUrl": "https://ensapia.com/joinus/new-grads/",
           "flow": [
             {
@@ -18158,6 +18842,12 @@
           "roles": [
             "artist"
           ],
+          "designKinds": [
+            "3d",
+            "motion",
+            "ui",
+            "character"
+          ],
           "graduationYears": [
             2028
           ],
@@ -18166,7 +18856,7 @@
           "period": "",
           "format": "unknown",
           "location": "東京・福岡",
-          "summary": "28卒以降向けのデザイナー職のプレエントリー（2026年7月告知）。デザイナーの求人情報は準備中。",
+          "summary": "28卒以降向けのデザイナー職プレエントリー（2026年7月告知）。3D・モーション・UI/UX・アバターのデザイン職。求人は準備中。",
           "sourceUrl": "https://ensapia.com/joinus/new-grads/",
           "id": "dbcb96f8d043",
           "companyId": "ensapia",
@@ -18191,8 +18881,8 @@
       "site": "https://ensapia.com/"
     },
     {
-      "lastChecked": "2026-11-23T12:20:27.251Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:34.792Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "新卒採用は通年で募集中で、選考の一環として10営業日程度のインターンシップ審査がある。11月30日に開発チームのオンライン採用説明会を開催。",
       "openings": [
@@ -18204,6 +18894,9 @@
             "artist",
             "planner"
           ],
+          "designKinds": [
+            "2d"
+          ],
           "graduationYears": [
             2028
           ],
@@ -18212,7 +18905,7 @@
           "period": "通年募集",
           "format": "unknown",
           "location": "",
-          "summary": "プログラマ、Webエンジニア、Live2Dデザイナー、PMアシスタント等を通年募集。選考の途中で10営業日程度のインターンシップ審査を行う。",
+          "summary": "プログラマ、Webエンジニア、Live2Dデザイナー、PMアシスタントを通年募集。選考の途中で10営業日程度のインターンシップ審査を行う。",
           "sourceUrl": "https://www.live2d.jp/recruit/",
           "flow": [
             {
@@ -18257,7 +18950,7 @@
           "period": "2026年11月30日 19:00〜20:30頃",
           "format": "online",
           "location": "オンライン",
-          "summary": "会社概要とCubism・nizima開発の職務内容、採用フローを紹介し質疑応答。学生も参加可。締切は当日17時。",
+          "summary": "会社概要とCubism・nizima開発の職務内容、採用フローを紹介し質疑応答。学生も参加可。申込締切は当日17時。",
           "sourceUrl": "https://www.live2d.jp/news/dev_seminar_202611/",
           "id": "70f8ce2dbe27",
           "companyId": "live2d",
@@ -18413,8 +19106,8 @@
       }
     },
     {
-      "lastChecked": "2026-11-23T12:20:34.368Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:36.774Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "27卒の新卒採用は終了。3DCGデザイナー志望の学生向けインターンシップを随時募集中（京都スタジオ、遠方はテレワーク可）。",
       "openings": [
@@ -18424,6 +19117,11 @@
           "roles": [
             "artist"
           ],
+          "designKinds": [
+            "3d",
+            "motion",
+            "movie"
+          ],
           "graduationYears": [
             2028
           ],
@@ -18432,7 +19130,7 @@
           "period": "毎年7～12月頃、週2～3日・1日3～4時間程度で計10日前後",
           "format": "hybrid",
           "location": "京都スタジオ（遠方はテレワーク可）",
-          "summary": "3DCGを学ぶ専門学校・美大生向け。Mayaまたは3dsmaxで業務の流れに沿ったレッスンを行う。キャラクターモーションやレイアウト中心。募集は随時。",
+          "summary": "3DCGを学ぶ専門学校・美大生向け。Mayaか3dsmaxでキャラクターモーションやレイアウトを学ぶ。CGアニメーター・映像デザイナー志望向け。随時募集。",
           "sourceUrl": "https://www.digisite-g.com/recruit.html",
           "id": "7d1b3ae85e50",
           "companyId": "digisite-g",
@@ -18586,8 +19284,8 @@
       "site": "https://www.sowhat-inc.com/"
     },
     {
-      "lastChecked": "2026-11-23T12:20:40.241Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:36.775Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "卒業見込みの新卒（第二新卒も可）を対象に、ゲームプログラマーとゲームグラフィックデザイナーを通年で募集中。卒業年の記載は無い。",
       "openings": [
@@ -18605,7 +19303,7 @@
           "period": "",
           "format": "unknown",
           "location": "東京都世田谷区（在宅勤務可、試用期間中はオフィス）",
-          "summary": "Switch・PS5・Steamなどのマルチプラットフォーム向けゲーム開発・移植。Unity・Unreal Engine、C#・C/C++など。卒業見込みの新卒も応募可。",
+          "summary": "Switch・PS5・Steamなど向けのゲーム開発・移植。Unity・Unreal Engine、C#・C/C++など。卒業見込みの新卒も応募可。",
           "sourceUrl": "https://esquadra.co.jp/recruitment",
           "flow": [
             {
@@ -18641,6 +19339,12 @@
             "artist",
             "effect"
           ],
+          "designKinds": [
+            "2d",
+            "ui",
+            "motion",
+            "3d"
+          ],
           "graduationYears": [
             2028
           ],
@@ -18649,7 +19353,7 @@
           "period": "",
           "format": "unknown",
           "location": "東京都世田谷区（在宅勤務可、試用期間中はオフィス）",
-          "summary": "コンシューマ・スマホ向けの2D・UI・エフェクト・アニメーション・3Dモデルなどのグラフィック制作。ポートフォリオ必須。卒業見込みの新卒も応募可。",
+          "summary": "家庭用・スマホ向けの2D・UI/UX・エフェクト・アニメーション・3Dモデリングなどのグラフィック制作。ポートフォリオ必須。新卒も応募可。",
           "sourceUrl": "https://esquadra.co.jp/recruitment",
           "flow": [
             {
@@ -19774,8 +20478,8 @@
       "site": "http://www.lotus-creative.net/"
     },
     {
-      "lastChecked": "2026-11-23T12:20:59.929Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:37.210Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "3DCGモデラー・モーション・プログラマー・エフェクト・広報を募集中で、エントリーフォームで新卒採用を選べる。卒業年の記載は無い。",
       "openings": [
@@ -19787,6 +20491,13 @@
             "programmer",
             "effect"
           ],
+          "designKinds": [
+            "3d",
+            "character",
+            "background",
+            "motion",
+            "movie"
+          ],
           "graduationYears": [
             2028
           ],
@@ -19795,7 +20506,7 @@
           "period": "",
           "format": "unknown",
           "location": "千葉県松戸市・秋葉原",
-          "summary": "ゲーム・アニメのモデル制作、モーション、ゲーム開発のプログラム、エフェクト制作などを募集。エントリーフォームで新卒を選び、履歴書と作品を添付して応募する。",
+          "summary": "ゲーム・アニメのキャラクター・背景モデル、キャラクターモーションやカットシーン、ゲーム開発、エフェクト制作を募集。フォームで新卒を選び履歴書と作品を添付。",
           "sourceUrl": "http://dh3d.co.jp/recruit_02/",
           "id": "1829b91e04a9",
           "companyId": "dh3d",
@@ -19848,8 +20559,8 @@
       }
     },
     {
-      "lastChecked": "2026-11-23T12:21:01.037Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:37.292Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "新卒のプランナー・2DCGデザイナー・3DCGデザイナー・プログラマーをメールで随時受け付けている（卒業年の記載は無い）。",
       "openings": [
@@ -19862,6 +20573,12 @@
             "effect",
             "programmer"
           ],
+          "designKinds": [
+            "2d",
+            "ui",
+            "3d",
+            "motion"
+          ],
           "graduationYears": [
             2028
           ],
@@ -19870,7 +20587,7 @@
           "period": "随時受付",
           "format": "unknown",
           "location": "東京都台東区",
-          "summary": "家庭用・アーケードゲーム開発の新卒4職種をメールで随時受付。2DCGはUI・エフェクト・イラストを担当。面接は来社かTV会議を選べる。",
+          "summary": "家庭用・アーケードゲーム開発の新卒4職種をメールで随時受付。2DCGはUI・エフェクト・イラスト、3DCGはモデル・モーション制作を担当。",
           "sourceUrl": "https://kaminarigames.com/recruit/",
           "flow": [
             {
@@ -20213,8 +20930,8 @@
       "site": "http://www.team-nac.com/"
     },
     {
-      "lastChecked": "2026-11-23T12:21:04.133Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:37.755Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "28卒以降向けの冬季インターン（エンジニア・2Dデザイナー・ビジネス職）を募集中で、募集期間が延長されている。新卒採用ページの募集職種は27卒向け。",
       "openings": [
@@ -20226,6 +20943,9 @@
             "artist",
             "other"
           ],
+          "designKinds": [
+            "2d"
+          ],
           "graduationYears": [
             2028
           ],
@@ -20234,7 +20954,7 @@
           "period": "2026年12月14日〜2027年1月22日の期間内で3日間（ビジネス職は1日）",
           "format": "hybrid",
           "location": "オンライン／東京・代官山オフィス（1月18日〜22日の回）",
-          "summary": "28卒以降の大学生・専門学生向け。クライアント／サーバーエンジニア、2Dデザイナー、ビジネス職の職種別カリキュラム。当初締切11/6から延長中。",
+          "summary": "28卒以降向け。クライアント／サーバーエンジニア、2Dデザイナー（ポートフォリオ必須）、ビジネス職の職種別カリキュラム。当初締切11/6から延長中。",
           "sourceUrl": "https://cafegroup.co.jp/news/3157",
           "id": "6d35e4f5a9a3",
           "companyId": "cafegroup",
@@ -20287,8 +21007,8 @@
       }
     },
     {
-      "lastChecked": "2026-11-23T12:21:05.772Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:38.804Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "新卒のモデリングアーティストを1名募集（本年度または翌年度3月卒業見込みが対象、在宅勤務）。",
       "openings": [
@@ -20297,6 +21017,11 @@
           "type": "newgrad",
           "roles": [
             "artist"
+          ],
+          "designKinds": [
+            "3d",
+            "character",
+            "background"
           ],
           "graduationYears": [
             2027,
@@ -20307,7 +21032,7 @@
           "period": "",
           "format": "unknown",
           "location": "在宅",
-          "summary": "キャラクター・背景のモデラーを新卒で1名募集。本年度または翌年度3月卒業見込みが対象で在宅勤務。問い合わせフォームから応募。",
+          "summary": "キャラクター・小物・背景の3Dモデラーを新卒で1名募集。本年度または翌年度3月卒業見込みが対象で在宅勤務。問い合わせフォームから履歴書とポートフォリオを送る。",
           "sourceUrl": "https://tripoint.pro/recruit/",
           "id": "d14887e4a928",
           "companyId": "tripoint-pro",
@@ -20505,8 +21230,8 @@
       "site": "https://www.unicorn-japan.co.jp/"
     },
     {
-      "lastChecked": "2026-11-23T12:21:07.515Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:40.629Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "新卒・第二新卒のデザイナーをエントリーフォームで受付中。プログラマーは現在募集していない。",
       "openings": [
@@ -20524,7 +21249,7 @@
           "period": "",
           "format": "unknown",
           "location": "福岡",
-          "summary": "スマホゲームのデザイナーを新卒で募集。履歴書とスマホゲームのUIデザインを含むポートフォリオをフォームから提出。",
+          "summary": "自社開発・運用のスマホゲームのデザイナーを新卒で募集。履歴書と、スマホゲームのUIデザインを含むポートフォリオをフォームから提出。",
           "sourceUrl": "https://global-gear.jp/recruit/entry",
           "id": "375dda81c13b",
           "companyId": "global-gear",
@@ -21383,8 +22108,8 @@
       "site": "http://www.sss.okinawa/"
     },
     {
-      "lastChecked": "2026-11-23T12:21:12.677Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:40.863Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "28卒向けの新卒（総合職）エントリーをマイページで受付中。職種は営業・ディレクター・デザイナー・エンジニアなど。",
       "openings": [
@@ -23024,8 +23749,8 @@
       "site": "https://www.wafuanime.com/"
     },
     {
-      "lastChecked": "2026-11-23T12:21:27.235Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:36:42.758Z",
+      "lastChanged": "2026-11-23T12:40:27.396Z",
       "error": null,
       "digest": "プログラマ・デザイナーを経験者または新卒で現在募集中（卒業年の指定なし）。",
       "openings": [
@@ -23075,6 +23800,12 @@
           "roles": [
             "artist"
           ],
+          "designKinds": [
+            "ui",
+            "character",
+            "motion",
+            "graphic"
+          ],
           "graduationYears": [
             2028
           ],
@@ -23083,7 +23814,7 @@
           "period": "",
           "format": "onsite",
           "location": "東海市営業所、名古屋営業所",
-          "summary": "ゲームアプリのUI・キャラクター・アニメーション・バナー等を制作。経験者または新卒が対象。Photoshop等の経験が必要。",
+          "summary": "ゲームアプリのUI・素材・キャラクターデザイン・アニメーション・広報バナー等を制作。経験者または新卒が対象。Photoshop等の経験が必要。",
           "sourceUrl": "https://www.plantago-games.com/jobs/",
           "id": "9cbe6f716d0b",
           "companyId": "plantago-games",
