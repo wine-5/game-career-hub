@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T07:51:25.885Z",
+  "updatedAt": "2026-11-23T07:53:39.504Z",
   "model": "claude-code",
   "companies": [
     {
@@ -82,7 +82,7 @@
       ],
       "url": "https://www.capcom.co.jp/recruit/new/",
       "enabled": false,
-      "note": "自動アクセスに確認ページが返り読み取れない。手動で確認",
+      "note": "採用ページは www.capcom.co.jp のみで、自動アクセスに 403（確認ページ）が返る。別の公式採用サイトは見当たらない",
       "links": {
         "newgrad": "https://www.capcom.co.jp/recruit/new/",
         "philosophy": "https://www.capcom.co.jp/ir/company/philosophy.html"
@@ -1472,8 +1472,8 @@
       ]
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:51:39.091Z",
+      "lastChanged": "2026-11-23T07:53:39.504Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -1483,70 +1483,204 @@
         "モバイル",
         "大手"
       ],
-      "url": "https://www.cygames.co.jp/recruit/",
-      "enabled": false,
-      "note": "自動アクセスを断られる（403）。手動で確認",
+      "url": "https://fresh.cygames.co.jp/",
+      "enabled": true,
       "locations": [
         "東京",
         "大阪"
-      ]
+      ],
+      "links": {
+        "newgrad": "https://fresh.cygames.co.jp/",
+        "internship": "https://fresh.cygames.co.jp/internship/"
+      }
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:51:39.127Z",
+      "lastChanged": "2026-11-23T07:53:39.504Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "28卒向けエントリー・マイページを公開中。28卒向け冬のオープン・カンパニー『お仕事ミライ研究所 -winter-』を12月4日にオンラインで開催予定（秋の回は応募締切済み）。",
+      "openings": [
+        {
+          "title": "冬のオープン・カンパニー『お仕事ミライ研究所 -winter-』",
+          "type": "event",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "2026-12-04",
+          "format": "online",
+          "location": "",
+          "summary": "28卒向けのオープン・カンパニー。総合職の仕事の面白さややりがいを紹介するオンラインイベント。",
+          "sourceUrl": "https://www.bandainamcoent.co.jp/job/grad/",
+          "id": "e2a118e71613",
+          "companyId": "bandai-namco-ent",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "bandai-namco-ent",
       "name": "バンダイナムコエンターテインメント",
       "tags": [
         "コンシューマ",
         "大手"
       ],
-      "url": "https://www.bandainamcoent.co.jp/recruit/",
-      "enabled": false,
-      "note": "自動アクセスを断られる（403）。手動で確認",
+      "url": "https://www.bandainamcoent.co.jp/job/grad/",
+      "enabled": true,
       "locations": [
         "東京"
-      ]
+      ],
+      "links": {
+        "newgrad": "https://www.bandainamcoent.co.jp/job/grad/"
+      }
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:51:39.128Z",
+      "lastChanged": "2026-11-23T07:53:39.504Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "2028新卒採用のエントリーを2026年10月1日に開始（詳細はエントリー者に案内）。11月13日からポートフォリオ相談会の応募も受付中。",
+      "openings": [
+        {
+          "title": "2028新卒採用",
+          "type": "newgrad",
+          "roles": [
+            "planner",
+            "programmer",
+            "artist",
+            "effect",
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "2026-10-01",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "プランナー・エンジニア・グラフィック（モデリング/モーション/エフェクト等）・サウンド・プロモーション職を募集。エントリー後に説明会や選考を案内。",
+          "sourceUrl": "https://careers.fromsoftware.jp/jp/newgraduates.html",
+          "id": "8e878807aecd",
+          "companyId": "fromsoftware",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "ポートフォリオ相談会",
+          "type": "event",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "2026-11-13",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "2028新卒採用ページで告知されたポートフォリオ相談会。2026年11月13日から応募受付中。",
+          "sourceUrl": "https://careers.fromsoftware.jp/jp/newgraduates.html",
+          "id": "b9f619cff7fa",
+          "companyId": "fromsoftware",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "fromsoftware",
       "name": "フロム・ソフトウェア",
       "tags": [
         "コンシューマ"
       ],
-      "url": "https://www.fromsoftware.jp/",
-      "enabled": false,
-      "note": "採用ページの URL を確認中",
-      "links": {},
+      "url": "https://careers.fromsoftware.jp/jp/newgraduates.html",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://careers.fromsoftware.jp/jp/newgraduates.html"
+      },
       "locations": [
         "東京",
         "福岡"
       ]
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:51:39.130Z",
+      "lastChanged": "2026-11-23T07:53:39.504Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "新卒採用はアーティスト・ゲームデザイナー・プログラマーの3職種を通年で受付中。説明会・インターンは現在実施していない。",
+      "openings": [
+        {
+          "title": "【通年採用】新卒採用_アーティスト",
+          "type": "newgrad",
+          "roles": [
+            "artist",
+            "effect"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "通年採用",
+          "format": "unknown",
+          "location": "大阪本社（原則）／東京",
+          "summary": "キャラ・背景・VFX・アニメーション等のグラフィック全般を制作。ES・課題・ポートフォリオで応募し、内定までオンライン完結。",
+          "sourceUrl": "https://herp.careers/v1/pgrecruit/019d9056-3be5-7551-9500-0607ebdcd901",
+          "id": "f55cf39085b6",
+          "companyId": "platinumgames",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【通年採用】新卒採用_ゲームデザイナー",
+          "type": "newgrad",
+          "roles": [
+            "planner"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "通年採用",
+          "format": "unknown",
+          "location": "大阪本社（原則）／東京",
+          "summary": "企画提案や制作現場のディレクションを担うゲームデザイナーを通年募集。選考は書類・適性検査・オンライン面接。",
+          "sourceUrl": "https://herp.careers/v1/pgrecruit/019d9056-3be4-7551-94ff-65b752a75856",
+          "id": "d78470e9b82c",
+          "companyId": "platinumgames",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【通年採用】新卒採用_プログラマー",
+          "type": "newgrad",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "通年採用",
+          "format": "unknown",
+          "location": "大阪本社（原則）／東京",
+          "summary": "ゲーム制作のプログラミング全般を担当。まずアプリケーションプログラマーとして経験し、適性次第でエンジン開発も可能。",
+          "sourceUrl": "https://herp.careers/v1/pgrecruit/019d9056-4614-7551-9503-8e2a188b49d9",
+          "id": "ba0d1f75fe77",
+          "companyId": "platinumgames",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "platinumgames",
       "name": "プラチナゲームズ",
       "tags": [
         "コンシューマ",
         "開発会社"
       ],
-      "url": "https://www.platinumgames.co.jp/",
-      "enabled": false,
-      "note": "採用ページの URL を確認中",
+      "url": "https://herp.careers/v1/pgrecruit/requisition-groups/88797187-e529-47af-acb1-cd183ab9fdac",
+      "enabled": true,
       "links": {
-        "philosophy": "https://www.platinumgames.co.jp/company/purpose_and_values/#:~:text=PURPOSE%20%26%20VALUES"
+        "philosophy": "https://www.platinumgames.co.jp/company/purpose_and_values/#:~:text=PURPOSE%20%26%20VALUES",
+        "newgrad": "https://herp.careers/v1/pgrecruit/requisition-groups/88797187-e529-47af-acb1-cd183ab9fdac"
       },
       "logo": "logos/platinumgames.png",
       "locations": [
@@ -3256,7 +3390,7 @@
       ],
       "url": "https://gu3.co.jp/recruit/",
       "enabled": false,
-      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "note": "採用ページに「新卒採用」の項目はあるがリンクが無く、募集の中身が無い",
       "links": {},
       "logo": "logos/gu3.png",
       "locations": [
@@ -3345,7 +3479,7 @@
       ],
       "url": "https://www.klab.com/jp/",
       "enabled": false,
-      "note": "公式サイトに採用ページが見当たらない",
+      "note": "採用ページ・HRMOS とも中途採用のみで新卒の募集が無い",
       "links": {},
       "logo": "logos/klab.png",
       "locations": [
@@ -3434,7 +3568,7 @@
       ],
       "url": "https://www.gree-studios.com/",
       "enabled": false,
-      "note": "公式サイトに採用ページが見当たらない",
+      "note": "自社の採用ページが無い。新卒はグリーグループ一括採用（cp-gree）",
       "links": {},
       "logo": "logos/gree-studios.png",
       "site": "https://www.gree-studios.com/"
@@ -5402,21 +5536,42 @@
       "site": "https://www.tri-crescendo.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:51:39.131Z",
+      "lastChanged": "2026-11-23T07:53:39.504Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "28卒向け本選考の情報は2026年12月上旬〜中旬に公開予定。現在はプレエントリーを受付中で、本選考の案内はマイページで行う。",
+      "openings": [
+        {
+          "title": "2028年卒新卒採用 本選考（プレエントリー受付中）",
+          "type": "newgrad",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "本選考情報は2026年12月上旬〜中旬頃に公開予定",
+          "format": "unknown",
+          "location": "",
+          "summary": "28卒向け本選考のプレエントリーを受付中。登録後のマイページで本選考開始が告知され、その後ESを提出する流れ。",
+          "sourceUrl": "https://recruit.drecom.co.jp/newgrad/topics/f83a03e876e57caef89cf1b7a44027f909612132/",
+          "id": "c370e40cefae",
+          "companyId": "drecom",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "drecom",
       "name": "ドリコム",
       "tags": [
         "開発会社"
       ],
-      "url": "https://drecom.co.jp/recruit/",
-      "enabled": false,
-      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "url": "https://recruit.drecom.co.jp/newgrad/",
+      "enabled": true,
       "links": {
-        "philosophy": "https://drecom.co.jp/company/identity/#:~:text=%E3%83%9F%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3"
+        "philosophy": "https://drecom.co.jp/company/identity/#:~:text=%E3%83%9F%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3",
+        "newgrad": "https://recruit.drecom.co.jp/newgrad/"
       },
       "logo": "logos/drecom.png",
       "locations": [
@@ -5632,7 +5787,7 @@
       ],
       "url": "https://recruit.nexon.co.jp/",
       "enabled": false,
-      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "note": "採用サイト・求人一覧とも中途採用のみで新卒・インターンの記載が無い",
       "links": {},
       "logo": "logos/company-nexon.ico",
       "locations": [
@@ -5765,7 +5920,7 @@
       ],
       "url": "https://recruit.happyelements.co.jp/",
       "enabled": false,
-      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "note": "採用サイトは recruitment.happyelements.co.jp に移転。正社員と学生アルバイトのみで新卒・インターンの募集は無い",
       "links": {},
       "locations": [
         "京都"
@@ -6096,9 +6251,9 @@
       "site": "https://lab.bandainamco-am.co.jp/"
     },
     {
-      "lastChecked": null,
+      "lastChecked": "2026-11-23T07:51:39.132Z",
       "lastChanged": null,
-      "error": null,
+      "error": "fetch failed",
       "digest": "",
       "openings": [],
       "id": "fd-bandainamco",
@@ -6106,10 +6261,12 @@
       "tags": [
         "開発会社"
       ],
-      "url": "https://fd.bandainamco.jp/",
-      "enabled": false,
-      "note": "公式サイトを自動で読めない（robots.txt の禁止や拒否など）",
-      "site": "https://fd.bandainamco.jp/"
+      "url": "https://fd.bandainamco.jp/recruit/",
+      "enabled": true,
+      "site": "https://fd.bandainamco.jp/",
+      "links": {
+        "newgrad": "https://fd.bandainamco.jp/recruit/"
+      }
     },
     {
       "lastChecked": null,
@@ -9916,7 +10073,7 @@
       "tags": [],
       "url": "https://www.hoyoverse.com/ja-jp/",
       "enabled": false,
-      "note": "公式サイトに採用ページが見当たらない",
+      "note": "日本の新卒専用ページが無い。求人は世界共通の Greenhouse 一覧（JS 表示）のみ",
       "links": {},
       "logo": "logos/hoyoverse.png",
       "locations": [
@@ -11011,19 +11168,19 @@
       "site": "https://www.prot.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:51:40.964Z",
+      "lastChanged": "2026-11-23T07:53:39.504Z",
       "error": null,
       "digest": "",
       "openings": [],
       "id": "corporate-pokemon",
       "name": "ポケモン",
       "tags": [],
-      "url": "https://corporate.pokemon.co.jp/",
-      "enabled": false,
-      "note": "公式サイトに採用ページが見当たらない",
+      "url": "https://recruit.pokemon.co.jp/saiyo/recruit/index.html",
+      "enabled": true,
       "links": {
-        "philosophy": "https://corporate.pokemon.co.jp/aboutus/philosophy/#:~:text=%E4%BC%81%E6%A5%AD%E7%90%86%E5%BF%B5"
+        "philosophy": "https://corporate.pokemon.co.jp/aboutus/philosophy/#:~:text=%E4%BC%81%E6%A5%AD%E7%90%86%E5%BF%B5",
+        "newgrad": "https://recruit.pokemon.co.jp/saiyo/recruit/index.html"
       },
       "logo": "logos/corporate-pokemon.svg",
       "locations": [
@@ -11186,7 +11343,7 @@
       "tags": [],
       "url": "https://www.yostar.co.jp/",
       "enabled": false,
-      "note": "公式サイトに採用ページが見当たらない",
+      "note": "採用ページは JS 表示で読めず、HRMOS の求人も第二新卒・中途のみ。28卒の公式募集は見当たらない",
       "links": {},
       "logo": "logos/yostar.ico",
       "locations": [
@@ -11485,19 +11642,19 @@
       "site": "https://www.magisystem.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:51:44.367Z",
+      "lastChanged": "2026-11-23T07:53:39.504Z",
       "error": null,
       "digest": "",
       "openings": [],
       "id": "aktsk",
       "name": "アカツキ",
       "tags": [],
-      "url": "https://aktsk.jp/recruit/",
-      "enabled": false,
-      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "url": "https://games.aktsk.jp/recruit/newgraduate/",
+      "enabled": true,
       "links": {
-        "philosophy": "https://aktsk.jp/company/mission/#:~:text=Mission%20%26%20Core%20Values"
+        "philosophy": "https://aktsk.jp/company/mission/#:~:text=Mission%20%26%20Core%20Values",
+        "newgrad": "https://games.aktsk.jp/recruit/newgraduate/"
       },
       "logo": "logos/aktsk.png",
       "locations": [
@@ -13443,7 +13600,7 @@
       "tags": [],
       "url": "https://www.overland.co.jp/",
       "enabled": false,
-      "note": "公式サイトに採用ページが見当たらない",
+      "note": "公式サイトに採用ページが無い",
       "links": {},
       "logo": "logos/overland.png",
       "locations": [
@@ -13621,18 +13778,45 @@
       "site": "https://www.gl-inc.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T07:51:46.151Z",
+      "lastChanged": "2026-11-23T07:53:39.504Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "2028年3月卒業見込み向けのグループ新卒採用を募集中。エンジニア・エンタメ総合・ゲームプランナー・デザイナーの4職種。",
+      "openings": [
+        {
+          "title": "グリーグループ新卒採用（2028年卒）",
+          "type": "newgrad",
+          "roles": [
+            "programmer",
+            "planner",
+            "artist",
+            "effect",
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "東京都港区（六本木ヒルズゲートタワー）",
+          "summary": "エンジニア職（クライアント/サーバー等）、エンタメ総合職、ゲームプランナー職、デザイナー職（UI・エフェクト・3D等）を募集。",
+          "sourceUrl": "https://hd.gree.net/jp/ja/recruit/position/",
+          "id": "31f50b87d58c",
+          "companyId": "cp-gree",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "cp-gree",
       "name": "グリー",
       "tags": [],
-      "url": "https://hrmos.co/pages/greeinc",
-      "enabled": false,
-      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
-      "links": {},
+      "url": "https://hd.gree.net/jp/ja/recruit/graduate/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://hd.gree.net/jp/ja/recruit/graduate/",
+        "internship": "https://hd.gree.net/jp/ja/recruit/internship/"
+      },
       "logo": "logos/cp-gree.png",
       "locations": [
         "東京"

@@ -658,5 +658,29 @@
   },
   "zuiki": {
     "hash": "0826d9b07d53602e6dcfa756d769c7f6a5421b24"
+  },
+  "aktsk": {
+    "hash": "91b88fa8153ad9a99f3dc775b1d992c5131663c9"
+  },
+  "bandai-namco-ent": {
+    "hash": "27bdd47762ee540a04b1cfbba5cd9801e36555f1"
+  },
+  "corporate-pokemon": {
+    "hash": "6fbbe50775db1a9f23fa5c0b0a2ba796a68008d2"
+  },
+  "cp-gree": {
+    "hash": "009bc5e9580abd7cc6e7ae6895f09cf2b3ac0b62"
+  },
+  "cygames": {
+    "hash": "7e90b3834849660e671bdd120cc9e8b0b81ceb3a"
+  },
+  "drecom": {
+    "hash": "42c20bdcf900b0fa80d53d5075c40d50a4d68c4c"
+  },
+  "fromsoftware": {
+    "hash": "caeba6fdaabc34798f93151acddc35a9e4989928"
+  },
+  "platinumgames": {
+    "hash": "519ac8a239ad3e7cf2e31bc4285df0c1373c8e53"
   }
 }
