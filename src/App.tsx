@@ -12,6 +12,7 @@ import { DeadlineRail } from "./components/DeadlineRail.tsx";
 import { CompanyGrid } from "./components/CompanyGrid.tsx";
 import { FavoritesView } from "./components/FavoritesView.tsx";
 import { TrackerView } from "./components/TrackerView.tsx";
+import { GamesModal } from "./components/GameStrip.tsx";
 import { LoginModal } from "./components/LoginModal.tsx";
 import { About } from "./components/About.tsx";
 import { Icon, type IconName } from "./components/Icon.tsx";
@@ -190,6 +191,7 @@ export function App() {
         </p>
       </footer>
       <LoginModal />
+      <GamesModal companies={companies} />
     </>
   );
 }
