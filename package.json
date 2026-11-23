@@ -16,7 +16,8 @@
     "discover": "tsx crawler/discover.ts",
     "add-companies": "tsx crawler/add-companies.ts",
     "sync": "tsx crawler/sync.ts",
-    "check-urls": "tsx crawler/check-urls.ts"
+    "check-urls": "tsx crawler/check-urls.ts",
+    "games": "tsx crawler/games.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.119.2",

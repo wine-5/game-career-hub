@@ -104,3 +104,29 @@ export interface JobsData {
   model: string | null;
   companies: CompanyResult[];
 }
+
+/** 会社が作った・関わったゲーム（public/data/games.json） */
+export interface GameItem {
+  title: string;
+  year?: number;
+  /** dev: 開発 / pub: 発売・運営 / both: 両方 */
+  role: "dev" | "pub" | "both";
+  /** Wikipedia・App Store・Steam のページ */
+  url?: string;
+  icon?: string;
+  /** square: アプリのアイコン / wide: Steam の横長の画像 */
+  iconShape?: "square" | "wide";
+  /** よく知られている度合い（並べ替え用） */
+  score?: number;
+}
+
+export interface CompanyGames {
+  wikidata?: string;
+  games: GameItem[];
+  checked: string;
+}
+
+export interface GamesData {
+  updatedAt: string | null;
+  companies: Record<string, CompanyGames>;
+}
