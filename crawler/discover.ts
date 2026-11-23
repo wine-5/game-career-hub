@@ -9,7 +9,7 @@ import path from "node:path";
 import * as cheerio from "cheerio";
 import type { CompanyEntry, CompanyLinks } from "../src/types.ts";
 import { fetchPage, isAllowed, USER_AGENT, type FetchedPage } from "./fetch.ts";
-import { COMPANIES_FILE, ROOT, readJson, sleep, WAIT_MS } from "./shared.ts";
+import { loadCompanyList, ROOT, saveCompanyList, sleep, WAIT_MS } from "./shared.ts";
 
 const LOGO_DIR = path.join(ROOT, "public/assets/logos");
 const argv = process.argv.slice(2);
@@ -134,14 +134,7 @@ async function findLogo(c: CompanyEntry, pages: FetchedPage[]): Promise<string |
   return undefined;
 }
 
-/** companies.json を、1 社 1 行の読みやすい形で書き戻す */
-async function save(data: { $comment?: string; companies: CompanyEntry[] }) {
-  const lines = data.companies.map((c) => "    " + JSON.stringify(c));
-  const body = `{\n  "$comment": ${JSON.stringify(data.$comment ?? "")},\n  "companies": [\n${lines.join(",\n")}\n  ]\n}\n`;
-  await writeFile(COMPANIES_FILE, body, "utf8");
-}
-
-const data = await readJson<{ $comment?: string; companies: CompanyEntry[] }>(COMPANIES_FILE, { companies: [] });
+const data = await loadCompanyList();
 
 for (const c of data.companies) {
   if (!c.enabled || (ONLY && !ONLY.includes(c.id))) continue;
@@ -176,6 +169,6 @@ for (const c of data.companies) {
   console.log(`    インターン: ${links.internship ?? "—"}`);
   console.log(`    企業理念: ${links.philosophy ? decodeURIComponent(links.philosophy) : "—"}`);
   console.log(`    ロゴ: ${c.logo ?? "—"}`);
-  await save(data);
+  await saveCompanyList(data);
 }
 console.log("完了。結果は data/companies.json。おかしな飛び先は手で直す（直した所は次から上書きされない）");

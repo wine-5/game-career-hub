@@ -79,6 +79,23 @@ export async function loadAll() {
   return { companies, state, prev, targetGraduationYear };
 }
 
+export interface CompanyList {
+  $comment?: string;
+  companies: CompanyEntry[];
+}
+
+export async function loadCompanyList(): Promise<CompanyList> {
+  return readJson<CompanyList>(COMPANIES_FILE, { companies: [] });
+}
+
+/** companies.json を、1 社 1 行の読みやすい形で書き戻す */
+export async function saveCompanyList(data: CompanyList) {
+  const lines = data.companies.map((c) => "    " + JSON.stringify(c));
+  const body =
+    `{\n  "$comment": ${JSON.stringify(data.$comment ?? "")},\n  "companies": [\n` + lines.join(",\n") + `\n  ]\n}\n`;
+  await writeFile(COMPANIES_FILE, body, "utf8");
+}
+
 export async function loadSettings() {
   return readJson<{ targetGraduationYear: number }>(SETTINGS_FILE, { targetGraduationYear: 2028 });
 }
