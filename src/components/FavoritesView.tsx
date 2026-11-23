@@ -2,6 +2,8 @@ import type { CompanyResult, Opening } from "../types.ts";
 import { useAuth } from "../lib/auth.tsx";
 import { Icon } from "./Icon.tsx";
 import { OpeningCard } from "./OpeningCard.tsx";
+import { CompanyCard } from "./CompanyGrid.tsx";
+import { statusOf } from "../lib/util.ts";
 
 export function FavoritesView({ openings, companies }: {
   openings: Map<string, Opening>;
@@ -22,7 +24,10 @@ export function FavoritesView({ openings, companies }: {
     );
   }
 
-  const favs = [...auth.favorites.entries()].sort((a, b) => b[1].createdAt.localeCompare(a[1].createdAt));
+  const all = [...auth.favorites.entries()].sort((a, b) => b[1].createdAt.localeCompare(a[1].createdAt));
+  // 会社のお気に入りは「company:<id>」のキーで入っている
+  const favCompanies = all.filter(([id]) => id.startsWith("company:")).map(([id]) => companies.get(id.slice(8))).filter((c): c is CompanyResult => Boolean(c));
+  const favs = all.filter(([id]) => !id.startsWith("company:"));
   const alive = favs.filter(([id]) => openings.has(id));
   const gone = favs.filter(([id]) => !openings.has(id));
 
@@ -31,10 +36,21 @@ export function FavoritesView({ openings, companies }: {
       <div className="section__head">
         <h2 className="section__title">
           <Icon name="star" size={20} /> お気に入り
-          <span className="count-pill">{favs.length}</span>
+          <span className="count-pill">{all.length}</span>
         </h2>
       </div>
-      {favs.length === 0 && <p className="section__lead">まだありません。募集カードの ☆ を押すと追加されます。</p>}
+      {all.length === 0 && <p className="section__lead">まだありません。募集カードや会社カードの ☆ を押すと追加されます。</p>}
+      {favCompanies.length > 0 && (
+        <>
+          <h3 className="subhead">会社 <span className="count-pill">{favCompanies.length}</span></h3>
+          <div className="company-grid">
+            {favCompanies.map((c) => (
+              <CompanyCard key={c.id} c={c} open={c.openings.filter((o) => statusOf(o) !== "closed").length} />
+            ))}
+          </div>
+        </>
+      )}
+      {favs.length > 0 && favCompanies.length > 0 && <h3 className="subhead">募集 <span className="count-pill">{favs.length}</span></h3>}
       <div className="cards">
         {alive.map(([id]) => {
           const o = openings.get(id)!;

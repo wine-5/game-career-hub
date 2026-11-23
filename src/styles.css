@@ -554,3 +554,6 @@ p { margin: 0; }
 .source-link:hover { color: var(--accent); text-decoration-color: currentColor; }
 .flow-mini__step > a:hover { border-color: var(--k); background: color-mix(in srgb, var(--k) 16%, var(--surface)); }
 .flow-mini__note { font-weight: 700; color: var(--c-warn); background: color-mix(in srgb, var(--c-warn) 12%, var(--surface)); border-radius: 999px; padding: 0 8px; }
+
+/* ===== 会社カードの右上（件数とお気に入り） ===== */
+.company__side { display: grid; justify-items: center; gap: 8px; }

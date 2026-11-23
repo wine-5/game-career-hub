@@ -9,6 +9,10 @@ import { TrackButton } from "./TrackButton.tsx";
 import { SearchSuggest } from "./SearchSuggest.tsx";
 import { SourceLink } from "./SourceLink.tsx";
 import { companyTargets, score } from "../lib/search.ts";
+import { useAuth } from "../lib/auth.tsx";
+
+/** お気に入りに会社を入れるときのキー（募集のお気に入りと同じ表に入れる） */
+export const companyFavKey = (id: string) => `company:${id}`;
 
 export function CompanyGrid({ companies }: { companies: CompanyResult[] }) {
   const [q, setQ] = useState("");
@@ -95,63 +99,88 @@ export function CompanyGrid({ companies }: { companies: CompanyResult[] }) {
       </p>
       <div className="company-grid">
         {list.map(({ c, open }) => (
-          <div key={c.id} className={`company ${c.enabled ? "" : "is-off"}`}>
-            <CompanyLogo company={c} size={48} href={c.site ?? c.url} />
-            <div className="company__body">
-              <span className="company__name">
-                <a href={c.site ?? c.url} target="_blank" rel="noopener noreferrer">{c.name}</a>
-              </span>
-              <span className="company__tags">
-                {c.locations?.map((p) => (
-                  <span key={p} className="tag tag--place">
-                    <Icon name="pin" size={11} />
-                    {p}
-                  </span>
-                ))}
-                {c.tags.map((t) => (
-                  <span key={t} className="tag">{t}</span>
-                ))}
-              </span>
-              {c.digest && (
-                <span className="company__digest">
-                  {c.digest} <SourceLink url={c.url} />
-                </span>
-              )}
-              {open === 0 && c.previous && (
-                <a className="company__prev" href={c.previous.sourceUrl} target="_blank" rel="noopener noreferrer" title="出典のページを開く">
-                  <Icon name="clock" size={12} />
-                  <span>
-                    <b>去年の目安</b> {c.previous.text}
-                  </span>
-                  <Icon name="external" size={11} />
-                </a>
-              )}
-              <GameStrip companyId={c.id} />
-              <span className="company__meta">
-                {c.enabled ? (
-                  <>
-                    <span className={`dot ${c.error ? "dot--warn" : "dot--ok"}`} />
-                    {c.error ? c.error : `確認 ${formatDateTime(c.lastChecked)}`}
-                  </>
-                ) : (
-                  <>
-                    <span className="dot dot--off" />
-                    {c.note ?? "自動確認の対象外"}
-                  </>
-                )}
-              </span>
-              <div className="company__links">
-                <CompanyLinks links={{ newgrad: c.links?.newgrad ?? (c.enabled ? c.url : undefined), ...c.links }} />
-                <TrackButton companyId={c.id} companyName={c.name} />
-              </div>
-            </div>
-            <span className="company__count">
-              <b>{open}</b>
-              <small>件</small>
-            </span>
-          </div>
+          <CompanyCard key={c.id} c={c} open={open} />
         ))}
       </div>
     </section>
+  );
+}
+
+function FavButton({ on, loggedIn, onClick }: { on: boolean; loggedIn: boolean; onClick: () => void }) {
+  return (
+    <button
+      className={`fav ${on ? "is-on" : ""}`}
+      aria-pressed={on}
+      aria-label="会社をお気に入りに入れる"
+      title={on ? "お気に入りから外す" : loggedIn ? "会社をお気に入りに追加" : "ログインするとお気に入りに追加できます"}
+      onClick={onClick}
+    >
+      <Icon name="star" size={17} />
+    </button>
+  );
+}
+
+/** 会社 1 社のカード（会社の一覧とお気に入りで使う） */
+export function CompanyCard({ c, open }: { c: CompanyResult; open: number }) {
+  const auth = useAuth();
+  return (
+      <div className={`company ${c.enabled ? "" : "is-off"}`}>
+        <CompanyLogo company={c} size={48} href={c.site ?? c.url} />
+        <div className="company__body">
+          <span className="company__name">
+            <a href={c.site ?? c.url} target="_blank" rel="noopener noreferrer">{c.name}</a>
+          </span>
+          <span className="company__tags">
+            {c.locations?.map((p) => (
+              <span key={p} className="tag tag--place">
+                <Icon name="pin" size={11} />
+                {p}
+              </span>
+            ))}
+            {c.tags.map((t) => (
+              <span key={t} className="tag">{t}</span>
+            ))}
+          </span>
+          {c.digest && (
+            <span className="company__digest">
+              {c.digest} <SourceLink url={c.url} />
+            </span>
+          )}
+          {open === 0 && c.previous && (
+            <a className="company__prev" href={c.previous.sourceUrl} target="_blank" rel="noopener noreferrer" title="出典のページを開く">
+              <Icon name="clock" size={12} />
+              <span>
+                <b>去年の目安</b> {c.previous.text}
+              </span>
+              <Icon name="external" size={11} />
+            </a>
+          )}
+          <GameStrip companyId={c.id} />
+          <span className="company__meta">
+            {c.enabled ? (
+              <>
+                <span className={`dot ${c.error ? "dot--warn" : "dot--ok"}`} />
+                {c.error ? c.error : `確認 ${formatDateTime(c.lastChecked)}`}
+              </>
+            ) : (
+              <>
+                <span className="dot dot--off" />
+                {c.note ?? "自動確認の対象外"}
+              </>
+            )}
+          </span>
+          <div className="company__links">
+            <CompanyLinks links={{ newgrad: c.links?.newgrad ?? (c.enabled ? c.url : undefined), ...c.links }} />
+            <TrackButton companyId={c.id} companyName={c.name} />
+          </div>
+        </div>
+        <span className="company__side">
+          <span className="company__count">
+            <b>{open}</b>
+            <small>件</small>
+          </span>
+          <FavButton on={auth.favorites.has(companyFavKey(c.id))} loggedIn={Boolean(auth.session)} onClick={() => auth.toggleFavorite(companyFavKey(c.id), { title: c.name, company: c.name })} />
+        </span>
+      </div>
   );
 }
