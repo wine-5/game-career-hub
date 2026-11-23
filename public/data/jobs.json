@@ -16836,6 +16836,3733 @@
         "東京"
       ],
       "site": "https://www.integral-vision.net/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "phoenixgp",
+      "name": "Phoenix Game Productions",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.phoenixgp.co.jp/recruit-overview/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://www.phoenixgp.co.jp/recruit-overview/",
+        "philosophy": "https://www.phoenixgp.co.jp/about/vision/#:~:text=VISION"
+      },
+      "logo": "logos/phoenixgp.png",
+      "locations": [
+        "大阪"
+      ],
+      "site": "https://www.phoenixgp.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "newstory-inc",
+      "name": "New Story",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://sites.google.com/newstory-inc.com/recruit/home",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/newstory-inc.ico",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://newstory-inc.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "million-edge",
+      "name": "Million Edge",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://million-edge.co.jp/recruit/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://million-edge.co.jp/recruit/"
+      },
+      "logo": "logos/million-edge.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "http://million-edge.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "z-flag",
+      "name": "Z-FLAG CG TEAM",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://z-flag.com/recruit/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://z-flag.com/recruit/",
+        "salary": "https://z-flag.com/recruit/#brxe-akkuvv",
+        "philosophy": "https://z-flag.com/about/#brxe-zznapz"
+      },
+      "logo": "logos/z-flag.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://z-flag.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "shapefarm",
+      "name": "Shapefarm",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://shapefarm.net/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/shapefarm.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://shapefarm.net/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "sarts",
+      "name": "スカイアーツ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.sarts.jp/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/sarts.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.sarts.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "decinc2008",
+      "name": "Dec.inc",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "http://decinc2008.com/recruit/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/decinc2008.ico",
+      "locations": [
+        "東京"
+      ],
+      "site": "http://decinc2008.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "skymill",
+      "name": "Skymill",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.skymill.co.jp/recruit/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://www.skymill.co.jp/recruit/detail/",
+        "salary": "https://www.skymill.co.jp/recruit/detail/#:~:text=%E7%B5%A6%E4%B8%8E",
+        "philosophy": "https://www.skymill.co.jp/company/#:~:text=MISSION"
+      },
+      "logo": "logos/skymill.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "http://www.skymill.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "modelingbros",
+      "name": "モデリングブロス",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.modelingbros.com/recruit/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/modelingbros.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.modelingbros.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "charabans",
+      "name": "キャラバンズ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.charabans.co.jp/jobs/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://www.charabans.co.jp/jobs/",
+        "salary": "https://www.charabans.co.jp/jobs/#:~:text=%E7%B5%A6%E4%B8%8E%2F%E5%BE%85%E9%81%87"
+      },
+      "logo": "logos/charabans.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "http://www.charabans.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "casting",
+      "name": "キャスティング",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.casting.co.jp/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://www.casting.co.jp/",
+        "salary": "https://www.casting.co.jp/#:~:text=%E7%B5%A6%E4%B8%8E"
+      },
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.casting.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "tenju",
+      "name": "典樹",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://tenju.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "locations": [
+        "東京"
+      ],
+      "site": "https://tenju.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "kurohige",
+      "name": "Black Beard Design Studio",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "http://www.kurohige.jp/new_graduate.html",
+      "enabled": true,
+      "links": {
+        "newgrad": "http://www.kurohige.jp/new_graduate.html",
+        "philosophy": "http://www.kurohige.jp/mission.html"
+      },
+      "logo": "logos/kurohige.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "http://www.kurohige.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "gfive",
+      "name": "ジーファイブ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://gfive.co.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/gfive.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://gfive.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "mythril",
+      "name": "ミスリル",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.mythril.co.jp/recruit",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {
+        "philosophy": "https://www.mythril.co.jp/vision#:~:text=VISION"
+      },
+      "logo": "logos/mythril.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.mythril.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "raylinestudio",
+      "name": "RAYLINE STUDIO",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "http://www.raylinestudio.co.jp/category/recruit/",
+      "enabled": true,
+      "links": {
+        "newgrad": "http://www.raylinestudio.co.jp/graduates2025/",
+        "salary": "http://www.raylinestudio.co.jp/graduates2025/#:~:text=%E2%96%A0%E7%B5%A6%E4%B8%8E"
+      },
+      "logo": "logos/raylinestudio.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "http://www.raylinestudio.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "cscraft",
+      "name": "シーズクラフト",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://cscraft.co.jp/recruit/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {
+        "philosophy": "https://cscraft.co.jp/company/#:~:text=Vision%20%26%20Message"
+      },
+      "logo": "logos/cscraft.png",
+      "locations": [
+        "秋田"
+      ],
+      "site": "http://cscraft.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "volca",
+      "name": "Volca",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.volca.tokyo/recruit",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/volca.ico",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.volca.tokyo/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "annex-digital",
+      "name": "アネックスデジタルジャパン",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://annex-digital.com/recruit",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://annex-digital.com/recruit",
+        "philosophy": "https://annex-digital.com/about#:~:text=PHILOSOPHY"
+      },
+      "logo": "logos/annex-digital.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://annex-digital.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "gptrack50",
+      "name": "GPTRACK50",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.gptrack50.com/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/gptrack50.ico",
+      "locations": [
+        "大阪"
+      ],
+      "site": "https://www.gptrack50.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "nagoyags",
+      "name": "名古屋グラフィックスタジオ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://nagoyags.co.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "locations": [
+        "愛知"
+      ],
+      "site": "https://nagoyags.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "lotus-creative",
+      "name": "ロータス",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.lotus-creative.net/recruit/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://www.lotus-creative.net/recruit/",
+        "philosophy": "https://www.lotus-creative.net/vision/#:~:text=%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3"
+      },
+      "logo": "logos/lotus-creative.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "http://www.lotus-creative.net/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "dh3d",
+      "name": "ディッジ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "http://dh3d.co.jp/recruit_02/",
+      "enabled": true,
+      "links": {
+        "newgrad": "http://dh3d.co.jp/recruit_02/",
+        "philosophy": "http://dh3d.co.jp/company/#:~:text=VISION"
+      },
+      "logo": "logos/dh3d.png",
+      "locations": [
+        "千葉",
+        "東京"
+      ],
+      "site": "http://www.dh3d.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "studioanima",
+      "name": "アニマ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.studioanima.co.jp/new-graduate/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://www.studioanima.co.jp/new-graduate/"
+      },
+      "logo": "logos/studioanima.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "http://www.studioanima.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "kaminarigames",
+      "name": "カミナリゲームス",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://kaminarigames.com/recruit/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://kaminarigames.com/recruit/fresh/planner/",
+        "salary": "https://kaminarigames.com/recruit/fresh/planner/#:~:text=%E7%B5%A6%E4%B8%8E%E6%9C%88%E9%A1%8D"
+      },
+      "logo": "logos/kaminarigames.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://kaminarigames.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "rhino-studios",
+      "name": "ライノスタジオ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.rhino-studios.com/recruit/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {
+        "philosophy": "https://store.steampowered.com/app/3956500?beta=0"
+      },
+      "logo": "logos/rhino-studios.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.rhino-studios.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "manjuu",
+      "name": "Manjuu",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "http://www.manjuu.co.jp/jp",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/manjuu.ico",
+      "locations": [
+        "東京"
+      ],
+      "site": "http://www.manjuu.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "griotgroove",
+      "name": "グリオグルーヴ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.griotgroove.com/recruit",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/griotgroove.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "http://www.griotgroove.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "mix-design",
+      "name": "ミックス",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://mix-design.jp/recruit/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://mix-design.jp/recruit/",
+        "salary": "https://mix-design.jp/recruit/#:~:text=%E7%B5%A6%E4%B8%8E"
+      },
+      "logo": "logos/mix-design.ico",
+      "locations": [
+        "東京"
+      ],
+      "site": "http://www.mix-design.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "d-seeds",
+      "name": "ディレクションシーズ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.d-seeds.com/recruit",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/d-seeds.ico",
+      "locations": [
+        "神奈川"
+      ],
+      "site": "https://www.d-seeds.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "luxolis",
+      "name": "Luxolis",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "http://www.luxolis.co.jp/recruit/",
+      "enabled": true,
+      "links": {
+        "newgrad": "http://www.luxolis.co.jp/recruit/"
+      },
+      "logo": "logos/luxolis.png",
+      "locations": [
+        "埼玉"
+      ],
+      "site": "http://www.luxolis.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "misatori",
+      "name": "三悟",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "http://misatori.co.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {
+        "philosophy": "http://misatori.co.jp/"
+      },
+      "logo": "logos/misatori.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "http://misatori.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "tyffon",
+      "name": "ティフォン",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.tyffon.com/ja/recruit/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "locations": [
+        "東京"
+      ],
+      "site": "http://www.tyffon.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "swallowtails",
+      "name": "スワロウテイルズ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://swallowtails.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "locations": [
+        "神奈川"
+      ],
+      "site": "https://swallowtails.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "artner",
+      "name": "Artner",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.artner.jp/recruit",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {
+        "philosophy": "https://www.artner.jp/about#:~:text=PHILOSOPHY%20%2F%20%E7%B5%8C%E5%96%B6%E7%90%86%E5%BF%B5"
+      },
+      "logo": "logos/artner.webp",
+      "locations": [
+        "東京"
+      ],
+      "site": "http://artner.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "nirai-kanai",
+      "name": "ニライカナイ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://nirai-kanai.co.jp/recruit/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://nirai-kanai.co.jp/recruit/new-graduates/",
+        "philosophy": "https://nirai-kanai.co.jp/about/#:~:text=DIVISIONS"
+      },
+      "logo": "logos/nirai-kanai.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "http://nirai-kanai.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "crome",
+      "name": "クロム",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "http://www.crome.co.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/crome.ico",
+      "locations": [
+        "東京"
+      ],
+      "site": "http://www.crome.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "team-nac",
+      "name": "NAC",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.team-nac.com/nac-recruit/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {
+        "philosophy": "https://www.cvh.jp/#:~:text=%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3"
+      },
+      "logo": "logos/team-nac.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "http://www.team-nac.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "cafegroup",
+      "name": "CafeGroup",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://cafegroup.co.jp/recruit",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://cafegroup.co.jp/recruit/new-graduate",
+        "internship": "https://cafegroup.co.jp/news/3157",
+        "philosophy": "https://cafegroup.co.jp/company/mvv#:~:text=MISSION%20VISION%20VALUE"
+      },
+      "logo": "logos/cafegroup.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://cafegroup.net/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "gemba",
+      "name": "GEMBA",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://gemba.co.jp/recruit/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://gemba.co.jp/recruit/",
+        "philosophy": "https://gemba.co.jp/profile/#:~:text=%E3%80%90%E4%BC%81%E6%A5%AD%E7%90%86%E5%BF%B5%E3%80%91"
+      },
+      "locations": [
+        "東京"
+      ],
+      "site": "http://www.gemba.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "tripoint-pro",
+      "name": "TriPoint",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://tripoint.pro/recruit/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://tripoint.pro/recruit/",
+        "salary": "https://tripoint.pro/recruit/#:~:text=%E7%B5%A6%E4%B8%8E"
+      },
+      "logo": "logos/tripoint-pro.png",
+      "locations": [
+        "沖縄"
+      ],
+      "site": "https://tripoint.pro/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "studiomikata",
+      "name": "Studio Mikata",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://studiomikata.co.jp/recruit",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/studiomikata.jpg",
+      "locations": [
+        "神奈川"
+      ],
+      "site": "https://studiomikata.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "cellnavi",
+      "name": "セルナビ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://en-gage.net/cellnavi_career/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/cellnavi.png",
+      "locations": [
+        "神奈川"
+      ],
+      "site": "http://www.cellnavi.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "guffaw",
+      "name": "スタジオグッファ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "http://guffaw.co.jp/",
+      "enabled": false,
+      "note": "公式サイトを自動で読めない（robots.txt の禁止や拒否など）",
+      "locations": [
+        "東京"
+      ],
+      "site": "http://guffaw.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "mox-motion",
+      "name": "モックス",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://mox-motion.com/recruit/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://mox-motion.com/job/motion-newgraduates/",
+        "salary": "https://mox-motion.com/job/motion-newgraduates/#:~:text=%E7%B5%A6%E4%B8%8E",
+        "philosophy": "https://mox-motion.com/company/philosophy/#:~:text=%E7%B5%8C%E5%96%B6%E7%90%86%E5%BF%B5"
+      },
+      "locations": [
+        "東京"
+      ],
+      "site": "http://mox-motion.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "zeronium",
+      "name": "ゼロニウム",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "http://www.zeronium.com/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/zeronium.png",
+      "locations": [
+        "秋田"
+      ],
+      "site": "http://www.zeronium.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "fun-unit",
+      "name": "ファンユニット",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "http://fun-unit.com/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "locations": [
+        "大阪"
+      ],
+      "site": "http://fun-unit.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "meus",
+      "name": "ミューズ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.meus.jp/recruit/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://www.meus.jp/recruit/"
+      },
+      "logo": "logos/meus.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "http://www.meus.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "unicorn-japan",
+      "name": "ユニコーンジャパン",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.unicorn-japan.co.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/unicorn-japan.ico",
+      "locations": [
+        "福岡"
+      ],
+      "site": "https://www.unicorn-japan.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "global-gear",
+      "name": "グローバルギア",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://global-gear.jp/recruit",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://global-gear.jp/recruit"
+      },
+      "logo": "logos/global-gear.ico",
+      "locations": [
+        "福岡"
+      ],
+      "site": "https://global-gear.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "vice",
+      "name": "ヴァイス",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://vice.co.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/vice.png",
+      "locations": [
+        "福岡"
+      ],
+      "site": "https://vice.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "arata-game",
+      "name": "ArAtA",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://arata-game.com/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/arata-game.png",
+      "locations": [
+        "福岡"
+      ],
+      "site": "https://arata-game.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "uzuuzu",
+      "name": "uzufactory",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.uzuuzu.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {
+        "philosophy": "https://www.uzuuzu.jp/vision/#:~:text=%E4%BC%81%E6%A5%AD%E7%90%86%E5%BF%B5"
+      },
+      "logo": "logos/uzuuzu.ico",
+      "locations": [
+        "福岡"
+      ],
+      "site": "https://www.uzuuzu.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "prosoft",
+      "name": "プロソフト",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.prosoft.co.jp/recruit.html",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://www.prosoft.co.jp/recruit.html"
+      },
+      "logo": "logos/prosoft.ico",
+      "locations": [
+        "大阪"
+      ],
+      "site": "https://www.prosoft.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "imagio-dev",
+      "name": "イマジオ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.imagio-dev.co.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/imagio-dev.png",
+      "locations": [
+        "大阪"
+      ],
+      "site": "https://www.imagio-dev.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "pascal",
+      "name": "パスカル",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://pascal.jp/jp/company/recruit.html",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://pascal.jp/jp/company/recruit.html",
+        "salary": "https://pascal.jp/jp/company/recruit.html#:~:text=%E7%B5%A6%E4%B8%8E"
+      },
+      "logo": "logos/pascal.ico",
+      "locations": [
+        "大阪"
+      ],
+      "site": "https://pascal.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "exe-create-sakura",
+      "name": "エグゼクリエイト",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://exe-create.sakura.ne.jp/wordpress/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/exe-create-sakura.png",
+      "locations": [
+        "大阪"
+      ],
+      "site": "https://exe-create.sakura.ne.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "pheus",
+      "name": "フィアス",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "http://pheus.co.jp/2026new_recruit_start/",
+      "enabled": true,
+      "links": {
+        "newgrad": "http://pheus.co.jp/2026new_recruit_start/"
+      },
+      "logo": "logos/pheus.png",
+      "locations": [
+        "大阪"
+      ],
+      "site": "http://pheus.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "acehive",
+      "name": "エースハイブ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://acehive.co.jp/2019/07/05/%e3%82%b9%e3%82%bf%e3%83%83%e3%83%95%e5%8b%9f%e9%9b%86/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://acehive.co.jp/2019/07/05/%e3%82%b9%e3%82%bf%e3%83%83%e3%83%95%e5%8b%9f%e9%9b%86/"
+      },
+      "logo": "logos/acehive.png",
+      "locations": [
+        "大阪"
+      ],
+      "site": "http://acehive.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "engines",
+      "name": "エンジンズ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://engines.co.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/engines.png",
+      "locations": [
+        "大阪"
+      ],
+      "site": "https://engines.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "drill-co",
+      "name": "ドリル",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.drill-co.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/drill-co.png",
+      "locations": [
+        "大阪"
+      ],
+      "site": "https://www.drill-co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "reoncia",
+      "name": "リオンシア",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://reoncia.com/recruit.html",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/reoncia.ico",
+      "locations": [
+        "大阪"
+      ],
+      "site": "https://reoncia.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "shakehands-inc",
+      "name": "シェイクハンズ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.shakehands-inc.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/shakehands-inc.png",
+      "locations": [
+        "大阪"
+      ],
+      "site": "https://www.shakehands-inc.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "sonzaigames",
+      "name": "Sonzai Games",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.sonzaigames.com/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/sonzaigames.png",
+      "locations": [
+        "大阪"
+      ],
+      "site": "https://www.sonzaigames.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "canplaize",
+      "name": "キャンプライズ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.canplaize.com/recruitment.html",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://www.canplaize.com/recruitment.html"
+      },
+      "locations": [
+        "大阪"
+      ],
+      "site": "https://www.canplaize.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "alpaca-connect",
+      "name": "アルパカコネクト",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://alpaca-connect.com/",
+      "enabled": false,
+      "note": "公式サイトを自動で読めない（robots.txt の禁止や拒否など）",
+      "locations": [
+        "大阪"
+      ],
+      "site": "https://alpaca-connect.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "accordseven",
+      "name": "アコードセブン",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.accordseven.co.jp/recruit/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/accordseven.png",
+      "locations": [
+        "京都"
+      ],
+      "site": "https://www.accordseven.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "baibai",
+      "name": "バイバイ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.baibai.co.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/baibai.png",
+      "locations": [
+        "京都"
+      ],
+      "site": "https://www.baibai.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "studio-trigger",
+      "name": "スタジオトリガー",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.studio-trigger.co.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/studio-trigger.png",
+      "locations": [
+        "京都"
+      ],
+      "site": "https://www.studio-trigger.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "chuhailabs",
+      "name": "Chuhai Labs",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://chuhailabs.com/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/chuhailabs.png",
+      "locations": [
+        "京都"
+      ],
+      "site": "https://chuhailabs.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "entaworks",
+      "name": "京都エンタテインメントワークス",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.entaworks.co.jp/recruit/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://www.entaworks.co.jp/recruit/"
+      },
+      "logo": "logos/entaworks.ico",
+      "locations": [
+        "京都"
+      ],
+      "site": "https://www.entaworks.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "takestick",
+      "name": "テイクスティック",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.takestick.com/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "locations": [
+        "兵庫"
+      ],
+      "site": "https://www.takestick.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "sat-box",
+      "name": "SAT-BOX",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://sat-box.jp/company/requirements/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://sat-box.jp/company/requirements/",
+        "salary": "https://sat-box.jp/company/requirements/#:~:text=%E7%B5%A6%E4%B8%8E",
+        "philosophy": "http://sat-box.jp/Game/sneaky_secret_mission_switch.html"
+      },
+      "logo": "logos/sat-box.png",
+      "locations": [
+        "愛知"
+      ],
+      "site": "https://sat-box.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "profire",
+      "name": "プロファイア",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.profire.co.jp/recruit/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://www.profire.co.jp/recruit/rookie.html",
+        "philosophy": "https://www.profire.co.jp/works/yugioh_duel_links_VR.html"
+      },
+      "locations": [
+        "愛知"
+      ],
+      "site": "https://www.profire.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "gzoe",
+      "name": "GZOE",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.gzoe.co.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/gzoe.png",
+      "locations": [
+        "愛知"
+      ],
+      "site": "https://www.gzoe.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "locobit",
+      "name": "ロコビット",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.locobit.co.jp/recruit_info/3516/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://www.locobit.co.jp/recruit_info/3516/"
+      },
+      "logo": "logos/locobit.ico",
+      "locations": [
+        "愛知"
+      ],
+      "site": "https://www.locobit.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "inbility",
+      "name": "インビリティー",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.inbility.co.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/inbility.ico",
+      "locations": [
+        "愛知"
+      ],
+      "site": "https://www.inbility.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "u-works",
+      "name": "U-WORKS",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.u-works.net/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/u-works.ico",
+      "locations": [
+        "愛知"
+      ],
+      "site": "https://www.u-works.net/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "quake",
+      "name": "クエイク",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "http://quake.co.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "locations": [
+        "静岡"
+      ],
+      "site": "http://quake.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "monolizm",
+      "name": "モノリズム",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://monolizm.com/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/monolizm.ico",
+      "locations": [
+        "静岡"
+      ],
+      "site": "https://monolizm.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "8818",
+      "name": "パパイヤ電池開発",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "http://www.8818.co.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "locations": [
+        "新潟"
+      ],
+      "site": "http://www.8818.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "studiowildrose",
+      "name": "スタジオワイルドローズ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.studiowildrose.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/studiowildrose.png",
+      "locations": [
+        "新潟"
+      ],
+      "site": "https://www.studiowildrose.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "sqz",
+      "name": "スクイズ研究所",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.sqz.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/sqz.ico",
+      "locations": [
+        "岡山"
+      ],
+      "site": "https://www.sqz.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "omen",
+      "name": "omen",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://omen.jp/recruit",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/omen.png",
+      "locations": [
+        "熊本"
+      ],
+      "site": "https://omen.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "freep",
+      "name": "freep（スタジオわさび）",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.freep.co.jp/%E6%8E%A1%E7%94%A8%E6%83%85%E5%A0%B1",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/freep.png",
+      "locations": [
+        "鹿児島"
+      ],
+      "site": "https://www.freep.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "codearts",
+      "name": "codeArts",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.codearts.co.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/codearts.png",
+      "locations": [
+        "鹿児島"
+      ],
+      "site": "https://www.codearts.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "sss-okinawa",
+      "name": "スリーエス",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "http://www.sss.okinawa/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "locations": [
+        "沖縄"
+      ],
+      "site": "http://www.sss.okinawa/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "beeworks",
+      "name": "ビーワークス",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://beeworks-recruit.snar.jp/jobboard/detail.aspx?id=fFpOGNwhGtQ",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://beeworks.co.jp/recruit/newgraduate/info/",
+        "salary": "https://beeworks.co.jp/recruit/newgraduate/info/#:~:text=%E7%B5%A6%E4%B8%8E"
+      },
+      "logo": "logos/beeworks.ico",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://beeworks.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "mistwalkercorp",
+      "name": "ミストウォーカー",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.techradar.com/news/his-final-fantasy-jrpg-legend-hironobu-sakaguchi-talks-apple-exclusive-fantasian-next-gen-gaming-and-an-iconic-career",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://www.techradar.com/news/his-final-fantasy-jrpg-legend-hironobu-sakaguchi-talks-apple-exclusive-fantasian-next-gen-gaming-and-an-iconic-career",
+        "internship": "https://www.techradar.com/computing/internet",
+        "philosophy": "https://www.techradar.com/televisions#:~:text=Televisions"
+      },
+      "logo": "logos/mistwalkercorp.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.mistwalkercorp.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "wizcorp",
+      "name": "Wizcorp",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.wizcorp.jp/career",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {
+        "philosophy": "https://www.wizcorp.jp/vision#:~:text=%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3"
+      },
+      "logo": "logos/wizcorp.jpg",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.wizcorp.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "zerodiv",
+      "name": "ゼロディブ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://zerodiv1.jbplt.jp/",
+      "enabled": false,
+      "note": "採用ページを自動で読めない",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.zerodiv.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "spiralsense",
+      "name": "スパイラルセンス",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://recruit-spiralsense.com/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/spiralsense.svg",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://spiralsense.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "rabbittail",
+      "name": "Rabbit Tail Studio",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://rabbittail.studio/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "locations": [
+        "東京"
+      ],
+      "site": "https://rabbittail.studio/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "karakuri-ism",
+      "name": "カラクリズム",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.karakuri-ism.com/recruit/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://www.karakuri-ism.com/recruit/",
+        "salary": "https://www.karakuri-ism.com/recruit/expert_programmer/#:~:text=%E7%B5%A6%E4%B8%8E"
+      },
+      "logo": "logos/karakuri-ism.ico",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.karakuri-ism.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "loxarc",
+      "name": "Loxarc",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://loxarc.co.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/loxarc.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://loxarc.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "siriusstudio",
+      "name": "シリウススタジオ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://siriusstudio.co.jp/recruit/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {
+        "philosophy": "https://siriusstudio.co.jp/#:~:text=%E4%BC%81%E6%A5%AD%E7%90%86%E5%BF%B5"
+      },
+      "logo": "logos/siriusstudio.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://siriusstudio.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "c-gardens",
+      "name": "C-Garden",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://c-gardens.com/careers",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://c-gardens.com/careers"
+      },
+      "logo": "logos/c-gardens.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://c-gardens.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "bokehgamestudio",
+      "name": "Bokeh Game Studio",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://hrmos.co/pages/bokehgamestudio",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://hrmos.co/ats/about_newgrads/",
+        "salary": "https://hrmos.co/ats/about_newgrads/#:~:text=%E7%B5%A6%E4%B8%8E%E8%A8%88%E7%AE%97%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0"
+      },
+      "logo": "logos/bokehgamestudio.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://bokehgamestudio.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "trys2020",
+      "name": "Trys",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://recruit.jobcan.jp/trys/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {
+        "philosophy": "https://trys2020.com/?page_id=1984#:~:text=%E4%BC%81%E6%A5%AD%E7%90%86%E5%BF%B5"
+      },
+      "logo": "logos/trys2020.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://trys2020.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "sorairo",
+      "name": "そらいろ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.sorairo.jp/recruit/index.html",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://www.sorairo.jp/recruit/index.html"
+      },
+      "logo": "logos/sorairo.ico",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.sorairo.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "pincool",
+      "name": "PinCool",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.pincool.co.jp/recruit/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://docs.google.com/forms/d/e/1FAIpQLSf0J2xo73JXkX41P-uuCPPaPw_7CTDHH7PY9QrKL6cOa-hptQ/viewform?usp=send_form"
+      },
+      "logo": "logos/pincool.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.pincool.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "lucent-global",
+      "name": "ルーセント・グローバル",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.lucent-global.co.jp/recruit.html",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://www.lucent-global.co.jp/recruit.html",
+        "salary": "https://www.lucent-global.co.jp/recruit.html#:~:text=%E7%B5%A6%E4%B8%8E"
+      },
+      "logo": "logos/lucent-global.ico",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.lucent-global.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "happymeal",
+      "name": "ハッピーミール",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.happymeal.co.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/happymeal.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.happymeal.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "elementa",
+      "name": "ELEMENTA",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.elementa.co.jp/recruit/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/elementa.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.elementa.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "unseen-tokyo",
+      "name": "UNSEEN",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.unseen-tokyo.com/home",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://www.unseen-tokyo.com/home"
+      },
+      "logo": "logos/unseen-tokyo.webp",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.unseen-tokyo.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "thirdverse",
+      "name": "Thirdverse",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://thirdverse.io/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "locations": [
+        "東京"
+      ],
+      "site": "https://thirdverse.io/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "lightspeed-studios",
+      "name": "ライトスピード・ジャパン",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.lightspeed-studios.com/jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/lightspeed-studios.ico",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.lightspeed-studios.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "translimit",
+      "name": "トランスリミット",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://translimit.co.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/translimit.ico",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://translimit.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "matchlock",
+      "name": "マッチロック",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.matchlock.co.jp/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {
+        "philosophy": "https://www.matchlock.co.jp/company/#:~:text=%E4%BC%81%E6%A5%AD%E7%90%86%E5%BF%B5"
+      },
+      "logo": "logos/matchlock.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.matchlock.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "digitaldevil",
+      "name": "デジタルデヴィル",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "http://www.digitaldevil.co.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "locations": [
+        "東京"
+      ],
+      "site": "http://www.digitaldevil.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "irohanipopeto",
+      "name": "いろはにぽぺと",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://irohanipopeto.co.jp/recruit/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/irohanipopeto.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://irohanipopeto.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "withent",
+      "name": "ウィズエンターテインメント",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://withent.co.jp/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/withent.ico",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://withent.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "orso",
+      "name": "ORSO",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://recruit.orso.jp/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {
+        "philosophy": "https://www.orso.jp/company/philosophy.html#:~:text=%E4%BC%81%E6%A5%AD%E7%90%86%E5%BF%B5%E3%83%BB%E8%A1%8C%E5%8B%95%E8%A6%8F%E7%AF%84"
+      },
+      "logo": "logos/orso.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.orso.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "orange-app",
+      "name": "オレンジ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "http://orange-app.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/orange-app.ico",
+      "locations": [
+        "東京"
+      ],
+      "site": "http://orange-app.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "orange-cube",
+      "name": "オレンジキューブ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://orange-cube.jp/recruit",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {
+        "philosophy": "https://orange-cube.jp/company#:~:text=%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3"
+      },
+      "logo": "logos/orange-cube.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "http://orange-cube.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "grateek",
+      "name": "グラティーク",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.grateek.com/single-post/%E4%B8%AD%E5%9B%BD%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E4%BA%BA%E6%9D%90%E5%90%91%E3%81%91%E6%97%A5%E6%9C%AC%E3%82%B2%E3%83%BC%E3%83%A0%E4%BC%81%E6%A5%AD%E6%8E%A1%E7%94%A8%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E3%82%92%E8%A1%8C%E3%81%84%E3%81%BE%E3%81%97%E3%81%9F%EF%BC%81/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/grateek.png",
+      "site": "https://www.grateek.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "grams-game",
+      "name": "Grams",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://gu3.co.jp/recruit/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/grams-game.ico",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://grams.game/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "synworks",
+      "name": "シンワークス",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://synworks.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/synworks.ico",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://synworks.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "studio-kumasan",
+      "name": "Studio KUMASAN",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://studio-kumasan.com/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/studio-kumasan.ico",
+      "site": "https://studio-kumasan.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "asakusa-games",
+      "name": "浅草ゲームズ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.asakusa-games.com/collaboration/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/asakusa-games.ico",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.asakusa-games.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "valhallagamestudios",
+      "name": "ヴァルハラゲームスタジオ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://valhallagamestudios.com/",
+      "enabled": false,
+      "note": "公式サイトを自動で読めない（robots.txt の禁止や拒否など）",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://valhallagamestudios.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "moonisland",
+      "name": "月島ファクトリー",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "http://moonisland.jp/recruit.html",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {
+        "philosophy": "http://moonisland.jp/company.html#:~:text=%E4%BC%81%E6%A5%AD%E7%90%86%E5%BF%B5"
+      },
+      "locations": [
+        "東京"
+      ],
+      "site": "http://moonisland.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "10antz",
+      "name": "10ANTZ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://10antz.co.jp/recruit/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://10antz.co.jp/recruit/entry/",
+        "philosophy": "https://10antz.co.jp/company/purpose_and_values/#:~:text=%E4%BC%81%E6%A5%AD%E7%90%86%E5%BF%B5"
+      },
+      "logo": "logos/10antz.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://10antz.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "tecotec",
+      "name": "テコテック",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.tecotec.co.jp/recruit/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://www.tecotec.co.jp/recruit/entry/new-graduate/"
+      },
+      "logo": "logos/tecotec.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.tecotec.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "pictoy",
+      "name": "PICTOY",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://pictoy.co.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/pictoy.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://pictoy.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "hotarubi",
+      "name": "hotarubi",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://hotarubi.co.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/hotarubi.jpg",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://hotarubi.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "brs-up",
+      "name": "ブラッシュアップ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://brs-up.com/recruit/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://brs-up.com/recruit/recruit-new-graduates",
+        "internship": "https://www.instagram.com/p/CVCneXfBsde/",
+        "salary": "https://brs-up.com/recruit/#:~:text=%E7%B5%A6%E4%B8%8E%E3%83%BB%E8%AB%B8%E6%89%8B%E5%BD%93"
+      },
+      "logo": "logos/brs-up.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://brs-up.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "meowstar",
+      "name": "ニャオスター",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.meowstar.biz/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/meowstar.ico",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.meowstar.biz/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "blur",
+      "name": "Blur",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://blur.co.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/blur.png",
+      "site": "https://blur.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "r-and-d-bridge",
+      "name": "R&D Bridge",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://r-and-d-bridge.com/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/r-and-d-bridge.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://r-and-d-bridge.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "digitalmotion",
+      "name": "デジタルモーション",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://digitalmotion.jp/recruit/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/digitalmotion.ico",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://digitalmotion.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "etrust-j",
+      "name": "イートラスト",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://etrust-j.net/recruit/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/etrust-j.png",
+      "locations": [
+        "千葉"
+      ],
+      "site": "https://etrust-j.net/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "monoii",
+      "name": "monoii",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.monoii.jp/recruit/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/monoii.jpg",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.monoii.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "mitsurugi",
+      "name": "ミツルギ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://mitsurugi.co.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/mitsurugi.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://mitsurugi.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "pictronics",
+      "name": "ピクトロニクス",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.pictronics.jp/recruit",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://www.pictronics.jp/recruit",
+        "salary": "https://www.pictronics.jp/recruit#:~:text=%E7%B5%A6%E4%B8%8E"
+      },
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.pictronics.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "whomor",
+      "name": "フーモア",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://whomor.com/recruit",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {
+        "philosophy": "https://whomor.com/company/mission#:~:text=%E3%83%9F%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3"
+      },
+      "logo": "logos/whomor.ico",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.whomor.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "taskiv",
+      "name": "タスキブ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.taskiv.co.jp/%E6%8E%A1%E7%94%A8%E5%BF%9C%E5%8B%9F-1",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/taskiv.jpg",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://taskiv.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "standard-group",
+      "name": "スタンダード",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "http://standard-group.jp/recruit.html",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {
+        "philosophy": "http://standard-group.jp/about.html#:~:text=Our%20Philosophy%E4%BC%81%E6%A5%AD%E7%90%86%E5%BF%B5"
+      },
+      "locations": [
+        "東京"
+      ],
+      "site": "http://standard-group.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "sunbird",
+      "name": "サンバード",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://sunbird.co.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/sunbird.png",
+      "site": "https://sunbird.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "pixel-sapuri",
+      "name": "ピクセルサプリ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.pixel-sapuri.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/pixel-sapuri.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.pixel-sapuri.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "dision",
+      "name": "ディジョン",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.dision.co.jp/page-163/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/dision.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.dision.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "stealthworks",
+      "name": "StealthWorks",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.stealthworks.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/stealthworks.ico",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.stealthworks.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "pika-2",
+      "name": "ピッカピカ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://pika-2.com/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/pika-2.png",
+      "locations": [
+        "埼玉"
+      ],
+      "site": "https://pika-2.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "braverystudio",
+      "name": "BraveryStudio",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.braverystudio.jp/recruit-form/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/braverystudio.jpg",
+      "locations": [
+        "千葉"
+      ],
+      "site": "https://www.braverystudio.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "flaggs",
+      "name": "flaggs",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://flaggs.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/flaggs.ico",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://flaggs.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "remostar",
+      "name": "リモスター",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.remostar.net/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/remostar.jpg",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.remostar.net/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "ravwaff",
+      "name": "ravwaff",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://ravwaff.com/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "locations": [
+        "兵庫"
+      ],
+      "site": "https://ravwaff.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "huereart",
+      "name": "ヒューリアート",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://huereart.co.jp/recruit/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://huereart.co.jp/recruit/",
+        "salary": "https://huereart.co.jp/recruit/#:~:text=%E7%B5%A6%E4%B8%8E"
+      },
+      "logo": "logos/huereart.webp",
+      "locations": [
+        "京都"
+      ],
+      "site": "https://huereart.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "nanodes",
+      "name": "なのです",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://nanodes.jp/recruit/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://nanodes.jp/recruit/",
+        "salary": "https://nanodes.jp/recruit/#:~:text=%E7%B5%A6%E4%B8%8E%E3%83%BB%E5%BE%85%E9%81%87%E7%AD%89"
+      },
+      "logo": "logos/nanodes.png",
+      "locations": [
+        "岡山"
+      ],
+      "site": "https://nanodes.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "motonak",
+      "name": "モトナック",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://motonak.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/motonak.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://motonak.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "unagi-tech",
+      "name": "うなぎテック",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://unagi.tech/recruit/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/unagi-tech.png",
+      "locations": [
+        "静岡"
+      ],
+      "site": "https://unagi.tech/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "quunplant",
+      "name": "キューン・プラント",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.quunplant.com/%E8%A4%87%E8%A3%BD-%E8%A4%87%E8%A3%BD-recruit",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/quunplant.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.quunplant.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "moka3",
+      "name": "MOKA3",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://moka3.co.jp/?page_id=229",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://moka3.co.jp/?page_id=229",
+        "salary": "https://moka3.co.jp/?page_id=229#:~:text=%E5%88%9D%E4%BB%BB%E7%B5%A6"
+      },
+      "locations": [
+        "東京"
+      ],
+      "site": "https://moka3.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "yasudagabou",
+      "name": "安田画房",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.yasudagabou.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/yasudagabou.png",
+      "locations": [
+        "茨城"
+      ],
+      "site": "https://www.yasudagabou.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "colobito",
+      "name": "コロビト",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://colobito.com/recruit_newgrad/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://colobito.com/recruit_newgrad"
+      },
+      "logo": "logos/colobito.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://colobito.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "2clue",
+      "name": "2clue",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://2clue.net/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/2clue.ico",
+      "site": "https://2clue.net/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "frontier-agent",
+      "name": "フロンティア・エージェント",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.frontier-agent.co.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {
+        "philosophy": "https://www.cvh.jp/#:~:text=%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3"
+      },
+      "logo": "logos/frontier-agent.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.frontier-agent.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "vot-inc",
+      "name": "Vot",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://vot-inc.com/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/vot-inc.png",
+      "locations": [
+        "大阪"
+      ],
+      "site": "https://vot-inc.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "studio-eneuns",
+      "name": "スタジオアノインス",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://studio-eneuns.com/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/studio-eneuns.png",
+      "locations": [
+        "愛知"
+      ],
+      "site": "https://studio-eneuns.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "hokusai-design",
+      "name": "HOKUSAI",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://hokusai-design.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/hokusai-design.png",
+      "locations": [
+        "長野"
+      ],
+      "site": "https://hokusai-design.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "wafuanime",
+      "name": "和風アニメーション",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.wafuanime.com/recruit",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://www.wafuanime.com/recruit"
+      },
+      "logo": "logos/wafuanime.ico",
+      "locations": [
+        "埼玉"
+      ],
+      "site": "https://www.wafuanime.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "plantago-games",
+      "name": "プランタゴゲームス",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.plantago-games.com/jobs/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://www.plantago-games.com/jobs/"
+      },
+      "logo": "logos/plantago-games.png",
+      "locations": [
+        "愛知"
+      ],
+      "site": "https://www.plantago-games.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "arte-corp",
+      "name": "アルテ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://arte-corp.jp/about-arte/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/arte-corp.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://arte-corp.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "buhistar",
+      "name": "ブヒスター",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.buhistar.com/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/buhistar.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.buhistar.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "arstechguild",
+      "name": "ARSTECH GUILD",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://arstechguild.inc/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/arstechguild.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://arstechguild.inc/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "i-lab-design",
+      "name": "アイラボ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://i-lab.design/recruit/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://i-lab.design/recruit/",
+        "salary": "https://i-lab.design/recruit/#:~:text=%E3%80%90%E7%B5%A6%E4%B8%8E%E3%80%91"
+      },
+      "logo": "logos/i-lab-design.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://i-lab.design/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "grupside",
+      "name": "グラップサイド",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://grupside.com/recruit/spine2d-designer",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/grupside.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://grupside.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "vivopix",
+      "name": "ヴィーヴォピクス",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.vivopix.com/recruit.html",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {
+        "philosophy": "https://www.vivopix.com/about.html#:~:text=%E4%BC%81%E6%A5%AD%E7%90%86%E5%BF%B5"
+      },
+      "logo": "logos/vivopix.png",
+      "locations": [
+        "福岡"
+      ],
+      "site": "https://www.vivopix.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "abc-optailor",
+      "name": "ABCオプテラスタジオ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.abc-optailor.com/recruit.php",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://www.abc-optailor.com/recruit.php",
+        "philosophy": "https://www.abc-optailor.com/about.php#:~:text=%E4%BC%9A%E7%A4%BE%E7%90%86%E5%BF%B5"
+      },
+      "locations": [
+        "沖縄"
+      ],
+      "site": "https://www.abc-optailor.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "ace-design",
+      "name": "エーステクノロジー",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "http://www.ace-design.info/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/ace-design.ico",
+      "site": "http://www.ace-design.info/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "kaedeworks",
+      "name": "カエデワークス",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.kaedeworks.com/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "site": "https://www.kaedeworks.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "dynogames",
+      "name": "DynoGames",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://dynogames.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "locations": [
+        "北海道"
+      ],
+      "site": "https://dynogames.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "deadlock",
+      "name": "デッドロック",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://deadlock.co.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/deadlock.ico",
+      "locations": [
+        "北海道"
+      ],
+      "site": "https://deadlock.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "myg-co",
+      "name": "MYG",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://myg-co.com/recruit.html",
+      "enabled": false,
+      "note": "採用ページを自動で読めない",
+      "locations": [
+        "北海道"
+      ],
+      "site": "https://myg-co.com/"
     }
   ],
   "targetGraduationYear": 2028
