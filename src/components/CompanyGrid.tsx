@@ -10,6 +10,11 @@ import { SearchSuggest } from "./SearchSuggest.tsx";
 import { SourceLink } from "./SourceLink.tsx";
 import { companyTargets, score } from "../lib/search.ts";
 import { useAuth } from "../lib/auth.tsx";
+import { CONDITION_SORT_LABEL, conditionKey, isConditionSort, matchConditions, NO_CONDITION, type ConditionFilter, type ConditionSort } from "../lib/conditions.ts";
+import { ConditionSelects } from "./ConditionSelects.tsx";
+import { ConditionChips } from "./ConditionChips.tsx";
+
+type CompanySort = "open" | ConditionSort | "name";
 
 /** お気に入りに会社を入れるときのキー（募集のお気に入りと同じ表に入れる） */
 export const companyFavKey = (id: string) => `company:${id}`;
@@ -24,6 +29,8 @@ export function CompanyGrid({ companies }: { companies: CompanyResult[] }) {
     }
   });
   const [onlyOpen, setOnlyOpen] = useState(false);
+  const [sort, setSort] = useState<CompanySort>("open");
+  const [cond, setCond] = useState<ConditionFilter>(NO_CONDITION);
   const prefs = useMemo(() => sortPrefs(companies.flatMap((c) => c.locations ?? [])), [companies]);
   const prefCount = useMemo(() => {
     const m = new Map<string, number>();
@@ -47,10 +54,18 @@ export function CompanyGrid({ companies }: { companies: CompanyResult[] }) {
       .filter((c) => !q.trim() || score(q, companyTargets(c)) > 0)
       .filter((c) => pref === "all" || c.locations?.includes(pref))
       .filter((c) => !onlyOpen || openCount(c) > 0)
+      .filter((c) => matchConditions(c.conditions, cond))
+      // 待遇で並べるときは、その数字が書かれていない会社は外す
+      .filter((c) => !isConditionSort(sort) || conditionKey(c.conditions, sort) !== null)
       .map((c) => ({ c, open: openCount(c) }))
-      // 募集の多い会社 → 収集している会社 → それ以外（名前順）
-      .sort((a, b) => b.open - a.open || Number(b.c.enabled) - Number(a.c.enabled) || a.c.name.localeCompare(b.c.name, "ja"));
-  }, [companies, q, pref, onlyOpen]);
+      .sort((a, b) => {
+        const byName = a.c.name.localeCompare(b.c.name, "ja");
+        if (sort === "name") return byName;
+        if (isConditionSort(sort)) return conditionKey(b.c.conditions, sort)! - conditionKey(a.c.conditions, sort)! || b.open - a.open || byName;
+        // 募集の多い会社 → 収集している会社 → それ以外（名前順）
+        return b.open - a.open || Number(b.c.enabled) - Number(a.c.enabled) || byName;
+      });
+  }, [companies, q, pref, onlyOpen, sort, cond]);
 
   return (
     <section className="section">
@@ -89,13 +104,24 @@ export function CompanyGrid({ companies }: { companies: CompanyResult[] }) {
             ))}
           </select>
         </label>
+        <label className="select">
+          <span>並び順</span>
+          <select value={sort} onChange={(e) => setSort(e.target.value as CompanySort)}>
+            <option value="open">募集が多い順</option>
+            {(Object.keys(CONDITION_SORT_LABEL) as ConditionSort[]).map((s) => (
+              <option key={s} value={s}>{CONDITION_SORT_LABEL[s]}</option>
+            ))}
+            <option value="name">会社名順</option>
+          </select>
+        </label>
+        <ConditionSelects f={cond} set={(p) => setCond((c) => ({ ...c, ...p }))} />
         <label className="check">
           <input type="checkbox" checked={onlyOpen} onChange={(e) => setOnlyOpen(e.target.checked)} />
           募集が載っている会社だけ
         </label>
       </div>
       <p className="section__lead">
-        下のボタンで新卒採用・インターン・給与・企業理念のページへ直接飛べます。「作品」で、その会社が作った・関わったゲームの一覧が見られます。灰色の会社は、新卒・インターンの募集が見つからない等の理由で自動確認の対象外です。
+        下のボタンで新卒採用・インターン・給与・企業理念のページへ直接飛べます。「作品」で、その会社が作った・関わったゲームの一覧が見られます。初任給・年間休日・平均残業は、採用ページに数字が書かれている会社だけに出します（その条件で並べる・絞るときは、書かれていない会社は対象外になります）。灰色の会社は、新卒・インターンの募集が見つからない等の理由で自動確認の対象外です。
       </p>
       <div className="company-grid">
         {list.map(({ c, open }) => (
@@ -155,6 +181,7 @@ export function CompanyCard({ c, open }: { c: CompanyResult; open: number }) {
               <Icon name="external" size={11} />
             </a>
           )}
+          <ConditionChips k={c.conditions} />
           <GameStrip companyId={c.id} />
           <span className="company__meta">
             {c.enabled ? (
