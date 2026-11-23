@@ -7,6 +7,7 @@ import { CompanyLinks } from "./CompanyLinks.tsx";
 import { GameStrip } from "./GameStrip.tsx";
 import { TrackButton } from "./TrackButton.tsx";
 import { SearchSuggest } from "./SearchSuggest.tsx";
+import { SourceLink } from "./SourceLink.tsx";
 
 export function CompanyGrid({ companies }: { companies: CompanyResult[] }) {
   const [q, setQ] = useState("");
@@ -109,7 +110,11 @@ export function CompanyGrid({ companies }: { companies: CompanyResult[] }) {
                   <span key={t} className="tag">{t}</span>
                 ))}
               </span>
-              {c.digest && <span className="company__digest">{c.digest}</span>}
+              {c.digest && (
+                <span className="company__digest">
+                  {c.digest} <SourceLink url={c.url} />
+                </span>
+              )}
               {open === 0 && c.previous && (
                 <a className="company__prev" href={c.previous.sourceUrl} target="_blank" rel="noopener noreferrer" title="出典のページを開く">
                   <Icon name="clock" size={12} />

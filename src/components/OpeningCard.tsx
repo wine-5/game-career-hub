@@ -8,6 +8,7 @@ import { CompanyLogo } from "./CompanyLogo.tsx";
 import { CompanyLinks } from "./CompanyLinks.tsx";
 import { GameStrip } from "./GameStrip.tsx";
 import { FlowSteps } from "./FlowSteps.tsx";
+import { SourceLink } from "./SourceLink.tsx";
 import { TrackButton } from "./TrackButton.tsx";
 
 /** 募集の種類に合わせた飛び先（新卒なら新卒採用ページ、インターンならインターンページ） */
@@ -75,6 +76,7 @@ export function OpeningCard({ o, company, role = "all" }: { o: Opening; company:
 
       <h3 className="card__title">{o.title}</h3>
       {o.summary && <p className="card__summary">{o.summary}</p>}
+      <SourceLink url={o.sourceUrl} />
 
       <ul className="card__roles" aria-label="職種">
         {o.roles.map((r) => (
