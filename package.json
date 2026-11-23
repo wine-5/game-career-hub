@@ -9,6 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit -p tsconfig.json",
+    "collect": "tsx crawler/collect.ts",
     "crawl:api": "tsx crawler/crawl.ts",
     "check-urls": "tsx crawler/check-urls.ts"
   },
