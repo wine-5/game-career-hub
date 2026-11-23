@@ -38,8 +38,9 @@
 4. `npm run discover -- --only=<id>` で、新卒・インターン・企業理念のページとロゴ（`public/assets/logos/`）を探す
    - 出た URL が本当にその役のページかを確かめ、違えば `data/companies.json` の `links` を手で直す（社員インタビュー・ニュース・規約のページは誤り。就活ナビサイトの URL は使わない）
    - 企業理念は `#:~:text=見出し` で理念の見出しまで飛ぶ形が理想。見つからなければ会社情報のページでよい
-5. `npm run sync` で jobs.json に写す
-6. `chore: 〇〇を監視対象に追加` でコミット → 続けて「更新して」の手順をその会社だけ（`--only=<id>`）で行う
+5. `npm run games -- --only=<id>` でその会社の作品（Wikidata・App Store）を集める
+6. `npm run sync` で jobs.json に写す
+7. `chore: 〇〇を監視対象に追加` でコミット → 続けて「更新して」の手順をその会社だけ（`--only=<id>`）で行う
 
 ### まとめて追加するとき（会社の一覧のページなどから）
 
@@ -49,7 +50,8 @@
    - 採用ページに新卒・インターンの言葉が無い会社は `enabled: false`（一覧には載るが収集しない）
    - **add-companies と discover は同時に動かさない**（どちらも companies.json を書くため）
 3. `npm run discover` でページ・ロゴ・所在地を探す（数が多いと時間がかかるので裏で動かす）
-4. 結果を見て、明らかにおかしい採用ページ（別の会社・コンテストのサイトなど）は手で直す → `npm run sync` → コミット
+4. `npm run games` で作品を集める（まだ調べていない会社だけ。App Store の回数制限で 1 社 3 秒ほどかかる）
+5. 結果を見て、明らかにおかしい採用ページ（別の会社・コンテストのサイトなど）は手で直す → `npm run sync` → コミット
 
 ### 地域
 
@@ -62,6 +64,7 @@
 | --- | --- |
 | `data/companies.json` | 監視する会社と、その新卒・インターン・企業理念のページ（`links`）とロゴ（`logo`） |
 | `data/settings.json` | 対象の卒業年（`targetGraduationYear`） |
+| `public/data/games.json` | 会社ごとの作品（`npm run games` が書く。アイコンは App Store・Steam の画像へのリンク） |
 | `public/assets/logos/` | 会社のロゴ（`npm run discover` が取ってくる。個人で使う前提） |
 | `data/state.json` | 会社ごとの「最後に整理した時のページの hash」（apply が書く） |
 | `public/data/jobs.json` | サイトが読むデータ（collect と apply が書く。手で書かない） |
