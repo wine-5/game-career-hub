@@ -6,6 +6,8 @@ import { useAuth } from "../lib/auth.tsx";
 import { Icon } from "./Icon.tsx";
 import { CompanyLogo } from "./CompanyLogo.tsx";
 import { CompanyLinks } from "./CompanyLinks.tsx";
+import { GameStrip } from "./GameStrip.tsx";
+import { TrackButton } from "./TrackButton.tsx";
 
 /** 募集の種類に合わせた飛び先（新卒なら新卒採用ページ、インターンならインターンページ） */
 function primaryLink(o: Opening, c: CompanyResult) {
@@ -96,12 +98,15 @@ export function OpeningCard({ o, company }: { o: Opening; company: CompanyResult
         </p>
       )}
 
+      <GameStrip companyId={company.id} />
+
       <footer className="card__foot">
         <a className="btn btn--primary" href={link.url} target="_blank" rel="noopener noreferrer">
           {link.label}
           <Icon name="external" size={14} />
         </a>
         <CompanyLinks links={company.links} hide={link.hide ? [link.hide] : []} />
+        <TrackButton companyId={company.id} companyName={company.name} kind={o.type === "internship" ? "internship" : "newgrad"} title={o.title} />
       </footer>
     </article>
   );

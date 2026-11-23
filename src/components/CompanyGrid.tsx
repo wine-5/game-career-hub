@@ -4,6 +4,8 @@ import { formatDateTime, MAIN_PREFS, prefLabel, sortPrefs, statusOf } from "../l
 import { Icon } from "./Icon.tsx";
 import { CompanyLogo } from "./CompanyLogo.tsx";
 import { CompanyLinks } from "./CompanyLinks.tsx";
+import { GameStrip } from "./GameStrip.tsx";
+import { TrackButton } from "./TrackButton.tsx";
 
 export function CompanyGrid({ companies }: { companies: CompanyResult[] }) {
   const [q, setQ] = useState("");
@@ -88,7 +90,7 @@ export function CompanyGrid({ companies }: { companies: CompanyResult[] }) {
         </label>
       </div>
       <p className="section__lead">
-        右下のボタンで新卒採用・インターン・企業理念のページへ直接飛べます。灰色の会社は、新卒・インターンの募集が見つからない等の理由で自動確認の対象外です。
+        下のボタンで新卒採用・インターン・給与・企業理念のページへ直接飛べます。「作品」で、その会社が作った・関わったゲームの一覧が見られます。灰色の会社は、新卒・インターンの募集が見つからない等の理由で自動確認の対象外です。
       </p>
       <div className="company-grid">
         {list.map(({ c, open }) => (
@@ -110,6 +112,7 @@ export function CompanyGrid({ companies }: { companies: CompanyResult[] }) {
                 ))}
               </span>
               {c.digest && <span className="company__digest">{c.digest}</span>}
+              <GameStrip companyId={c.id} />
               <span className="company__meta">
                 {c.enabled ? (
                   <>
@@ -125,6 +128,7 @@ export function CompanyGrid({ companies }: { companies: CompanyResult[] }) {
               </span>
               <div className="company__links">
                 <CompanyLinks links={{ newgrad: c.links?.newgrad ?? (c.enabled ? c.url : undefined), ...c.links }} />
+                <TrackButton companyId={c.id} companyName={c.name} />
               </div>
             </div>
             <span className="company__count">

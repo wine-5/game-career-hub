@@ -318,7 +318,8 @@ p { margin: 0; }
 
 /* ===== 狭い画面 ===== */
 @media (max-width: 1000px) {
-  .layout { grid-template-columns: 1fr; }
+  .layout { grid-template-columns: minmax(0, 1fr); }
+  .layout > * { min-width: 0; }
   .rail { position: static; order: -1; }
 }
 @media (max-width: 720px) {
@@ -448,4 +449,40 @@ p { margin: 0; }
   .app__detail input, .app__detail select, .app__detail textarea { font-size: 16px; }
   .row { flex-wrap: wrap; }
   .row input[type="date"] { flex: 1; }
+}
+
+/* ===== 作品（ゲームのアイコン） ===== */
+.game-strip { display: flex; align-items: center; gap: 8px; }
+.game-strip__icons { list-style: none; margin: 0; padding: 0; display: flex; gap: 5px; }
+.game-icon { display: grid; place-items: center; flex: none; overflow: hidden; border-radius: 22%; background: var(--surface-2); border: 1px solid var(--border); }
+.game-icon img { width: 100%; height: 100%; object-fit: cover; }
+.game-icon--wide img { object-position: 18% center; }
+.game-icon--text { color: #fff; font-size: 11px; font-weight: 700; line-height: 1.1; letter-spacing: -0.02em; border: 0; text-align: center; padding: 2px; word-break: break-all; }
+.game-strip__more {
+  display: inline-flex; align-items: center; gap: 3px; padding: 4px 9px; border-radius: 999px;
+  border: 1px solid var(--border-strong); background: var(--surface); font-size: 12px; font-weight: 700; color: var(--text-2); white-space: nowrap;
+}
+.game-strip__more:hover { color: var(--accent); border-color: var(--accent); }
+.modal__panel--wide { width: min(640px, 100%); max-height: 86vh; overflow-y: auto; }
+.games-head { display: flex; align-items: center; gap: 12px; padding-right: 28px; }
+.games-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 6px; }
+.games-list a { display: flex; align-items: center; gap: 10px; padding: 6px 8px; border-radius: var(--radius-sm); border: 1px solid var(--border); }
+.games-list a:hover { border-color: var(--accent); }
+.games-list a.is-plain { pointer-events: none; }
+.games-list a > .icon { color: var(--text-3); }
+.games-list__body { flex: 1; min-width: 0; display: grid; }
+.games-list__title { font-size: 13px; font-weight: 700; line-height: 1.4; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.games-list__meta { display: flex; gap: 8px; font-size: 11px; color: var(--text-3); }
+
+/* ===== 選考を記録するボタン ===== */
+.track-btn {
+  display: grid; place-items: center; width: 36px; height: 36px; flex: none; border-radius: 8px;
+  border: 1px dashed var(--border-strong); background: transparent; color: var(--text-3);
+}
+.track-btn:hover { color: var(--accent); border-color: var(--accent); }
+.track-btn.is-on { border-style: solid; color: var(--accent); background: var(--accent-soft); border-color: color-mix(in srgb, var(--accent) 40%, var(--border)); }
+.company__links { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+@media (max-width: 720px) {
+  .games-list { grid-template-columns: 1fr; }
+  .track-btn { width: 40px; height: 40px; }
 }
