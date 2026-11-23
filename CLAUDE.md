@@ -3,6 +3,7 @@
 ゲーム業界向けのインターン・新卒採用の一覧サイト。公開先は https://wine-5.github.io/game-career-hub/ 。
 データは **利用者が「更新して」と指示したときだけ**、Claude Code（あなた）が各社の採用ページを読んで整理する。
 利用者はスマホの Claude アプリから指示することが多いので、**報告は短く、スマホで読みやすく**。
+載せるのは **`data/settings.json` の `targetGraduationYear`（いまは 2028 年卒）向けの募集だけ**。年が変わったらここを 1 つ上げる。
 
 ## 「更新して」と言われたら
 
@@ -33,13 +34,19 @@
 1. 公式の新卒・インターンの採用ページの URL を探す（就活ナビサイトではなく会社の公式）
 2. `data/companies.json` に 1 件足す（`id` は英小文字とハイフン、`tags` は既存の分類から）
 3. `npm run check-urls` で 200 が返り、robots.txt で禁止されていないことを確かめる。403 や禁止なら `"enabled": false` と `note` に理由
-4. `feat: 〇〇を監視対象に追加` でコミット → 続けて「更新して」の手順をその会社だけ（`--only=<id>`）で行う
+4. `npm run discover -- --only=<id>` で、新卒・インターン・企業理念のページとロゴ（`public/assets/logos/`）を探す
+   - 出た URL が本当にその役のページかを確かめ、違えば `data/companies.json` の `links` を手で直す（社員インタビュー・ニュース・規約のページは誤り。就活ナビサイトの URL は使わない）
+   - 企業理念は `#:~:text=見出し` で理念の見出しまで飛ぶ形が理想。見つからなければ会社情報のページでよい
+5. `npm run sync` で jobs.json に写す
+6. `chore: 〇〇を監視対象に追加` でコミット → 続けて「更新して」の手順をその会社だけ（`--only=<id>`）で行う
 
 ## 置き場
 
 | 場所 | 中身 |
 | --- | --- |
-| `data/companies.json` | 監視する会社 |
+| `data/companies.json` | 監視する会社と、その新卒・インターン・企業理念のページ（`links`）とロゴ（`logo`） |
+| `data/settings.json` | 対象の卒業年（`targetGraduationYear`） |
+| `public/assets/logos/` | 会社のロゴ（`npm run discover` が取ってくる。個人で使う前提） |
 | `data/state.json` | 会社ごとの「最後に整理した時のページの hash」（apply が書く） |
 | `public/data/jobs.json` | サイトが読むデータ（collect と apply が書く。手で書かない） |
 | `crawler/EXTRACTION_RULES.md` | 募集の取り出し方の決まり（API の経路とも共通） |
