@@ -42,6 +42,8 @@ export interface ExtractedOpening {
   summary: string;
   sourceUrl: string;
   flow?: Opening["flow"];
+  flowSourceUrl?: string;
+  flowNote?: string;
 }
 
 export interface ExtractedFlowStep {
@@ -224,6 +226,9 @@ export function mergeExtracted(
       companyId: result.id,
       roles: o.roles.length ? [...new Set(o.roles)] : ["other"],
       sourceUrl: pageUrls.has(o.sourceUrl) ? o.sourceUrl : result.url,
+      // 流れの出典は読んだページの中の URL に限る（無ければ募集のページ）
+      flowSourceUrl: o.flow?.length ? (o.flowSourceUrl && pageUrls.has(o.flowSourceUrl) ? o.flowSourceUrl : undefined) : undefined,
+      flowNote: o.flow?.length && o.flowNote ? o.flowNote : undefined,
       firstSeen: oldOpenings.get(id)?.firstSeen ?? today,
     });
   }

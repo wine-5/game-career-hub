@@ -56,6 +56,8 @@ const SCHEMA = {
           location: { type: "string", description: "開催地・勤務地。不明なら空文字" },
           summary: { type: "string", description: "内容の要約を 80 字以内で。原文を写さない" },
           sourceUrl: { type: "string", description: "その募集が書かれていたページの URL（下の候補から選ぶ）" },
+          flowSourceUrl: { type: "string", description: "選考の流れが書かれていたページの URL。flow が空なら空文字" },
+          flowNote: { type: "string", description: "流れが対象の卒業年の物と言い切れない時の注意（例: 27卒の選考フロー）。無ければ空文字" },
           flow: {
             type: "array",
             description: "選考の流れ。ページに書かれている時だけ。無ければ空の配列",

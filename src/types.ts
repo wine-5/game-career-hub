@@ -74,6 +74,10 @@ export interface Opening {
   sourceUrl: string;
   /** 選考の流れ（ページに書かれている時だけ） */
   flow?: FlowStep[];
+  /** 選考の流れが書かれていたページ（出典）。無ければ sourceUrl */
+  flowSourceUrl?: string;
+  /** 流れについての注意（例:「27卒の選考フロー」）。対象の卒業年の物と言い切れない時に付ける */
+  flowNote?: string;
   /** この募集を初めて見つけた日（YYYY-MM-DD） */
   firstSeen: string;
 }
