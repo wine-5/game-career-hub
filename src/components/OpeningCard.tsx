@@ -49,7 +49,9 @@ export function OpeningCard({ o, company }: { o: Opening; company: CompanyResult
         <CompanyLogo company={company} size={40} />
         <div className="card__company">
           <p className="card__company-name">{company.name}</p>
-          <p className="card__tags">{company.tags.join(" ・ ")}</p>
+          <p className="card__tags">
+            {[...(company.locations ?? []).slice(0, 3), ...company.tags].join(" ・ ")}
+          </p>
         </div>
         <button
           className={`fav ${fav ? "is-on" : ""}`}
