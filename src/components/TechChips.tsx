@@ -2,6 +2,13 @@ import { useGames } from "../lib/games.tsx";
 import type { TechKind } from "../types.ts";
 import { Icon } from "./Icon.tsx";
 
+/** 公式のロゴ（devicon・MIT ライセンスの SVG を public/assets/tech に置いた物）。無い物は文字だけ */
+const LOGO: Record<string, string> = {
+  "Unreal Engine": "unrealengine", Unity: "unity", Godot: "godot",
+  "C++": "cplusplus", "C#": "csharp", Python: "python", TypeScript: "typescript", JavaScript: "javascript",
+  Java: "java", Kotlin: "kotlin", Swift: "swift", Go: "go", Rust: "rust", Lua: "lua", Vulkan: "vulkan",
+};
+
 const KIND_TITLE: Record<TechKind, string> = { engine: "エンジン", lang: "言語", gfx: "グラフィックス" };
 
 /** 採用ページに出てくる言語・エンジンの小さな札。押すとその名前が書かれていたページ（出典）を開く */
@@ -23,6 +30,9 @@ export function TechChips({ companyId }: { companyId: string }) {
           rel="noopener noreferrer"
           title={`${KIND_TITLE[t.kind]}: ${t.name} — 書かれていたページ（出典）を開く`}
         >
+          {LOGO[t.name] && (
+            <img className="tech__logo" src={`${import.meta.env.BASE_URL}assets/tech/${LOGO[t.name]}.svg`} alt="" width={14} height={14} loading="lazy" />
+          )}
           {t.name}
         </a>
       ))}
