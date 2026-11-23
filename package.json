@@ -8,6 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "preview:build": "vite build && vite preview",
     "typecheck": "tsc --noEmit -p tsconfig.json",
     "collect": "tsx crawler/collect.ts",
     "apply": "tsx crawler/apply.ts",

@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "サイトを開く（開発サーバー）",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npm run dev",
+      "cwd": "${workspaceFolder}",
+      "serverReadyAction": {
+        "pattern": "ready in",
+        "uriFormat": "http://localhost:5173/game-career-hub/",
+        "action": "openExternally"
+      }
+    },
+    {
+      "name": "本番ビルドで確認（build → preview）",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npm run preview:build",
+      "cwd": "${workspaceFolder}",
+      "serverReadyAction": {
+        "pattern": "Local",
+        "uriFormat": "http://localhost:4173/game-career-hub/",
+        "action": "openExternally"
+      }
+    }
+  ]
+}

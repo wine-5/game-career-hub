@@ -5,4 +5,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   base: "/game-career-hub/",
   plugins: [react()],
+  // F5（.vscode/launch.json）で開く URL と合わせるため、ポートを固定する
+  server: { port: 5173, strictPort: true },
+  preview: { port: 4173, strictPort: true },
 });
