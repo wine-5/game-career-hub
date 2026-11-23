@@ -22,6 +22,27 @@ export function OpeningCard({ o, company }: { o: Opening; company: CompanyResult
   const isNew = (daysUntil(o.firstSeen) ?? -99) >= -7 && o.firstSeen <= todayJst();
   const link = primaryLink(o, company);
 
+  // 分かっている項目だけを並べる（空欄の「—」を並べない）
+  const meta: { label: string; value: React.ReactNode; wide?: boolean }[] = [];
+  if (o.deadline)
+    meta.push({
+      label: "締切",
+      value: (
+        <>
+          {formatDate(o.deadline)}
+          {left !== null && left >= 0 && (
+            <span className={`countdown ${left <= 3 ? "is-hot" : left <= 7 ? "is-warm" : ""}`}>
+              {left === 0 ? "今日まで" : `あと${left}日`}
+            </span>
+          )}
+        </>
+      ),
+    });
+  if (o.applyStart) meta.push({ label: "受付開始", value: formatDate(o.applyStart) });
+  if (o.period) meta.push({ label: "期間", value: o.period, wide: true });
+  if (o.format !== "unknown") meta.push({ label: "形式", value: FORMAT_LABEL[o.format] });
+  if (o.location) meta.push({ label: "場所", value: o.location });
+
   return (
     <article className={`card card--${status}`}>
       <header className="card__head">
@@ -58,37 +79,20 @@ export function OpeningCard({ o, company }: { o: Opening; company: CompanyResult
         ))}
       </ul>
 
-      <dl className="card__meta">
-        <div>
-          <dt>締切</dt>
-          <dd className="card__deadline">
-            {formatDate(o.deadline)}
-            {left !== null && left >= 0 && (
-              <span className={`countdown ${left <= 3 ? "is-hot" : left <= 7 ? "is-warm" : ""}`}>
-                {left === 0 ? "今日まで" : `あと${left}日`}
-              </span>
-            )}
-          </dd>
-        </div>
-        <div>
-          <dt>受付開始</dt>
-          <dd>{formatDate(o.applyStart)}</dd>
-        </div>
-        {o.period && (
-          <div className="wide">
-            <dt>期間</dt>
-            <dd>{o.period}</dd>
-          </div>
-        )}
-        <div>
-          <dt>形式</dt>
-          <dd>{FORMAT_LABEL[o.format]}</dd>
-        </div>
-        <div>
-          <dt>場所</dt>
-          <dd>{o.location || "—"}</dd>
-        </div>
-      </dl>
+      {meta.length > 0 ? (
+        <dl className="card__meta">
+          {meta.map((m) => (
+            <div key={m.label} className={m.wide ? "wide" : ""}>
+              <dt>{m.label}</dt>
+              <dd className={m.label === "締切" ? "card__deadline" : ""}>{m.value}</dd>
+            </div>
+          ))}
+        </dl>
+      ) : (
+        <p className="card__nodate">
+          <Icon name="clock" size={13} /> 日程は公式ページで確認してください
+        </p>
+      )}
 
       <footer className="card__foot">
         <a className="btn btn--primary" href={link.url} target="_blank" rel="noopener noreferrer">

@@ -202,6 +202,7 @@ p { margin: 0; }
 .countdown { font-size: 11px; font-weight: 700; padding: 0 6px; border-radius: 4px; color: var(--c-ok); background: color-mix(in srgb, var(--c-ok) 12%, var(--surface)); }
 .countdown.is-warm { color: var(--c-warn); background: color-mix(in srgb, var(--c-warn) 14%, var(--surface)); }
 .countdown.is-hot { color: var(--c-hot); background: color-mix(in srgb, var(--c-hot) 12%, var(--surface)); }
+.card__nodate { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-3); }
 .card__foot { margin-top: auto; display: flex; align-items: center; gap: 8px; }
 .card__foot .btn { flex: 1; }
 
