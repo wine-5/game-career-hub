@@ -12,8 +12,22 @@ const SUPPORTS_FALLBACK = /^claude-(opus-5|sonnet-5-5|fable-5)/.test(MODEL);
 const SCHEMA = {
   type: "object",
   additionalProperties: false,
-  required: ["digest", "openings"],
+  required: ["digest", "previous", "openings"],
   properties: {
+    previous: {
+      anyOf: [
+        {
+          type: "object",
+          additionalProperties: false,
+          required: ["text", "sourceUrl"],
+          properties: {
+            text: { type: "string", description: "前の年の卒業生の募集の開始時期（50 字以内。卒業年と年月を入れる）" },
+            sourceUrl: { type: "string" },
+          },
+        },
+        { type: "null" },
+      ],
+    },
     digest: {
       type: "string",
       description: "この会社の新卒・インターン採用の現状を 1〜2 文で。情報が無ければ空文字",

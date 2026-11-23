@@ -52,6 +52,7 @@ export interface ExtractedFlowStep {
 
 export interface Extracted {
   digest: string;
+  previous?: { text: string; sourceUrl: string } | null;
   openings: ExtractedOpening[];
 }
 
@@ -162,6 +163,8 @@ export function validateExtracted(x: unknown): string[] {
   const e = x as Extracted;
   if (!e || typeof e !== "object") return ["JSON のオブジェクトではない"];
   if (typeof e.digest !== "string") errs.push("digest が文字列ではない");
+  if (e.previous != null && (typeof e.previous.text !== "string" || typeof e.previous.sourceUrl !== "string"))
+    errs.push("previous は { text, sourceUrl } の形か null にする");
   if (!Array.isArray(e.openings)) return [...errs, "openings が配列ではない"];
   e.openings.forEach((o, i) => {
     const at = `openings[${i}]`;
@@ -227,6 +230,9 @@ export function mergeExtracted(
   const before = new Set(oldOpenings.keys());
   result.openings = openings;
   result.digest = ex.digest;
+  // 前の年の動きは、ページから読めた時だけ残す（出典はそのページの URL に限る）
+  result.previous =
+    ex.previous?.text && pageUrls.has(ex.previous.sourceUrl) ? { text: ex.previous.text.trim(), sourceUrl: ex.previous.sourceUrl } : undefined;
   result.lastChanged = now;
   result.error = null;
   return {

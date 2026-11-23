@@ -123,7 +123,15 @@ export interface CompanyResult {
   error: string | null;
   /** AI がまとめた、会社の採用の要点（1〜2 文） */
   digest: string;
+  /** 前の年（例: 27卒）の募集がいつ始まったか。ページに書かれている時だけ */
+  previous?: PreviousCycle;
   openings: Opening[];
+}
+
+export interface PreviousCycle {
+  /** 例:「27卒の本選考は2026年3月にエントリー開始」 */
+  text: string;
+  sourceUrl: string;
 }
 
 export interface JobsData {
