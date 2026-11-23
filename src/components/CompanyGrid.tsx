@@ -6,6 +6,7 @@ import { CompanyLogo } from "./CompanyLogo.tsx";
 import { CompanyLinks } from "./CompanyLinks.tsx";
 import { GameStrip } from "./GameStrip.tsx";
 import { TrackButton } from "./TrackButton.tsx";
+import { SearchSuggest } from "./SearchSuggest.tsx";
 
 export function CompanyGrid({ companies }: { companies: CompanyResult[] }) {
   const [q, setQ] = useState("");
@@ -71,10 +72,7 @@ export function CompanyGrid({ companies }: { companies: CompanyResult[] }) {
         ))}
       </div>
       <div className="filters">
-        <label className="search">
-          <Icon name="search" size={15} />
-          <input type="search" placeholder="会社名で探す" value={q} onChange={(e) => setQ(e.target.value)} />
-        </label>
+        <SearchSuggest value={q} onChange={setQ} onPick={(c) => setQ(c.name)} companies={companies} placeholder="会社名で探す" />
         <label className="select">
           <span>地域</span>
           <select value={pref} onChange={(e) => changePref(e.target.value)}>

@@ -1,5 +1,5 @@
-import type { OpeningType } from "../types.ts";
-import { Icon } from "./Icon.tsx";
+import type { CompanyResult, OpeningType } from "../types.ts";
+import { SearchSuggest } from "./SearchSuggest.tsx";
 import { prefLabel } from "../lib/util.ts";
 
 export type Sort = "deadline" | "new" | "company";
@@ -25,7 +25,8 @@ const TYPES: { v: Filters["type"]; label: string }[] = [
   { v: "event", label: "説明会・セミナー" },
 ];
 
-export function FilterBar({ f, set, tags, prefs, resultCount }: {
+export function FilterBar({ f, set, tags, prefs, resultCount, companies }: {
+  companies: CompanyResult[];
   f: Filters;
   set: (patch: Partial<Filters>) => void;
   tags: string[];
@@ -47,10 +48,13 @@ export function FilterBar({ f, set, tags, prefs, resultCount }: {
           </button>
         ))}
       </div>
-      <label className="search">
-        <Icon name="search" size={16} />
-        <input type="search" placeholder="会社名・キーワードで検索" value={f.query} onChange={(e) => set({ query: e.target.value })} />
-      </label>
+      <SearchSuggest
+        value={f.query}
+        onChange={(query) => set({ query })}
+        onPick={(c) => set({ query: c.name })}
+        companies={companies}
+        placeholder="会社名・キーワードで検索"
+      />
       <label className="select">
         <span>地域</span>
         <select value={f.pref} onChange={(e) => set({ pref: e.target.value })}>

@@ -141,7 +141,7 @@ export function App() {
           <>
             <Hero stats={stats} updatedAt={data?.updatedAt ?? null} targetYear={data?.targetGraduationYear ?? null} />
             <RolePicker value={role} counts={counts} onChange={setRole} />
-            <FilterBar f={filters} set={set} tags={tags} prefs={prefs} resultCount={shown.length} />
+            <FilterBar f={filters} set={set} tags={tags} prefs={prefs} resultCount={shown.length} companies={data?.companies ?? []} />
             <div className="layout">
               <div className="layout__main">
                 {!data && !loadError && <Skeleton />}
