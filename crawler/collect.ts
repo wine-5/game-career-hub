@@ -28,50 +28,61 @@ const { companies, state, prev, targetGraduationYear } = await loadAll();
 const prevById = new Map(prev.companies.map((c) => [c.id, c]));
 const today = todayJst();
 
-await rm(WORK_DIR, { recursive: true, force: true });
+// 前回の書き出しだけを消す（.work/ のほかの物（会社の候補の一覧など）は残す）
+await rm(path.join(WORK_DIR, "pages"), { recursive: true, force: true });
+await rm(path.join(WORK_DIR, "extracted"), { recursive: true, force: true });
 await mkdir(path.join(WORK_DIR, "pages"), { recursive: true });
 await mkdir(path.join(WORK_DIR, "extracted"), { recursive: true });
 
-const results = [];
 const todo: TodoItem[] = [];
 const failed: { id: string; name: string; error: string }[] = [];
 let unchanged = 0;
 
-for (const c of companies) {
-  const result = baseResult(c, prevById.get(c.id));
-  results.push(result);
-  if (!c.enabled || (only && !only.includes(c.id))) continue;
+const results = companies.map((c) => baseResult(c, prevById.get(c.id)));
+const targets = companies
+  .map((c, i) => ({ c, result: results[i] }))
+  .filter(({ c }) => c.enabled && (!only || only.includes(c.id)));
 
-  console.log(`- ${c.name}`);
-  result.lastChecked = new Date().toISOString();
-  try {
-    const pages = toPromptPages(await collectPages(c.url, [c.links?.newgrad, c.links?.internship].filter((u): u is string => Boolean(u))));
-    const hash = hashPages(pages);
-    const changed = state[c.id]?.hash !== hash;
-    console.log(`    ${pages.length} ページ / ${changed ? "変化あり" : "変化なし"}`);
-    result.error = null;
-    if (!changed && !force) {
-      unchanged++;
-    } else {
-      const pagesFile = path.join(WORK_DIR, "pages", `${c.id}.md`);
-      const body = pages.map((p) => `## ページ: ${p.url}\n題名: ${p.title}\n\n${p.text}`).join("\n\n---\n\n");
-      await writeFile(pagesFile, `# ${c.name}（${c.id}）\n今日の日付: ${today}\n対象の卒業年: ${targetGraduationYear}\n\n${body}\n`, "utf8");
-      todo.push({
-        id: c.id,
-        name: c.name,
-        pagesFile: path.relative(process.cwd(), pagesFile).replaceAll("\\", "/"),
-        extractedFile: `.work/extracted/${c.id}.json`,
-        hash,
-        pageUrls: pages.map((p) => p.url),
-      });
+// 会社ごとに別のサイトなので、何社かを同時に進める（同じサイトへの間隔は collectPages の待ちで守る）
+const JOBS = Number(process.argv.find((a) => a.startsWith("--jobs="))?.slice(7) ?? 6);
+let done = 0;
+await Promise.all(
+  Array.from({ length: JOBS }, async () => {
+    for (let t = targets.shift(); t; t = targets.shift()) {
+      const { c, result } = t;
+      result.lastChecked = new Date().toISOString();
+      try {
+        const pages = toPromptPages(await collectPages(c.url, [c.links?.newgrad, c.links?.internship].filter((u): u is string => Boolean(u))));
+        const hash = hashPages(pages);
+        const changed = state[c.id]?.hash !== hash;
+        console.log(`- ${c.name}: ${pages.length} ページ / ${changed ? "変化あり" : "変化なし"}`);
+        result.error = null;
+        if (!changed && !force) {
+          unchanged++;
+        } else {
+          const pagesFile = path.join(WORK_DIR, "pages", `${c.id}.md`);
+          const body = pages.map((p) => `## ページ: ${p.url}\n題名: ${p.title}\n\n${p.text}`).join("\n\n---\n\n");
+          await writeFile(pagesFile, `# ${c.name}（${c.id}）\n今日の日付: ${today}\n対象の卒業年: ${targetGraduationYear}\n\n${body}\n`, "utf8");
+          todo.push({
+            id: c.id,
+            name: c.name,
+            pagesFile: path.relative(process.cwd(), pagesFile).replaceAll("\\", "/"),
+            extractedFile: `.work/extracted/${c.id}.json`,
+            hash,
+            pageUrls: pages.map((p) => p.url),
+          });
+        }
+      } catch (e) {
+        result.error = (e as Error).message;
+        failed.push({ id: c.id, name: c.name, error: result.error });
+        console.warn(`- ${c.name}: 失敗 ${result.error}`);
+      }
+      if (++done % 25 === 0) console.log(`== ${done} 社まで終わった ==`);
+      await sleep(WAIT_MS);
     }
-  } catch (e) {
-    result.error = (e as Error).message;
-    failed.push({ id: c.id, name: c.name, error: result.error });
-    console.warn(`    失敗: ${result.error}`);
-  }
-  await sleep(WAIT_MS);
-}
+  }),
+);
+todo.sort((a, b) => a.id.localeCompare(b.id));
 
 await writeJson(path.join(WORK_DIR, "todo.json"), { today, todo, failed });
 // 確認した日時と失敗だけを先に反映しておく（募集の中身は apply で変わる）
