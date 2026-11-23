@@ -49,3 +49,8 @@ alter table public.applications enable row level security;
 drop policy if exists "applications_all_own" on public.applications;
 create policy "applications_all_own" on public.applications
   for all using (auth.uid() = user_id) with check (auth.uid() = user_id);
+
+-- 新しい表を API に自動で公開しない設定のプロジェクトでも使えるように、ログインした人に権限を渡す
+-- （どの行を読めるかは上の RLS で本人の行だけに絞っている）
+grant select, insert, delete on public.favorites to authenticated;
+grant select, insert, update, delete on public.applications to authenticated;
