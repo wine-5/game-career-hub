@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T12:25:47.947Z",
+  "updatedAt": "2026-11-23T12:31:41.821Z",
   "model": "claude-code",
   "companies": [
     {
@@ -3946,8 +3946,8 @@
       "site": "https://www.klab.com/"
     },
     {
-      "lastChecked": "2026-11-23T12:18:06.098Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:31:11.505Z",
+      "lastChanged": "2026-11-23T12:31:41.821Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -3958,14 +3958,13 @@
       ],
       "url": "https://www.crafts-meister.co.jp/recruit/",
       "enabled": true,
-      "links": {
-        "newgrad": "https://www.crafts-meister.co.jp/recruit/p278/"
-      },
+      "links": {},
       "logo": "logos/crafts-meister.ico",
       "locations": [
         "大阪"
       ],
-      "site": "https://www.crafts-meister.co.jp/"
+      "site": "https://www.crafts-meister.co.jp/",
+      "note": "採用ページの新卒のリンクがいまは外されている（中途のみ）"
     },
     {
       "lastChecked": null,
@@ -6903,10 +6902,10 @@
       "site": "https://www.nestopi.co.jp/"
     },
     {
-      "lastChecked": "2026-11-23T12:18:45.348Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:31:11.529Z",
+      "lastChanged": "2026-11-23T12:31:41.821Z",
       "error": null,
-      "digest": "新卒採用ページへの案内はあるが、28卒向けの募集内容・日程はこのページに無い。",
+      "digest": "",
       "openings": [],
       "id": "byking",
       "name": "バイキング",
@@ -6915,11 +6914,10 @@
       ],
       "url": "https://byking.jp/recruit/",
       "enabled": true,
-      "links": {
-        "newgrad": "https://byking.jp/recruit/"
-      },
+      "links": {},
       "logo": "logos/byking.png",
-      "site": "https://byking.jp/"
+      "site": "https://byking.jp/",
+      "note": "採用ページは中途のみ（新卒の募集ページが無い）"
     },
     {
       "lastChecked": "2026-11-23T12:18:45.379Z",
@@ -9591,8 +9589,8 @@
       "site": "http://www.cyclone-zero.jp/"
     },
     {
-      "lastChecked": "2026-11-23T12:19:21.943Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:31:11.530Z",
+      "lastChanged": "2026-11-23T12:31:41.821Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -9601,10 +9599,9 @@
       "tags": [
         "札幌"
       ],
-      "url": "https://www.g-angle.co.jp/creative-solution/recruit-solution/",
+      "url": "https://herp.careers/careers/companies/gangle/jobs",
       "enabled": true,
       "links": {
-        "newgrad": "https://www.g-angle.co.jp/creative-solution/recruit-solution/",
         "philosophy": "https://www.g-angle.co.jp/company/#:~:text=%E4%BB%A3%E8%A1%A8%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%E3%83%BB%E4%BC%81%E6%A5%AD%E7%90%86%E5%BF%B5"
       },
       "logo": "logos/g-angle.png",
@@ -9612,7 +9609,8 @@
         "北海道",
         "福岡"
       ],
-      "site": "https://www.g-angle.co.jp/"
+      "site": "https://www.g-angle.co.jp/",
+      "note": "公式サイトに新卒の採用ページが無い（求人は HERP の中途のみ）"
     },
     {
       "lastChecked": "2026-11-23T12:19:22.816Z",
@@ -11286,18 +11284,39 @@
       "site": "https://www.irem.co.jp/"
     },
     {
-      "lastChecked": "2026-11-23T12:19:34.186Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:31:11.532Z",
+      "lastChanged": "2026-11-23T12:31:41.821Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "28卒は企画営業を募集中（他の職種は27卒の募集のみ掲載）。",
+      "openings": [
+        {
+          "title": "【28卒採用】企画営業",
+          "type": "newgrad",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "本社（東京）・関西支社",
+          "summary": "Web・アプリ・XR・イラスト・動画などで顧客の課題を解決する企画営業職。",
+          "sourceUrl": "https://recruit.jobcan.jp/aqua-web/list?category_id=59346",
+          "id": "4613324725b5",
+          "companyId": "aqua-star",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "aqua-star",
       "name": "アクアスター",
       "tags": [],
-      "url": "https://aqua-star.co.jp/works/yanmar_recruit/",
+      "url": "https://aqua-star.co.jp/recruit/",
       "enabled": true,
       "links": {
-        "newgrad": "https://aqua-star.co.jp/works/yanmar_recruit/",
+        "newgrad": "https://recruit.jobcan.jp/aqua-web/list?category_id=59346",
         "philosophy": "https://aqua-star.co.jp/company/philosophy/#:~:text=%E4%BC%81%E6%A5%AD%E7%90%86%E5%BF%B5"
       },
       "logo": "logos/aqua-star.png",
@@ -17639,17 +17658,78 @@
       }
     },
     {
-      "lastChecked": "2026-11-23T12:20:19.657Z",
-      "lastChanged": "2026-11-23T12:25:47.947Z",
+      "lastChecked": "2026-11-23T12:31:11.533Z",
+      "lastChanged": "2026-11-23T12:31:41.821Z",
       "error": null,
-      "digest": "",
-      "openings": [],
+      "digest": "2028年度新卒のビジネス職・エンジニア・デザイナーを募集中。ES第2次締切は11/30。",
+      "openings": [
+        {
+          "title": "【2028年度 新卒】ビジネス職",
+          "type": "newgrad",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "2026-11-30",
+          "period": "ES提出 第1次締切10/30・第2次締切11/30 18:00（人数に達し次第終了）",
+          "format": "unknown",
+          "location": "東京",
+          "summary": "海外事業・経営企画・タレントマネージャー・グッズ企画などのビジネス職。ES第2次締切11/30。",
+          "sourceUrl": "https://cover-recruit.snar.jp/index.aspx?id=vIBYSs9CUQI",
+          "id": "efc2f063c671",
+          "companyId": "cover-corp",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【2028年度 新卒】エンジニア",
+          "type": "newgrad",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "2026-11-30",
+          "period": "ES提出 第1次締切10/30・第2次締切11/30 18:00（人数に達し次第終了）",
+          "format": "unknown",
+          "location": "東京",
+          "summary": "CTO室を中心に3D配信・バーチャルライブ・アプリなどを開発するエンジニア職。ES第2次締切11/30。",
+          "sourceUrl": "https://cover-recruit.snar.jp/index.aspx?id=vIBYSs9CUQI",
+          "id": "0169b718d8f2",
+          "companyId": "cover-corp",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "【2028年度 新卒】デザイナー",
+          "type": "newgrad",
+          "roles": [
+            "artist"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "2026-11-30",
+          "period": "ES提出 第1次締切10/30・第2次締切11/30 18:00（人数に達し次第終了）",
+          "format": "unknown",
+          "location": "東京",
+          "summary": "タレントの3Dモデル・衣装・ライブステージ・キービジュアルなどを作るデザイナー職。ES第2次締切11/30。",
+          "sourceUrl": "https://cover-recruit.snar.jp/index.aspx?id=vIBYSs9CUQI",
+          "id": "7c56c5823707",
+          "companyId": "cover-corp",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "cover-corp",
       "name": "カバー",
       "tags": [
         "開発会社"
       ],
-      "url": "https://cover-corp.com/recruit",
+      "url": "https://cover-recruit.snar.jp/index.aspx?id=vIBYSs9CUQI",
       "enabled": true,
       "links": {
         "newgrad": "https://cover-corp.com/recruit/newgraduate",
