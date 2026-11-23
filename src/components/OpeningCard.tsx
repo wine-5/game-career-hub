@@ -9,6 +9,7 @@ import { CompanyLinks } from "./CompanyLinks.tsx";
 import { GameStrip } from "./GameStrip.tsx";
 import { FlowSteps } from "./FlowSteps.tsx";
 import { SourceLink } from "./SourceLink.tsx";
+import { ConditionChips } from "./ConditionChips.tsx";
 import { TrackButton } from "./TrackButton.tsx";
 
 /** 募集の種類に合わせた飛び先（新卒なら新卒採用ページ、インターンならインターンページ） */
@@ -100,6 +101,8 @@ export function OpeningCard({ o, company, role = "all" }: { o: Opening; company:
           <Icon name="clock" size={13} /> 日程は公式ページで確認してください
         </p>
       )}
+
+      {o.type === "newgrad" && <ConditionChips k={company.conditions} />}
 
       <FlowSteps flow={o.flow} role={role} sourceUrl={o.flowSourceUrl ?? o.sourceUrl} note={o.flowNote} />
 

@@ -4,6 +4,7 @@ import { ROLES } from "./types.ts";
 import { daysUntil, openingInPref, sortPrefs, statusOf, todayJst } from "./lib/util.ts";
 import { useAuth } from "./lib/auth.tsx";
 import { companyTargets, fold, score } from "./lib/search.ts";
+import { conditionKey, isConditionSort, matchConditions } from "./lib/conditions.ts";
 import { Header, type View } from "./components/Header.tsx";
 import { Hero } from "./components/Hero.tsx";
 import { RolePicker } from "./components/RolePicker.tsx";
@@ -94,6 +95,9 @@ export function App() {
       if (filters.type !== "all" && o.type !== filters.type) return false;
       if (filters.tag !== "all" && !c?.tags.includes(filters.tag)) return false;
       if (filters.pref !== "all" && !openingInPref(o, c?.locations, filters.pref)) return false;
+      // 待遇の条件は会社の数字で見る（書かれていない会社の募集は外す）
+      if (!matchConditions(c?.conditions, filters)) return false;
+      if (isConditionSort(filters.sort) && conditionKey(c?.conditions, filters.sort) === null) return false;
       if (q && !companyHit.get(o.companyId) && !fold(`${o.title} ${o.summary} ${o.location}`).includes(fq)) return false;
       return true;
     });
@@ -118,6 +122,9 @@ export function App() {
       },
       new: (a, b) => b.firstSeen.localeCompare(a.firstSeen),
       company: (a, b) => (companies.get(a.companyId)?.name ?? "").localeCompare(companies.get(b.companyId)?.name ?? "", "ja"),
+      salary: (a, b) => conditionKey(companies.get(b.companyId)?.conditions, "salary")! - conditionKey(companies.get(a.companyId)?.conditions, "salary")!,
+      holidays: (a, b) => conditionKey(companies.get(b.companyId)?.conditions, "holidays")! - conditionKey(companies.get(a.companyId)?.conditions, "holidays")!,
+      overtime: (a, b) => conditionKey(companies.get(b.companyId)?.conditions, "overtime")! - conditionKey(companies.get(a.companyId)?.conditions, "overtime")!,
     };
     return [...list].sort(sorters[filters.sort]);
   }, [base, role, filters.sort, companies]);

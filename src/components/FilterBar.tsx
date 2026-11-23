@@ -1,10 +1,12 @@
 import type { CompanyResult, OpeningType } from "../types.ts";
 import { SearchSuggest } from "./SearchSuggest.tsx";
+import { ConditionSelects } from "./ConditionSelects.tsx";
+import { CONDITION_SORT_LABEL, NO_CONDITION, type ConditionFilter, type ConditionSort } from "../lib/conditions.ts";
 import { prefLabel } from "../lib/util.ts";
 
-export type Sort = "deadline" | "new" | "company";
+export type Sort = "deadline" | "new" | "company" | ConditionSort;
 
-export interface Filters {
+export interface Filters extends ConditionFilter {
   type: OpeningType | "all";
   tag: string | "all";
   /** 都道府県（「北海道」など） */
@@ -15,7 +17,7 @@ export interface Filters {
 }
 
 export const DEFAULT_FILTERS: Filters = {
-  type: "all", tag: "all", pref: "all", showClosed: false, query: "", sort: "deadline",
+  type: "all", tag: "all", pref: "all", showClosed: false, query: "", sort: "deadline", ...NO_CONDITION,
 };
 
 const TYPES: { v: Filters["type"]; label: string }[] = [
@@ -79,8 +81,12 @@ export function FilterBar({ f, set, tags, prefs, resultCount, companies }: {
           <option value="deadline">締切が近い順</option>
           <option value="new">新着順</option>
           <option value="company">会社名順</option>
+          {(Object.keys(CONDITION_SORT_LABEL) as ConditionSort[]).map((s) => (
+            <option key={s} value={s}>{CONDITION_SORT_LABEL[s]}</option>
+          ))}
         </select>
       </label>
+      <ConditionSelects f={f} set={set} />
       <label className="check">
         <input type="checkbox" checked={f.showClosed} onChange={(e) => set({ showClosed: e.target.checked })} />
         締切済みも表示

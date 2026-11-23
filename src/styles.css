@@ -557,3 +557,17 @@ p { margin: 0; }
 
 /* ===== 会社カードの右上（件数とお気に入り） ===== */
 .company__side { display: grid; justify-items: center; gap: 8px; }
+
+/* ===== 待遇（初任給・年間休日・平均残業） ===== */
+.conds { display: flex; flex-wrap: wrap; align-items: center; gap: 5px; }
+.cond {
+  --k: var(--c-salary);
+  display: inline-flex; align-items: baseline; gap: 4px; padding: 2px 9px; border-radius: 6px; font-size: 11px; color: var(--text-2);
+  background: color-mix(in srgb, var(--k) 8%, var(--surface)); border: 1px solid color-mix(in srgb, var(--k) 28%, var(--border));
+}
+.cond b { font-size: 13px; color: var(--k); }
+.cond:hover { border-color: var(--k); }
+.cond--holidays { --k: var(--c-ok); }
+.cond--overtime { --k: var(--c-planner); }
+.cond__src { display: inline-flex; align-items: center; gap: 2px; font-size: 10.5px; color: var(--text-3); text-decoration: underline; text-underline-offset: 2px; }
+.cond__src:hover { color: var(--accent); }
