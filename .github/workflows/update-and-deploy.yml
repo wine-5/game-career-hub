@@ -1,9 +1,9 @@
 name: Update & Deploy
 
+# ふだんは Claude Code がデータを更新して push し、ここでは公開だけ行う（CLAUDE.md）。
+# Actions の画面から手動で動かしたときだけ、API キーを使って自動で収集する。
 on:
-  schedule:
-    - cron: "0 21 * * *" # 毎日 6:00（日本時間）に採用ページを確認
-  workflow_dispatch: # Actions の画面から手動でも動かせる
+  workflow_dispatch:
   push:
     branches: [main]
 
@@ -18,8 +18,8 @@ concurrency:
 
 jobs:
   crawl:
-    # push のときは収集せず、公開だけする
-    if: github.event_name != 'push'
+    # 手動実行のときだけ収集する（ANTHROPIC_API_KEY が要る）
+    if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     timeout-minutes: 40
     steps:
@@ -30,7 +30,7 @@ jobs:
           cache: npm
       - run: npm ci
       - name: 採用ページを巡回して AI で整理
-        run: npm run crawl
+        run: npm run crawl:api
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
