@@ -1,11 +1,12 @@
 import { useAuth } from "../lib/auth.tsx";
 import { Icon, type IconName } from "./Icon.tsx";
 
-export type View = "home" | "companies" | "favorites" | "about";
+export type View = "home" | "companies" | "tracker" | "favorites" | "about";
 
 const NAV: { view: View; label: string; icon: IconName }[] = [
   { view: "home", label: "募集一覧", icon: "list" },
   { view: "companies", label: "会社", icon: "building" },
+  { view: "tracker", label: "選考", icon: "tracker" },
   { view: "favorites", label: "お気に入り", icon: "star" },
   { view: "about", label: "使い方", icon: "info" },
 ];

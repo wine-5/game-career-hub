@@ -11,6 +11,7 @@ import { OpeningCard } from "./components/OpeningCard.tsx";
 import { DeadlineRail } from "./components/DeadlineRail.tsx";
 import { CompanyGrid } from "./components/CompanyGrid.tsx";
 import { FavoritesView } from "./components/FavoritesView.tsx";
+import { TrackerView } from "./components/TrackerView.tsx";
 import { LoginModal } from "./components/LoginModal.tsx";
 import { About } from "./components/About.tsx";
 import { Icon, type IconName } from "./components/Icon.tsx";
@@ -18,7 +19,7 @@ import { Icon, type IconName } from "./components/Icon.tsx";
 function useHashView(): View {
   const read = (): View => {
     const v = window.location.hash.replace(/^#\/?/, "").split("?")[0];
-    return v === "companies" || v === "favorites" || v === "about" ? v : "home";
+    return v === "companies" || v === "tracker" || v === "favorites" || v === "about" ? v : "home";
   };
   const [view, setView] = useState<View>(read);
   useEffect(() => {
@@ -176,6 +177,7 @@ export function App() {
           </>
         )}
         {view === "companies" && <CompanyGrid companies={data?.companies ?? []} />}
+        {view === "tracker" && <TrackerView companies={companies} />}
         {view === "favorites" && <FavoritesView openings={byId} companies={companies} />}
         {view === "about" && <About model={data?.model ?? null} targetYear={data?.targetGraduationYear ?? null} />}
       </main>
