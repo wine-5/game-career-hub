@@ -14,6 +14,7 @@
     "apply": "tsx crawler/apply.ts",
     "crawl:api": "tsx crawler/crawl.ts",
     "discover": "tsx crawler/discover.ts",
+    "add-companies": "tsx crawler/add-companies.ts",
     "sync": "tsx crawler/sync.ts",
     "check-urls": "tsx crawler/check-urls.ts"
   },
