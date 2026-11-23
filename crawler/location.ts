@@ -32,3 +32,11 @@ export function extractPrefectures(text: string): string[] {
   }
   return [...found];
 }
+
+/** 「東京都」「大阪府」「京都府」→「東京」「大阪」「京都」。「京都」「北海道」はそのまま */
+export function normalizePref(p: string): string {
+  const t = p.trim();
+  if (t === "東京都") return "東京";
+  if (t === "京都府" || t === "京都") return "京都";
+  return t.replace(/[府県]$/, "");
+}

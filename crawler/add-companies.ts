@@ -7,6 +7,7 @@ import { readFile } from "node:fs/promises";
 import type { CompanyEntry } from "../src/types.ts";
 import { fetchPage, isAllowed, type FetchedPage } from "./fetch.ts";
 import { loadCompanyList, saveCompanyList, sleep, WAIT_MS } from "./shared.ts";
+import { normalizePref } from "./location.ts";
 
 interface Candidate {
   name: string;
@@ -98,7 +99,7 @@ for (const cand of candidates) {
     site: site.origin + "/",
     enabled: false,
     ...(presetLocations || cand.pref
-      ? { locations: [...new Set([...(presetLocations ?? []), ...(cand.pref ?? "").split(",").filter(Boolean).map((p) => p.trim().replace(/[都府県]$/, ""))])] }
+      ? { locations: [...new Set([...(presetLocations ?? []), ...(cand.pref ?? "").split(",").filter(Boolean).map((p) => normalizePref(p))])] }
       : {}),
   };
 
