@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T09:17:41.138Z",
+  "updatedAt": "2026-11-23T09:34:11.912Z",
   "companies": {
     "2011": {
       "games": [],
@@ -47011,6 +47011,156 @@
       "checked": "2026-11-23"
     },
     "deadlock": {
+      "games": [],
+      "checked": "2026-11-23"
+    },
+    "studio-akw": {
+      "games": [],
+      "checked": "2026-11-23"
+    },
+    "vs-studio": {
+      "games": [],
+      "checked": "2026-11-23"
+    },
+    "clovers2023": {
+      "games": [],
+      "checked": "2026-11-23"
+    },
+    "wilddog": {
+      "games": [],
+      "checked": "2026-11-23"
+    },
+    "wargaming": {
+      "games": [],
+      "checked": "2026-11-23"
+    },
+    "ginga": {
+      "games": [],
+      "checked": "2026-11-23"
+    },
+    "smilegate": {
+      "games": [],
+      "checked": "2026-11-23"
+    },
+    "prodigy-inc": {
+      "games": [],
+      "checked": "2026-11-23"
+    },
+    "games-parco": {
+      "games": [],
+      "checked": "2026-11-23"
+    },
+    "torisan-net": {
+      "games": [],
+      "checked": "2026-11-23"
+    },
+    "phantixgames": {
+      "games": [],
+      "checked": "2026-11-23"
+    },
+    "studiosasanqua": {
+      "wikidata": "Q133568839",
+      "games": [],
+      "checked": "2026-11-23"
+    },
+    "epicgames": {
+      "games": [],
+      "checked": "2026-11-23"
+    },
+    "nvsgames": {
+      "wikidata": "Q112306689",
+      "games": [
+        {
+          "title": "アース：リバイバル",
+          "year": 2023,
+          "role": "pub",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%83%BC%E3%82%B9-%E3%83%AA%E3%83%90%E3%82%A4%E3%83%90%E3%83%AB/id1665908849",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2a/d5/ac/2ad5ac7e-4912-c1a1-8c6e-8613fa4c5d77/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/128x128bb.jpg",
+          "iconShape": "square",
+          "score": 45
+        },
+        {
+          "title": "Crystal of Atlan",
+          "year": 2023,
+          "role": "both",
+          "score": 41,
+          "iconTried": true,
+          "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2397700/capsule_231x87.jpg",
+          "iconShape": "wide",
+          "url": "https://store.steampowered.com/app/2397700/"
+        },
+        {
+          "title": "ユグドラ・レゾナンス",
+          "year": 2022,
+          "role": "both",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%A6%E3%82%B0%E3%83%89%E3%83%A9%E3%83%BB%E3%83%AC%E3%82%BE%E3%83%8A%E3%83%B3%E3%82%B9",
+          "score": 41,
+          "iconTried": true
+        },
+        {
+          "title": "クリスタル・オブ・アトラン",
+          "year": 2025,
+          "role": "pub",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AF%E3%83%AA%E3%82%B9%E3%82%BF%E3%83%AB-%E3%82%AA%E3%83%96-%E3%82%A2%E3%83%88%E3%83%A9%E3%83%B3/id6453111576",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/2c/4d/5a2c4df4-5f9f-6498-54d8-0d580fc1c546/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/128x128bb.jpg",
+          "iconShape": "square",
+          "score": 39
+        },
+        {
+          "title": "プランツ・オン・ファイア",
+          "year": 2026,
+          "role": "pub",
+          "url": "https://apps.apple.com/jp/app/%E3%83%97%E3%83%A9%E3%83%B3%E3%83%84-%E3%82%AA%E3%83%B3-%E3%83%95%E3%82%A1%E3%82%A4%E3%82%A2/id6757785541",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/d5/79/89d579e7-4fb1-3165-6aec-4e12e96a39f7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/128x128bb.jpg",
+          "iconShape": "square",
+          "score": 28
+        },
+        {
+          "title": "Land of Empires: Immortal",
+          "year": 2023,
+          "role": "pub",
+          "url": "https://apps.apple.com/jp/app/land-of-empires-immortal/id1523256630",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/06/0b/db060b12-49d0-d49e-af4a-d20f9795fe40/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/128x128bb.jpg",
+          "iconShape": "square",
+          "score": 22
+        },
+        {
+          "title": "MARVEL SNAP",
+          "year": 2022,
+          "role": "pub",
+          "url": "https://ja.wikipedia.org/wiki/MARVEL_SNAP",
+          "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1997040/capsule_231x87.jpg",
+          "iconShape": "wide",
+          "score": 10
+        },
+        {
+          "title": "フィギュアストーリー",
+          "year": 2020,
+          "role": "pub",
+          "score": 1,
+          "iconTried": true,
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/4b/8a/414b8a6f-e025-ae28-7c7c-602aba619b81/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/128x128bb.jpg",
+          "iconShape": "square",
+          "url": "https://apps.apple.com/jp/app/%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC-re-%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88/id6505096121"
+        }
+      ],
+      "checked": "2026-11-23"
+    },
+    "pearlabyss": {
+      "games": [],
+      "checked": "2026-11-23"
+    },
+    "505games": {
+      "games": [],
+      "checked": "2026-11-23"
+    },
+    "bandainamco-nexus": {
+      "wikidata": "Q30935142",
+      "games": [],
+      "checked": "2026-11-23"
+    },
+    "semo": {
+      "wikidata": "Q64626642",
       "games": [],
       "checked": "2026-11-23"
     }

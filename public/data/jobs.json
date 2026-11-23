@@ -21640,6 +21640,441 @@
         "北海道"
       ],
       "site": "https://myg-co.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "clovers2023",
+      "name": "クローバーズ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://clovers2023.com/careers",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://clovers2023.com/careers",
+        "salary": "https://clovers2023.com/careers#:~:text=%E3%80%90%E7%B5%A6%E4%B8%8E%E3%80%91",
+        "philosophy": "https://clovers2023.com/our-values/"
+      },
+      "logo": "logos/clovers2023.ico",
+      "locations": [
+        "大阪",
+        "東京"
+      ],
+      "site": "https://clovers2023.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "studio-akw",
+      "name": "Studio AuKnow",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://studio-akw.co.jp/recruit/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {
+        "philosophy": "https://studio-akw.co.jp/#:~:text=Purpose"
+      },
+      "logo": "logos/studio-akw.ico",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://studio-akw.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "vs-studio",
+      "name": "VS Studio SNK",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.vs-studio.com/recruit.html",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/vs-studio.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.vs-studio.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "wilddog",
+      "name": "ワイルドドッグ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://wilddog.jp/recruit",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://wilddog.jp/recruit"
+      },
+      "locations": [
+        "東京"
+      ],
+      "site": "https://wilddog.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "studiosasanqua",
+      "name": "スタジオサザンカ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://studiosasanqua.com/recruit/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/studiosasanqua.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://studiosasanqua.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "wargaming",
+      "name": "ウォーゲーミングジャパン",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://wargaming.co.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/wargaming.jpg",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://wargaming.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "ginga",
+      "name": "銀河ソフトウェア",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.ginga.co.jp/recruit/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://www.ginga.co.jp/recruit/"
+      },
+      "logo": "logos/ginga.ico",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.ginga.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "smilegate",
+      "name": "スマイルゲート・メガポート・ジャパン",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://careers.smilegate.com/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/smilegate.ico",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.smilegate.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "prodigy-inc",
+      "name": "プロディジ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://prodigy-inc.co.jp/recruit/",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://prodigy-inc.co.jp/recruit/"
+      },
+      "locations": [
+        "東京"
+      ],
+      "site": "https://prodigy-inc.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "games-parco",
+      "name": "PARCO GAMES（パルコ）",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://games.parco.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {
+        "philosophy": "https://games.parco.jp/about/#:~:text=Mission"
+      },
+      "logo": "logos/games-parco.ico",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://games.parco.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "espada",
+      "name": "エスパーダ",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://espada.co.jp/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/espada.ico",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://espada.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "studioshark",
+      "name": "スタジオシャーク",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://studioshark.net/",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {},
+      "logo": "logos/studioshark.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://studioshark.net/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "torisan-net",
+      "name": "トリサン",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://torisan-net.com/recruit/?ref=return",
+      "enabled": true,
+      "links": {
+        "newgrad": "https://torisan-net.com/topics/8179/"
+      },
+      "logo": "logos/torisan-net.png",
+      "locations": [
+        "大阪",
+        "東京"
+      ],
+      "site": "https://torisan-net.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "nvsgames",
+      "name": "Nuverse",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.nvsgames.com/hire.html",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/nvsgames.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.nvsgames.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "phantixgames",
+      "name": "ヨタ（Yotta Games Japan）",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.phantixgames.com/ja",
+      "enabled": false,
+      "note": "公式サイトに採用ページが見当たらない",
+      "links": {
+        "philosophy": "https://www.phantixgames.com/en/about#:~:text=Our%20Vision"
+      },
+      "logo": "logos/phantixgames.ico",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.phantixgames.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "bandainamco-nexus",
+      "name": "バンダイナムコネクサス",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://bandainamco-nexus.co.jp/careers/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {
+        "philosophy": "https://thecioroom.com/events/cdo-vision-tokyo-2026#:~:text=CDO%20Vision"
+      },
+      "logo": "logos/bandainamco-nexus.ico",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://bandainamco-nexus.co.jp/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "epicgames",
+      "name": "Epic Games Japan",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.epicgames.com/site/ja/about",
+      "enabled": false,
+      "note": "公式サイトを自動で読めない（robots.txt の禁止や拒否など）",
+      "locations": [
+        "神奈川"
+      ],
+      "site": "https://www.epicgames.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "pearlabyss",
+      "name": "パールアビスジャパン",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.pearlabyss.com/ja-JP",
+      "enabled": false,
+      "note": "日本での新卒・インターンの募集ページが見当たらない",
+      "links": {
+        "philosophy": "https://www.pearlabyss.com/Company/About"
+      },
+      "logo": "logos/pearlabyss.ico",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.pearlabyss.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "505games",
+      "name": "505 Games Japan",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://careersat505games.com/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/505games.jpg",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://505games.com/"
+    },
+    {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
+      "id": "semo",
+      "name": "SEモバイル・アンド・オンライン",
+      "tags": [
+        "開発会社"
+      ],
+      "url": "https://www.semo.co.jp/recruit/",
+      "enabled": false,
+      "note": "新卒・インターンの募集が見当たらない（中途採用のみの可能性）",
+      "links": {},
+      "logo": "logos/semo.png",
+      "locations": [
+        "東京"
+      ],
+      "site": "https://www.semo.co.jp/"
     }
   ],
   "targetGraduationYear": 2028
