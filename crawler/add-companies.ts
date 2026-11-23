@@ -12,7 +12,7 @@ interface Candidate {
   name: string;
   site: string;
   tags?: string[];
-  /** 分かっていれば本社・スタジオの都道府県（「東京」「北海道」） */
+  /** 分かっていれば本社・スタジオの都道府県（「東京」「北海道」。複数はカンマ区切り） */
   pref?: string;
 }
 
@@ -98,7 +98,7 @@ for (const cand of candidates) {
     site: site.origin + "/",
     enabled: false,
     ...(presetLocations || cand.pref
-      ? { locations: [...new Set([...(presetLocations ?? []), ...(cand.pref ? [cand.pref.replace(/[都府県]$/, "")] : [])])] }
+      ? { locations: [...new Set([...(presetLocations ?? []), ...(cand.pref ?? "").split(",").filter(Boolean).map((p) => p.trim().replace(/[都府県]$/, ""))])] }
       : {}),
   };
 
