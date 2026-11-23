@@ -1,7 +1,7 @@
 // 候補の会社（名前と公式サイト）から採用ページを探し、data/companies.json に足す。
 // 新卒・インターンの言葉が採用ページに無い会社は、一覧には載せるが収集の対象外（enabled: false）にする。
 //
-//   npm run add-companies -- <候補の JSON> [--tags=開発会社,札幌]
+//   npm run add-companies -- <候補の JSON> [--tags=開発会社,札幌] [--locations=北海道]
 //   候補の JSON: [{ "name": "株式会社〇〇", "site": "https://example.co.jp/", "tags": ["モバイル"] }, ...]
 import { readFile } from "node:fs/promises";
 import type { CompanyEntry } from "../src/types.ts";
@@ -21,6 +21,8 @@ if (!file) {
   process.exit(1);
 }
 const extraTags = argv.find((a) => a.startsWith("--tags="))?.slice(7).split(",").filter(Boolean) ?? [];
+// 候補の出どころで所在地が分かっているとき（例: 札幌の会社の一覧）に最初から入れておく
+const presetLocations = argv.find((a) => a.startsWith("--locations="))?.slice(12).split(",").filter(Boolean);
 
 // 就活ナビ・求人まとめのサイトは規約で自動取得が禁止のことが多いので、採用ページとして使わない
 const AGGREGATORS = /mynavi|rikunabi|wantedly|onecareer|offerbox|en-japan|doda|green-japan|indeed|type\.jp|bizreach|gamecreators|career-tasu|labbase|unistyle/i;
@@ -88,11 +90,12 @@ for (const cand of candidates) {
 
   const entry: CompanyEntry = {
     id,
-    name: cand.name,
+    name: cand.name.replace(/株式会社|有限会社|合同会社/g, "").replace(/\s+/g, " ").trim(),
     tags: [...new Set([...(cand.tags ?? []), ...extraTags])],
     url: site.toString(),
     site: site.origin + "/",
     enabled: false,
+    ...(presetLocations ? { locations: presetLocations } : {}),
   };
 
   const top = await tryFetch(site.toString());
