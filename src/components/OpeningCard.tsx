@@ -1,6 +1,6 @@
 import type { CSSProperties } from "react";
 import type { CompanyResult, Opening, Role } from "../types.ts";
-import { FORMAT_LABEL, ROLE_LABEL, TYPE_LABEL } from "../types.ts";
+import { DESIGN_LABEL, FORMAT_LABEL, ROLE_LABEL, TYPE_LABEL } from "../types.ts";
 import { daysUntil, formatDate, ROLE_COLOR, statusOf, STATUS_LABEL, todayJst } from "../lib/util.ts";
 import { useAuth } from "../lib/auth.tsx";
 import { Icon } from "./Icon.tsx";
@@ -85,6 +85,10 @@ export function OpeningCard({ o, company, role = "all" }: { o: Opening; company:
           <li key={r} className="role-pill" style={{ "--role": ROLE_COLOR[r] } as CSSProperties}>
             {ROLE_LABEL[r]}
           </li>
+        ))}
+        {/* デザイナーの区分（3D・UI など。ページに書かれている物だけ） */}
+        {o.designKinds?.map((d) => (
+          <li key={d} className="design-pill">{DESIGN_LABEL[d]}</li>
         ))}
       </ul>
 

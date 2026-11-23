@@ -1,6 +1,6 @@
 import type { CSSProperties } from "react";
-import type { Role } from "../types.ts";
-import { ROLE_LABEL } from "../types.ts";
+import type { DesignKind, Role } from "../types.ts";
+import { DESIGN_KINDS, DESIGN_LABEL, ROLE_LABEL } from "../types.ts";
 import { ROLE_COLOR } from "../lib/util.ts";
 
 const ORDER: Role[] = ["programmer", "planner", "effect", "artist"];
@@ -28,6 +28,33 @@ export function RolePicker({ value, counts, onChange }: {
           <span className="role-chip__dot" />
           {ROLE_LABEL[r]}
           <span className="role-chip__count">{counts[r]}</span>
+        </button>
+      ))}
+    </div>
+  );
+}
+
+/** デザイナーを選んでいる時の細かい区分（3D・2D・UI など）。区分の書かれていない募集は「すべて」にだけ出る */
+export function DesignPicker({ value, counts, onChange }: {
+  value: DesignKind | "all";
+  counts: Record<DesignKind | "all", number>;
+  onChange: (d: DesignKind | "all") => void;
+}) {
+  return (
+    <div className="design-kinds" role="tablist" aria-label="デザイナーの区分で絞り込む">
+      <button role="tab" aria-selected={value === "all"} className={`design-chip ${value === "all" ? "is-active" : ""}`} onClick={() => onChange("all")}>
+        すべて <span className="role-chip__count">{counts.all}</span>
+      </button>
+      {DESIGN_KINDS.filter((d) => counts[d] > 0 || value === d).map((d) => (
+        <button
+          key={d}
+          role="tab"
+          aria-selected={value === d}
+          className={`design-chip ${value === d ? "is-active" : ""}`}
+          onClick={() => onChange(value === d ? "all" : d)}
+        >
+          {DESIGN_LABEL[d]}
+          <span className="role-chip__count">{counts[d]}</span>
         </button>
       ))}
     </div>

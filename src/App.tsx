@@ -1,13 +1,13 @@
 import { useEffect, useMemo, useState } from "react";
-import type { CompanyResult, JobsData, Opening, Role } from "./types.ts";
-import { ROLES } from "./types.ts";
+import type { CompanyResult, DesignKind, JobsData, Opening, Role } from "./types.ts";
+import { DESIGN_KINDS, ROLES } from "./types.ts";
 import { daysUntil, openingInPref, sortPrefs, statusOf, todayJst } from "./lib/util.ts";
 import { useAuth } from "./lib/auth.tsx";
 import { companyTargets, fold, score } from "./lib/search.ts";
 import { conditionKey, isConditionSort, matchConditions } from "./lib/conditions.ts";
 import { Header, type View } from "./components/Header.tsx";
 import { Hero } from "./components/Hero.tsx";
-import { RolePicker } from "./components/RolePicker.tsx";
+import { DesignPicker, RolePicker } from "./components/RolePicker.tsx";
 import { DEFAULT_FILTERS, FilterBar, type Filters } from "./components/FilterBar.tsx";
 import { OpeningCard } from "./components/OpeningCard.tsx";
 import { DeadlineRail } from "./components/DeadlineRail.tsx";
@@ -58,6 +58,13 @@ export function App() {
       return "all";
     }
   });
+  const [design, setDesign] = useState<DesignKind | "all">(() => {
+    try {
+      return (localStorage.getItem("gch.design") as DesignKind | "all") || "all";
+    } catch {
+      return "all";
+    }
+  });
   const [filters, setFilters] = useState<Filters>(loadFilters);
 
   useEffect(() => {
@@ -71,10 +78,11 @@ export function App() {
     try {
       localStorage.setItem(FILTER_KEY, JSON.stringify(filters));
       localStorage.setItem("gch.role", role);
+      localStorage.setItem("gch.design", design);
     } catch {
       /* 保存できない環境では覚えないだけ */
     }
-  }, [filters, role]);
+  }, [filters, role, design]);
 
   const companies = useMemo(() => new Map((data?.companies ?? []).map((c) => [c.id, c])), [data]);
   const all = useMemo(() => (data?.companies ?? []).flatMap((c) => c.openings), [data]);
@@ -109,8 +117,17 @@ export function App() {
     return r;
   }, [base]);
 
+  // デザイナーの区分ごとの件数（デザイナーを選んでいる時に出す）
+  const designCounts = useMemo(() => {
+    const artists = base.filter((o) => o.roles.includes("artist"));
+    const r = { all: artists.length } as Record<DesignKind | "all", number>;
+    for (const d of DESIGN_KINDS) r[d] = artists.filter((o) => o.designKinds?.includes(d)).length;
+    return r;
+  }, [base]);
+
   const shown = useMemo(() => {
-    const list = role === "all" ? base : base.filter((o) => o.roles.includes(role));
+    let list = role === "all" ? base : base.filter((o) => o.roles.includes(role));
+    if (role === "artist" && design !== "all") list = list.filter((o) => o.designKinds?.includes(design));
     const far = 99999;
     const sorters: Record<Filters["sort"], (a: Opening, b: Opening) => number> = {
       deadline: (a, b) => {
@@ -127,7 +144,7 @@ export function App() {
       overtime: (a, b) => conditionKey(companies.get(b.companyId)?.conditions, "overtime")! - conditionKey(companies.get(a.companyId)?.conditions, "overtime")!,
     };
     return [...list].sort(sorters[filters.sort]);
-  }, [base, role, filters.sort, companies]);
+  }, [base, role, design, filters.sort, companies]);
 
   const stats = useMemo(() => {
     const live = all.filter((o) => statusOf(o) !== "closed");
@@ -152,6 +169,7 @@ export function App() {
           <>
             <Hero stats={stats} updatedAt={data?.updatedAt ?? null} targetYear={data?.targetGraduationYear ?? null} />
             <RolePicker value={role} counts={counts} onChange={setRole} />
+            {role === "artist" && <DesignPicker value={design} counts={designCounts} onChange={setDesign} />}
             <FilterBar f={filters} set={set} tags={tags} prefs={prefs} resultCount={shown.length} companies={data?.companies ?? []} />
             <div className="layout">
               <div className="layout__main">
