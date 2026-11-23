@@ -1,30 +1,13 @@
 // Claude で採用ページの文章から募集を取り出す
 import Anthropic from "@anthropic-ai/sdk";
-import type { OpeningType, Role, WorkFormat } from "../src/types.ts";
+import { readFileSync } from "node:fs";
+import { RULES_FILE, type Extracted } from "./shared.ts";
 
 export const MODEL = process.env.CLAUDE_MODEL?.trim() || "claude-opus-5-5";
 
 // 拒否されたときに別のモデルで続ける仕組み（server-side fallback）が使えるモデル
 const SUPPORTS_FALLBACK = /^claude-(opus-5|sonnet-5-5|fable-5)/.test(MODEL);
 
-export interface ExtractedOpening {
-  title: string;
-  type: OpeningType;
-  roles: Role[];
-  graduationYears: number[];
-  applyStart: string;
-  deadline: string;
-  period: string;
-  format: WorkFormat;
-  location: string;
-  summary: string;
-  sourceUrl: string;
-}
-
-export interface Extracted {
-  digest: string;
-  openings: ExtractedOpening[];
-}
 
 const SCHEMA = {
   type: "object",
@@ -65,23 +48,11 @@ const SCHEMA = {
   },
 } as const;
 
+// 決まりは Claude Code で整理するときと同じ文書を使う
 const SYSTEM = `あなたはゲーム業界の採用情報を整理するアシスタントです。
-ゲーム会社の採用ページの文章を読み、学生向けの「新卒採用」「インターンシップ」「説明会・イベント」を取り出します。
+次の決まりに従い、渡された採用ページから募集を JSON で取り出してください。
 
-決まり:
-- 中途採用・経験者採用・アルバイトは含めない。
-- ページに書かれていることだけを使う。推測で日付や職種を作らない。分からない項目は空文字（format は unknown）。
-- 日付は今日の日付をもとに年を補って YYYY-MM-DD にする。「随時」「未定」は空文字。
-- roles の分類:
-  - programmer: プログラマー・エンジニア（クライアント、サーバー、ゲームプログラマー、テクニカルアーティストのうちプログラム寄りの物）
-  - planner: プランナー・ゲームデザイナー・ディレクター・シナリオ
-  - effect: エフェクトデザイナー・VFX アーティスト（「デザイナー職」の中にエフェクトが明記されている場合も含む）
-  - artist: 2D/3D のデザイナー・アーティスト・アニメーター・UI デザイナー・背景・キャラクター
-  - other: サウンド、プロデューサー、ビジネス職など上に当てはまらない物
-  1 つの募集が複数の職種に当てはまるなら全部入れる。「デザイナー職」でエフェクトが明記されていなければ artist だけにする。
-- graduationYears は「2028年卒」「28卒」などから西暦の卒業年を入れる。
-- summary は自分の言葉で短く要約する（著作権に配慮し、原文を長く写さない）。
-- 学生向けの募集がページに無ければ openings は空の配列にする。`;
+${readFileSync(RULES_FILE, "utf8")}`;
 
 let client: Anthropic | null = null;
 
