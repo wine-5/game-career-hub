@@ -3,6 +3,7 @@
 ゲーム業界を目指す人のための、**インターン・新卒採用の一覧サイト**です。
 各社の公式の採用ページを、指示したときに Claude Code が確認し、変わった会社だけ読み取って、
 **プログラマー・プランナー・エフェクトデザイナー（とアーティスト）** 向けの募集を一覧にします。
+対象の卒業年は `data/settings.json`（いまは 28 卒）。
 
 公開ページ: https://wine-5.github.io/game-career-hub/
 
@@ -40,7 +41,7 @@ GitHub では Actions の画面から **Run workflow** したときだけ動き�
 | `public/data/jobs.json` | 収集の結果。サイトはこれを読む |
 | `src/` | サイト本体（Vite + React + TypeScript） |
 | `supabase/schema.sql` | お気に入りの表（ログイン機能を使うとき） |
-| `public/assets/` | アイコン（Kenney, CC0）・エフェクトの絵（WineEngine VFX, CC0） |
+| `public/assets/logos/` | 会社のロゴ（各社サイトのアイコン。個人で使う前提） |
 
 ## 手元で動かす
 
@@ -52,6 +53,8 @@ npm run dev            # http://localhost:5173/game-career-hub/
 npm run check-urls     # 会社の URL が生きているか確認
 npm run collect        # 採用ページを取得して、変わった会社を .work/ に書き出す
 npm run apply          # .work/extracted/ の整理結果を取り込む
+npm run discover       # 会社の新卒・インターン・企業理念のページとロゴを探す
+npm run sync           # data/companies.json の会社情報を jobs.json に写す
 ```
 
 ## 会社を増やす
@@ -63,7 +66,8 @@ Claude Code に「〇〇社を追加して」と頼むか、手で次のよう�
    { "id": "example-games", "name": "Example Games", "tags": ["モバイル"], "url": "https://example.co.jp/recruit/", "enabled": true }
    ```
 2. `npm run check-urls` で 200 が返るか、robots.txt で禁止されていないかを確かめる
-3. コミットして、次の「更新して」から対象になる
+3. `npm run discover -- --only=example-games` でページとロゴを探し、`npm run sync`
+4. コミットして、次の「更新して」から対象になる
 
 - 自動アクセスを断るサイト（403）や、robots.txt で禁止のサイトは `"enabled": false` にして `note` に理由を書く
 - 友人からの提案は Issue の「会社の追加」テンプレートで受け付ける
