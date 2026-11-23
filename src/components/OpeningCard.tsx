@@ -101,7 +101,7 @@ export function OpeningCard({ o, company, role = "all" }: { o: Opening; company:
         </p>
       )}
 
-      <FlowSteps flow={o.flow} role={role} />
+      <FlowSteps flow={o.flow} role={role} sourceUrl={o.flowSourceUrl ?? o.sourceUrl} note={o.flowNote} />
 
       <GameStrip companyId={company.id} />
 
