@@ -31,7 +31,7 @@ const RULES = {
 const SALARY_HEADING = /初任給|給与|報酬|月給|年俸/;
 // 採用・理念と関係の無いページ（規約・統制・社員インタビューなど）
 const NEGATIVE =
-  /中途|キャリア採用|経験者|アルバイト|障がい|career(?!.*fresh)|privacy|プライバシー|個人情報|ハラスメント|harassment|governance|ガバナンス|内部統制|internal|cookie|interview|インタビュー|crosstalk|対談|社員紹介/i;
+  /mynavi|rikunabi|wantedly|onecareer|hrmos\.co\/info|blog\.|中途|キャリア採用|経験者|アルバイト|障がい|career(?!.*fresh)|privacy|プライバシー|個人情報|ハラスメント|harassment|governance|ガバナンス|内部統制|internal|cookie|interview|インタビュー|crosstalk|対談|社員紹介/i;
 
 async function tryFetch(url: string): Promise<FetchedPage | null> {
   try {
