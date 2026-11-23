@@ -3,7 +3,7 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useState, t
 import { supabase } from "./supabase.ts";
 import { useAuth } from "./auth.tsx";
 
-export type Outcome = "active" | "offer" | "rejected" | "declined";
+export type Outcome = "active" | "done" | "offer" | "rejected" | "declined";
 export type AppKind = "newgrad" | "internship" | "other";
 
 export interface Step {
@@ -39,6 +39,7 @@ export interface Application {
 
 export const OUTCOME_LABEL: Record<Outcome, string> = {
   active: "選考中",
+  done: "参加済み・完了",
   offer: "内定",
   rejected: "お見送り",
   declined: "辞退",
@@ -75,6 +76,8 @@ interface NewApplication {
   companyName: string;
   kind: AppKind;
   title?: string;
+  /** 終わった物（参加済みのインターンなど）をあとから記録するときに選ぶ */
+  outcome?: Outcome;
 }
 
 interface TrackerState {
@@ -153,10 +156,13 @@ export function TrackerProvider({ children }: { children: ReactNode }) {
   const add = useCallback(
     async (a: NewApplication) => {
       if (!supabase || !session) return null;
-      const steps: Step[] = DEFAULT_STEPS[a.kind].map((name) => ({ name, done: false }));
+      const outcome = a.outcome ?? "active";
+      // 参加済み・内定で記録したときは、段階を全部「済み」にしておく
+      const finished = outcome === "done" || outcome === "offer";
+      const steps: Step[] = DEFAULT_STEPS[a.kind].map((name) => ({ name, done: finished }));
       const { data, error } = await supabase
         .from("applications")
-        .insert(toRow({ ...a, title: a.title ?? "", steps, documents: [], memo: "", outcome: "active" }))
+        .insert(toRow({ ...a, title: a.title ?? "", steps, documents: [], memo: "", outcome }))
         .select("*")
         .single();
       if (error || !data) {

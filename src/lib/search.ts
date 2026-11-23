@@ -72,3 +72,21 @@ export function companyTargets(c: Pick<CompanyResult, "name" | "id" | "site" | "
   };
   return [c.name, c.id, host(c.site), host(c.url), ...c.tags, ...(c.locations ?? [])];
 }
+
+/** 名前から一覧の会社を探す（表記ゆれは許すが、打ち間違いまでは許さない）。見つからなければ undefined */
+export function findCompany<T extends Pick<CompanyResult, "name" | "id" | "site" | "url" | "tags" | "locations">>(name: string, companies: Iterable<T>): T | undefined {
+  const q = fold(name);
+  if (!q) return undefined;
+  let best: T | undefined;
+  let bestScore = 0;
+  for (const c of companies) {
+    if (fold(c.name) === q) return c;
+    // 名前・英字の ID・サイトの住所の頭が一致する物だけ（タグや所在地では当てない）
+    const s = score(name, [c.name, c.id]);
+    if (s >= 8 && s > bestScore) {
+      best = c;
+      bestScore = s;
+    }
+  }
+  return best;
+}
