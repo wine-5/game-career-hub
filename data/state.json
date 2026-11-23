@@ -934,5 +934,20 @@
   },
   "z-flag": {
     "hash": "3e9376b7e3e0c009e85f6c9cd7df8f4383c6b51a"
+  },
+  "clovers2023": {
+    "hash": "0421ec96086eb0b2117cee982b7171c2f14882d7"
+  },
+  "ginga": {
+    "hash": "5d14e924ff129e7491692706f75a05ed44d1451b"
+  },
+  "prodigy-inc": {
+    "hash": "3fc7038214fc44ded0bb1813e9bdae3262f71565"
+  },
+  "torisan-net": {
+    "hash": "8cec9c930608852c858bedacae8cce156776fc2b"
+  },
+  "wilddog": {
+    "hash": "b5778a830dff13a284bf9aa717abfcac02d53040"
   }
 }

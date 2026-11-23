@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T09:12:57.887Z",
+  "updatedAt": "2026-11-23T09:35:10.268Z",
   "model": "claude-code",
   "companies": [
     {
@@ -21642,8 +21642,8 @@
       "site": "https://myg-co.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T09:34:33.582Z",
+      "lastChanged": "2026-11-23T09:35:10.268Z",
       "error": null,
       "digest": "",
       "openings": [],
@@ -21711,10 +21711,10 @@
       "site": "https://www.vs-studio.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T09:34:33.617Z",
+      "lastChanged": "2026-11-23T09:35:10.268Z",
       "error": null,
-      "digest": "",
+      "digest": "経験者向けの募集が中心。新卒も応募可能とあるが、28卒向けの募集は明記されていない。",
       "openings": [],
       "id": "wilddog",
       "name": "ワイルドドッグ",
@@ -21774,10 +21774,10 @@
       "site": "https://wargaming.co.jp/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T09:34:33.619Z",
+      "lastChanged": "2026-11-23T09:35:10.268Z",
       "error": null,
-      "digest": "",
+      "digest": "採用ページには2026新卒採用への案内のみで、28卒向けの募集は見当たらない。",
       "openings": [],
       "id": "ginga",
       "name": "銀河ソフトウェア",
@@ -21817,10 +21817,10 @@
       "site": "https://www.smilegate.com/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T09:34:33.620Z",
+      "lastChanged": "2026-11-23T09:35:10.268Z",
       "error": null,
-      "digest": "",
+      "digest": "新卒・既卒も通年で応募・相談を受け付けているが、28卒向けと明記された募集は無い。",
       "openings": [],
       "id": "prodigy-inc",
       "name": "プロディジ",
@@ -21903,10 +21903,10 @@
       "site": "https://studioshark.net/"
     },
     {
-      "lastChecked": null,
-      "lastChanged": null,
+      "lastChecked": "2026-11-23T09:34:33.622Z",
+      "lastChanged": "2026-11-23T09:35:10.268Z",
       "error": null,
-      "digest": "",
+      "digest": "27卒向けのオンライン説明会（2026年8月）は終了。28卒向けの募集はページに見当たらない。",
       "openings": [],
       "id": "torisan-net",
       "name": "トリサン",
