@@ -1,6 +1,6 @@
 import type { CompanyResult, Opening } from "../types.ts";
 import { useAuth } from "../lib/auth.tsx";
-import { KIcon, Vfx } from "./Icons.tsx";
+import { Icon } from "./Icon.tsx";
 import { OpeningCard } from "./OpeningCard.tsx";
 
 export function FavoritesView({ openings, companies }: {
@@ -13,10 +13,9 @@ export function FavoritesView({ openings, companies }: {
     return (
       <section className="section">
         <div className="gate">
-          <Vfx name="hex_shield" color="var(--c-planner)" className="gate__fx" />
-          <KIcon name="locked" size={40} color="var(--c-planner)" />
+          <Icon name="lock" size={32} />
           <h2>お気に入りはログインすると使えます</h2>
-          <p>気になる募集に ★ を付けておくと、ここにまとめて表示されます。</p>
+          <p>気になる募集に ☆ を付けておくと、ここにまとめて表示されます。</p>
           <button className="btn btn--primary" onClick={auth.openLogin}>ログインする</button>
         </div>
       </section>
@@ -31,11 +30,11 @@ export function FavoritesView({ openings, companies }: {
     <section className="section">
       <div className="section__head">
         <h2 className="section__title">
-          <KIcon name="star" size={20} color="var(--c-planner)" /> お気に入り
+          <Icon name="star" size={20} /> お気に入り
           <span className="count-pill">{favs.length}</span>
         </h2>
       </div>
-      {favs.length === 0 && <p className="section__lead">まだありません。募集カードの ★ を押すと追加されます。</p>}
+      {favs.length === 0 && <p className="section__lead">まだありません。募集カードの ☆ を押すと追加されます。</p>}
       <div className="cards">
         {alive.map(([id]) => {
           const o = openings.get(id)!;

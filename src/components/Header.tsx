@@ -1,13 +1,13 @@
 import { useAuth } from "../lib/auth.tsx";
-import { KIcon } from "./Icons.tsx";
+import { Icon, type IconName } from "./Icon.tsx";
 
 export type View = "home" | "companies" | "favorites" | "about";
 
-const NAV: { view: View; label: string; icon: string }[] = [
-  { view: "home", label: "募集一覧", icon: "menuGrid" },
-  { view: "companies", label: "会社", icon: "home" },
+const NAV: { view: View; label: string; icon: IconName }[] = [
+  { view: "home", label: "募集一覧", icon: "list" },
+  { view: "companies", label: "会社", icon: "building" },
   { view: "favorites", label: "お気に入り", icon: "star" },
-  { view: "about", label: "使い方", icon: "information" },
+  { view: "about", label: "使い方", icon: "info" },
 ];
 
 export function Header({ view, favCount }: { view: View; favCount: number }) {
@@ -18,18 +18,21 @@ export function Header({ view, favCount }: { view: View; favCount: number }) {
   return (
     <header className="header">
       <div className="header__inner">
-        <a className="logo" href="#/">
-          <span className="logo__mark">
-            <KIcon name="gamepad" size={22} color="#0b0d1a" />
+        <a className="brand" href="#/">
+          <span className="brand__mark">
+            <Icon name="graduate" size={18} />
           </span>
-          <span className="logo__text">
-            GAME<b>CAREER</b>HUB
-          </span>
+          Game Career Hub
         </a>
         <nav className="nav" aria-label="メニュー">
           {NAV.map((n) => (
-            <a key={n.view} href={`#/${n.view === "home" ? "" : n.view}`} className={`nav__item ${view === n.view ? "is-active" : ""}`}>
-              <KIcon name={n.icon} size={16} />
+            <a
+              key={n.view}
+              href={`#/${n.view === "home" ? "" : n.view}`}
+              className={`nav__item ${view === n.view ? "is-active" : ""}`}
+              aria-current={view === n.view ? "page" : undefined}
+            >
+              <Icon name={n.icon} size={16} />
               <span>{n.label}</span>
               {n.view === "favorites" && favCount > 0 && <span className="nav__badge">{favCount}</span>}
             </a>
@@ -39,16 +42,16 @@ export function Header({ view, favCount }: { view: View; favCount: number }) {
           {user ? (
             <>
               <span className="user-chip" title={name}>
-                <KIcon name="unlocked" size={14} />
-                <span className="user-chip__name">{name}</span>
+                <Icon name="user" size={15} />
+                <span>{name}</span>
               </span>
               <button className="btn btn--ghost btn--sm" onClick={() => auth.signOut()}>
                 ログアウト
               </button>
             </>
           ) : (
-            <button className="btn btn--primary btn--sm" onClick={auth.openLogin}>
-              <KIcon name="locked" size={14} />
+            <button className="btn btn--ghost btn--sm" onClick={auth.openLogin}>
+              <Icon name="lock" size={14} />
               ログイン
             </button>
           )}

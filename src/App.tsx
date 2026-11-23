@@ -13,7 +13,7 @@ import { CompanyGrid } from "./components/CompanyGrid.tsx";
 import { FavoritesView } from "./components/FavoritesView.tsx";
 import { LoginModal } from "./components/LoginModal.tsx";
 import { About } from "./components/About.tsx";
-import { KIcon, Vfx } from "./components/Icons.tsx";
+import { Icon, type IconName } from "./components/Icon.tsx";
 
 function useHashView(): View {
   const read = (): View => {
@@ -76,10 +76,6 @@ export function App() {
   const all = useMemo(() => (data?.companies ?? []).flatMap((c) => c.openings), [data]);
   const byId = useMemo(() => new Map(all.map((o) => [o.id, o])), [all]);
 
-  const gradYears = useMemo(
-    () => [...new Set(all.flatMap((o) => o.graduationYears))].sort((a, b) => a - b),
-    [all],
-  );
   const tags = useMemo(() => [...new Set((data?.companies ?? []).flatMap((c) => c.tags))], [data]);
 
   // 職種以外の条件で絞った物（職種カードの件数に使う）
@@ -89,7 +85,6 @@ export function App() {
       const c = companies.get(o.companyId);
       if (!filters.showClosed && statusOf(o) === "closed") return false;
       if (filters.type !== "all" && o.type !== filters.type) return false;
-      if (filters.grad !== "all" && !o.graduationYears.includes(filters.grad)) return false;
       if (filters.tag !== "all" && !c?.tags.includes(filters.tag)) return false;
       if (q && !`${c?.name} ${o.title} ${o.summary} ${o.location}`.toLowerCase().includes(q)) return false;
       return true;
@@ -122,7 +117,7 @@ export function App() {
   const stats = useMemo(() => {
     const live = all.filter((o) => statusOf(o) !== "closed");
     return {
-      companies: (data?.companies ?? []).filter((c) => c.enabled).length,
+      companies: (data?.companies ?? []).filter((c) => c.enabled || c.openings.length).length,
       open: live.filter((o) => statusOf(o) === "open").length,
       soon: live.filter((o) => {
         const d = daysUntil(o.deadline);
@@ -136,25 +131,20 @@ export function App() {
 
   return (
     <>
-      <div className="bg" aria-hidden>
-        <div className="bg__grid" />
-        <Vfx name="orb" color="var(--c-accent)" className="bg__orb bg__orb--1" />
-        <Vfx name="orb" color="var(--c-effect)" className="bg__orb bg__orb--2" />
-      </div>
       <Header view={view} favCount={auth.favorites.size} />
       <main className="main">
         {view === "home" && (
           <>
-            <Hero stats={stats} updatedAt={data?.updatedAt ?? null} />
+            <Hero stats={stats} updatedAt={data?.updatedAt ?? null} targetYear={data?.targetGraduationYear ?? null} />
             <RolePicker value={role} counts={counts} onChange={setRole} />
-            <FilterBar f={filters} set={set} gradYears={gradYears} tags={tags} resultCount={shown.length} />
+            <FilterBar f={filters} set={set} tags={tags} resultCount={shown.length} />
             <div className="layout">
               <div className="layout__main">
                 {!data && !loadError && <Skeleton />}
-                {loadError && <Empty icon="warning" title="データを読み込めませんでした" text="時間をおいて再読み込みしてください。" />}
+                {loadError && <Empty icon="alert" title="データを読み込めませんでした" text="時間をおいて再読み込みしてください。" />}
                 {data && all.length === 0 && (
                   <Empty
-                    icon="gear"
+                    icon="clock"
                     title="ただいまデータを集めています"
                     text="AI が各社の採用ページを確認中です。初回の更新が終わるとここに募集が並びます。監視中の会社は「会社」のページで見られます。"
                     action={<a className="btn btn--ghost" href="#/companies">会社の一覧へ</a>}
@@ -162,7 +152,7 @@ export function App() {
                 )}
                 {data && all.length > 0 && shown.length === 0 && (
                   <Empty
-                    icon="target"
+                    icon="search"
                     title="条件に合う募集がありません"
                     text="絞り込みをゆるめてみてください。"
                     action={
@@ -185,14 +175,13 @@ export function App() {
         )}
         {view === "companies" && <CompanyGrid companies={data?.companies ?? []} />}
         {view === "favorites" && <FavoritesView openings={byId} companies={companies} />}
-        {view === "about" && <About model={data?.model ?? null} />}
+        {view === "about" && <About model={data?.model ?? null} targetYear={data?.targetGraduationYear ?? null} />}
       </main>
       <footer className="footer">
         <p>
           掲載内容は AI が各社の公式採用ページから自動で読み取ったものです。誤りがある場合があるため、応募の前に必ず公式ページを確認してください。
         </p>
-        <p className="footer__credit">
-          アイコン: Kenney (CC0) ／ エフェクト素材: WineEngine VFX (CC0) ／{" "}
+        <p>
           <a href="https://github.com/wine-5/game-career-hub" target="_blank" rel="noopener noreferrer">GitHub</a>
         </p>
       </footer>
@@ -201,11 +190,10 @@ export function App() {
   );
 }
 
-function Empty({ icon, title, text, action }: { icon: string; title: string; text: string; action?: React.ReactNode }) {
+function Empty({ icon, title, text, action }: { icon: IconName; title: string; text: string; action?: React.ReactNode }) {
   return (
     <div className="empty">
-      <Vfx name="energy_ring" color="var(--c-accent)" className="empty__fx" />
-      <KIcon name={icon} size={40} color="var(--c-accent)" className="spin-slow" />
+      <Icon name={icon} size={32} />
       <h3>{title}</h3>
       <p>{text}</p>
       {action}
@@ -217,7 +205,7 @@ function Skeleton() {
   return (
     <div className="cards">
       {Array.from({ length: 6 }, (_, i) => (
-        <div key={i} className="card card--skeleton" />
+        <div key={i} className="skeleton" />
       ))}
     </div>
   );

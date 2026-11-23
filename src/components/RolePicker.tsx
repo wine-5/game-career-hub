@@ -1,15 +1,11 @@
+import type { CSSProperties } from "react";
 import type { Role } from "../types.ts";
 import { ROLE_LABEL } from "../types.ts";
 import { ROLE_COLOR } from "../lib/util.ts";
-import { RoleIcon, Vfx } from "./Icons.tsx";
 
-const CARDS: { role: Role; vfx: string; desc: string }[] = [
-  { role: "programmer", vfx: "orb", desc: "クライアント / サーバー / エンジン" },
-  { role: "planner", vfx: "energy_ring", desc: "ゲームデザイン / レベル / シナリオ" },
-  { role: "effect", vfx: "starburst", desc: "VFX / パーティクル / シェーダー" },
-  { role: "artist", vfx: "slash_arc", desc: "2D・3D / モーション / UI" },
-];
+const ORDER: Role[] = ["programmer", "planner", "effect", "artist"];
 
+/** 職種の切り替え（もう一度押すと「すべて」に戻る） */
 export function RolePicker({ value, counts, onChange }: {
   value: Role | "all";
   counts: Record<Role | "all", number>;
@@ -17,32 +13,21 @@ export function RolePicker({ value, counts, onChange }: {
 }) {
   return (
     <div className="roles" role="tablist" aria-label="職種で絞り込む">
-      <button
-        role="tab"
-        aria-selected={value === "all"}
-        className={`role-card role-card--all ${value === "all" ? "is-active" : ""}`}
-        onClick={() => onChange("all")}
-      >
-        <span className="role-card__count">{counts.all}</span>
-        <span className="role-card__name">すべて</span>
-        <span className="role-card__desc">全職種の募集</span>
+      <button role="tab" aria-selected={value === "all"} className={`role-chip ${value === "all" ? "is-active" : ""}`} onClick={() => onChange("all")}>
+        すべての職種 <span className="role-chip__count">{counts.all}</span>
       </button>
-      {CARDS.map((c) => (
+      {ORDER.map((r) => (
         <button
-          key={c.role}
+          key={r}
           role="tab"
-          aria-selected={value === c.role}
-          className={`role-card ${value === c.role ? "is-active" : ""}`}
-          style={{ "--role": ROLE_COLOR[c.role] } as React.CSSProperties}
-          onClick={() => onChange(value === c.role ? "all" : c.role)}
+          aria-selected={value === r}
+          className={`role-chip ${value === r ? "is-active" : ""}`}
+          style={{ "--role": ROLE_COLOR[r] } as CSSProperties}
+          onClick={() => onChange(value === r ? "all" : r)}
         >
-          <Vfx name={c.vfx} color={ROLE_COLOR[c.role]} className="role-card__fx" />
-          <span className="role-card__icon">
-            <RoleIcon role={c.role} size={26} />
-          </span>
-          <span className="role-card__count">{counts[c.role]}</span>
-          <span className="role-card__name">{ROLE_LABEL[c.role]}</span>
-          <span className="role-card__desc">{c.desc}</span>
+          <span className="role-chip__dot" />
+          {ROLE_LABEL[r]}
+          <span className="role-chip__count">{counts[r]}</span>
         </button>
       ))}
     </div>

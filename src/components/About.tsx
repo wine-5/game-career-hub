@@ -1,57 +1,65 @@
 import type { CSSProperties } from "react";
-import { KIcon, RoleIcon, Vfx } from "./Icons.tsx";
+import { ROLE_LABEL } from "../types.ts";
 import { ROLE_COLOR } from "../lib/util.ts";
+import { Icon } from "./Icon.tsx";
+import { LINK_META } from "./CompanyLinks.tsx";
 
 const STEPS = [
-  { icon: "home", vfx: "orb", title: "会社の採用ページを巡回", text: "監視リストにある会社の公式採用ページを毎朝6時に確認します。robots.txt を守り、間隔をあけてアクセスします。" },
-  { icon: "gear", vfx: "energy_ring", title: "変化したページだけ AI が読む", text: "前回と中身が変わった会社だけ、AI が新卒・インターンの募集・締切・対象の職種を読み取ります。" },
-  { icon: "menuGrid", vfx: "starburst", title: "一覧に整理して公開", text: "職種・卒業年・締切で絞り込める一覧にして、このサイトに反映します。詳細は必ず公式ページへ。" },
+  { title: "会社の採用ページを確認", text: "監視リストにある会社の公式採用ページを取得します。robots.txt を守り、間隔をあけてアクセスします。" },
+  { title: "変わったページだけ AI が読む", text: "前回から中身が変わった会社だけ、AI が対象の卒業年向けの募集・締切・職種を読み取ります。" },
+  { title: "一覧にまとめて公開", text: "職種や種類で絞り込める一覧にして、このサイトに反映します。詳しくは必ず公式ページへ。" },
 ];
 
-export function About({ model }: { model: string | null }) {
+export function About({ model, targetYear }: { model: string | null; targetYear: number | null }) {
   return (
-    <section className="section about">
+    <section className="section">
       <h2 className="section__title">
-        <KIcon name="information" size={20} /> このサイトについて
+        <Icon name="info" size={20} /> このサイトについて
       </h2>
       <p className="section__lead">
-        ゲーム会社の紹介サイトはあっても、「いつ新卒採用が始まるか」「今どのインターンを募集しているか」を一覧で見られる場所はあまりありません。
-        Game Career Hub は、それを AI で毎日自動更新するための、仲間うちのための就活ボードです。
+        ゲーム会社の「いつ新卒採用が始まるか」「今どのインターンを募集しているか」を、公式ページから集めて一覧にした就活ボードです。
+        {targetYear && ` いまは ${targetYear} 年卒（${String(targetYear).slice(2)}卒）向けの募集だけを載せています。`}
       </p>
 
       <div className="steps">
         {STEPS.map((s, i) => (
           <div key={s.title} className="step">
-            <Vfx name={s.vfx} color="var(--c-accent)" className="step__fx" />
-            <span className="step__no">0{i + 1}</span>
-            <KIcon name={s.icon} size={28} color="var(--c-accent)" />
+            <span className="step__no">STEP {i + 1}</span>
             <h3>{s.title}</h3>
             <p>{s.text}</p>
           </div>
         ))}
       </div>
 
-      <h3 className="subhead">対応している職種</h3>
+      <h3 className="subhead">ボタンの意味</h3>
+      <div className="legend">
+        {(Object.keys(LINK_META) as (keyof typeof LINK_META)[]).map((k) => (
+          <div key={k} className="legend__row">
+            <span className={`link-icon link-icon--${k}`}>
+              <Icon name={LINK_META[k].icon} size={18} />
+            </span>
+            {LINK_META[k].label}
+            {k === "philosophy" && "（理念が書かれている所まで飛びます）"}
+          </div>
+        ))}
+      </div>
+
+      <h3 className="subhead">職種</h3>
       <div className="role-legend">
         {(["programmer", "planner", "effect", "artist"] as const).map((r) => (
-          <span key={r} className="role-pill role-pill--lg" style={{ "--role": ROLE_COLOR[r] } as CSSProperties}>
-            <RoleIcon role={r} size={16} />
-            {{ programmer: "プログラマー", planner: "プランナー", effect: "エフェクトデザイナー", artist: "アーティスト" }[r]}
+          <span key={r} className="role-pill" style={{ "--role": ROLE_COLOR[r] } as CSSProperties}>
+            {ROLE_LABEL[r]}
           </span>
         ))}
       </div>
 
-      <h3 className="subhead">ログインについて</h3>
-      <p className="section__lead">
-        見るだけならログインは要りません。★ でお気に入りを保存し、「お気に入り」のページでまとめて見たいときだけログインしてください。
-      </p>
-
       <h3 className="subhead">注意</h3>
       <ul className="notes">
         <li>AI の読み取りには誤りがあります。日付や条件は必ず公式ページで確認してください。</li>
-        <li>掲載しているのは要約とリンクだけです。本文は各社の公式ページをご覧ください。</li>
+        <li>載せているのは要約とリンクだけです。本文は各社の公式ページをご覧ください。</li>
         <li>自動アクセスを断っているサイトは対象にしていません。</li>
-        {model && <li>読み取りに使っている AI モデル: {model}</li>}
+        <li>見るだけならログインは要りません。☆ のお気に入りを保存するときだけログインします。</li>
+        {model && <li>読み取り: {model === "claude-code" ? "Claude Code" : model}</li>}
       </ul>
     </section>
   );
