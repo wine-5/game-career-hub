@@ -329,6 +329,8 @@ p { margin: 0; }
   .roles { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 2px; }
   .role-chip { flex: none; }
   .filters__count { margin-left: 0; }
+  .seg { max-width: 100%; overflow-x: auto; }
+  .seg__item { flex: none; }
   .cards, .company-grid { grid-template-columns: 1fr; }
   .steps { grid-template-columns: 1fr; }
   .footer { padding: 20px 16px 32px; }
