@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import type { CompanyResult } from "../types.ts";
-import { formatDateTime, prefLabel, sortPrefs, statusOf } from "../lib/util.ts";
+import { formatDateTime, MAIN_PREFS, prefLabel, sortPrefs, statusOf } from "../lib/util.ts";
 import { Icon } from "./Icon.tsx";
 import { CompanyLogo } from "./CompanyLogo.tsx";
 import { CompanyLinks } from "./CompanyLinks.tsx";
@@ -16,6 +16,11 @@ export function CompanyGrid({ companies }: { companies: CompanyResult[] }) {
   });
   const [onlyOpen, setOnlyOpen] = useState(false);
   const prefs = useMemo(() => sortPrefs(companies.flatMap((c) => c.locations ?? [])), [companies]);
+  const prefCount = useMemo(() => {
+    const m = new Map<string, number>();
+    for (const c of companies) for (const p of c.locations ?? []) m.set(p, (m.get(p) ?? 0) + 1);
+    return m;
+  }, [companies]);
 
   const changePref = (p: string) => {
     setPref(p);
@@ -44,6 +49,24 @@ export function CompanyGrid({ companies }: { companies: CompanyResult[] }) {
           <Icon name="building" size={20} /> 会社
           <span className="count-pill">{list.length}</span>
         </h2>
+      </div>
+      <div className="roles" role="tablist" aria-label="地域で絞り込む">
+        <button role="tab" aria-selected={pref === "all"} className={`role-chip ${pref === "all" ? "is-active" : ""}`} onClick={() => changePref("all")}>
+          すべての地域 <span className="role-chip__count">{companies.length}</span>
+        </button>
+        {MAIN_PREFS.filter((p) => prefCount.has(p)).map((p) => (
+          <button
+            key={p}
+            role="tab"
+            aria-selected={pref === p}
+            className={`role-chip ${pref === p ? "is-active" : ""}`}
+            onClick={() => changePref(pref === p ? "all" : p)}
+          >
+            <Icon name="pin" size={13} />
+            {prefLabel(p)}
+            <span className="role-chip__count">{prefCount.get(p)}</span>
+          </button>
+        ))}
       </div>
       <div className="filters">
         <label className="search">
