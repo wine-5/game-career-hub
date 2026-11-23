@@ -152,19 +152,25 @@ async function findLogo(c: CompanyEntry, pages: FetchedPage[]): Promise<string |
 
 const data = await loadCompanyList();
 
-for (const c of data.companies) {
-  // 収集の対象外（enabled: false）の会社も、ロゴ・所在地・理念は探す（会社の一覧に出すため）
-  if (ONLY && !ONLY.includes(c.id)) continue;
+// 会社ごとに別のサイトなので、何社かを同時に進める（同じサイトへの間隔は tryFetch の待ちで守る）
+const JOBS = Number(argv.find((a) => a.startsWith("--jobs="))?.slice(7) ?? 6);
+let saving = Promise.resolve();
+const save = () => (saving = saving.then(() => saveCompanyList(data)));
+
+async function processCompany(c: CompanyEntry) {
+  const log: string[] = [];
+  const out = () => console.log(log.join(String.fromCharCode(10)));
   const links: CompanyLinks = { ...c.links };
   const need = (k: keyof CompanyLinks) => OVERWRITE || (!links[k] && (c.enabled || k === "philosophy"));
   const needPlace = OVERWRITE || !c.locations?.length;
-  if (!need("newgrad") && !need("internship") && !need("philosophy") && !need("salary") && c.logo && !needPlace) continue;
+  if (!need("newgrad") && !need("internship") && !need("philosophy") && !need("salary") && c.logo && !needPlace) return;
 
-  console.log(`- ${c.name}`);
+  log.push(`- ${c.name}`);
   const recruit = await tryFetch(c.url);
   if (!recruit) {
-    console.warn("    採用ページを取れなかった");
-    continue;
+    log.push("    採用ページを取れなかった");
+    out();
+    return;
   }
   const topUrl = new URL(c.url).origin + "/";
   const top = topUrl === recruit.url ? recruit : await tryFetch(topUrl);
@@ -196,12 +202,31 @@ for (const c of data.companies) {
     c.logo = (await findLogo(c, top ? [top, recruit] : [recruit])) ?? c.logo;
   }
   c.links = Object.fromEntries(Object.entries(links).filter(([, v]) => v)) as CompanyLinks;
-  console.log(`    新卒: ${links.newgrad ?? "—"}`);
-  console.log(`    インターン: ${links.internship ?? "—"}`);
-  console.log(`    給与: ${links.salary ? decodeURIComponent(links.salary) : "—"}`);
-  console.log(`    企業理念: ${links.philosophy ? decodeURIComponent(links.philosophy) : "—"}`);
-  console.log(`    ロゴ: ${c.logo ?? "—"}`);
-  console.log(`    所在地: ${c.locations?.join("・") ?? "—"}`);
-  await saveCompanyList(data);
+  log.push(`    新卒: ${links.newgrad ?? "—"}`);
+  log.push(`    インターン: ${links.internship ?? "—"}`);
+  log.push(`    給与: ${links.salary ? decodeURIComponent(links.salary) : "—"}`);
+  log.push(`    企業理念: ${links.philosophy ? decodeURIComponent(links.philosophy) : "—"}`);
+  log.push(`    ロゴ: ${c.logo ?? "—"}`);
+  log.push(`    所在地: ${c.locations?.join("・") ?? "—"}`);
+  out();
+  await save();
 }
+
+// 収集の対象外（enabled: false）の会社も、ロゴ・所在地・理念は探す（会社の一覧に出すため）
+const queue = data.companies.filter((c) => !ONLY || ONLY.includes(c.id));
+let done = 0;
+await Promise.all(
+  Array.from({ length: JOBS }, async () => {
+    for (let c = queue.shift(); c; c = queue.shift()) {
+      try {
+        await processCompany(c);
+      } catch (e) {
+        console.warn(`- ${c.name}: 失敗 ${(e as Error).message}`);
+      }
+      if (++done % 25 === 0) console.log(`== ${done} 社まで終わった ==`);
+    }
+  }),
+);
+await save();
+
 console.log("完了。結果は data/companies.json。おかしな飛び先は手で直す（直した所は次から上書きされない）");
