@@ -486,3 +486,40 @@ p { margin: 0; }
   .games-list { grid-template-columns: 1fr; }
   .track-btn { width: 40px; height: 40px; }
 }
+
+/* ===== 会社のロゴ（押すと公式サイト） ===== */
+.logo-link { display: block; flex: none; border-radius: 8px; transition: transform 0.15s, box-shadow 0.15s; }
+.logo-link:hover { transform: translateY(-1px); box-shadow: 0 0 0 2px var(--accent-soft), 0 0 0 3px var(--accent); }
+
+/* ===== 去年の募集の目安 ===== */
+.company__prev {
+  display: flex; align-items: flex-start; gap: 5px; padding: 5px 8px; border-radius: 6px;
+  font-size: 11.5px; line-height: 1.5; color: var(--text-2);
+  background: color-mix(in srgb, var(--c-warn) 8%, var(--surface)); border: 1px dashed color-mix(in srgb, var(--c-warn) 35%, var(--border));
+}
+.company__prev b { color: var(--c-warn); font-weight: 700; margin-right: 2px; }
+.company__prev .icon { margin-top: 3px; color: var(--c-warn); }
+.company__prev:hover { border-style: solid; }
+
+/* ===== 選考の流れ（募集カード） ===== */
+.flow-mini { display: grid; gap: 6px; }
+.flow-mini__head { display: flex; align-items: center; gap: 8px; font-size: 11px; font-weight: 700; color: var(--text-3); }
+.flow-mini__role { font-weight: 700; color: var(--accent); background: var(--accent-soft); border-radius: 999px; padding: 0 8px; }
+.flow-mini__list { list-style: none; margin: 0; padding: 0 0 2px; display: flex; overflow-x: auto; scrollbar-width: none; }
+.flow-mini__list::-webkit-scrollbar { display: none; }
+.flow-mini__step { --k: var(--accent); position: relative; flex: 1 0 64px; display: grid; justify-items: center; gap: 3px; text-align: center; padding: 0 2px; }
+.flow-mini__step + .flow-mini__step::before {
+  content: ""; position: absolute; top: 15px; right: calc(50% + 17px); width: calc(100% - 34px); height: 2px;
+  background: repeating-linear-gradient(90deg, var(--border-strong) 0 4px, transparent 4px 7px);
+}
+.flow-mini__icon { display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%; color: var(--k); background: color-mix(in srgb, var(--k) 12%, var(--surface)); border: 1.5px solid color-mix(in srgb, var(--k) 45%, var(--border)); }
+.flow-mini__label { font-size: 10.5px; line-height: 1.3; color: var(--text-2); word-break: keep-all; overflow-wrap: anywhere; }
+.flow-mini__only { font-size: 9.5px; color: var(--text-3); }
+.flow-mini__step--entry, .flow-mini__step--briefing { --k: var(--c-newgrad); }
+.flow-mini__step--es, .flow-mini__step--test { --k: var(--c-salary); }
+.flow-mini__step--portfolio { --k: var(--c-artist); }
+.flow-mini__step--assignment { --k: var(--c-programmer); }
+.flow-mini__step--groupwork { --k: var(--c-planner); }
+.flow-mini__step--interview, .flow-mini__step--final { --k: var(--c-effect); }
+.flow-mini__step--offer { --k: var(--c-philosophy); }
+.flow-mini__step--offer .flow-mini__icon { background: var(--c-philosophy); color: #fff; }

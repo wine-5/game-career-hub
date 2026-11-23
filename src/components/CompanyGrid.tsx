@@ -95,7 +95,7 @@ export function CompanyGrid({ companies }: { companies: CompanyResult[] }) {
       <div className="company-grid">
         {list.map(({ c, open }) => (
           <div key={c.id} className={`company ${c.enabled ? "" : "is-off"}`}>
-            <CompanyLogo company={c} size={48} />
+            <CompanyLogo company={c} size={48} href={c.site ?? c.url} />
             <div className="company__body">
               <span className="company__name">
                 <a href={c.site ?? c.url} target="_blank" rel="noopener noreferrer">{c.name}</a>
@@ -112,6 +112,15 @@ export function CompanyGrid({ companies }: { companies: CompanyResult[] }) {
                 ))}
               </span>
               {c.digest && <span className="company__digest">{c.digest}</span>}
+              {open === 0 && c.previous && (
+                <a className="company__prev" href={c.previous.sourceUrl} target="_blank" rel="noopener noreferrer" title="出典のページを開く">
+                  <Icon name="clock" size={12} />
+                  <span>
+                    <b>去年の目安</b> {c.previous.text}
+                  </span>
+                  <Icon name="external" size={11} />
+                </a>
+              )}
               <GameStrip companyId={c.id} />
               <span className="company__meta">
                 {c.enabled ? (
