@@ -1,7 +1,7 @@
 # Game Career Hub
 
 ゲーム業界を目指す人のための、**インターン・新卒採用の一覧サイト**です。
-各社の公式の採用ページを毎日自動で確認し、変わった会社だけ AI（Claude）が読み取って、
+各社の公式の採用ページを、指示したときに Claude Code が確認し、変わった会社だけ読み取って、
 **プログラマー・プランナー・エフェクトデザイナー（とアーティスト）** 向けの募集を一覧にします。
 
 公開ページ: https://wine-5.github.io/game-career-hub/
@@ -9,70 +9,64 @@
 - 見るだけならログインは要りません
 - ★ お気に入りを保存して一覧で見るときだけログインします（Supabase。未設定でも閲覧は動きます）
 
-## 仕組み
+## 更新のしかた（スマホからでも）
+
+Claude アプリの **Claude Code** でこのリポジトリを開き、**「更新して」** と送るだけです。
+手順は [CLAUDE.md](CLAUDE.md) に書いてあり、Claude Code がそれに従って動きます。
 
 ```
-data/companies.json（監視する会社の一覧）
-      │  GitHub Actions が毎日 6:00（日本時間）に実行
-      ▼
-crawler/crawl.ts
-  1. robots.txt を確認して、入口ページと新卒・インターンらしい下のページ（最大 4 件）を取得
-  2. 中身の hash を前回（data/state.json）と比べ、変わった会社だけ Claude に渡す
-  3. 募集・締切・対象の職種・卒業年を構造化して取り出す
-      ▼
-public/data/jobs.json → Vite でビルド → GitHub Pages に公開
+「更新して」
+  1. npm run collect   各社の採用ページを取得（robots.txt を守る）。前回から変わった会社だけ .work/ に書き出す
+  2. Claude Code       書き出したページを crawler/EXTRACTION_RULES.md に従って読み、募集を JSON に整理
+  3. npm run apply     整理した JSON を確かめて public/data/jobs.json に取り込む
+  4. commit → push     GitHub Actions が GitHub Pages に公開（1〜2 分）
 ```
+
+- API キーは要りません（Claude の契約の利用枠で動きます）。変化した会社だけ読むので、2 回目以降は軽く済みます
+- 「〇〇社を追加して」「全部読み直して」「セガとカプコンだけ更新して」なども通じます
+- クラウドの Claude Code で取得が全部失敗するときは、環境のネットワーク設定で外部サイトへのアクセスを許可してください
+
+### API で自動更新する経路（予備）
+
+`npm run crawl:api`（`ANTHROPIC_API_KEY` が要る）で、整理まで Claude API に任せることもできます。
+GitHub では Actions の画面から **Run workflow** したときだけ動きます（Secret `ANTHROPIC_API_KEY`、Variable `CLAUDE_MODEL` は任意で既定は `claude-opus-5-5`）。
+
+## 置き場
 
 | 場所 | 中身 |
 | --- | --- |
 | `data/companies.json` | 監視する会社。**会社を増やすときはここだけ触る** |
-| `crawler/` | 取得（`fetch.ts`）・AI での読み取り（`extract.ts`）・全体の流れ（`crawl.ts`） |
-| `public/data/jobs.json` | 収集の結果。サイトはこれを読む（Actions が自動でコミット） |
+| `crawler/` | 取得（`fetch.ts`）・書き出し（`collect.ts`）・取り込み（`apply.ts`）・読み取りの決まり（`EXTRACTION_RULES.md`）・API の経路（`crawl.ts`） |
+| `public/data/jobs.json` | 収集の結果。サイトはこれを読む |
 | `src/` | サイト本体（Vite + React + TypeScript） |
 | `supabase/schema.sql` | お気に入りの表（ログイン機能を使うとき） |
 | `public/assets/` | アイコン（Kenney, CC0）・エフェクトの絵（WineEngine VFX, CC0） |
 
 ## 手元で動かす
 
+VS Code で **F5** を押すと開発サーバーが起動し、ブラウザでサイトが開きます。
+
 ```bash
 npm install
 npm run dev            # http://localhost:5173/game-career-hub/
 npm run check-urls     # 会社の URL が生きているか確認
-npm run crawl:dry      # 取得だけ（AI を呼ばない）
-ANTHROPIC_API_KEY=sk-... npm run crawl -- --only=sega,capcom   # 指定した会社だけ AI で整理
+npm run collect        # 採用ページを取得して、変わった会社を .work/ に書き出す
+npm run apply          # .work/extracted/ の整理結果を取り込む
 ```
 
-`.env.example` を `.env` に写して値を入れても動きます。
-
 ## 会社を増やす
+
+Claude Code に「〇〇社を追加して」と頼むか、手で次のようにします。
 
 1. `data/companies.json` に 1 行足す（`id` は英小文字とハイフン）
    ```json
    { "id": "example-games", "name": "Example Games", "tags": ["モバイル"], "url": "https://example.co.jp/recruit/", "enabled": true }
    ```
 2. `npm run check-urls` で 200 が返るか、robots.txt で禁止されていないかを確かめる
-3. コミットして push。次の毎朝の収集から対象になる（すぐ見たいときは Actions の画面から **Run workflow**）
+3. コミットして、次の「更新して」から対象になる
 
 - 自動アクセスを断るサイト（403）や、robots.txt で禁止のサイトは `"enabled": false` にして `note` に理由を書く
 - 友人からの提案は Issue の「会社の追加」テンプレートで受け付ける
-
-## GitHub での設定
-
-**Settings → Secrets and variables → Actions**
-
-| 種類 | 名前 | 内容 |
-| --- | --- | --- |
-| Secret | `ANTHROPIC_API_KEY` | Claude の API キー（必須。無いと取得だけして AI の整理を飛ばす） |
-| Variable | `CLAUDE_MODEL` | 使うモデル（任意。既定は `claude-opus-5-5`。費用を抑えるなら `claude-haiku-5-5`） |
-| Variable | `VITE_SUPABASE_URL` | ログイン機能を使うとき |
-| Variable | `VITE_SUPABASE_ANON_KEY` | ログイン機能を使うとき（公開してよい anon キー） |
-
-**Settings → Pages** の Source は **GitHub Actions**。
-
-### 費用の目安
-
-変化した会社だけ AI に渡すので、2 回目以降は数社ぶんの呼び出しで済みます。
-初回は全社（約 20 社 × 最大 5 ページ）を読むため、いちばん多くかかります。
 
 ## ログイン機能（お気に入り）を有効にする
 
@@ -80,7 +74,7 @@ ANTHROPIC_API_KEY=sk-... npm run crawl -- --only=sega,capcom   # 指定した会
 2. SQL Editor で `supabase/schema.sql` を実行する
 3. Authentication → Providers で GitHub / Google / Email を有効にする
 4. Authentication → URL Configuration の Site URL と Redirect URLs に `https://wine-5.github.io/game-career-hub/` と `http://localhost:5173/game-career-hub/` を入れる
-5. Project Settings → API の URL と anon キーを、上の Variables に入れる
+5. Project Settings → API の URL と anon キーを、GitHub の Settings → Secrets and variables → Actions の Variables（`VITE_SUPABASE_URL` / `VITE_SUPABASE_ANON_KEY`）に入れる
 
 ## 注意
 
