@@ -118,7 +118,7 @@ export function App() {
     const live = all.filter((o) => statusOf(o) !== "closed");
     return {
       companies: (data?.companies ?? []).filter((c) => c.enabled || c.openings.length).length,
-      open: live.filter((o) => statusOf(o) === "open").length,
+      open: live.length,
       soon: live.filter((o) => {
         const d = daysUntil(o.deadline);
         return d !== null && d >= 0 && d <= 7;

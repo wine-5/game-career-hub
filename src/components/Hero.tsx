@@ -20,7 +20,7 @@ export function Hero({ stats, updatedAt, targetYear }: {
         </p>
       </div>
       <div className="stats">
-        <Stat value={stats.open} label="募集中" icon="check" tone="ok" />
+        <Stat value={stats.open} label="掲載中の募集" icon="check" tone="ok" />
         <Stat value={stats.soon} label="7日以内に締切" icon="alert" tone="warn" />
         <Stat value={stats.fresh} label="今週の新着" icon="star" tone="new" />
         <Stat value={stats.companies} label="掲載中の会社" icon="building" tone="" />
