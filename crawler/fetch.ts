@@ -37,6 +37,8 @@ export interface FetchedPage {
   title: string;
   text: string;
   links: { href: string; text: string }[];
+  /** 取得したままの HTML（アイコンや見出しを探すときに使う） */
+  html: string;
 }
 
 export async function fetchPage(rawUrl: string): Promise<FetchedPage> {
@@ -59,7 +61,9 @@ export async function fetchPage(rawUrl: string): Promise<FetchedPage> {
     try {
       const abs = new URL(href, finalUrl);
       abs.hash = "";
-      links.push({ href: abs.toString(), text: $(el).text().replace(/\s+/g, " ").trim() });
+      // 画像だけのリンクは alt を文字として使う
+      const text = $(el).text().replace(/\s+/g, " ").trim() || ($(el).find("img[alt]").attr("alt") ?? "").trim();
+      links.push({ href: abs.toString(), text });
     } catch {
       /* 壊れた URL は無視 */
     }
@@ -78,7 +82,7 @@ export async function fetchPage(rawUrl: string): Promise<FetchedPage> {
     .filter(Boolean)
     .join("\n");
 
-  return { url: finalUrl, title, text, links };
+  return { url: finalUrl, title, text, links, html };
 }
 
 const KEYWORDS =
