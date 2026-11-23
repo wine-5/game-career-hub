@@ -54,3 +54,28 @@ export const ROLE_COLOR: Record<Role, string> = {
   artist: "var(--c-artist)",
   other: "var(--c-other)",
 };
+
+// ===== 地域（都道府県） =====
+
+/** 選びやすいように先頭に並べる主な地域 */
+export const MAIN_PREFS = ["北海道", "東京", "大阪", "京都", "福岡", "愛知", "神奈川", "宮城"];
+
+const CITY_OF: Record<string, string> = { 北海道: "札幌", 宮城: "仙台", 愛知: "名古屋", 神奈川: "横浜" };
+
+export function prefLabel(pref: string): string {
+  return CITY_OF[pref] ? `${pref}（${CITY_OF[pref]}）` : pref;
+}
+
+/** 都道府県の一覧を、主な地域 → それ以外（北から）の順に並べる */
+export function sortPrefs(prefs: Iterable<string>): string[] {
+  const set = new Set(prefs);
+  return [...MAIN_PREFS.filter((p) => set.has(p)), ...[...set].filter((p) => !MAIN_PREFS.includes(p)).sort()];
+}
+
+/**
+ * 募集がその地域のものか。募集に場所が書いてあればそれで、無ければ会社の所在地で判断する。
+ */
+export function openingInPref(o: Opening, companyLocations: string[] | undefined, pref: string): boolean {
+  if (o.location) return o.location.includes(pref) || (CITY_OF[pref] ? o.location.includes(CITY_OF[pref]) : false);
+  return companyLocations?.includes(pref) ?? false;
+}
