@@ -1,8 +1,13 @@
 {
-  "updatedAt": null,
-  "model": null,
+  "updatedAt": "2026-11-23T04:28:03.893Z",
+  "model": "claude-code",
   "companies": [
     {
+      "lastChecked": null,
+      "lastChanged": null,
+      "error": null,
+      "digest": "",
+      "openings": [],
       "id": "square-enix",
       "name": "スクウェア・エニックス",
       "tags": [
@@ -10,14 +15,14 @@
         "大手"
       ],
       "url": "https://www.jp.square-enix.com/recruit/",
-      "enabled": true,
+      "enabled": true
+    },
+    {
       "lastChecked": null,
       "lastChanged": null,
       "error": null,
       "digest": "",
-      "openings": []
-    },
-    {
+      "openings": [],
       "id": "capcom",
       "name": "カプコン",
       "tags": [
@@ -25,14 +30,14 @@
         "大手"
       ],
       "url": "https://www.capcom.co.jp/recruit/new/",
-      "enabled": true,
+      "enabled": true
+    },
+    {
       "lastChecked": null,
       "lastChanged": null,
       "error": null,
       "digest": "",
-      "openings": []
-    },
-    {
+      "openings": [],
       "id": "bandai-namco-studios",
       "name": "バンダイナムコスタジオ",
       "tags": [
@@ -40,14 +45,83 @@
         "大手"
       ],
       "url": "https://www.bandainamcostudios.com/recruit/",
-      "enabled": true,
-      "lastChecked": null,
-      "lastChanged": null,
-      "error": null,
-      "digest": "",
-      "openings": []
+      "enabled": true
     },
     {
+      "lastChecked": "2026-11-23T04:27:21.437Z",
+      "lastChanged": "2026-11-23T04:28:03.893Z",
+      "error": null,
+      "digest": "28卒向けと27卒向けの新卒エントリーを受付中。職種はプランナー・プログラマ・デザイナー・サウンド・総合職で、セガ札幌スタジオとの併願も可能。",
+      "openings": [
+        {
+          "title": "2028年新卒 エントリー",
+          "type": "newgrad",
+          "roles": [
+            "planner",
+            "programmer",
+            "artist",
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "28卒向けのエントリー受付。マイページ登録後に会社説明会・選考の案内が届く。",
+          "sourceUrl": "https://www.sega.co.jp/recruit/fresh/",
+          "id": "db218f10494c",
+          "companyId": "sega",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "2027年度新卒採用",
+          "type": "newgrad",
+          "roles": [
+            "planner",
+            "programmer",
+            "artist",
+            "other"
+          ],
+          "graduationYears": [
+            2027
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "プランナー・プログラマ・デザイナー・サウンド・総合職を募集。書類選考では職種別ESや作品・企画書を提出。",
+          "sourceUrl": "https://www.sega.co.jp/recruit/fresh/details/",
+          "id": "15c79d5aa2a0",
+          "companyId": "sega",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "セガ札幌スタジオ 2027年度新卒採用",
+          "type": "newgrad",
+          "roles": [
+            "programmer",
+            "artist",
+            "planner"
+          ],
+          "graduationYears": [
+            2027
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "札幌",
+          "summary": "プログラマ・デザイナー（3Dモデリング・モーション・UI中心）・プランナーを募集。セガ本社と併願可。",
+          "sourceUrl": "https://www.sega.co.jp/recruit/fresh/details/sapporostudio/",
+          "id": "7a20294c7d76",
+          "companyId": "sega",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "sega",
       "name": "セガ",
       "tags": [
@@ -55,14 +129,14 @@
         "大手"
       ],
       "url": "https://www.sega.co.jp/recruit/fresh/",
-      "enabled": true,
+      "enabled": true
+    },
+    {
       "lastChecked": null,
       "lastChanged": null,
       "error": null,
       "digest": "",
-      "openings": []
-    },
-    {
+      "openings": [],
       "id": "nintendo",
       "name": "任天堂",
       "tags": [
@@ -70,14 +144,14 @@
         "大手"
       ],
       "url": "https://www.nintendo.co.jp/jobs/",
-      "enabled": true,
+      "enabled": true
+    },
+    {
       "lastChecked": null,
       "lastChanged": null,
       "error": null,
       "digest": "",
-      "openings": []
-    },
-    {
+      "openings": [],
       "id": "koei-tecmo",
       "name": "コーエーテクモゲームス",
       "tags": [
@@ -85,14 +159,14 @@
         "大手"
       ],
       "url": "https://www.koeitecmo.co.jp/recruit/",
-      "enabled": true,
+      "enabled": true
+    },
+    {
       "lastChecked": null,
       "lastChanged": null,
       "error": null,
       "digest": "",
-      "openings": []
-    },
-    {
+      "openings": [],
       "id": "konami",
       "name": "コナミ",
       "tags": [
@@ -100,70 +174,70 @@
         "大手"
       ],
       "url": "https://www.konami.com/jobs/ja/",
-      "enabled": true,
+      "enabled": true
+    },
+    {
       "lastChecked": null,
       "lastChanged": null,
       "error": null,
       "digest": "",
-      "openings": []
-    },
-    {
+      "openings": [],
       "id": "atlus",
       "name": "アトラス",
       "tags": [
         "コンシューマ"
       ],
       "url": "https://www.atlus.co.jp/recruit/",
-      "enabled": true,
+      "enabled": true
+    },
+    {
       "lastChecked": null,
       "lastChanged": null,
       "error": null,
       "digest": "",
-      "openings": []
-    },
-    {
+      "openings": [],
       "id": "level-5",
       "name": "レベルファイブ",
       "tags": [
         "コンシューマ"
       ],
       "url": "https://www.level5.co.jp/recruit/",
-      "enabled": true,
+      "enabled": true
+    },
+    {
       "lastChecked": null,
       "lastChanged": null,
       "error": null,
       "digest": "",
-      "openings": []
-    },
-    {
+      "openings": [],
       "id": "game-freak",
       "name": "ゲームフリーク",
       "tags": [
         "コンシューマ"
       ],
       "url": "https://www.gamefreak.co.jp/recruit/",
-      "enabled": true,
+      "enabled": true
+    },
+    {
       "lastChecked": null,
       "lastChanged": null,
       "error": null,
       "digest": "",
-      "openings": []
-    },
-    {
+      "openings": [],
       "id": "spike-chunsoft",
       "name": "スパイク・チュンソフト",
       "tags": [
         "コンシューマ"
       ],
       "url": "https://www.spike-chunsoft.co.jp/recruit/",
-      "enabled": true,
+      "enabled": true
+    },
+    {
       "lastChecked": null,
       "lastChanged": null,
       "error": null,
       "digest": "",
-      "openings": []
-    },
-    {
+      "openings": [],
       "id": "marvelous",
       "name": "マーベラス",
       "tags": [
@@ -171,14 +245,14 @@
         "モバイル"
       ],
       "url": "https://www.marv.jp/career/",
-      "enabled": true,
+      "enabled": true
+    },
+    {
       "lastChecked": null,
       "lastChanged": null,
       "error": null,
       "digest": "",
-      "openings": []
-    },
-    {
+      "openings": [],
       "id": "tri-ace",
       "name": "トライエース",
       "tags": [
@@ -186,14 +260,14 @@
         "開発会社"
       ],
       "url": "https://www.tri-ace.co.jp/recruit/",
-      "enabled": true,
+      "enabled": true
+    },
+    {
       "lastChecked": null,
       "lastChanged": null,
       "error": null,
       "digest": "",
-      "openings": []
-    },
-    {
+      "openings": [],
       "id": "ganbarion",
       "name": "ガンバリオン",
       "tags": [
@@ -201,70 +275,277 @@
         "開発会社"
       ],
       "url": "https://www.ganbarion.co.jp/recruit/",
-      "enabled": true,
+      "enabled": true
+    },
+    {
       "lastChecked": null,
       "lastChanged": null,
       "error": null,
       "digest": "",
-      "openings": []
-    },
-    {
+      "openings": [],
       "id": "gungho",
       "name": "ガンホー・オンライン・エンターテイメント",
       "tags": [
         "モバイル"
       ],
       "url": "https://www.gungho.co.jp/jp/recruit/",
-      "enabled": true,
+      "enabled": true
+    },
+    {
       "lastChecked": null,
       "lastChanged": null,
       "error": null,
       "digest": "",
-      "openings": []
-    },
-    {
+      "openings": [],
       "id": "mixi",
       "name": "MIXI",
       "tags": [
         "モバイル"
       ],
       "url": "https://mixigroup-recruit.mixi.co.jp/",
-      "enabled": true,
-      "lastChecked": null,
-      "lastChanged": null,
-      "error": null,
-      "digest": "",
-      "openings": []
+      "enabled": true
     },
     {
+      "lastChecked": "2026-11-23T04:27:29.929Z",
+      "lastChanged": "2026-11-23T04:28:03.893Z",
+      "error": null,
+      "digest": "28年度入社向けの本選考を受付中（27年度入社は一部職種で終了）。インターン「COLOPL INNOVATION BOOTCAMP 2026」を職種別に開催。",
+      "openings": [
+        {
+          "title": "2028年度入社 本選考",
+          "type": "newgrad",
+          "roles": [
+            "programmer",
+            "planner",
+            "artist",
+            "other"
+          ],
+          "graduationYears": [
+            2028
+          ],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "エンジニア・プランナー・デザイナー・サウンド・総合職を募集。定員に達し次第終了するため早めのエントリーを推奨。",
+          "sourceUrl": "https://colopl.co.jp/recruit/graduate/",
+          "id": "0b59fd8f8716",
+          "companyId": "colopl",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "オンライン会社説明会",
+          "type": "event",
+          "roles": [
+            "programmer",
+            "planner",
+            "artist",
+            "other"
+          ],
+          "graduationYears": [],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "online",
+          "location": "",
+          "summary": "新卒向けのオンライン会社説明会。",
+          "sourceUrl": "https://colopl.co.jp/recruit/graduate/",
+          "id": "4aff9e656b86",
+          "companyId": "colopl",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "サーバーサイドエンジニア5days",
+          "type": "internship",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "位置情報ゲームのバックエンド開発を5日間で体験する。",
+          "sourceUrl": "https://colopl.co.jp/recruit/internship2026/",
+          "id": "22700612103c",
+          "companyId": "colopl",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "クライアントエンジニア就業型",
+          "type": "internship",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "現場のエンジニアとゲームの品質を上げる技術に取り組む就業型インターン。",
+          "sourceUrl": "https://colopl.co.jp/recruit/internship2026/",
+          "id": "4e63f38acbd8",
+          "companyId": "colopl",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "クライアントエンジニア1day",
+          "type": "internship",
+          "roles": [
+            "programmer"
+          ],
+          "graduationYears": [],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "現場エンジニアと1日でゲーム開発を体験する。",
+          "sourceUrl": "https://colopl.co.jp/recruit/internship2026/",
+          "id": "49a001cf04e6",
+          "companyId": "colopl",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "デザイナー就業型",
+          "type": "internship",
+          "roles": [
+            "artist"
+          ],
+          "graduationYears": [],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "実際の開発環境でゲームデザインの実務に触れる。2D/3Dの経験は不問。",
+          "sourceUrl": "https://colopl.co.jp/recruit/internship2026/",
+          "id": "2d0edc5dec0d",
+          "companyId": "colopl",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "デザイナー1day",
+          "type": "internship",
+          "roles": [
+            "artist"
+          ],
+          "graduationYears": [],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "ゲームデザイナーの仕事を1日で知る。ポートフォリオの個別アドバイスあり。",
+          "sourceUrl": "https://colopl.co.jp/recruit/internship2026/",
+          "id": "97f51eb39b6b",
+          "companyId": "colopl",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "プランナー就業型",
+          "type": "internship",
+          "roles": [
+            "planner"
+          ],
+          "graduationYears": [],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "ゲーム企画の現場で面白さづくりに取り組む就業型インターン。",
+          "sourceUrl": "https://colopl.co.jp/recruit/internship2026/",
+          "id": "c1d6e7fa2684",
+          "companyId": "colopl",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "プランナー5days",
+          "type": "internship",
+          "roles": [
+            "planner"
+          ],
+          "graduationYears": [],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "実践に近い形でゲームプランニングを5日間学ぶ。",
+          "sourceUrl": "https://colopl.co.jp/recruit/internship2026/",
+          "id": "27d9eba41166",
+          "companyId": "colopl",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "プランナー1day",
+          "type": "internship",
+          "roles": [
+            "planner"
+          ],
+          "graduationYears": [],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "1日でエンタメコンテンツの企画を体験する入門編。",
+          "sourceUrl": "https://colopl.co.jp/recruit/internship2026/",
+          "id": "f734c80b275c",
+          "companyId": "colopl",
+          "firstSeen": "2026-11-23"
+        },
+        {
+          "title": "総合職1day",
+          "type": "internship",
+          "roles": [
+            "other"
+          ],
+          "graduationYears": [],
+          "applyStart": "",
+          "deadline": "",
+          "period": "",
+          "format": "unknown",
+          "location": "",
+          "summary": "事業を動かす総合職の仕事を1日で体験する。",
+          "sourceUrl": "https://colopl.co.jp/recruit/internship2026/",
+          "id": "4029e081c644",
+          "companyId": "colopl",
+          "firstSeen": "2026-11-23"
+        }
+      ],
       "id": "colopl",
       "name": "コロプラ",
       "tags": [
         "モバイル"
       ],
       "url": "https://colopl.co.jp/recruit/",
-      "enabled": true,
+      "enabled": true
+    },
+    {
       "lastChecked": null,
       "lastChanged": null,
       "error": null,
       "digest": "",
-      "openings": []
-    },
-    {
+      "openings": [],
       "id": "dena",
       "name": "DeNA",
       "tags": [
         "モバイル"
       ],
       "url": "https://dena.com/jp/recruit/",
-      "enabled": true,
+      "enabled": true
+    },
+    {
       "lastChecked": null,
       "lastChanged": null,
       "error": null,
       "digest": "",
-      "openings": []
-    },
-    {
+      "openings": [],
       "id": "aiming",
       "name": "Aiming",
       "tags": [
@@ -272,28 +553,28 @@
         "開発会社"
       ],
       "url": "https://recruit.aiming-inc.com/",
-      "enabled": true,
+      "enabled": true
+    },
+    {
       "lastChecked": null,
       "lastChanged": null,
       "error": null,
       "digest": "",
-      "openings": []
-    },
-    {
+      "openings": [],
       "id": "cave",
       "name": "ケイブ",
       "tags": [
         "モバイル"
       ],
       "url": "https://www.cave.co.jp/recruit/",
-      "enabled": true,
+      "enabled": true
+    },
+    {
       "lastChecked": null,
       "lastChanged": null,
       "error": null,
       "digest": "",
-      "openings": []
-    },
-    {
+      "openings": [],
       "id": "kayac",
       "name": "カヤック",
       "tags": [
@@ -301,42 +582,42 @@
         "Web"
       ],
       "url": "https://www.kayac.com/recruit/fresh",
-      "enabled": true,
+      "enabled": true
+    },
+    {
       "lastChecked": null,
       "lastChanged": null,
       "error": null,
       "digest": "",
-      "openings": []
-    },
-    {
+      "openings": [],
       "id": "sumzap",
       "name": "サムザップ",
       "tags": [
         "モバイル"
       ],
       "url": "https://sumzap.co.jp/recruit/",
-      "enabled": true,
+      "enabled": true
+    },
+    {
       "lastChecked": null,
       "lastChanged": null,
       "error": null,
       "digest": "",
-      "openings": []
-    },
-    {
+      "openings": [],
       "id": "netmarble",
       "name": "ネットマーブル",
       "tags": [
         "モバイル"
       ],
       "url": "https://www.netmarble.co.jp/recruit/",
-      "enabled": true,
+      "enabled": true
+    },
+    {
       "lastChecked": null,
       "lastChanged": null,
       "error": null,
       "digest": "",
-      "openings": []
-    },
-    {
+      "openings": [],
       "id": "cygames",
       "name": "Cygames",
       "tags": [
@@ -345,14 +626,14 @@
       ],
       "url": "https://www.cygames.co.jp/recruit/",
       "enabled": false,
-      "note": "自動アクセスを断られる（403）。手動で確認",
+      "note": "自動アクセスを断られる（403）。手動で確認"
+    },
+    {
       "lastChecked": null,
       "lastChanged": null,
       "error": null,
       "digest": "",
-      "openings": []
-    },
-    {
+      "openings": [],
       "id": "bandai-namco-ent",
       "name": "バンダイナムコエンターテインメント",
       "tags": [
@@ -361,14 +642,14 @@
       ],
       "url": "https://www.bandainamcoent.co.jp/recruit/",
       "enabled": false,
-      "note": "自動アクセスを断られる（403）。手動で確認",
+      "note": "自動アクセスを断られる（403）。手動で確認"
+    },
+    {
       "lastChecked": null,
       "lastChanged": null,
       "error": null,
       "digest": "",
-      "openings": []
-    },
-    {
+      "openings": [],
       "id": "fromsoftware",
       "name": "フロム・ソフトウェア",
       "tags": [
@@ -376,14 +657,14 @@
       ],
       "url": "https://www.fromsoftware.jp/",
       "enabled": false,
-      "note": "採用ページの URL を確認中",
+      "note": "採用ページの URL を確認中"
+    },
+    {
       "lastChecked": null,
       "lastChanged": null,
       "error": null,
       "digest": "",
-      "openings": []
-    },
-    {
+      "openings": [],
       "id": "platinumgames",
       "name": "プラチナゲームズ",
       "tags": [
@@ -392,12 +673,7 @@
       ],
       "url": "https://www.platinumgames.co.jp/",
       "enabled": false,
-      "note": "採用ページの URL を確認中",
-      "lastChecked": null,
-      "lastChanged": null,
-      "error": null,
-      "digest": "",
-      "openings": []
+      "note": "採用ページの URL を確認中"
     }
   ]
 }
