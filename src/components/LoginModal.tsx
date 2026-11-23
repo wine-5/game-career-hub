@@ -27,18 +27,22 @@ export function LoginModal() {
         </button>
         <h2 id="login-title" className="modal__title">ログイン</h2>
         <p className="modal__lead">
-          募集の閲覧にログインは要りません。<b>お気に入り</b>を保存して、あとで一覧で見るときだけログインしてください。
+          募集の閲覧にログインは要りません。<b>お気に入り</b>や<b>選考の記録</b>を保存するときだけログインしてください。
         </p>
 
         {auth.configured ? (
           <div className="login">
-            <button className="btn btn--github btn--block" onClick={() => auth.signInWith("github")}>
-              GitHub でログイン
-            </button>
-            <button className="btn btn--google btn--block" onClick={() => auth.signInWith("google")}>
-              Google でログイン
-            </button>
-            <div className="login__or"><span>または</span></div>
+            {auth.providers.github && (
+              <button className="btn btn--github btn--block" onClick={() => auth.signInWith("github")}>
+                GitHub でログイン
+              </button>
+            )}
+            {auth.providers.google && (
+              <button className="btn btn--google btn--block" onClick={() => auth.signInWith("google")}>
+                Google でログイン
+              </button>
+            )}
+            {(auth.providers.github || auth.providers.google) && <div className="login__or"><span>または</span></div>}
             <form
               className="login__email"
               onSubmit={async (e) => {

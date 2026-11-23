@@ -11,6 +11,8 @@ export interface FavoriteMeta {
 interface AuthState {
   /** ログインの仕組みが設定されているか */
   configured: boolean;
+  /** Supabase 側で有効になっているログイン方法（有効な物だけボタンを出す） */
+  providers: { github: boolean; google: boolean };
   session: Session | null;
   favorites: Map<string, FavoriteMeta & { createdAt: string }>;
   loginOpen: boolean;
@@ -29,6 +31,18 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [session, setSession] = useState<Session | null>(null);
   const [favorites, setFavorites] = useState<AuthState["favorites"]>(new Map());
   const [loginOpen, setLoginOpen] = useState(false);
+  const [providers, setProviders] = useState({ github: false, google: false });
+
+  useEffect(() => {
+    // 有効なログイン方法を Supabase に問い合わせる（有効でない方法のボタンは押すとエラーになるため）
+    const url = import.meta.env.VITE_SUPABASE_URL as string | undefined;
+    const key = import.meta.env.VITE_SUPABASE_ANON_KEY as string | undefined;
+    if (!url || !key) return;
+    fetch(`${url}/auth/v1/settings`, { headers: { apikey: key } })
+      .then((r) => r.json() as Promise<{ external?: Record<string, boolean> }>)
+      .then((s) => setProviders({ github: Boolean(s.external?.github), google: Boolean(s.external?.google) }))
+      .catch(() => undefined);
+  }, []);
 
   useEffect(() => {
     if (!supabase) return;
@@ -113,6 +127,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const value = useMemo<AuthState>(
     () => ({
       configured: Boolean(supabase),
+      providers,
       session,
       favorites,
       loginOpen,
@@ -123,7 +138,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       signOut,
       toggleFavorite,
     }),
-    [session, favorites, loginOpen, signInWith, signInWithEmail, signOut, toggleFavorite],
+    [providers, session, favorites, loginOpen, signInWith, signInWithEmail, signOut, toggleFavorite],
   );
 
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
