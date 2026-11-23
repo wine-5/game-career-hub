@@ -45,7 +45,7 @@ for (const c of companies) {
   console.log(`- ${c.name}`);
   result.lastChecked = new Date().toISOString();
   try {
-    const pages = toPromptPages(await collectPages(c.url));
+    const pages = toPromptPages(await collectPages(c.url, [c.links?.newgrad, c.links?.internship].filter((u): u is string => Boolean(u))));
     const hash = hashPages(pages);
     const changed = state[c.id]?.hash !== hash;
     console.log(`    ${pages.length} ページ / ${changed ? "変化あり" : "変化なし"}`);

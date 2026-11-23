@@ -93,12 +93,18 @@ export function baseResult(c: CompanyEntry, old: CompanyResult | undefined): Com
   };
 }
 
-/** 入口ページと、新卒・インターンらしい下のページを取ってくる */
-export async function collectPages(startUrl: string): Promise<FetchedPage[]> {
+/**
+ * 入口ページと、新卒・インターンらしい下のページを取ってくる。
+ * extra（会社に登録した新卒・インターンのページ）は必ず含める。
+ */
+export async function collectPages(startUrl: string, extra: string[] = []): Promise<FetchedPage[]> {
   if (!(await isAllowed(startUrl))) throw new Error("robots.txt で自動アクセスが禁止されている");
   const start = await fetchPage(startUrl);
   const pages = [start];
-  for (const sub of pickSubpages(start, MAX_SUBPAGES)) {
+  const subs = [...new Set([...extra, ...pickSubpages(start, MAX_SUBPAGES)])]
+    .filter((u) => u !== start.url && u !== startUrl)
+    .slice(0, MAX_SUBPAGES + extra.length);
+  for (const sub of subs) {
     await sleep(WAIT_MS);
     try {
       if (!(await isAllowed(sub))) continue;
