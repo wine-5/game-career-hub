@@ -571,3 +571,4 @@ p { margin: 0; }
 .cond--overtime { --k: var(--c-planner); }
 .cond__src { display: inline-flex; align-items: center; gap: 2px; font-size: 10.5px; color: var(--text-3); text-decoration: underline; text-underline-offset: 2px; }
 .cond__src:hover { color: var(--accent); }
+.cond__note { font-size: 10.5px; font-weight: 700; color: var(--c-warn); background: color-mix(in srgb, var(--c-warn) 10%, var(--surface)); border-radius: 4px; padding: 1px 6px; }
