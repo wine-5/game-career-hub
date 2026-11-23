@@ -21,11 +21,13 @@ const RULES = {
   internship: { text: /インターン/i, url: /intern/i },
   philosophy: {
     text: /企業理念|経営理念|理念|フィロソフィ|ミッション|ビジョン|Mission|Philosophy|Vision|Purpose|パーパス/i,
-    url: /philosophy|mission|vision|rinen|purpose|policy|values/i,
+    url: /philosophy|mission|vision|rinen|purpose|values/i,
   },
   company: { text: /企業情報|会社情報|会社概要|企業概要|コーポレート|Corporate|Company|About/i, url: /corporate|company|about|info/i },
 };
-const NEGATIVE = /中途|キャリア採用|経験者|アルバイト|障がい|career(?!.*fresh)/i;
+// 採用・理念と関係の無いページ（規約・統制・社員インタビューなど）
+const NEGATIVE =
+  /中途|キャリア採用|経験者|アルバイト|障がい|career(?!.*fresh)|privacy|プライバシー|個人情報|ハラスメント|harassment|governance|ガバナンス|内部統制|internal|cookie|interview|インタビュー|crosstalk|対談|社員紹介/i;
 
 async function tryFetch(url: string): Promise<FetchedPage | null> {
   try {
@@ -62,7 +64,9 @@ function jumpTo(page: FetchedPage): string | null {
     if (found) return;
     const own = $(el).clone().children().remove().end().text().replace(/\s+/g, " ").trim();
     if (!own || own.length > 30 || !RULES.philosophy.text.test(own)) return;
-    const id = $(el).attr("id") ?? $(el).parent().attr("id");
+    // パンくずや見出し部の id は理念の所ではないので使わない
+    const rawId = $(el).attr("id");
+    const id = rawId && !/breadcrumb|nav|header|menu|top/i.test(rawId) ? rawId : undefined;
     found = id ? `#${id}` : `#:~:text=${encodeURIComponent(own)}`;
   });
   if (!found) return null;
