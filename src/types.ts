@@ -7,8 +7,24 @@ export const ROLE_LABEL: Record<Role, string> = {
   programmer: "プログラマー",
   planner: "プランナー",
   effect: "エフェクトデザイナー",
-  artist: "アーティスト",
+  artist: "デザイナー",
   other: "その他",
+};
+
+/** デザイナーの細かい区分（1 つの募集に複数付く。例: 3D＋背景） */
+export const DESIGN_KINDS = ["2d", "3d", "character", "background", "ui", "motion", "ta", "concept", "movie", "graphic"] as const;
+export type DesignKind = (typeof DESIGN_KINDS)[number];
+export const DESIGN_LABEL: Record<DesignKind, string> = {
+  "2d": "2D",
+  "3d": "3D",
+  character: "キャラクター",
+  background: "背景",
+  ui: "UI・UX",
+  motion: "モーション・アニメーション",
+  ta: "テクニカルアーティスト",
+  concept: "コンセプトアート",
+  movie: "映像・カットシーン",
+  graphic: "グラフィック・Web・広告",
 };
 
 export type OpeningType = "internship" | "newgrad" | "event" | "other";
@@ -61,6 +77,8 @@ export interface Opening {
   title: string;
   type: OpeningType;
   roles: Role[];
+  /** デザイナーの区分（ページに書かれている時だけ） */
+  designKinds?: DesignKind[];
   /** 対象の卒業年（例: 2028）。空なら不明 */
   graduationYears: number[];
   /** YYYY-MM-DD。空文字は不明 */

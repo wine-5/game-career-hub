@@ -21,6 +21,18 @@
   - artist: 2D/3D のデザイナー・アーティスト・アニメーター・UI デザイナー・背景・キャラクター
   - other: サウンド、プロデューサー、ビジネス職など上に当てはまらない物
   - 1 つの募集が複数の職種に当てはまるなら全部入れる。「デザイナー職」でエフェクトが明記されていなければ artist だけにする。
+- designKinds（デザイナーの細かい区分）は、roles に artist か effect がある募集で、**ページに書かれている区分だけ**を入れる。当てはまる物は全部入れる（例:「3D背景デザイナー」→ `["3d", "background"]`、「2Dキャラクターデザイナー」→ `["2d", "character"]`）。
+  - 2d: 2D・イラスト・2Dアニメーション（Live2D・Spine を含む）
+  - 3d: 3D・モデリング・3DCG
+  - character: キャラクター（モデル・デザイン・イラスト）
+  - background: 背景・環境・ステージ・マップ
+  - ui: UI・UX・インターフェース・アイコン
+  - motion: モーション・アニメーター・リギング・アニメーション
+  - ta: テクニカルアーティスト・テクニカルデザイナー
+  - concept: コンセプトアート・ビジュアルデザイン（世界観の設定画）
+  - movie: 映像・ムービー・カットシーン・シネマティクス
+  - graphic: グラフィック・Web・広告・ロゴ・パッケージ
+  - 「デザイナー職（配属は入社後に決定）」のように区分が書かれていなければ空配列 `[]`。推測で付けない。エフェクトは roles の effect で表すので designKinds には入れない。
 - graduationYears は「2028年卒」「28卒」などから西暦の卒業年を入れる。
 - summary は自分の言葉で 80 字以内に要約する（著作権に配慮し、原文を長く写さない）。
 - sourceUrl は、その募集が書かれていたページの URL（渡されたページの URL から選ぶ）。
@@ -57,6 +69,7 @@
       "title": "string",
       "type": "internship | newgrad | event | other",
       "roles": ["programmer | planner | effect | artist | other"],
+      "designKinds": ["2d | 3d | character | background | ui | motion | ta | concept | movie | graphic（デザイナーの募集の時だけ。無ければ []）"],
       "graduationYears": [2028],
       "applyStart": "YYYY-MM-DD または空文字",
       "deadline": "YYYY-MM-DD または空文字",

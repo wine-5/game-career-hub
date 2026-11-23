@@ -65,6 +65,11 @@ const SCHEMA = {
             type: "array",
             items: { type: "string", enum: ["programmer", "planner", "effect", "artist", "other"] },
           },
+          designKinds: {
+            type: "array",
+            description: "デザイナー（artist・effect）の募集で、ページに書かれている区分。書かれていなければ空配列",
+            items: { type: "string", enum: ["2d", "3d", "character", "background", "ui", "motion", "ta", "concept", "movie", "graphic"] },
+          },
           graduationYears: { type: "array", items: { type: "integer" } },
           applyStart: { type: "string", description: "YYYY-MM-DD。不明なら空文字" },
           deadline: { type: "string", description: "YYYY-MM-DD。不明なら空文字" },

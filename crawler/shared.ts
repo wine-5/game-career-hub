@@ -4,7 +4,7 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import type { CompanyEntry, CompanyResult, JobsData, Opening } from "../src/types.ts";
-import { FLOW_KINDS, ROLES } from "../src/types.ts";
+import { DESIGN_KINDS, FLOW_KINDS, ROLES, type DesignKind } from "../src/types.ts";
 import { fetchPage, isAllowed, pickSubpages, sleep, type FetchedPage } from "./fetch.ts";
 
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -33,6 +33,7 @@ export interface ExtractedOpening {
   title: string;
   type: Opening["type"];
   roles: Opening["roles"];
+  designKinds?: string[];
   graduationYears: number[];
   applyStart: string;
   deadline: string;
@@ -183,6 +184,8 @@ export function validateExtracted(x: unknown): string[] {
     if (!TYPES.includes(o.type)) errs.push(`${at}.type が ${TYPES.join("/")} のどれでもない: ${o.type}`);
     if (!Array.isArray(o.roles) || o.roles.some((r) => !(ROLES as readonly string[]).includes(r)))
       errs.push(`${at}.roles に知らない職種がある: ${JSON.stringify(o.roles)}`);
+    if (o.designKinds !== undefined && (!Array.isArray(o.designKinds) || o.designKinds.some((d) => !(DESIGN_KINDS as readonly string[]).includes(d))))
+      errs.push(`${at}.designKinds は ${DESIGN_KINDS.join("/")} の配列にする: ${JSON.stringify(o.designKinds)}`);
     if (!Array.isArray(o.graduationYears) || o.graduationYears.some((y) => !Number.isInteger(y) || y < 2000 || y > 2100))
       errs.push(`${at}.graduationYears は西暦の整数の配列にする`);
     for (const k of ["applyStart", "deadline"] as const)
@@ -234,6 +237,11 @@ export function mergeExtracted(
       id,
       companyId: result.id,
       roles: o.roles.length ? [...new Set(o.roles)] : ["other"],
+      // デザイナーの区分は、デザイナー・エフェクトの募集の時だけ残す
+      designKinds:
+        o.designKinds?.length && o.roles.some((r) => r === "artist" || r === "effect")
+          ? ([...new Set(o.designKinds)] as DesignKind[])
+          : undefined,
       sourceUrl: pageUrls.has(o.sourceUrl) ? o.sourceUrl : result.url,
       // 流れの出典は読んだページの中の URL に限る（無ければ募集のページ）
       flowSourceUrl: o.flow?.length ? (o.flowSourceUrl && pageUrls.has(o.flowSourceUrl) ? o.flowSourceUrl : undefined) : undefined,
