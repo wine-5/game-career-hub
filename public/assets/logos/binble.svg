@@ -1,0 +1,16 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <path d="
+  M480 50 C 860 380, 240 360, 390 780 
+  M390 780 C -20 370, 550 360, 480 50
+  " fill="rgb(78,136,255)" fill-color="rgb(78,136,255)" stroke-width="10"/>
+
+  <path d="
+  M620 340 C 870 680, 440 570, 450 870 
+  M450 870 C 300 560, 650 580, 620 340
+  " fill="rgb(78,194,255)" fill-color="rgb(78,194,255)" stroke-width="10"/>
+  
+  <path d="
+  M630 670 C 710 850, 540 840, 480 950 
+  M480 950 C 440 730, 630 820, 630 670
+  " fill="rgb(78,224,254)" fill-color="rgb(78,224,254)" stroke-width="10"/>
+</svg>
