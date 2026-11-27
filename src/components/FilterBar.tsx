@@ -12,12 +12,14 @@ export interface Filters extends ConditionFilter {
   /** 都道府県（「北海道」など） */
   pref: string | "all";
   showClosed: boolean;
+  /** 最後の更新で新しく見つけた募集（NEW）だけを出す */
+  onlyNew: boolean;
   query: string;
   sort: Sort;
 }
 
 export const DEFAULT_FILTERS: Filters = {
-  type: "all", tag: "all", pref: "all", showClosed: false, query: "", sort: "deadline", ...NO_CONDITION,
+  type: "all", tag: "all", pref: "all", showClosed: false, onlyNew: false, query: "", sort: "deadline", ...NO_CONDITION,
 };
 
 const TYPES: { v: Filters["type"]; label: string }[] = [
@@ -87,6 +89,10 @@ export function FilterBar({ f, set, tags, prefs, resultCount, companies }: {
         </select>
       </label>
       <ConditionSelects f={f} set={set} />
+      <label className={`check check--new ${f.onlyNew ? "is-on" : ""}`}>
+        <input type="checkbox" checked={f.onlyNew} onChange={(e) => set({ onlyNew: e.target.checked })} />
+        <span className="badge badge--new">NEW</span>だけ表示
+      </label>
       <label className="check">
         <input type="checkbox" checked={f.showClosed} onChange={(e) => set({ showClosed: e.target.checked })} />
         締切済みも表示

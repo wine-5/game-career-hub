@@ -40,7 +40,7 @@ const FILTER_KEY = "gch.filters.v1";
 function loadFilters(): Filters {
   try {
     const raw = localStorage.getItem(FILTER_KEY);
-    return raw ? { ...DEFAULT_FILTERS, ...JSON.parse(raw), query: "" } : DEFAULT_FILTERS;
+    return raw ? { ...DEFAULT_FILTERS, ...JSON.parse(raw), query: "", onlyNew: false } : DEFAULT_FILTERS;
   } catch {
     return DEFAULT_FILTERS;
   }
@@ -101,6 +101,7 @@ export function App() {
     const companyHit = new Map((data?.companies ?? []).map((c) => [c.id, !q || score(q, companyTargets(c)) >= 2]));
     return all.filter((o) => {
       const c = companies.get(o.companyId);
+      if (filters.onlyNew && !isNewOpening(o.firstSeen, lastRun)) return false;
       if (!filters.showClosed && statusOf(o) === "closed") return false;
       if (filters.type !== "all" && o.type !== filters.type) return false;
       if (filters.tag !== "all" && !c?.tags.includes(filters.tag)) return false;
@@ -111,7 +112,7 @@ export function App() {
       if (q && !companyHit.get(o.companyId) && !fold(`${o.title} ${o.summary} ${o.location}`).includes(fq)) return false;
       return true;
     });
-  }, [all, companies, filters, data]);
+  }, [all, companies, filters, data, lastRun]);
 
   const counts = useMemo(() => {
     const r = { all: base.length } as Record<Role | "all", number>;
@@ -169,7 +170,17 @@ export function App() {
       <main className="main">
         {view === "home" && (
           <>
-            <Hero stats={stats} updatedAt={data?.updatedAt ?? null} lastRun={lastRun} targetYear={data?.targetGraduationYear ?? null} />
+            <Hero
+              stats={stats}
+              updatedAt={data?.updatedAt ?? null}
+              lastRun={lastRun}
+              targetYear={data?.targetGraduationYear ?? null}
+              onlyNew={filters.onlyNew}
+              onToggleNew={() => {
+                set({ onlyNew: !filters.onlyNew });
+                document.querySelector(".filters")?.scrollIntoView({ behavior: "smooth", block: "start" });
+              }}
+            />
             <RolePicker value={role} counts={counts} onChange={setRole} />
             {role === "artist" && <DesignPicker value={design} counts={designCounts} onChange={setDesign} />}
             <FilterBar f={filters} set={set} tags={tags} prefs={prefs} resultCount={shown.length} companies={data?.companies ?? []} />
@@ -185,7 +196,20 @@ export function App() {
                     action={<a className="btn btn--ghost" href="#/companies">会社の一覧へ</a>}
                   />
                 )}
-                {data && all.length > 0 && shown.length === 0 && (
+                {/* NEW だけを出している時は、どの更新の新着かを見せる */}
+                {filters.onlyNew && (
+                  <div className="new-banner">
+                    <span className="badge badge--new">NEW</span>
+                    <span>
+                      <b>{lastRun ? `${Number(lastRun.slice(5, 7))}/${Number(lastRun.slice(8, 10))}` : ""} の更新</b>で新しく見つかった募集だけを表示しています（{shown.length} 件）
+                    </span>
+                    <button className="btn btn--ghost btn--sm" onClick={() => set({ onlyNew: false })}>すべての募集に戻す</button>
+                  </div>
+                )}
+                {data && all.length > 0 && shown.length === 0 && filters.onlyNew && (
+                  <Empty icon="star" title="今回の更新で新しく見つかった募集はありません" text="職種や絞り込みの条件をゆるめるか、すべての募集に戻してください。" />
+                )}
+                {data && all.length > 0 && shown.length === 0 && !filters.onlyNew && (
                   <Empty
                     icon="search"
                     title="条件に合う募集がありません"

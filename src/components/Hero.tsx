@@ -2,11 +2,13 @@ import { formatDateLong, formatDateTime } from "../lib/util.ts";
 import { Icon, type IconName } from "./Icon.tsx";
 
 /** ページ上部の見出しと数字のまとめ */
-export function Hero({ stats, updatedAt, lastRun, targetYear }: {
+export function Hero({ stats, updatedAt, lastRun, targetYear, onlyNew, onToggleNew }: {
   stats: { companies: number; open: number; soon: number; fresh: number };
   updatedAt: string | null;
   lastRun?: string;
   targetYear: number | null;
+  onlyNew: boolean;
+  onToggleNew: () => void;
 }) {
   return (
     <section className="summary">
@@ -24,7 +26,13 @@ export function Hero({ stats, updatedAt, lastRun, targetYear }: {
       <div className="stats">
         <Stat value={stats.open} label="掲載中の募集" icon="check" tone="ok" />
         <Stat value={stats.soon} label="7日以内に締切" icon="alert" tone="warn" />
-        <Stat value={stats.fresh} label="今回の更新の新着" icon="star" tone="new" />
+        {/* 押すと NEW だけを表示する */}
+        <button className={`stat stat--new stat--button ${onlyNew ? "is-on" : ""}`} onClick={onToggleNew} aria-pressed={onlyNew} title="今回の更新で新しく見つかった募集だけを表示する">
+          <span className="stat__value">{stats.fresh}</span>
+          <span className="stat__label">
+            <Icon name="star" size={12} /> 今回の更新の新着{onlyNew ? "（表示中）" : " ›"}
+          </span>
+        </button>
         <Stat value={stats.companies} label="掲載中の会社" icon="building" tone="" />
       </div>
     </section>

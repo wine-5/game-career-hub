@@ -615,3 +615,15 @@ p { margin: 0; }
 }
 .summary__updated b { color: var(--text); }
 .summary__time { margin-left: 6px; color: var(--text-3); font-size: 12px; }
+
+/* ===== NEW だけの表示 ===== */
+.stat--button { text-align: left; font: inherit; cursor: pointer; display: flex; flex-direction: column; }
+.stat--button:hover { border-color: var(--accent); }
+.stat--button.is-on { border-color: var(--accent); background: var(--accent-soft); }
+.check--new { gap: 6px; }
+.check--new.is-on { color: var(--accent); font-weight: 700; }
+.new-banner {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 14px; padding: 10px 14px; border-radius: var(--radius);
+  background: var(--accent-soft); border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--border)); font-size: 13.5px;
+}
+.new-banner .btn { margin-left: auto; }
