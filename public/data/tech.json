@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T12:40:32.205Z",
+  "updatedAt": "2026-11-27T11:45:24.270Z",
   "companies": {
     "8ing": [
       {
@@ -1135,12 +1135,12 @@
       {
         "name": "Unreal Engine",
         "kind": "engine",
-        "sourceUrl": "https://www.metro-japan.com/recruit/%e6%9d%b1%e4%ba%ac-%e3%83%97%e3%83%a9%e3%83%b3%e3%83%8a%e3%83%bc-2/"
+        "sourceUrl": "https://www.metro-japan.com/recruit/planner-tokyo-2/"
       },
       {
         "name": "Unity",
         "kind": "engine",
-        "sourceUrl": "https://www.metro-japan.com/recruit/%e6%9d%b1%e4%ba%ac-%e3%83%97%e3%83%a9%e3%83%b3%e3%83%8a%e3%83%bc-2/"
+        "sourceUrl": "https://www.metro-japan.com/recruit/planner-tokyo-2/"
       }
     ],
     "micronetclub": [
@@ -1832,13 +1832,6 @@
         "sourceUrl": "https://syn-game.com/job"
       }
     ],
-    "techcross": [
-      {
-        "name": "Unity",
-        "kind": "engine",
-        "sourceUrl": "https://hrmos.co/pages/techcross/jobs?category=1719966226250080257"
-      }
-    ],
     "thinklogic": [
       {
         "name": "Unity",
@@ -2041,6 +2034,13 @@
         "name": "C++",
         "kind": "lang",
         "sourceUrl": "https://www.zuiki-recruit.com/new-graduate/"
+      }
+    ],
+    "lunch-inc": [
+      {
+        "name": "Unity",
+        "kind": "engine",
+        "sourceUrl": "https://lunch-inc.jp/blog/freshers-interview-2026/"
       }
     ]
   }
