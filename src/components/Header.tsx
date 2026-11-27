@@ -11,7 +11,7 @@ const NAV: { view: View; label: string; icon: IconName }[] = [
   { view: "about", label: "使い方", icon: "info" },
 ];
 
-export function Header({ view, favCount }: { view: View; favCount: number }) {
+export function Header({ view, favCount, lastRun }: { view: View; favCount: number; lastRun?: string }) {
   const auth = useAuth();
   const user = auth.session?.user;
   const name = (user?.user_metadata?.user_name as string | undefined) ?? user?.email ?? "";
@@ -25,6 +25,13 @@ export function Header({ view, favCount }: { view: View; favCount: number }) {
           </span>
           Game Career Hub
         </a>
+        {/* どの画面からでも、データをいつ更新したかが分かるように */}
+        {lastRun && (
+          <span className="header__updated" title="募集データを最後に更新した日">
+            <Icon name="clock" size={12} />
+            {Number(lastRun.slice(5, 7))}/{Number(lastRun.slice(8, 10))} 更新
+          </span>
+        )}
         <nav className="nav" aria-label="メニュー">
           {NAV.map((n) => (
             <a
