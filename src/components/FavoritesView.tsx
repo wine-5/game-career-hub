@@ -5,9 +5,10 @@ import { OpeningCard } from "./OpeningCard.tsx";
 import { CompanyCard } from "./CompanyGrid.tsx";
 import { statusOf } from "../lib/util.ts";
 
-export function FavoritesView({ openings, companies }: {
+export function FavoritesView({ openings, companies, lastRun }: {
   openings: Map<string, Opening>;
   companies: Map<string, CompanyResult>;
+  lastRun?: string;
 }) {
   const auth = useAuth();
 
@@ -55,7 +56,7 @@ export function FavoritesView({ openings, companies }: {
         {alive.map(([id]) => {
           const o = openings.get(id)!;
           const c = companies.get(o.companyId);
-          return c ? <OpeningCard key={id} o={o} company={c} /> : null;
+          return c ? <OpeningCard key={id} o={o} company={c} lastRun={lastRun} /> : null;
         })}
       </div>
       {gone.length > 0 && (

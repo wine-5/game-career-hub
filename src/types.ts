@@ -174,6 +174,8 @@ export interface PreviousCycle {
 
 export interface JobsData {
   updatedAt: string | null;
+  /** 最後に更新（apply）した日（YYYY-MM-DD・日本時間）。この日に初めて見つけた募集だけを NEW にする */
+  lastRun?: string;
   /** 載せている募集の対象の卒業年（例: 2028） */
   targetGraduationYear?: number;
   model: string | null;

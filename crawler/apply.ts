@@ -71,6 +71,7 @@ for (const t of work.todo) {
 
 if (applied > 0) {
   data.updatedAt = now;
+  data.lastRun = today;
   data.model = "claude-code";
 }
 data.targetGraduationYear = targetGraduationYear;

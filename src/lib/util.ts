@@ -87,3 +87,16 @@ export function openingInPref(o: Opening, companyLocations: string[] | undefined
   if (o.location) return o.location.includes(pref) || (CITY_OF[pref] ? o.location.includes(CITY_OF[pref]) : false);
   return companyLocations?.includes(pref) ?? false;
 }
+
+/** その回の更新で初めて見つけた募集か（NEW の印）。前の回までに見つけた物は付けない */
+export function isNewOpening(firstSeen: string, lastRun: string | undefined): boolean {
+  return Boolean(lastRun) && firstSeen === lastRun;
+}
+
+/** 「2026年11月27日(金)」の形 */
+export function formatDateLong(date: string | undefined): string {
+  if (!date) return "—";
+  const [y, m, d] = date.split("-").map(Number);
+  const w = "日月火水木金土"[new Date(Date.UTC(y, m - 1, d)).getUTCDay()];
+  return `${y}年${m}月${d}日(${w})`;
+}

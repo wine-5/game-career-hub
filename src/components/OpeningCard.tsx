@@ -1,7 +1,7 @@
 import type { CSSProperties } from "react";
 import type { CompanyResult, Opening, Role } from "../types.ts";
 import { DESIGN_LABEL, FORMAT_LABEL, ROLE_LABEL, TYPE_LABEL } from "../types.ts";
-import { daysUntil, formatDate, ROLE_COLOR, statusOf, STATUS_LABEL, todayJst } from "../lib/util.ts";
+import { daysUntil, formatDate, isNewOpening, ROLE_COLOR, statusOf, STATUS_LABEL } from "../lib/util.ts";
 import { useAuth } from "../lib/auth.tsx";
 import { Icon } from "./Icon.tsx";
 import { CompanyLogo } from "./CompanyLogo.tsx";
@@ -20,12 +20,13 @@ function primaryLink(o: Opening, c: CompanyResult) {
   return { url: o.sourceUrl, label: "詳細ページへ", hide: undefined };
 }
 
-export function OpeningCard({ o, company, role = "all" }: { o: Opening; company: CompanyResult; role?: Role | "all" }) {
+export function OpeningCard({ o, company, role = "all", lastRun }: { o: Opening; company: CompanyResult; role?: Role | "all"; lastRun?: string }) {
   const auth = useAuth();
   const fav = auth.favorites.has(o.id);
   const status = statusOf(o);
   const left = daysUntil(o.deadline);
-  const isNew = (daysUntil(o.firstSeen) ?? -99) >= -7 && o.firstSeen <= todayJst();
+  // NEW は最後の更新で初めて見つけた募集だけ
+  const isNew = isNewOpening(o.firstSeen, lastRun);
   const link = primaryLink(o, company);
 
   // 分かっている項目だけを並べる（空欄の「—」を並べない）
@@ -73,7 +74,7 @@ export function OpeningCard({ o, company, role = "all" }: { o: Opening; company:
       <div className="card__badges">
         <span className={`badge badge--type-${o.type}`}>{TYPE_LABEL[o.type]}</span>
         <span className={`badge badge--status-${status}`}>{STATUS_LABEL[status]}</span>
-        {isNew && <span className="badge badge--new">NEW</span>}
+        {isNew && <span className="badge badge--new" title={`${formatDate(o.firstSeen)}の更新で新しく見つけた募集`}>NEW</span>}
       </div>
 
       <h3 className="card__title">{o.title}</h3>

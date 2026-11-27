@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import type { CompanyResult, DesignKind, JobsData, Opening, Role } from "./types.ts";
 import { DESIGN_KINDS, ROLES } from "./types.ts";
-import { daysUntil, openingInPref, sortPrefs, statusOf, todayJst } from "./lib/util.ts";
+import { daysUntil, isNewOpening, openingInPref, sortPrefs, statusOf } from "./lib/util.ts";
 import { useAuth } from "./lib/auth.tsx";
 import { companyTargets, fold, score } from "./lib/search.ts";
 import { conditionKey, isConditionSort, matchConditions } from "./lib/conditions.ts";
@@ -84,6 +84,8 @@ export function App() {
     }
   }, [filters, role, design]);
 
+  // 最後に更新した日。古いデータで無ければ updatedAt の日付（日本時間）を使う
+  const lastRun = data?.lastRun ?? (data?.updatedAt ? new Date(data.updatedAt).toLocaleDateString("sv-SE", { timeZone: "Asia/Tokyo" }) : undefined);
   const companies = useMemo(() => new Map((data?.companies ?? []).map((c) => [c.id, c])), [data]);
   const all = useMemo(() => (data?.companies ?? []).flatMap((c) => c.openings), [data]);
   const byId = useMemo(() => new Map(all.map((o) => [o.id, o])), [all]);
@@ -155,19 +157,19 @@ export function App() {
         const d = daysUntil(o.deadline);
         return d !== null && d >= 0 && d <= 7;
       }).length,
-      fresh: all.filter((o) => (daysUntil(o.firstSeen) ?? -99) >= -7 && o.firstSeen <= todayJst()).length,
+      fresh: all.filter((o) => isNewOpening(o.firstSeen, lastRun)).length,
     };
-  }, [all, data]);
+  }, [all, data, lastRun]);
 
   const set = (patch: Partial<Filters>) => setFilters((f) => ({ ...f, ...patch }));
 
   return (
     <>
-      <Header view={view} favCount={auth.favorites.size} />
+      <Header view={view} favCount={auth.favorites.size} lastRun={lastRun} />
       <main className="main">
         {view === "home" && (
           <>
-            <Hero stats={stats} updatedAt={data?.updatedAt ?? null} targetYear={data?.targetGraduationYear ?? null} />
+            <Hero stats={stats} updatedAt={data?.updatedAt ?? null} lastRun={lastRun} targetYear={data?.targetGraduationYear ?? null} />
             <RolePicker value={role} counts={counts} onChange={setRole} />
             {role === "artist" && <DesignPicker value={design} counts={designCounts} onChange={setDesign} />}
             <FilterBar f={filters} set={set} tags={tags} prefs={prefs} resultCount={shown.length} companies={data?.companies ?? []} />
@@ -198,7 +200,7 @@ export function App() {
                 <div className="cards">
                   {shown.map((o) => {
                     const c = companies.get(o.companyId);
-                    return c ? <OpeningCard key={o.id} o={o} company={c} role={role} /> : null;
+                    return c ? <OpeningCard key={o.id} o={o} company={c} role={role} lastRun={lastRun} /> : null;
                   })}
                 </div>
               </div>
@@ -208,7 +210,7 @@ export function App() {
         )}
         {view === "companies" && <CompanyGrid companies={data?.companies ?? []} />}
         {view === "tracker" && <TrackerView companies={companies} />}
-        {view === "favorites" && <FavoritesView openings={byId} companies={companies} />}
+        {view === "favorites" && <FavoritesView openings={byId} companies={companies} lastRun={lastRun} />}
         {view === "about" && <About model={data?.model ?? null} targetYear={data?.targetGraduationYear ?? null} />}
       </main>
       <footer className="footer">
