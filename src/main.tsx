@@ -4,7 +4,9 @@ import { App } from "./App.tsx";
 import { AuthProvider } from "./lib/auth.tsx";
 import { TrackerProvider } from "./lib/tracker.tsx";
 import { GamesProvider } from "./lib/games.tsx";
+import "./themes.css";
 import "./styles.css";
+import "./parts.css";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>

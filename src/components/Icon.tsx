@@ -126,6 +126,15 @@ const PATHS = {
     </>
   ),
   chat: <path d="M4 5h16v11H9l-5 4V5ZM8 9h8M8 12h5" />,
+  /** 表示の設定（パレット） */
+  palette: (
+    <>
+      <path d="M12 3a9 9 0 1 0 0 18c1.4 0 2-.9 2-1.8 0-1.2-.8-1.4-.8-2.4 0-.9.7-1.6 1.6-1.6H17a4 4 0 0 0 4-4C21 6.6 17 3 12 3Z" />
+      <path d="M7.5 11h.01M10 7.5h.01M14.5 7.5h.01" />
+    </>
+  ),
+  /** 絞り込み（つまみ） */
+  filter: <path d="M4 7h10M18 7h2M4 17h2M10 17h10M14 4v6M6 14v6" />,
   trophy: <path d="M8 4h8v5a4 4 0 0 1-8 0V4ZM8 6H4v1a3 3 0 0 0 4 2.8M16 6h4v1a3 3 0 0 1-4 2.8M12 13v4M8 20h8M9.5 17h5" />,
 } satisfies Record<string, ReactElement>;
 
