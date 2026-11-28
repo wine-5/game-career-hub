@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import type { CompanyResult } from "../types.ts";
 import { SearchSuggest } from "./SearchSuggest.tsx";
 import { ConditionSelects } from "./ConditionSelects.tsx";
@@ -36,6 +36,8 @@ export function FilterPanel({ f, set, reset, tags, prefs, companies, resultCount
 }) {
   const [open, setOpen] = useState(false);
   const count = activeCount(f);
+  // 絞り込みを変えても同じ関数にして、シートの Esc・スクロール止めをやり直させない
+  const closeSheet = useCallback(() => setOpen(false), []);
 
   // かかっている条件を 1 つずつ外すチップ。種類は上のセグメントで見えているので出さない
   const chips: { key: string; label: string; clear: () => void }[] = [];
@@ -111,7 +113,7 @@ export function FilterPanel({ f, set, reset, tags, prefs, companies, resultCount
       </div>
 
       {open && (
-        <ConditionSheet f={f} set={set} tags={tags} prefs={prefs} resultCount={resultCount} resultLabel={resultLabel} onClose={() => setOpen(false)} />
+        <ConditionSheet f={f} set={set} tags={tags} prefs={prefs} resultCount={resultCount} resultLabel={resultLabel} onClose={closeSheet} />
       )}
     </div>
   );

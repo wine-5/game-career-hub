@@ -55,6 +55,11 @@ export function ListLayout({ shown, companies, role, lastRun }: LayoutProps) {
     };
   }, [sheetShown]);
 
+  // 広い画面になったらシートは閉じる（詳細は右の列に出る）
+  useEffect(() => {
+    if (wide) setSheetOpen(false);
+  }, [wide]);
+
   const pick = (id: string) => {
     setSelectedId(id);
     if (!wide) setSheetOpen(true);

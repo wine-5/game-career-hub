@@ -77,7 +77,7 @@
 @media (max-width: 720px) {
   /* 下から出す。下のナビ（z-index 30）より上に */
   .sheet { align-items: flex-end; }
-  .sheet__panel { width: 100%; height: auto; max-height: 88vh; border-left: 0; border-radius: 18px 18px 0 0; }
+  .sheet__panel { width: 100%; height: auto; max-height: 88vh; max-height: 88dvh; border-left: 0; border-radius: 18px 18px 0 0; }
   .sheet__selects select { font-size: 16px; }
 }
 
