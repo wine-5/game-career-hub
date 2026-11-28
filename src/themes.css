@@ -1,0 +1,190 @@
+/* ===== カラーテーマ（色のトークンだけをここに置く。data-theme は <html> に付く） =====
+   system のときは属性を付けず、端末の設定に合わせる（明るい→ライト / 暗い→スレート） */
+:root,
+[data-theme="light"] {
+  --bg: #f5f6f8;
+  --surface: #ffffff;
+  --surface-2: #f8f9fb;
+  --border: #e2e5ea;
+  --border-strong: #cdd2da;
+  --text: #1c2230;
+  --text-2: #4f5868;
+  --text-3: #858d9c;
+  --accent: #3157d5;
+  --accent-soft: #eaf0ff;
+  --on-accent: #ffffff;
+  --c-programmer: #1971c2;
+  --c-planner: #d9480f;
+  --c-effect: #c2255c;
+  --c-artist: #2b8a3e;
+  --c-other: #6c7480;
+  --c-ok: #2b8a3e;
+  --c-warn: #e67700;
+  --c-hot: #e03131;
+  --c-newgrad: #3157d5;
+  --c-internship: #2b8a3e;
+  --c-philosophy: #b7791f;
+  --c-salary: #0c8599;
+  --logo-bg: #ffffff;
+  --scrim: rgba(15,18,25,.45);
+  --shadow: 0 1px 2px rgba(16,24,40,.05);
+  --shadow-hover: 0 6px 18px rgba(16,24,40,.08);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --bg: #0f1216;
+    --surface: #171b21;
+    --surface-2: #1e232b;
+    --border: #2a313b;
+    --border-strong: #3a4350;
+    --text: #e6e9ee;
+    --text-2: #a9b1bd;
+    --text-3: #78818e;
+    --accent: #8aa4ff;
+    --accent-soft: #1f2840;
+    --on-accent: #0d1220;
+    --c-programmer: #6cb2f0;
+    --c-planner: #f0a25e;
+    --c-effect: #e98bb0;
+    --c-artist: #7cc98a;
+    --c-other: #9aa3ae;
+    --c-ok: #6fcf8a;
+    --c-warn: #e8b44c;
+    --c-hot: #f07a7a;
+    --c-newgrad: #8aa4ff;
+    --c-internship: #7cc98a;
+    --c-philosophy: #d9b25c;
+    --c-salary: #5ec4d1;
+    --logo-bg: #e8ebf0;
+    --scrim: rgba(0,0,0,.6);
+    --shadow: 0 1px 2px rgba(0,0,0,.4);
+    --shadow-hover: 0 8px 22px rgba(0,0,0,.45);
+    color-scheme: dark;
+  }
+}
+
+[data-theme="slate"] {
+  --bg: #0f1216;
+  --surface: #171b21;
+  --surface-2: #1e232b;
+  --border: #2a313b;
+  --border-strong: #3a4350;
+  --text: #e6e9ee;
+  --text-2: #a9b1bd;
+  --text-3: #78818e;
+  --accent: #8aa4ff;
+  --accent-soft: #1f2840;
+  --on-accent: #0d1220;
+  --c-programmer: #6cb2f0;
+  --c-planner: #f0a25e;
+  --c-effect: #e98bb0;
+  --c-artist: #7cc98a;
+  --c-other: #9aa3ae;
+  --c-ok: #6fcf8a;
+  --c-warn: #e8b44c;
+  --c-hot: #f07a7a;
+  --c-newgrad: #8aa4ff;
+  --c-internship: #7cc98a;
+  --c-philosophy: #d9b25c;
+  --c-salary: #5ec4d1;
+  --logo-bg: #e8ebf0;
+  --scrim: rgba(0,0,0,.6);
+  --shadow: 0 1px 2px rgba(0,0,0,.4);
+  --shadow-hover: 0 8px 22px rgba(0,0,0,.45);
+  color-scheme: dark;
+}
+
+[data-theme="ink"] {
+  --bg: #141312;
+  --surface: #1c1b19;
+  --surface-2: #242220;
+  --border: #33302c;
+  --border-strong: #46423c;
+  --text: #ece8e1;
+  --text-2: #b8b1a6;
+  --text-3: #857e74;
+  --accent: #e0a458;
+  --accent-soft: #3a2d1c;
+  --on-accent: #1a1208;
+  --c-programmer: #7fb4d6;
+  --c-planner: #e39a6b;
+  --c-effect: #d98aa6;
+  --c-artist: #9cc28a;
+  --c-other: #a59e93;
+  --c-ok: #9cc28a;
+  --c-warn: #e0b458;
+  --c-hot: #e57b6b;
+  --c-newgrad: #e0a458;
+  --c-internship: #9cc28a;
+  --c-philosophy: #c9a86a;
+  --c-salary: #7cc0b8;
+  --logo-bg: #ebe6de;
+  --scrim: rgba(0,0,0,.6);
+  --shadow: 0 1px 2px rgba(0,0,0,.4);
+  --shadow-hover: 0 8px 22px rgba(0,0,0,.45);
+  color-scheme: dark;
+}
+
+[data-theme="midnight"] {
+  --bg: #0b0d1a;
+  --surface: #12152a;
+  --surface-2: #191d36;
+  --border: #262b4a;
+  --border-strong: #363c63;
+  --text: #e8e9ff;
+  --text-2: #a9acd6;
+  --text-3: #7376a3;
+  --accent: #8b7bff;
+  --accent-soft: #221d4a;
+  --on-accent: #0b0a1f;
+  --c-programmer: #5cc8ff;
+  --c-planner: #ffa66b;
+  --c-effect: #ff7ac6;
+  --c-artist: #6ee7a8;
+  --c-other: #9a9cc4;
+  --c-ok: #6ee7a8;
+  --c-warn: #ffd166;
+  --c-hot: #ff6b8b;
+  --c-newgrad: #8b7bff;
+  --c-internship: #6ee7a8;
+  --c-philosophy: #ffd166;
+  --c-salary: #5ce1e6;
+  --logo-bg: #eceeff;
+  --scrim: rgba(3,4,12,.65);
+  --shadow: 0 1px 2px rgba(0,0,0,.5);
+  --shadow-hover: 0 8px 24px rgba(0,0,0,.55);
+  color-scheme: dark;
+}
+
+[data-theme="paper"] {
+  --bg: #f3f1ec;
+  --surface: #fbfaf7;
+  --surface-2: #f2efe9;
+  --border: #e1ddd4;
+  --border-strong: #cbc5b8;
+  --text: #24221e;
+  --text-2: #57524a;
+  --text-3: #8b857a;
+  --accent: #3d5a99;
+  --accent-soft: #e3e8f3;
+  --on-accent: #ffffff;
+  --c-programmer: #2b6cb0;
+  --c-planner: #c05621;
+  --c-effect: #b83280;
+  --c-artist: #2f855a;
+  --c-other: #718096;
+  --c-ok: #2f855a;
+  --c-warn: #b7791f;
+  --c-hot: #c53030;
+  --c-newgrad: #3d5a99;
+  --c-internship: #2f855a;
+  --c-philosophy: #a0712b;
+  --c-salary: #2c7a7b;
+  --logo-bg: #ffffff;
+  --scrim: rgba(36,34,30,.4);
+  --shadow: 0 1px 2px rgba(60,50,30,.06);
+  --shadow-hover: 0 6px 18px rgba(60,50,30,.10);
+  color-scheme: light;
+}
