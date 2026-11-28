@@ -76,7 +76,11 @@ function CompanyBox({ company, list, role, lastRun, openId, onToggle }: {
           <p className="co-head__counts">
             <span className="co-count">募集 {list.length}件</span>
             {newCount > 0 && <span className="badge badge--new">NEW {newCount}</span>}
-            {facts.length > 0 && <span className="co-facts">{facts.join(" ・ ")}</span>}
+            {facts.length > 0 && (
+              <a className="co-facts" href={k?.sourceUrl} target="_blank" rel="noopener noreferrer" title="出典のページを開く">
+                {facts.join(" ・ ")}
+              </a>
+            )}
           </p>
         </div>
         <button

@@ -99,6 +99,8 @@ function TidyCard({ o, company, role, lastRun, isOpen, onToggle }: {
         {o.location && <span className="tidy-when__loc">{o.location}</span>}
       </p>
 
+      <SourceLink url={o.sourceUrl} />
+
       {o.summary && <p className="tidy-summary">{o.summary}</p>}
 
       <div className="tidy-foot">
@@ -123,7 +125,6 @@ function TidyCard({ o, company, role, lastRun, isOpen, onToggle }: {
               <li key={d} className="design-pill">{DESIGN_LABEL[d]}</li>
             ))}
           </ul>
-          <SourceLink url={o.sourceUrl} />
           {o.type === "newgrad" && <ConditionChips k={company.conditions} />}
           {(role === "programmer" || (role === "all" && o.roles.includes("programmer"))) && <TechChips companyId={company.id} />}
           <FlowSteps flow={o.flow} role={role} sourceUrl={o.flowSourceUrl ?? o.sourceUrl} note={o.flowNote} />
