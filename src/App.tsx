@@ -19,6 +19,15 @@ import { GamesModal } from "./components/GameStrip.tsx";
 import { LoginModal } from "./components/LoginModal.tsx";
 import { About } from "./components/About.tsx";
 import { Icon, type IconName } from "./components/Icon.tsx";
+import { FilterPanel } from "./components/FilterPanel.tsx";
+import { SummaryLine } from "./components/SummaryLine.tsx";
+import { DisplaySettings } from "./components/DisplaySettings.tsx";
+import { useUiPrefs, type LayoutId } from "./lib/uiPrefs.ts";
+import type { LayoutProps } from "./layouts/types.ts";
+import { TidyLayout } from "./layouts/TidyLayout.tsx";
+import { CompanyLayout } from "./layouts/CompanyLayout.tsx";
+import { TimelineLayout } from "./layouts/TimelineLayout.tsx";
+import { ListLayout } from "./layouts/ListLayout.tsx";
 
 function useHashView(): View {
   const read = (): View => {
@@ -47,8 +56,17 @@ function loadFilters(): Filters {
   }
 }
 
+const LAYOUT_VIEWS: Record<Exclude<LayoutId, "classic">, (p: LayoutProps) => React.ReactNode> = {
+  tidy: TidyLayout,
+  company: CompanyLayout,
+  timeline: TimelineLayout,
+  list: ListLayout,
+};
+
 export function App() {
   const view = useHashView();
+  const ui = useUiPrefs();
+  const [displayOpen, setDisplayOpen] = useState(false);
   const auth = useAuth();
   const [data, setData] = useState<JobsData | null>(null);
   const [loadError, setLoadError] = useState(false);
@@ -158,12 +176,59 @@ export function App() {
   }, [all, data, lastRun]);
 
   const set = (patch: Partial<Filters>) => setFilters((f) => ({ ...f, ...patch }));
+  const resetFilters = () => {
+    setFilters(DEFAULT_FILTERS);
+    setRole("all");
+  };
+
+  // 読み込み中・空・NEW だけの表示（どの表示スタイルでも共通）
+  const notices = (
+    <>
+      {!data && !loadError && <Skeleton />}
+      {loadError && <Empty icon="alert" title="データを読み込めませんでした" text="時間をおいて再読み込みしてください。" />}
+      {data && all.length === 0 && (
+        <Empty
+          icon="clock"
+          title="ただいまデータを集めています"
+          text="AI が各社の採用ページを確認中です。初回の更新が終わるとここに募集が並びます。監視中の会社は「会社」のページで見られます。"
+          action={<a className="btn btn--ghost" href="#/companies">会社の一覧へ</a>}
+        />
+      )}
+      {/* NEW だけを出している時は、どの更新の新着かを見せる */}
+      {filters.onlyNew && (
+        <div className="new-banner">
+          <span className="badge badge--new">NEW</span>
+          <span>
+            <b>{lastRun ? `${Number(lastRun.slice(5, 7))}/${Number(lastRun.slice(8, 10))}` : ""} の更新</b>で新しく見つかった募集だけを表示しています（{shown.length} 件）
+          </span>
+          <button className="btn btn--ghost btn--sm" onClick={() => set({ onlyNew: false })}>すべての募集に戻す</button>
+        </div>
+      )}
+      {data && all.length > 0 && shown.length === 0 && filters.onlyNew && (
+        <Empty icon="star" title="今回の更新で新しく見つかった募集はありません" text="職種や絞り込みの条件をゆるめるか、すべての募集に戻してください。" />
+      )}
+      {data && all.length > 0 && shown.length === 0 && !filters.onlyNew && (
+        <Empty
+          icon="search"
+          title="条件に合う募集がありません"
+          text="絞り込みをゆるめてみてください。"
+          action={
+            <button className="btn btn--ghost" onClick={resetFilters}>
+              条件をリセット
+            </button>
+          }
+        />
+      )}
+    </>
+  );
+
+  const LayoutView = ui.layout === "classic" ? null : LAYOUT_VIEWS[ui.layout];
 
   return (
     <>
-      <Header view={view} favCount={auth.favorites.size} lastRun={lastRun} />
+      <Header view={view} favCount={auth.favorites.size} lastRun={lastRun} onOpenDisplay={() => setDisplayOpen(true)} />
       <main className="main">
-        {view === "home" && (
+        {view === "home" && ui.layout === "classic" && (
           <>
             <Hero
               stats={stats}
@@ -181,41 +246,7 @@ export function App() {
             <FilterBar f={filters} set={set} tags={tags} prefs={prefs} resultCount={shown.length} companies={data?.companies ?? []} />
             <div className="layout">
               <div className="layout__main">
-                {!data && !loadError && <Skeleton />}
-                {loadError && <Empty icon="alert" title="データを読み込めませんでした" text="時間をおいて再読み込みしてください。" />}
-                {data && all.length === 0 && (
-                  <Empty
-                    icon="clock"
-                    title="ただいまデータを集めています"
-                    text="AI が各社の採用ページを確認中です。初回の更新が終わるとここに募集が並びます。監視中の会社は「会社」のページで見られます。"
-                    action={<a className="btn btn--ghost" href="#/companies">会社の一覧へ</a>}
-                  />
-                )}
-                {/* NEW だけを出している時は、どの更新の新着かを見せる */}
-                {filters.onlyNew && (
-                  <div className="new-banner">
-                    <span className="badge badge--new">NEW</span>
-                    <span>
-                      <b>{lastRun ? `${Number(lastRun.slice(5, 7))}/${Number(lastRun.slice(8, 10))}` : ""} の更新</b>で新しく見つかった募集だけを表示しています（{shown.length} 件）
-                    </span>
-                    <button className="btn btn--ghost btn--sm" onClick={() => set({ onlyNew: false })}>すべての募集に戻す</button>
-                  </div>
-                )}
-                {data && all.length > 0 && shown.length === 0 && filters.onlyNew && (
-                  <Empty icon="star" title="今回の更新で新しく見つかった募集はありません" text="職種や絞り込みの条件をゆるめるか、すべての募集に戻してください。" />
-                )}
-                {data && all.length > 0 && shown.length === 0 && !filters.onlyNew && (
-                  <Empty
-                    icon="search"
-                    title="条件に合う募集がありません"
-                    text="絞り込みをゆるめてみてください。"
-                    action={
-                      <button className="btn btn--ghost" onClick={() => { setFilters(DEFAULT_FILTERS); setRole("all"); }}>
-                        条件をリセット
-                      </button>
-                    }
-                  />
-                )}
+                {notices}
                 <div className="cards">
                   {shown.map((o) => {
                     const c = companies.get(o.companyId);
@@ -225,6 +256,35 @@ export function App() {
               </div>
               <DeadlineRail items={all} companies={companies} />
             </div>
+          </>
+        )}
+        {view === "home" && LayoutView && (
+          <>
+            <SummaryLine stats={stats} lastRun={lastRun} targetYear={data?.targetGraduationYear ?? null} />
+            <RolePicker value={role} counts={counts} onChange={setRole} />
+            {role === "artist" && <DesignPicker value={design} counts={designCounts} onChange={setDesign} />}
+            <FilterPanel
+              f={filters}
+              set={set}
+              reset={resetFilters}
+              tags={tags}
+              prefs={prefs}
+              companies={data?.companies ?? []}
+              resultCount={shown.length}
+              hideSort={ui.layout === "timeline"}
+            />
+            {notices}
+            {/* 締切の欄は tidy と company だけ（1001px 以上のときだけ右に出す） */}
+            {ui.layout === "tidy" || ui.layout === "company" ? (
+              <div className="layout layout--rail-wide">
+                <div className="layout__main">
+                  <LayoutView shown={shown} companies={companies} role={role} lastRun={lastRun} showClosed={filters.showClosed} />
+                </div>
+                <DeadlineRail items={all} companies={companies} />
+              </div>
+            ) : (
+              <LayoutView shown={shown} companies={companies} role={role} lastRun={lastRun} showClosed={filters.showClosed} />
+            )}
           </>
         )}
         {view === "companies" && <CompanyGrid companies={data?.companies ?? []} />}
@@ -242,6 +302,7 @@ export function App() {
       </footer>
       <LoginModal />
       <GamesModal companies={companies} />
+      <DisplaySettings open={displayOpen} onClose={() => setDisplayOpen(false)} layout={ui.layout} setLayout={ui.setLayout} theme={ui.theme} setTheme={ui.setTheme} />
     </>
   );
 }
