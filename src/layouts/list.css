@@ -1,0 +1,43 @@
+/* ===== 一覧＋詳細（list） ===== */
+.ls { display: grid; gap: 16px; min-width: 0; }
+.ls-list { display: grid; gap: 4px; margin: 0; padding: 0; list-style: none; min-width: 0; }
+
+.ls-row {
+  display: flex; align-items: center; gap: 10px; width: 100%; padding: 8px 10px 8px 12px; text-align: left; color: inherit;
+  background: var(--surface); border: 1px solid var(--border); border-left: 3px solid transparent; border-radius: var(--radius-sm);
+}
+.ls-row:hover { border-color: var(--border-strong); border-left-color: var(--border-strong); }
+.ls-row.is-on { background: var(--accent-soft); border-color: var(--accent-soft); border-left-color: var(--accent); }
+.ls-row__body { display: grid; gap: 1px; flex: 1; min-width: 0; }
+.ls-row__meta { font-size: 11px; color: var(--text-3); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ls-row__title { font-size: 14px; font-weight: 700; line-height: 1.4; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ls-row__new { margin-right: 6px; padding: 0 5px; font-size: 10px; line-height: 1.5; vertical-align: 1px; }
+.ls-row__side { display: grid; justify-items: end; gap: 3px; flex: none; }
+.ls-row__date { font-size: 12px; font-weight: 700; color: var(--text-2); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.ls-row__date.is-hot { color: var(--c-hot); }
+.ls-row__date.is-warm { color: var(--c-warn); }
+.ls-row__date.is-start { color: var(--accent); }
+.ls-row__dots { display: inline-flex; gap: 3px; }
+.ls-row__dots i { width: 8px; height: 8px; border-radius: 50%; background: var(--role); }
+
+/* 右の詳細の欄（900px 以上） */
+.ls-pane {
+  display: none; padding: 16px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--border);
+  box-shadow: var(--shadow); min-width: 0;
+}
+@media (min-width: 900px) {
+  .ls { grid-template-columns: minmax(0, 1fr) 400px; align-items: start; }
+  .ls-pane { display: block; position: sticky; top: 76px; max-height: calc(100vh - 92px); overflow-y: auto; }
+}
+
+/* 下からのシート（899px 以下）。下のナビ（z-index 30）より上 */
+.ls-sheet { position: fixed; inset: 0; z-index: 45; display: flex; align-items: flex-end; background: var(--scrim); }
+.ls-sheet__panel {
+  display: flex; flex-direction: column; width: 100%; max-height: 88vh; max-height: 88dvh; min-width: 0;
+  background: var(--surface); border-radius: 18px 18px 0 0; border: 1px solid var(--border); border-bottom: 0;
+}
+.ls-sheet__head { position: relative; display: flex; justify-content: center; align-items: center; flex: none; padding: 10px 12px 4px; }
+.ls-sheet__grip { width: 36px; height: 4px; border-radius: 999px; background: var(--border-strong); }
+.ls-sheet__close { position: absolute; right: 10px; top: 6px; }
+.ls-sheet__body { flex: 1; overflow-y: auto; overscroll-behavior: contain; padding: 4px 16px calc(16px + env(safe-area-inset-bottom)); min-width: 0; }
+@media (min-width: 900px) { .ls-sheet { display: none; } }
