@@ -11,7 +11,7 @@ const NAV: { view: View; label: string; icon: IconName }[] = [
   { view: "about", label: "使い方", icon: "info" },
 ];
 
-export function Header({ view, favCount, lastRun }: { view: View; favCount: number; lastRun?: string }) {
+export function Header({ view, favCount, lastRun, onOpenDisplay }: { view: View; favCount: number; lastRun?: string; onOpenDisplay?: () => void }) {
   const auth = useAuth();
   const user = auth.session?.user;
   const name = (user?.user_metadata?.user_name as string | undefined) ?? user?.email ?? "";
@@ -47,6 +47,12 @@ export function Header({ view, favCount, lastRun }: { view: View; favCount: numb
           ))}
         </nav>
         <div className="header__auth">
+          {onOpenDisplay && (
+            <button className="btn btn--ghost btn--sm display-btn" onClick={onOpenDisplay} aria-label="表示の設定" title="表示スタイルとテーマ">
+              <Icon name="palette" size={15} />
+              <span className="display-btn__text">表示</span>
+            </button>
+          )}
           {user ? (
             <>
               <span className="user-chip" title={name}>
