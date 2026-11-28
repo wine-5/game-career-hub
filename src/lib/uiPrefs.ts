@@ -53,6 +53,19 @@ function readParam(name: string): string | null {
   }
 }
 
+/** 読んで保存した ?ui= / ?theme= を URL から消す（他の query と # は残す） */
+function stripParam(name: string) {
+  try {
+    const sp = new URLSearchParams(window.location.search);
+    if (!sp.has(name)) return;
+    sp.delete(name);
+    const rest = sp.toString();
+    history.replaceState(null, "", window.location.pathname + (rest ? `?${rest}` : "") + window.location.hash);
+  } catch {
+    /* 消せなくても動作には影響しない */
+  }
+}
+
 /** <html> の data-theme と theme-color を合わせる（system のときは属性を外す） */
 function applyTheme(theme: ThemeId) {
   const root = document.documentElement;
@@ -69,6 +82,7 @@ function initialLayout(): LayoutId {
   const fromUrl = readParam("ui");
   if (isLayout(fromUrl)) {
     writeStored(LAYOUT_KEY, fromUrl);
+    stripParam("ui");
     return fromUrl;
   }
   const saved = readStored(LAYOUT_KEY);
@@ -79,6 +93,7 @@ function initialTheme(): ThemeId {
   const fromUrl = readParam("theme");
   if (isTheme(fromUrl)) {
     writeStored(THEME_KEY, fromUrl);
+    stripParam("theme");
     return fromUrl;
   }
   const saved = readStored(THEME_KEY);
