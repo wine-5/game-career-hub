@@ -20,3 +20,10 @@
   .display-btn__text { display: none; }
   .opt-grid { grid-template-columns: 1fr; }
 }
+
+/* ----- 文字付きの会社リンク ----- */
+.link-icons--labeled { flex-wrap: wrap; }
+.link-icons--labeled .link-icon { width: auto; height: 32px; padding: 0 10px; gap: 5px; font-size: 12px; font-weight: 700; display: inline-flex; align-items: center; white-space: nowrap; }
+@media (max-width: 720px) {
+  .link-icons--labeled .link-icon { width: auto; height: 36px; }
+}
