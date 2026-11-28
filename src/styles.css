@@ -545,7 +545,7 @@ p { margin: 0; }
 }
 .design-chip:hover { border-color: var(--c-artist); }
 .design-chip.is-active { color: var(--surface); background: var(--c-artist); border-color: var(--c-artist); }
-.design-chip.is-active .role-chip__count { color: var(--surface); background: rgb(255 255 255 / .22); }
+.design-chip.is-active .role-chip__count { color: var(--surface); background: color-mix(in srgb, var(--surface) 25%, transparent); }
 .design-pill {
   font-size: 11px; font-weight: 600; padding: 1px 8px; border-radius: 999px; color: var(--c-artist);
   background: var(--surface); border: 1px dashed color-mix(in srgb, var(--c-artist) 55%, var(--border));

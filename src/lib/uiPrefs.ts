@@ -22,6 +22,8 @@ export const THEMES: { id: ThemeId; label: string; desc: string; swatch: [string
   { id: "midnight", label: "ミッドナイト", desc: "紺と紫のゲームらしいダーク", swatch: ["#0b0d1a", "#12152a", "#8b7bff", "#e8e9ff"] },
 ];
 
+/** index.html の theme-color の元の値 */
+const DEFAULT_THEME_COLOR = "#3157d5";
 const LAYOUT_KEY = "gch.layout";
 const THEME_KEY = "gch.theme";
 
@@ -69,12 +71,18 @@ function stripParam(name: string) {
 /** <html> の data-theme と theme-color を合わせる（system のときは属性を外す） */
 function applyTheme(theme: ThemeId) {
   const root = document.documentElement;
-  if (theme === "system") delete root.dataset.theme;
-  else root.dataset.theme = theme;
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (theme === "system") {
+    // 端末に合わせるときは index.html の元の色に戻す
+    delete root.dataset.theme;
+    meta?.setAttribute("content", DEFAULT_THEME_COLOR);
+    return;
+  }
+  root.dataset.theme = theme;
   // 色は CSS の反映後に読む
   requestAnimationFrame(() => {
     const color = getComputedStyle(root).getPropertyValue("--surface").trim();
-    if (color) document.querySelector('meta[name="theme-color"]')?.setAttribute("content", color);
+    if (color) meta?.setAttribute("content", color);
   });
 }
 
