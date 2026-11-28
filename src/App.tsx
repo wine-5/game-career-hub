@@ -112,6 +112,9 @@ export function App() {
   const tags = useMemo(() => [...new Set((data?.companies ?? []).flatMap((c) => c.tags))], [data]);
   const prefs = useMemo(() => sortPrefs((data?.companies ?? []).flatMap((c) => c.locations ?? [])), [data]);
 
+  // 日付順の表示では並び順を常に締切順にする（選んだ並び順 filters.sort は書き換えない）
+  const sort = ui.layout === "timeline" ? "deadline" : filters.sort;
+
   // 職種以外の条件で絞った物（職種カードの件数に使う）
   const base = useMemo(() => {
     const q = filters.query.trim();
@@ -127,11 +130,11 @@ export function App() {
       if (filters.pref !== "all" && !openingInPref(o, c?.locations, filters.pref)) return false;
       // 待遇の条件は会社の数字で見る（書かれていない会社の募集は外す）
       if (!matchConditions(c?.conditions, filters)) return false;
-      if (isConditionSort(filters.sort) && conditionKey(c?.conditions, filters.sort) === null) return false;
+      if (isConditionSort(sort) && conditionKey(c?.conditions, sort) === null) return false;
       if (q && !companyHit.get(o.companyId) && !fold(`${o.title} ${o.summary} ${o.location}`).includes(fq)) return false;
       return true;
     });
-  }, [all, companies, filters, data, lastRun]);
+  }, [all, companies, filters, sort, data, lastRun]);
 
   const counts = useMemo(() => {
     const r = { all: base.length } as Record<Role | "all", number>;
@@ -159,8 +162,8 @@ export function App() {
       holidays: (a, b) => conditionKey(companies.get(b.companyId)?.conditions, "holidays")! - conditionKey(companies.get(a.companyId)?.conditions, "holidays")!,
       overtime: (a, b) => conditionKey(companies.get(b.companyId)?.conditions, "overtime")! - conditionKey(companies.get(a.companyId)?.conditions, "overtime")!,
     };
-    return [...list].sort(sorters[filters.sort]);
-  }, [base, role, design, filters.sort, companies, lastRun]);
+    return [...list].sort(sorters[sort]);
+  }, [base, role, design, sort, companies, lastRun]);
 
   const stats = useMemo(() => {
     const live = all.filter((o) => statusOf(o) !== "closed");
