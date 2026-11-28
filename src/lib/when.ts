@@ -13,6 +13,8 @@ export interface When {
 export function nextWhen(o: Opening): When | null {
   const d = daysUntil(o.deadline);
   if (d !== null && d >= 0) return { kind: "deadline", date: o.deadline, days: d };
+  // 締切が過ぎた募集は、受付開始を見ずに「次の日付なし」にする
+  if (d !== null) return null;
   const s = daysUntil(o.applyStart);
   if (s !== null && s >= 1) return { kind: "start", date: o.applyStart, days: s };
   return null;
