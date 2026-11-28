@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import type { CompanyResult, Opening } from "../types.ts";
 import { TYPE_LABEL } from "../types.ts";
 import { daysUntil, isNewOpening, todayJst } from "../lib/util.ts";
-import { nextWhen, type When } from "../lib/when.ts";
+import { closedDate, nextWhen, type When } from "../lib/when.ts";
 import { OpeningDetail } from "../components/OpeningDetail.tsx";
 import type { LayoutProps } from "./types.ts";
 import "./timeline.css";
@@ -103,9 +103,9 @@ export function TimelineLayout({ shown, companies, role, lastRun, showClosed }: 
               <>
                 {w?.kind === "start" && <span className="tl-date__kind">受付開始</span>}
                 <span className="tl-date__md">{p.md}</span>
+                <span className="tl-date__sub">{p.wd}</span>
                 <span className="tl-date__sub">
-                  {p.wd}
-                  {w ? ` ・ ${w.days === 0 ? "今日" : w.kind === "start" ? `${w.days}日後` : `あと${w.days}日`}` : " ・ 締切済み"}
+                  {w ? (w.days === 0 ? "今日" : w.kind === "start" ? `${w.days}日後` : `あと${w.days}日`) : "締切済み"}
                 </span>
               </>
             ) : (
@@ -118,6 +118,7 @@ export function TimelineLayout({ shown, companies, role, lastRun, showClosed }: 
               {w ? ` ・ ${w.kind === "start" ? "受付開始" : "締切"}` : ""}
             </span>
             <span className="tl-row__title">{o.title}</span>
+            {!w && !closedDate(o) && o.applyStart && <span className="tl-row__start">受付開始 {parts(o.applyStart).md}</span>}
             <span className="tl-row__badges">
               <span className={`badge badge--type-${o.type}`}>{TYPE_LABEL[o.type]}</span>
               {isNew && <span className="badge badge--new">NEW</span>}
@@ -135,9 +136,9 @@ export function TimelineLayout({ shown, companies, role, lastRun, showClosed }: 
   };
 
   const undatedBlock = undated.length > 0 && (
-    <section className="tl-group tl-group--undated" aria-label="日程が書かれていない募集">
+    <section className="tl-group tl-group--undated" aria-label="締切が書かれていない募集">
       <h3 className="tl-group__head">
-        日程が書かれていない <span className="tl-group__count">{undated.length}件</span>
+        締切が書かれていない <span className="tl-group__count">{undated.length}件</span>
         <button className="btn btn--ghost btn--sm tl-group__toggle" aria-expanded={undatedOpen} onClick={() => setUndatedOpen((v) => !v)}>
           {undatedOpen ? "たたむ" : "開く"}
         </button>
