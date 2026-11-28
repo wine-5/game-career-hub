@@ -556,6 +556,8 @@ p { margin: 0; }
   display: inline-flex; align-items: center; gap: 4px; margin-left: -8px; padding: 2px 9px; border-radius: 999px;
   font-size: 11.5px; font-weight: 600; color: var(--text-2); background: var(--surface-2); border: 1px solid var(--border); white-space: nowrap;
 }
+/* スマホは幅が足りないので隠す（見出しの下に同じ日付がある） */
+@media (max-width: 720px) { .header__updated { display: none; } }
 .summary__updated b { color: var(--text); }
 .summary__time { margin-left: 6px; color: var(--text-3); font-size: 12px; }
 
