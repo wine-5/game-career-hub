@@ -2,7 +2,7 @@ import { useMemo, useState } from "react";
 import type { CompanyResult, Opening, Role } from "../types.ts";
 import { TYPE_LABEL } from "../types.ts";
 import { isNewOpening } from "../lib/util.ts";
-import { nextWhen } from "../lib/when.ts";
+import { closedDate, nextWhen } from "../lib/when.ts";
 import { yen } from "../lib/conditions.ts";
 import { useAuth } from "../lib/auth.tsx";
 import { Icon } from "../components/Icon.tsx";
@@ -94,6 +94,7 @@ function CompanyBox({ company, list, role, lastRun, openId, onToggle }: {
         {list.map((o) => {
           const isOpen = openId === o.id;
           const w = nextWhen(o);
+          const closed = closedDate(o);
           const isNew = isNewOpening(o.firstSeen, lastRun);
           const [, m, d] = w ? w.date.split("-").map(Number) : [];
           return (
@@ -115,6 +116,8 @@ function CompanyBox({ company, list, role, lastRun, openId, onToggle }: {
                         {w.kind === "deadline" ? (w.days === 0 ? "今日まで" : `あと${w.days}日`) : `${w.days}日後`}
                       </span>
                     </>
+                  ) : closed ? (
+                    <span className="co-row__none">締切済み {Number(closed.slice(5, 7))}/{Number(closed.slice(8, 10))}</span>
                   ) : (
                     <span className="co-row__none">日程未定</span>
                   )}

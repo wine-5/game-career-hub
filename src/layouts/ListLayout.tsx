@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState, type CSSProperties, type KeyboardEvent } from "react";
 import { ROLE_LABEL, TYPE_LABEL } from "../types.ts";
 import { isNewOpening, ROLE_COLOR } from "../lib/util.ts";
-import { nextWhen } from "../lib/when.ts";
+import { closedDate, nextWhen } from "../lib/when.ts";
 import { CompanyLogo } from "../components/CompanyLogo.tsx";
 import { Icon } from "../components/Icon.tsx";
 import { OpeningDetail } from "../components/OpeningDetail.tsx";
@@ -80,6 +80,7 @@ export function ListLayout({ shown, companies, role, lastRun }: LayoutProps) {
       <ul className="ls-list" onKeyDown={onKeyDown}>
         {rows.map(({ o, c }) => {
           const w = nextWhen(o);
+          const closed = closedDate(o);
           const on = current?.o.id === o.id;
           const isNew = isNewOpening(o.firstSeen, lastRun);
           return (
@@ -98,6 +99,9 @@ export function ListLayout({ shown, companies, role, lastRun }: LayoutProps) {
                     <span className={`ls-row__date ${w.kind === "start" ? "is-start" : w.days <= 3 ? "is-hot" : w.days <= 7 ? "is-warm" : ""}`}>
                       {Number(w.date.slice(5, 7))}/{Number(w.date.slice(8, 10))} {w.kind === "start" ? "開始" : "締切"}
                     </span>
+                  )}
+                  {!w && closed && (
+                    <span className="ls-row__date">締切済み {Number(closed.slice(5, 7))}/{Number(closed.slice(8, 10))}</span>
                   )}
                   <span className="ls-row__dots" aria-label={o.roles.map((r) => ROLE_LABEL[r]).join("・")}>
                     {o.roles.map((r) => (

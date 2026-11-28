@@ -20,6 +20,12 @@ export function nextWhen(o: Opening): When | null {
   return null;
 }
 
+/** 締切が過ぎた募集の締切日（「締切済み M/D」に出す）。過ぎていなければ null */
+export function closedDate(o: Opening): string | null {
+  const d = daysUntil(o.deadline);
+  return d !== null && d < 0 ? o.deadline : null;
+}
+
 /** 並べるときのキー（小さいほど前）: 日付あり→その日数 / NEW→50000 / その他→60000 / 締切済み→100000+過ぎた日数 */
 export function dateSortKey(o: Opening, lastRun?: string): number {
   const w = nextWhen(o);

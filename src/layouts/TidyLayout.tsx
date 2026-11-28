@@ -2,7 +2,7 @@ import { useState, type CSSProperties } from "react";
 import type { CompanyResult, Opening, Role } from "../types.ts";
 import { DESIGN_LABEL, ROLE_LABEL, TYPE_LABEL } from "../types.ts";
 import { formatDate, isNewOpening, ROLE_COLOR, statusOf, STATUS_LABEL } from "../lib/util.ts";
-import { nextWhen } from "../lib/when.ts";
+import { closedDate, nextWhen } from "../lib/when.ts";
 import { useAuth } from "../lib/auth.tsx";
 import { Icon } from "../components/Icon.tsx";
 import { CompanyLogo } from "../components/CompanyLogo.tsx";
@@ -52,6 +52,7 @@ function TidyCard({ o, company, role, lastRun, isOpen, onToggle }: {
   const isNew = isNewOpening(o.firstSeen, lastRun);
   const link = primaryLink(o, company);
   const w = nextWhen(o);
+  const closed = closedDate(o);
   const hasDate = Boolean(o.deadline || o.applyStart);
   const panelId = `tidy-more-${o.id}`;
 
@@ -90,6 +91,8 @@ function TidyCard({ o, company, role, lastRun, isOpen, onToggle }: {
               {w.kind === "deadline" ? (w.days === 0 ? "今日まで" : `あと${w.days}日`) : `${w.days}日後`}
             </span>
           </>
+        ) : closed ? (
+          <span>締切済み {formatDate(closed)}</span>
         ) : (
           <span className="tidy-when__none">日程は公式ページで</span>
         )}
