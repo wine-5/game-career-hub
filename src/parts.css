@@ -80,3 +80,18 @@
   .sheet__panel { width: 100%; height: auto; max-height: 88vh; border-left: 0; border-radius: 18px 18px 0 0; }
   .sheet__selects select { font-size: 16px; }
 }
+
+/* ----- 募集の詳細（OpeningDetail） ----- */
+.odetail { display: flex; flex-direction: column; gap: 10px; }
+.odetail__company { display: flex; align-items: center; gap: 10px; padding-bottom: 10px; border-bottom: 1px solid var(--border); }
+.odetail__company-body { flex: 1; min-width: 0; }
+.odetail__company-name { font-weight: 700; font-size: 14px; }
+.odetail__company-meta { font-size: 12px; color: var(--text-3); }
+.odetail__title { font-size: 17px; font-weight: 700; }
+.odetail__dates { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 6px 12px; margin: 0; padding: 10px 12px; border-radius: var(--radius-sm); background: var(--surface-2); font-size: 13px; }
+.odetail__dates dt { font-size: 11px; color: var(--text-3); }
+.odetail__dates dd { margin: 0; }
+.odetail__actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 4px; }
+@media (max-width: 720px) {
+  .odetail__actions .btn--primary { flex: 1 1 100%; padding: 10px 14px; }
+}

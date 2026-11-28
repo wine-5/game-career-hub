@@ -14,7 +14,7 @@ import { TrackButton } from "./TrackButton.tsx";
 import { TechChips } from "./TechChips.tsx";
 
 /** 募集の種類に合わせた飛び先（新卒なら新卒採用ページ、インターンならインターンページ） */
-function primaryLink(o: Opening, c: CompanyResult) {
+export function primaryLink(o: Opening, c: CompanyResult) {
   if (o.type === "newgrad") return { url: c.links?.newgrad ?? o.sourceUrl, label: "新卒採用ページへ", hide: "newgrad" as const };
   if (o.type === "internship") return { url: c.links?.internship ?? o.sourceUrl, label: "インターンページへ", hide: "internship" as const };
   return { url: o.sourceUrl, label: "詳細ページへ", hide: undefined };
