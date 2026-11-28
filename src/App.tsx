@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import type { CompanyResult, DesignKind, JobsData, Opening, Role } from "./types.ts";
 import { DESIGN_KINDS, ROLES } from "./types.ts";
+import { dateSortKey } from "./lib/when.ts";
 import { daysUntil, isNewOpening, openingInPref, sortPrefs, statusOf } from "./lib/util.ts";
 import { useAuth } from "./lib/auth.tsx";
 import { companyTargets, fold, score } from "./lib/search.ts";
@@ -131,15 +132,9 @@ export function App() {
   const shown = useMemo(() => {
     let list = role === "all" ? base : base.filter((o) => o.roles.includes(role));
     if (role === "artist" && design !== "all") list = list.filter((o) => o.designKinds?.includes(design));
-    const far = 99999;
     const sorters: Record<Filters["sort"], (a: Opening, b: Opening) => number> = {
-      deadline: (a, b) => {
-        const da = daysUntil(a.deadline), db = daysUntil(b.deadline);
-        // 締切済みは後ろ、日付不明はその手前
-        const ka = da === null ? far - 1 : da < 0 ? far + -da : da;
-        const kb = db === null ? far - 1 : db < 0 ? far + -db : db;
-        return ka - kb;
-      },
+      // 次に来る日付の近い順。締切済みは後ろ、日付の無い物はその手前
+      deadline: (a, b) => dateSortKey(a, lastRun) - dateSortKey(b, lastRun),
       new: (a, b) => b.firstSeen.localeCompare(a.firstSeen),
       company: (a, b) => (companies.get(a.companyId)?.name ?? "").localeCompare(companies.get(b.companyId)?.name ?? "", "ja"),
       salary: (a, b) => conditionKey(companies.get(b.companyId)?.conditions, "salary")! - conditionKey(companies.get(a.companyId)?.conditions, "salary")!,
@@ -147,7 +142,7 @@ export function App() {
       overtime: (a, b) => conditionKey(companies.get(b.companyId)?.conditions, "overtime")! - conditionKey(companies.get(a.companyId)?.conditions, "overtime")!,
     };
     return [...list].sort(sorters[filters.sort]);
-  }, [base, role, design, filters.sort, companies]);
+  }, [base, role, design, filters.sort, companies, lastRun]);
 
   const stats = useMemo(() => {
     const live = all.filter((o) => statusOf(o) !== "closed");

@@ -80,7 +80,7 @@ export function FilterBar({ f, set, tags, prefs, resultCount, companies }: {
       <label className="select">
         <span>並び順</span>
         <select value={f.sort} onChange={(e) => set({ sort: e.target.value as Sort })}>
-          <option value="deadline">締切が近い順</option>
+          <option value="deadline">日付が近い順</option>
           <option value="new">新着順</option>
           <option value="company">会社名順</option>
           {(Object.keys(CONDITION_SORT_LABEL) as ConditionSort[]).map((s) => (
